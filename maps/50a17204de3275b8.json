@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/50a17204de3275b8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-29T06:32:20.652Z",
+  "modified": "2025-10-29T06:32:20.652Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002038:FL21479965.jpg",
+      "type": "ImageService2",
+      "height": 5256,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002038/canvas/FL21479965",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002038/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Victoria, Sorrento"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5256\"><polygon points=\"654,797 642,4349 6252,4369 6268,792\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5006,
+            4370
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8885252,
+            -38.4991887
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6098,
+            1506
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9829903,
+            -38.2970291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1958,
+            1423
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6140586,
+            -38.2921767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            667,
+            1285
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4971774,
+            -38.2832808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2385,
+            1567
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6523684,
+            -38.3017297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5356,
+            4355
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9185224,
+            -38.4965149
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/50a17204de3275b8",
+      "version": "https://annotations.allmaps.org/maps/50a17204de3275b8@948037fd853e40ed",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7c0c33ea543888ad",
+        "version": "https://annotations.allmaps.org/images/7c0c33ea543888ad@1aab6d891b0436a7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2005b43c991fa12b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/eb6a9d68e0953e49"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.128173,
+      "area": 1217661273.7
+    }
+  }
+}

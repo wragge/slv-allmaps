@@ -24,7 +24,7 @@ jobs:
     - name: Update data
       run: jupyter execute harvest_allmaps_data.ipynb
     - name: Update dashboard
-      run: jupyter nbconvert --no-input --execute allmaps_dashboard.ipynb --to html --template=material --output=docs/index.html
+      run: jupyter nbconvert --no-input --execute allmaps_dashboard.ipynb --to html --template=material --output=docs/dashboard.html
     - name: Commit and push if it changed
       run: |-
         git config user.name 'Automated'

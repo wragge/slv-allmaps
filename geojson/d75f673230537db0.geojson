@@ -1,0 +1,196 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d75f673230537db0",
+    "type": "GeoreferencedMap",
+    "created": "2025-09-25T00:40:19.625Z",
+    "modified": "2025-09-25T00:40:19.625Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819297:FL21649335.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819297:FL21649335.jpg",
+      "type": "ImageService2",
+      "width": 6992,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819297/canvas/FL21649335",
+          "label": {
+            "none": [
+              "Map 1a"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819297/manifest",
+              "label": {
+                "none": [
+                  "City of Melbourne plans. Section 2"
+                ]
+              }
+            },
+            {
+              "type": "Manifest",
+              "id": "https://raw.githubusercontent.com/wragge/test-manifests/refs/heads/main/IE8819297_manifest.json",
+              "label": {
+                "none": [
+                  "City of Melbourne plans. Section 2"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "10b139dd0d778f53",
+        "index": 0.6081536874064727,
+        "resource": [
+          695,
+          6251
+        ],
+        "geo": [
+          144.9524709,
+          -37.8150494
+        ]
+      },
+      {
+        "id": "25c5903ae67a1ab2",
+        "index": 4.672035960662546,
+        "resource": [
+          705,
+          3591
+        ],
+        "geo": [
+          144.9520252,
+          -37.8141225
+        ]
+      },
+      {
+        "id": "68a6660ee8d501e9",
+        "index": 3.7996075477961027,
+        "resource": [
+          685,
+          900
+        ],
+        "geo": [
+          144.9515772,
+          -37.8131482
+        ]
+      },
+      {
+        "id": "c4fa4f3d33f7bebf",
+        "index": 2.3627601948849186,
+        "resource": [
+          6090,
+          921
+        ],
+        "geo": [
+          144.9538701,
+          -37.8125243
+        ]
+      },
+      {
+        "id": "e44e687f8d6de922",
+        "index": 1.835375328183554,
+        "resource": [
+          6049,
+          6282
+        ],
+        "geo": [
+          144.9547335,
+          -37.8143926
+        ]
+      },
+      {
+        "id": "a82880402d5805c0",
+        "index": 5.214533846043367,
+        "resource": [
+          6069,
+          3611
+        ],
+        "geo": [
+          144.954314,
+          -37.8134569
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        557,
+        749
+      ],
+      [
+        547,
+        6413
+      ],
+      [
+        6202,
+        6423
+      ],
+      [
+        6242,
+        759
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d75f673230537db0",
+      "version": "https://annotations.allmaps.org/maps/d75f673230537db0@533d956e7052ea41",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d05f05be31eeb127",
+        "version": "https://annotations.allmaps.org/images/d05f05be31eeb127@9d48018a8fad5173",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/94bb8a638c7620bf",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1d45ffab0afae231"
+              },
+              {
+                "id": "https://annotations.allmaps.org/manifests/803f849322a745ec"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 24.592613,
+      "area": 53100.71
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.951498,
+          -37.813128073
+        ],
+        [
+          144.952429773,
+          -37.815120438
+        ],
+        [
+          144.954827836,
+          -37.814432526
+        ],
+        [
+          144.953908777,
+          -37.812436492
+        ],
+        [
+          144.951498,
+          -37.813128073
+        ]
+      ]
+    ]
+  }
+}

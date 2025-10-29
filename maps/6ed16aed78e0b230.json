@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6ed16aed78e0b230",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-09-09T04:20:15.930Z",
+  "modified": "2025-09-09T04:20:15.930Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819655:FL21649833.jpg",
+      "type": "ImageService2",
+      "height": 4854,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819655/canvas/FL21649833",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 25a"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819655/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[City of Melbourne plans. Section 2]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4854\"><polygon points=\"87,95 66,3290 1253,3791 4281,4717 6803,4710 6853,127\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6725,
+            4601
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9555316,
+            -37.8225986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6865,
+            2647
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9551989,
+            -37.8217024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1675,
+            1764
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9516533,
+            -37.8223143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            228,
+            1844
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9508922,
+            -37.822559
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1764,
+            2550
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9519905,
+            -37.8226309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6789,
+            1362
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9549072,
+            -37.8210941
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6ed16aed78e0b230",
+      "version": "https://annotations.allmaps.org/maps/6ed16aed78e0b230@9b7c9e6ee2889bf6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/22b301c7054d54f9",
+        "version": "https://annotations.allmaps.org/images/22b301c7054d54f9@41205954012c28df",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/45efebc5c8aa84a2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/628c216109f482f1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 17.602513,
+      "area": 91352.68
+    }
+  }
+}

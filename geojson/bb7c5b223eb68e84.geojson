@@ -1,0 +1,184 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/bb7c5b223eb68e84",
+    "type": "GeoreferencedMap",
+    "created": "2025-09-24T02:03:17.734Z",
+    "modified": "2025-09-24T02:03:17.734Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819084:FL21662239.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819084:FL21662239.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5245,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819084/canvas/FL21662239",
+          "label": {
+            "none": [
+              "Map 6"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://raw.githubusercontent.com/wragge/test-manifests/refs/heads/main/IE8819084_manifest.json",
+              "label": {
+                "none": [
+                  "City of South Melbourne and section of Port Melbourne detail-fire-survey"
+                ]
+              }
+            },
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819084/manifest",
+              "label": {
+                "none": [
+                  "City of South Melbourne and section of Port Melbourne detail-fire-survey"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "2315968d233a4432",
+        "index": 2.150705100983468,
+        "resource": [
+          4301,
+          4251
+        ],
+        "geo": [
+          144.9698741,
+          -37.8233207
+        ]
+      },
+      {
+        "id": "7cc9cfde79843f92",
+        "index": 1.0136568266113286,
+        "resource": [
+          6121,
+          1192
+        ],
+        "geo": [
+          144.9672097,
+          -37.8212503
+        ]
+      },
+      {
+        "id": "9bf2290bd0951396",
+        "index": 0.13238070254795353,
+        "resource": [
+          4941,
+          1961
+        ],
+        "geo": [
+          144.9676477,
+          -37.8223815
+        ]
+      },
+      {
+        "id": "c7c66aead3b029bb",
+        "index": 3.256355662498561,
+        "resource": [
+          259,
+          1976
+        ],
+        "geo": [
+          144.9665452,
+          -37.8261158
+        ]
+      },
+      {
+        "id": "2d8edcf365531a71",
+        "index": 4.575568008241884,
+        "resource": [
+          1165,
+          3300
+        ],
+        "geo": [
+          144.9680035,
+          -37.8257591
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        361,
+        437
+      ],
+      [
+        429,
+        4348
+      ],
+      [
+        6167,
+        4341
+      ],
+      [
+        6167,
+        407
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bb7c5b223eb68e84",
+      "version": "https://annotations.allmaps.org/maps/bb7c5b223eb68e84@cec84a6261bf5308",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3ddff8b66a6b6f5e",
+        "version": "https://annotations.allmaps.org/images/3ddff8b66a6b6f5e@4c7ebe0a3f22a449",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7bb9dd0315a2b3ca",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9a1959b9f2f8ce7a"
+              },
+              {
+                "id": "https://annotations.allmaps.org/manifests/645077f1e1abf7da"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 10.827501,
+      "area": 193127.83
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.964964207,
+          -37.825758988
+        ],
+        [
+          144.968941407,
+          -37.826511483
+        ],
+        [
+          144.970402411,
+          -37.821862563
+        ],
+        [
+          144.966419322,
+          -37.821050242
+        ],
+        [
+          144.964964207,
+          -37.825758988
+        ]
+      ]
+    ]
+  }
+}

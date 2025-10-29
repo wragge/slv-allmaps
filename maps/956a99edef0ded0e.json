@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/956a99edef0ded0e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-27T23:35:36.492Z",
+  "modified": "2025-10-27T23:35:36.492Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485265:FL21305040.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4548,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485265/canvas/FL21305040",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485265/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "H.G. de Gruchy & Co.'s parish map Colonial Map Depôt, 21 Elizabeth St., Melbourne."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4548\" height=\"7000\"><polygon points=\"125,255 172,6642 4357,6646 4419,255\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1742,
+            6100
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6139492,
+            -38.2921492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3685,
+            5828
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.983646,
+            -38.297142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1943,
+            6147
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6525137,
+            -38.3017114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1791,
+            3907
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6879034,
+            -37.9739529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2876,
+            3043
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9151297,
+            -37.8655041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            951,
+            4829
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5080291,
+            -38.0899102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3668,
+            3790
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0380877,
+            -37.9962513
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/956a99edef0ded0e",
+      "version": "https://annotations.allmaps.org/maps/956a99edef0ded0e@9fca3079e3382fd0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7b7d8beafdc1684a",
+        "version": "https://annotations.allmaps.org/images/7b7d8beafdc1684a@f4d3ede840519f1c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4c56ae8fbe43ae58",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2ba118afcb00a056"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.060721,
+      "area": 7346301795.56
+    }
+  }
+}

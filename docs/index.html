@@ -12,80 +12,271 @@
       <h1 class="title has-text-weight-normal is-size-1">
         Georeferencing maps from the State Library of Victoria
       </h1>
-      <p><a class="button is-link" href="dashboard.html">View dashboard</a></p>
+      <p class="subtitle is-size-4">Turning historic maps into geospatial data</p>
+      <img class="" src="images/banner.jpg" width="100%" />
+
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <p><a class="button is-link is-large is-responsive mt-5" href="dashboard.html">View the project dashboard to see the latest progress</a></p>
+        </div>
+      </nav>
+      <div class="content is-size-4">
+        <p>
+          This is an experimental project developed during my time as <a href="https://lab.slv.vic.gov.au/team/tim-sherratt">Creative Technologist-in-Residence</a> at the <a href="https://lab.slv.vic.gov.au">SLV LAB</a>. While playing around with <a href="https://iiif.io">IIIF</a> and <a ref="https://allmaps.org">AllMaps</a>, I wondered if it might be possible to connect a few things up and make it easy for people to georeference SLV's digitised maps. This is the result!
+        </p>
+      </div>
       <h2 class="title has-text-weight-normal is-size-2">Quick start</h2>
       <div class="content">
-      <p>If you understand the basics of georeferencing and just want to get to work on maps from the State Library of Victoria, here's what you need to do:</p>
+      <p>We're using AllMaps to georeference digitised maps from the SLV collection, and a userscript to connect the SLV to AllMaps. If you understand the basics of georeferencing and just want to get to work, here's what you need to do:</p>
       <ul>
-        <li>install the SLV-AllMaps userscript</li>
-        <li>find a digitised map in the SLV collection</li>
-        <li>open the map in the AllMaps editor</li>
+        <li>install the <a href="https://gist.github.com/wragge/5680daaec4b4b34ed5537e6ff79559a2">SLV-AllMaps userscript</a></li>
+        <li>find a digitised map in the <a href="https://www.slv.vic.gov.au/search-discover/explore-collections-format/maps">SLV collection</a></li>
+        <li>click on the <button class="button is-small is-uppercase">Georeference using AllMaps</button> button to open the map in the AllMaps editor</li>
         <li>mask the edges of the map (if necessary)</li>
         <li>add ground control points to georeference the map</li>
       </ul>
+      <p>More information on each of these steps is provided below.</p>
       </div>
-      <h2 class="title has-text-weight-normal is-size-2">What is georeferencing?</h2>
+      
+
+      <h2 class="title has-text-weight-normal is-size-2">Background information</h2>
+
+      <h3 class="title has-text-weight-normal is-size-3">What is georeferencing?</h3>
+
+      <div class="content">
+        <p>Georeferencing (or georectifying) relates a digitised map to real world geography. It describes the map's position and extent using geospatial coordinates – turning historic documents into geospatial data that can be visualised, indexed, and manipulated.</p>
+        <p>To georeference a historic map, you need to identify points in common between the map and our modern geocoordinate system. These are known as ground control points (GCPs). Once enough GCPs have been assigned, the historic map can be warped and stretched to fit the globe.</p>
+        <p>A georeferenced map can be layered on top of a modern basemap, allowing us to investigate changes over time. The positional data can also be indexed, making it possible to search for maps by location. Georeferencing opens historic maps to a range of new research uses.</p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">What is IIIF?</h3>
+
+      <div class="content">
+        <p><a href="https://iiif.io">IIIF (International Image Interoperability Framework)</a> is a set of standards for sharing images from GLAM collections. The SLV makes its digitised images available through IIIF. You can play around with SLV images and IIIF in <a href="https://glam-workbench.net/state-library-victoria/more_fun_with_iiif/">this notebook</a> from the GLAM Workbench.</p>
+        <p>Because IIIF is a standard, developers can build tools and platforms that work interchangeably across many GLAM collections. AllMaps is one such platform, building on top of IIIF to add new functions to digitised maps.</p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">What is AllMaps?</h3>
+      <div class="content">
+        <p>The <a ref="https://allmaps.org">AllMaps</a> project has developed an extension to IIIF that defines how geospatial data can be saved as annotations to IIIF images. Based on this, they built a suite of tools and interfaces for creating, viewing, and exploring georeferenced maps.</p>
+        <p>While other tools, such as <a href="https://www.mapwarper.net">MapWarper</a> and <a href="https://qgis.org">QGIS</a>, also georeference digitised maps, AllMaps uses IIIF to make the process as simple and efficient as possible. Instead of having to upload images manually, you give AllMaps an IIIF url and it uses existing infrastructure to load and manipulate the image, saving the results as IIIF annotations.</p>
+      </div>
+
+
+      <h3 class="title has-text-weight-normal is-size-3">What is a userscript?</h3>
+
+      <div class="content">
+        <p>Userscripts are little bits of Javascript code that change the way web pages look and function. They're like browser extensions, but without all the packaging. You install userscripts with a userscript manager – such as <a href="https://www.tampermonkey.net">TamperMonkey</a> or <a href="https://violentmonkey.github.io">ViolentMonkey</a>.</p>
+        <p>Userscripts are handy because they let us modify GLAM collection interfaces to fix problems or add new features. There's some examples <a href="https://updates.timsherratt.org/2025/07/17/glam-hacking-with-userscripts.html">in this blog post</a>.</p>
+        <p>For this project, I've created a userscript that adds links between the SLV image viewer and AllMaps. This makes it easy to open a map in the AllMaps editor for georeferencing.</p>
+      </div>
+
+      <h2 class="title has-text-weight-normal is-size-2">Georeferencing your first map</h2>
+
+      <h3 class="title has-text-weight-normal is-size-3">1. Install the SLV/AllMaps userscript</h3>
+
+      <div class="content">
+        <p>If you haven't already, add a userscript manager such as <a href="https://violentmonkey.github.io">ViolentMonkey</a> or <a href="https://www.tampermonkey.net">TamperMonkey</a> to your browser. These are browser extensions or add-ons that are installed from standard web stores – just follow the instructions for your preferred browser. Note that if you're using TamperMonkey with Chrome you might need to <a href="https://www.tampermonkey.net/faq.php#Q209">explicitly give it permission</a> to run userscripts.</p>
+        <p>Once your userscript manager is installed, go to my <a href="https://gist.github.com/wragge/5680daaec4b4b34ed5537e6ff79559a2">SLV/AllMaps userscript</a> (published as a GitHub Gist). To install the userscript, click on the <button class="button is-small">Raw</button> button at the top of the code box. Your userscript manager will display a window with details of the userscript, and ask you to confirm that you want to proceed. Click 'install' to complete the installation.</p>
+      </div>
+
+      <div class="block has-text-centered">
+        <figure class="is-inline-block">
+            <img class="" src="images/userscript.png" width="800px" />
+            <figcaption class="caption">Click on the <button class="button is-small">Raw</button> button to install the userscript.</figcaption>
+        </figure>
+      </div>
+
+      <div class="content">
+        <p>To test if it's working, head to <a href="https://viewer.slv.vic.gov.au/?entity=IE15485265&mode=browse">this map</a> in the SLV's digitised image viewer. If you scroll down the page you should see a new 'Georeferencing' section added by the userscript.</p>
+      </div>
+
+      <div class="block has-text-centered">
+        <figure class="is-inline-block">
+            <img class="" src="images/slv-allmaps-example.jpg" width="600px" />
+            <figcaption class="caption">The userscript adds a 'Georeferencing' section to the SLV image viewer.</figcaption>
+        </figure>
+      </div>
+
+      <div class="content">
+        <p>What does the userscript actually do? It runs automatically when you load the SLV image viewer and then:</p>
+        <ul>
+          <li>it checks the metadata of the digitised item to see it it's a map (or something that contains maps, like an atlas or street directory)</li>
+          <li>if it looks like a map, it generates an AllMaps identifier using the item's IIIF manifest url and checks with AllMaps to see whether the item has already been georeferenced</li>
+          <li>it adds a 'Georeferencing' section to the page, with a button to georeference the item (or edit the existing georeferencing)</li>
+          <li>if the item has already been georeferenced, it adds a button to view the item in the AllMaps Viewer, and embeds a live preview</li>
+        </ul>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">2. Find a digitised map in the SLV collection</h3>
+
+      <div class="content">
+        <p>You can just start searching the <a href="https://find.slv.vic.gov.au/discovery/search?vid=61SLV_INST:SLV">SLV Catalogue</a> for maps and use the filters to limit the results to items that are held by the Library and available online.</p>
+        <p>If you're not sure what to search for, head to the <a href="https://www.slv.vic.gov.au/search-discover/explore-collections-format/maps">Maps collection page</a> for some ideas. In particular, I'd love it if we could start georeferencing the <a href="https://www.slv.vic.gov.au/search-discover/explore-collections-format/maps/maps-melbourne-city-suburbs/mmbw-plans">MMBW plans</a>.</p>
+        <p>Once you've found a digitised map in the catalogue, hit the 'Click to view online' link to open the image viewer.</p>
+        </p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">3. Open the map in the AllMaps Editor</h3>
+      <div class="content">
+        <p>Once the image viewer has loaded, scroll down the page to the 'Georeferencing' section added by the userscript. If the map hasn't been georeferenced, you'll see a <button class="button is-small is-uppercase">Georeference using AllMaps</button> button. Click on the button to open the map in the AllMaps Editor.</p>
+      </div>
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/slv-allmaps-buttons.jpg" width="800px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">Click on the <button class="button is-small is-uppercase">Georeference using AllMaps</button> button to open the AllMaps Editor</figcaption>
         </figure>
+      </div>
+      <h3 class="title has-text-weight-normal is-size-3">4. Select an image</h3>
+      <div class="content">
+        <p>
+          The AllMaps Editor has four panes – <b>Images</b>, <b>Draw mask</b>, <b>Georeference</b>, and <b>Results</b>. It opens in the <b>Images</b> pane. If you're georeferencing a single map, there may only be one image. But if you're working on an atlas or street directory might be many images. Click on an image to select it, then click on the <b>Draw mask</b> tab.
+        </p>
       </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_images.jpg" width="800px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">Select an image then click the <b>Draw mask</b> tab</figcaption>
         </figure>
+      </div>
+      <h3 class="title has-text-weight-normal is-size-3">5. Mask the edges of the map</h3>
+
+      <div class="content">
+        <p>
+          Maps can include margins, legends, titles and other information around the edges of the actual map. For accurate georeferencing, it's good to exclude these sections by masking them. 
+        </p>
+        <p>To mask a map, click around the border of the map to add nodes. The nodes will automatically connect to draw a line. Click on the first node to connect up the lines and complete the mask. You can edit the mask by dragging nodes, or by clicking on a line to add a new node. For a simple rectagular map you might only need four nodes, but more complex shapes will require extra clicking and dragging to get the mask to fit.</p>
       </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_mask.jpg" width="800px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">Click around the edges of the map to draw a mask</figcaption>
         </figure>
+      </div>
+
+      <div class="content">
+        <p>Once you're happy with the mask, click on the <b>Georeference</b> tab.</p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">6. Add ground control points</h3>
+
+      <div class="content">
+        <p>In the <b>Georeferencing</b> pane, the digitised map is displayed alongside a modern basemap. You'll probably need to move around the modern basemap to match the location of the digitised map. Use your mousewheel to zoom in and out, and click and drag to pan.</p>
+        <p>Once you have the same location displayed on both maps, you can start looking for common features. Road intersections can be good, as can natural features like rivers of coastlines. When you find a shared reference point, click on it in both maps. A pink numbered dot will appear. This means you've successfully defined a ground control point (GCP). Yay!</p>
+        <p>Repeat this process to add more GCPs. For best results, try to find a range of points spread across the whole map.</p>
       </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_georeference.jpg" width="1000px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">Click on both maps to add ground control points</figcaption>
         </figure>
+      </div>
+
+      <div class="content">
+        <p>If you make a mistake while adding GCPs, don't worry! Click on the list icon at the bottom of the editor screen to display all the current points. Click on the delete icon to remove any mistakes.
       </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_gcps.png" width="500px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">Click on the delete icon to remove a points</figcaption>
         </figure>
+      </div>
+
+      <div class="content">
+        <p>Once you're added all your GCPs, click on the <b>Results</b> tab.</p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">7. View the results</h3>
+
+      <div class="content">
+        <p>
+        The <b>Results</b> pane displays the digitised map as an overlay on top of the modern basemap. The GCPs are used to align the digitised map with modern coordinates, so the map will often appear skewed or warped.
+        </p>
       </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_results.jpg" width="800px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">The digitised map aligned with modern coordinates</figcaption>
         </figure>
+      </div>
+
+      <div class="content">
+        <p>
+        If you're not happy with the results of your georeferencing, you can return to the <b>Draw mask</b> or <b>Georeference</b> panes to make adjustments. The results are automatically saved to AllMaps.
+        </p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">8. View, share, and download</h3>
+
+      <div class="content">
+        <p>Click on the share icon at the bottom of the editor window to display options for viewing, sharing, and downloading your geoferenced map.</p>
       </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_share.png" width="500px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">Click on the share icon for options</figcaption>
         </figure>
       </div>
 
+      <div class="content">
+        <p>Click on the 'View in Allmaps Viewer' link to open the map in the AllMaps Viewer. The viewer includes some knobs to twiddle at the bottom of the screen. The left knob adjusts the opacity of the map. The right knob removes the map's background colour. Click on a knob and drag left or right to change setting. To remove the background completely, you can also just hit the 'b' key. Adjusting these settings makes it easier to see differences between the two maps.</p>
+      </div>
 
       <div class="block has-text-centered">
         <figure class="is-inline-block">
             <img class="" src="images/allmaps_viewer.jpg" width="800px" />
-            <figcaption class="caption">Click on the Georeference button</figcaption>
+            <figcaption class="caption">The opacity of the digitised map has been decreased to show more detail from the basemap</figcaption>
         </figure>
       </div>
+      <div class="content">
+        <p>If you're georeferencing an item that includes multiple maps, click on the <b>All images</b> tab at the bottom of the share options. If you click on the open viewer link now, you'll see all the georeferenced maps in the current item.</p>
+      </div>
+
+      <div class="block has-text-centered">
+        <figure class="is-inline-block">
+            <img class="" src="images/allmaps_viewer_multiple.jpg" width="800px" />
+            <figcaption class="caption">View of an item containing multiple georeferenced maps</figcaption>
+        </figure>
+      </div>
+
+      <div class="content">
+        <p>To share your map/s, just copy the viewer url.</p>
+      </div>
+
+      <div class="content">
+        <p>You can also download the data generated by the georeferencing process as either an IIIF annotation, or as GeoJSON.</p>
+      </div>
+
+      <h3 class="title has-text-weight-normal is-size-3">9. Repeat!</h3>
         
       <div class="content">
+        <p>Congratulations on georeferencing your first SLV map! Your contribution will soon appear on the <a href="dashboard.html">project dashboard</a> (it's updated every two hours).</p>
+        <p>If you're working on an item that contains multiple maps, go back to step 4 to continue. Otherwise find a new map!</p>
+      </div>
 
+      <h2 class="title has-text-weight-normal is-size-2">Georeferencing in AllMaps without the userscript</h2>
+      <div class="content">
+        <p>In theory, you don't need the userscript to georeference SLV items in AllMaps. All you need is the url of an item's IIIF manifest. However, there's a couple of problems with the SLV's manifests at the moment, so the userscript feeds them through a proxy service I created to fix the problems before passing the link on to AllMaps.</p>
+        <p>To generate a link to a proxied manifest, first grab the item's <code>IE</code> identifier from the url of the digitised item viewer. For example, the identifier in this url <code>https://viewer.slv.vic.gov.au/?entity=IE15485265&mode=browse</code> is <code>IE15485265</code>. Once you have the identifier, add it to the end of the url <code>https://wraggelabs.com/slv_iiif/</code>. For example, <a href="https://wraggelabs.com/slv_iiif/IE15485265">https://wraggelabs.com/slv_iiif/IE15485265</a>. You can then supply this url to the AllMaps editor.</p>
+      </div>
+      <h2 class="title has-text-weight-normal is-size-2">Data and licensing</h2>
+      <div class="content">
+        <p>AllMaps doesn't have any user accounts or authentication. Anyone can georeference any map with a IIIF url. This means it's possible, though unlikely, that someone could come along and re-edit your georeferenced map.</p>
+        <p>All the georeferencing data created through AllMaps is available as open data under a <a href="https://creativecommons.org/public-domain/cc0/">CC0 licence</a>.</p>
+        <p>As a backup, and to capture changes over time, I've created <a href="https://github.com/wragge/slv-allmaps">a repository</a> that automatically downloads georeferenced data relating to SLV maps every two hours.</p>
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="container">
+    Created by Tim Sherratt (<a href="https://timsherratt.au">timsherratt.au</a>), 30 October 2025.
+    </div>
+  </footer>
   </body>
 </html>

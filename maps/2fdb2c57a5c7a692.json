@@ -1,0 +1,221 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2fdb2c57a5c7a692",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-30T10:03:49.570Z",
+  "modified": "2025-10-30T10:03:49.570Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7025689:FL21349035.jpg",
+      "type": "ImageService2",
+      "height": 4968,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7025689/canvas/FL21349035",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7025689/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Lal Lal, Parish of Clarendon, County of Grant"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4968\"><polygon points=\"6141,263 6093,4410 4361,4296 2938,2801 754,2401 255,1172 916,824 3138,458\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2446,
+            1959
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0097554,
+            -37.6762275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4323,
+            1965
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0159826,
+            -37.6770352
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2809,
+            1622
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0113411,
+            -37.6755565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3896,
+            2074
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0146355,
+            -37.6773908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4356,
+            1081
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0165112,
+            -37.6749371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3748,
+            1954
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0141434,
+            -37.6768985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3405,
+            1421
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0134917,
+            -37.6750747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3366,
+            2651
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0127424,
+            -37.6786692
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4547,
+            2236
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0166622,
+            -37.6779964
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2fdb2c57a5c7a692",
+      "version": "https://annotations.allmaps.org/maps/2fdb2c57a5c7a692@3f872bc8289a7bf3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/114b15ef000fc940",
+        "version": "https://annotations.allmaps.org/images/114b15ef000fc940@fe661951708c3d76",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/58da65d45355bdcd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d04db496f6b2c02b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.343818,
+      "area": 1440513.38
+    }
+  }
+}

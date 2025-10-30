@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ac583155e10de728",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-30T09:37:09.800Z",
+  "modified": "2025-10-30T09:37:09.800Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7047582:FL21359068.jpg",
+      "type": "ImageService2",
+      "height": 4936,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7047582/canvas/FL21359068",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7047582/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Lal Lal, Parish of Clarendon, County of Grant"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4936\"><polygon points=\"6133,436 6171,4486 3273,4519 3197,3085 554,2257 403,843\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5956,
+            3647
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0213015,
+            -37.6822384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2451,
+            2112
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0097416,
+            -37.6762566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3379,
+            1579
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0131783,
+            -37.6752237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4317,
+            2133
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0158815,
+            -37.6770527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2820,
+            1759
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0113173,
+            -37.6754819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3669,
+            2107
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0141971,
+            -37.6768914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4317,
+            1268
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.0163841,
+            -37.6747395
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ac583155e10de728",
+      "version": "https://annotations.allmaps.org/maps/ac583155e10de728@7fe2219ad7fbead6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c1d98d43dfc37c48",
+        "version": "https://annotations.allmaps.org/images/c1d98d43dfc37c48@fe7977bc7ac269f6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b175edc9d6cc74fd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/448ea2e4461f71c0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.249868,
+      "area": 1597558.91
+    }
+  }
+}

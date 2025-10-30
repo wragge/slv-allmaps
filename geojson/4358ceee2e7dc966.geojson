@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/4358ceee2e7dc966",
+    "type": "GeoreferencedMap",
+    "created": "2025-10-30T22:03:33.739Z",
+    "modified": "2025-10-30T22:03:33.739Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7321521:FL21467483.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7321521:FL21467483.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4772,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7321521/canvas/FL21467483",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7321521/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 400 feet to 1 inch. no. 84, St.Kilda & Brighton"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0729c992835fbe32",
+        "index": 0.9926215970670361,
+        "resource": [
+          5397,
+          2098
+        ],
+        "geo": [
+          144.9846125,
+          -37.8835972
+        ]
+      },
+      {
+        "id": "a15929432e6682dc",
+        "index": 1.3135466061023622,
+        "resource": [
+          4771,
+          3224
+        ],
+        "geo": [
+          144.9891897,
+          -37.8863603
+        ]
+      },
+      {
+        "id": "f469cc26c0a40a48",
+        "index": 2.847488525395539,
+        "resource": [
+          4028,
+          2810
+        ],
+        "geo": [
+          144.9867903,
+          -37.8888199
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        5783,
+        276
+      ],
+      [
+        5771,
+        3832
+      ],
+      [
+        1365,
+        3865
+      ],
+      [
+        1354,
+        2951
+      ],
+      [
+        5325,
+        276
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4358ceee2e7dc966",
+      "version": "https://annotations.allmaps.org/maps/4358ceee2e7dc966@f1df53a2d75ee81f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/90a9401d6091bcc1",
+        "version": "https://annotations.allmaps.org/images/90a9401d6091bcc1@90f6a9ba6e464dd8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d8fa96cf11668c5a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5001e9bd04f2eb54"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.504794,
+      "area": 1671186.2
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.976744472,
+          -37.881365214
+        ],
+        [
+          144.976407272,
+          -37.883000898
+        ],
+        [
+          144.985452462,
+          -37.898435765
+        ],
+        [
+          144.989550093,
+          -37.898824605
+        ],
+        [
+          144.992646334,
+          -37.883073732
+        ],
+        [
+          144.976744472,
+          -37.881365214
+        ]
+      ]
+    ]
+  }
+}

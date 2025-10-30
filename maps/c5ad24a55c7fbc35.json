@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c5ad24a55c7fbc35",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-30T10:27:43.788Z",
+  "modified": "2025-10-30T10:27:43.788Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029926:FL21352573.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5280,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029926/canvas/FL21352573",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029926/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of allotments, Parish of Sandhurst, County of Bendigo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5280\" height=\"7000\"><polygon points=\"1064,1074 4444,1115 4926,5832 4437,6456 1856,6033 401,4362\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1458,
+            2392
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2913391,
+            -36.7787555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3585,
+            1472
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2945984,
+            -36.7775774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            857,
+            4428
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2902701,
+            -36.7813353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3160,
+            2863
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2938442,
+            -36.7793718
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3469,
+            4153
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2945124,
+            -36.7810164
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c5ad24a55c7fbc35",
+      "version": "https://annotations.allmaps.org/maps/c5ad24a55c7fbc35@98fb795d5b12053f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bd17379177c034de",
+        "version": "https://annotations.allmaps.org/images/bd17379177c034de@32cd64ccb4cacbb0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/69817768b5cb1b9d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7c0df96a22d07a2f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 7.080137,
+      "area": 389164.33
+    }
+  }
+}

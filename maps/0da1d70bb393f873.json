@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2025-10-11T05:04:28.772Z",
-  "modified": "2025-10-11T05:04:28.772Z",
+  "created": "2025-10-30T03:54:07.552Z",
+  "modified": "2025-10-30T03:54:07.552Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -65,6 +65,22 @@
           "coordinates": [
             144.9908012,
             -37.7884662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            447,
+            346
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9818395,
+            -37.7807005
           ]
         }
       },
@@ -177,22 +193,6 @@
           "coordinates": [
             144.9772959,
             -37.7903736
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "resourceCoords": [
-            447,
-            346
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            144.9818395,
-            -37.7807005
           ]
         }
       }

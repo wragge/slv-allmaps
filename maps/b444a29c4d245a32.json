@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b444a29c4d245a32",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-31T09:27:07.183Z",
+  "modified": "2025-10-31T09:27:07.183Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22950521:FL22951480.jpg",
+      "type": "ImageService2",
+      "height": 5057,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950521/canvas/FL22951480",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6182"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950521/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map] 06-18, Parish of Jika Jika 2796, Municipality of Coburg 217"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5057\"><polygon points=\"687,741 6282,733 6282,733 6306,4192 694,4207\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5269,
+            2300
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.954549,
+            -37.7303785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6231,
+            3191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9585723,
+            -37.7333406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4034,
+            2986
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9496049,
+            -37.7325644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4395,
+            4075
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.950866,
+            -37.7361282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4122,
+            2186
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9498251,
+            -37.7299192
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b444a29c4d245a32",
+      "version": "https://annotations.allmaps.org/maps/b444a29c4d245a32@806847e776d8c29f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c0c1a94ce81444a6",
+        "version": "https://annotations.allmaps.org/images/c0c1a94ce81444a6@0a677825598139ab",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/773d85f2e1fa26d0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/681dca22a1e524ad"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.751563,
+      "area": 2562679.1
+    }
+  }
+}

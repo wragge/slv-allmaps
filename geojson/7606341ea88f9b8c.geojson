@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/7606341ea88f9b8c",
+    "type": "GeoreferencedMap",
+    "created": "2025-10-31T07:53:58.929Z",
+    "modified": "2025-10-31T07:53:58.929Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7333524:FL21464921.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7333524:FL21464921.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6453,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7333524/canvas/FL21464921",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7333524/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2345, Coburg"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "5202b236cc4b9184",
+        "index": 0.6858744739015431,
+        "resource": [
+          1486,
+          1794
+        ],
+        "geo": [
+          144.9783935,
+          -37.7478218
+        ]
+      },
+      {
+        "id": "530dae9c23ae4d76",
+        "index": 1.41626527766826,
+        "resource": [
+          4146,
+          5925
+        ],
+        "geo": [
+          144.9797252,
+          -37.7501541
+        ]
+      },
+      {
+        "id": "92ba0a864faff211",
+        "index": 2.8246091451598483,
+        "resource": [
+          1522,
+          5938
+        ],
+        "geo": [
+          144.9780564,
+          -37.7499877
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1043,
+        406
+      ],
+      [
+        6328,
+        414
+      ],
+      [
+        6303,
+        6139
+      ],
+      [
+        1092,
+        6179
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7606341ea88f9b8c",
+      "version": "https://annotations.allmaps.org/maps/7606341ea88f9b8c@7480101996596b1d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/293e8eeca8eb9a5a",
+        "version": "https://annotations.allmaps.org/images/293e8eeca8eb9a5a@528e94460aaff395",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d8c7be2411eb3243",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/39d5d8fc1b375bb2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 17.40305,
+      "area": 99618.08
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.978232526,
+          -37.747067906
+        ],
+        [
+          144.97776218,
+          -37.750085142
+        ],
+        [
+          144.981077481,
+          -37.750408191
+        ],
+        [
+          144.981590687,
+          -37.747420899
+        ],
+        [
+          144.978232526,
+          -37.747067906
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b9f5f45f393a7c4c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-31T18:51:40.754Z",
+  "modified": "2025-10-31T18:51:40.754Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15504574:FL21305822.jpg",
+      "type": "ImageService2",
+      "height": 3146,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15504574/canvas/FL21305822",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15504574/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne Harbour Trust : works of improvement recommended by Sir John Coode in his report of 17th. Feb. 1879. Melbourne Harbour Trust works of improvement recommended by Sir John Coode in his report of 17th. Feb. 1879."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3146\"><polygon points=\"0,0 0,3146 7000,3146 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4799,
+            1719
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9543011,
+            -37.8190235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4606,
+            1211
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9528852,
+            -37.8160619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5116,
+            1600
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9566044,
+            -37.8183304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4985,
+            1255
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9557269,
+            -37.8163691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4536,
+            1026
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9524763,
+            -37.8151008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4674,
+            1381
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9534037,
+            -37.8170622
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5257,
+            1959
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9575286,
+            -37.8203432
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b9f5f45f393a7c4c",
+      "version": "https://annotations.allmaps.org/maps/b9f5f45f393a7c4c@466dc634f76feca1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/809cd225bae6a06b",
+        "version": "https://annotations.allmaps.org/images/809cd225bae6a06b@45ed1e51482dc134",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7f5208a7fc75b3c8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/934665429f178f65"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.571629,
+      "area": 8915730.69
+    }
+  }
+}

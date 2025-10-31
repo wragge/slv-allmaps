@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8c4a99fcc8ba9c74",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-31T18:58:43.819Z",
+  "modified": "2025-10-31T18:58:43.819Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15503925:FL21304156.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5390,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15503925/canvas/FL21304156",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15503925/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "1956 map of Victoria showing state electoral provinces / 1956 map of Victoria showing state electoral provinces"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5390\" height=\"7000\"><polygon points=\"0,0 0,7000 5390,7000 5390,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1702,
+            3640
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9053538,
+            -37.871465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3250,
+            4982
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0094837,
+            -37.969455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2509,
+            3411
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9699079,
+            -37.8645287
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8c4a99fcc8ba9c74",
+      "version": "https://annotations.allmaps.org/maps/8c4a99fcc8ba9c74@a0c78c0497586ec7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b91775d7d0832da4",
+        "version": "https://annotations.allmaps.org/images/b91775d7d0832da4@0513d03f4daeb041",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d4db19e99f060c9f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/51d39525d41cc012"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.144516,
+      "area": 1806561943.44
+    }
+  }
+}

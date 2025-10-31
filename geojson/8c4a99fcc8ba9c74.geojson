@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/8c4a99fcc8ba9c74",
+    "type": "GeoreferencedMap",
+    "created": "2025-10-31T18:58:43.819Z",
+    "modified": "2025-10-31T18:58:43.819Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15503925:FL21304156.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15503925:FL21304156.jpg",
+      "type": "ImageService2",
+      "width": 5390,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15503925/canvas/FL21304156",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15503925/manifest",
+              "label": {
+                "none": [
+                  "1956 map of Victoria showing state electoral provinces / 1956 map of Victoria showing state electoral provinces"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "6cecb498722a1559",
+        "index": 0.8142717222228032,
+        "resource": [
+          1702,
+          3640
+        ],
+        "geo": [
+          144.9053538,
+          -37.871465
+        ]
+      },
+      {
+        "id": "bdbafe521ca574c2",
+        "index": 1.8616048772401526,
+        "resource": [
+          3250,
+          4982
+        ],
+        "geo": [
+          145.0094837,
+          -37.969455
+        ]
+      },
+      {
+        "id": "6aecdee05dc2afa8",
+        "index": 2.6844249267141445,
+        "resource": [
+          2509,
+          3411
+        ],
+        "geo": [
+          144.9699079,
+          -37.8645287
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        5390,
+        7000
+      ],
+      [
+        5390,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8c4a99fcc8ba9c74",
+      "version": "https://annotations.allmaps.org/maps/8c4a99fcc8ba9c74@a0c78c0497586ec7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b91775d7d0832da4",
+        "version": "https://annotations.allmaps.org/images/b91775d7d0832da4@0513d03f4daeb041",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d4db19e99f060c9f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/51d39525d41cc012"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.144516,
+      "area": 1806561943.44
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.814801496,
+          -37.628487282
+        ],
+        [
+          144.737389666,
+          -38.065853111
+        ],
+        [
+          145.151635727,
+          -38.115089864
+        ],
+        [
+          145.229047557,
+          -37.677724035
+        ],
+        [
+          144.814801496,
+          -37.628487282
+        ]
+      ]
+    ]
+  }
+}

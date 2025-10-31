@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c96f1eff767a40a8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-10-31T00:48:54.709Z",
+  "modified": "2025-10-31T00:48:54.709Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155282:FL23156574.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5492,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155282/canvas/FL23156574",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000970"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155282/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Settled portions [except S E District] of South Australia."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5492\" height=\"7000\"><polygon points=\"5225,6606 365,6633 431,522 5202,556\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3461,
+            2560
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.1652206,
+            -32.806558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            752,
+            4733
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.3888406,
+            -34.5957546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2816,
+            6508
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.4583412,
+            -36.0741672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4498,
+            5805
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.1928549,
+            -35.5153875
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c96f1eff767a40a8",
+      "version": "https://annotations.allmaps.org/maps/c96f1eff767a40a8@521f74f03d110a7c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8a11c305f2d5795f",
+        "version": "https://annotations.allmaps.org/images/8a11c305f2d5795f@42a521028a93bf1d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/445bfba426211a42",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b667f8518e107942"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.010726,
+      "area": 254502121772.55
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b0ec3a48c17cb7a0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-02T04:07:04.120Z",
+  "modified": "2025-11-02T04:07:04.120Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7331098:FL20710180.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5097,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7331098/canvas/FL20710180",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7331098/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1272, Shire of Heidelberg"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5097\" height=\"7000\"><polygon points=\"4774,888 317,1312 334,5812 4783,5838\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4371,
+            4653
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0071965,
+            -37.7862499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            776,
+            2344
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0096415,
+            -37.7840892
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            788,
+            4742
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0075981,
+            -37.7838453
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b0ec3a48c17cb7a0",
+      "version": "https://annotations.allmaps.org/maps/b0ec3a48c17cb7a0@3ef37da70b240500",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b74da133bc843e47",
+        "version": "https://annotations.allmaps.org/images/b74da133bc843e47@c1854a72730415ae",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2d0975fa7fc7d4fe",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/298662329857eff7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 13.242971,
+      "area": 119987.79
+    }
+  }
+}

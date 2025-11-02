@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c41afe7f94ca1af5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-02T00:32:24.922Z",
+  "modified": "2025-11-02T00:32:24.922Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7331774:FL21466710.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4369,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7331774/canvas/FL21466710",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7331774/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2286, Brunswick and Northcote"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4369\" height=\"7000\"><polygon points=\"388,797 4022,836 3992,6847 405,6843\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1430,
+            2401
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9830995,
+            -37.7616161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3693,
+            4857
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9804095,
+            -37.7628506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1414,
+            4874
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9806704,
+            -37.7612906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3693,
+            6069
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9791636,
+            -37.7627422
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c41afe7f94ca1af5",
+      "version": "https://annotations.allmaps.org/maps/c41afe7f94ca1af5@d032b645163b9f05",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/47ed120ccac6d09f",
+        "version": "https://annotations.allmaps.org/images/47ed120ccac6d09f@d14952573ae0325f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/44d16f0800ccfe08",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/760fd59355f14931"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 12.109152,
+      "area": 148440.35
+    }
+  }
+}

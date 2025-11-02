@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/aeed2b7d36a637ae",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-02T01:21:45.922Z",
+  "modified": "2025-11-02T01:21:45.922Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1437576:FL20898691.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5397,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1437576/canvas/FL20898691",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image H24501"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1437576/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the town and suburbs of Sydney, August, 1822"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5397\" height=\"7000\"><polygon points=\"0,0 0,7000 5397,7000 5397,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2508,
+            2882
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.2100114,
+            -33.8662498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2233,
+            3418
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.2069395,
+            -33.8687135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2655,
+            3414
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.2104218,
+            -33.8691415
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/aeed2b7d36a637ae",
+      "version": "https://annotations.allmaps.org/maps/aeed2b7d36a637ae@d586e329acbe3e0f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/651824f8f85a3035",
+        "version": "https://annotations.allmaps.org/images/651824f8f85a3035@d909982310947010",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a41a0a0c15118e32",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8be908291f92c493"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.488865,
+      "area": 17042749.68
+    }
+  }
+}

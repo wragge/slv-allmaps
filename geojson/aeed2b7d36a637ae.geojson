@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/aeed2b7d36a637ae",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-02T01:21:45.922Z",
+    "modified": "2025-11-02T01:21:45.922Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1437576:FL20898691.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE1437576:FL20898691.jpg",
+      "type": "ImageService2",
+      "width": 5397,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1437576/canvas/FL20898691",
+          "label": {
+            "none": [
+              "Image H24501"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1437576/manifest",
+              "label": {
+                "none": [
+                  "Plan of the town and suburbs of Sydney, August, 1822"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "43bf55011e670095",
+        "index": 2.0852773554081176,
+        "resource": [
+          2508,
+          2882
+        ],
+        "geo": [
+          151.2100114,
+          -33.8662498
+        ]
+      },
+      {
+        "id": "f020bda19e72f035",
+        "index": 1.1515619067135185,
+        "resource": [
+          2233,
+          3418
+        ],
+        "geo": [
+          151.2069395,
+          -33.8687135
+        ]
+      },
+      {
+        "id": "bb7e62a8166f3d9b",
+        "index": 0.2180115010156336,
+        "resource": [
+          2655,
+          3414
+        ],
+        "geo": [
+          151.2104218,
+          -33.8691415
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        5397,
+        7000
+      ],
+      [
+        5397,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/aeed2b7d36a637ae",
+      "version": "https://annotations.allmaps.org/maps/aeed2b7d36a637ae@d586e329acbe3e0f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/651824f8f85a3035",
+        "version": "https://annotations.allmaps.org/images/651824f8f85a3035@d909982310947010",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a41a0a0c15118e32",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8be908291f92c493"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.488865,
+      "area": 17042749.68
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          151.193688134,
+          -33.848765197
+        ],
+        [
+          151.183154818,
+          -33.884757901
+        ],
+        [
+          151.227613321,
+          -33.890494672
+        ],
+        [
+          151.238146637,
+          -33.854501968
+        ],
+        [
+          151.193688134,
+          -33.848765197
+        ]
+      ]
+    ]
+  }
+}

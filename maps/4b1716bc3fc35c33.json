@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4b1716bc3fc35c33",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-02T22:01:03.850Z",
+  "modified": "2025-11-02T22:01:03.850Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE5623749:FL21317948.jpg",
+      "type": "ImageService2",
+      "height": 5076,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE5623749/canvas/FL21317948",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 3"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE5623749/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Ballarat. 836 Zone 7. base map / Ballarat. 836 Zone 7. base map"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5076\"><polygon points=\"194,191 6798,207 6791,4449 178,4433\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            746,
+            2626
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8025752,
+            -37.5126796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3768,
+            4138
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8265655,
+            -37.5222428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4156,
+            4077
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.829621,
+            -37.5218421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            699,
+            2847
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8022036,
+            -37.5140953
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4b1716bc3fc35c33",
+      "version": "https://annotations.allmaps.org/maps/4b1716bc3fc35c33@f2728ecd6a4e1f30",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d386e013257c4998",
+        "version": "https://annotations.allmaps.org/images/d386e013257c4998@e291a117f09aea95",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c9195eee3661611c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2d12b192ba78bde1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.419558,
+      "area": 13911383.78
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/1d18651d331772b2",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-03T00:58:25.405Z",
+    "modified": "2025-11-03T00:58:25.405Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7329449:FL20709284.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7329449:FL20709284.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4247,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329449/canvas/FL20709284",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329449/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1225, City of Collingwood"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "202c3f317045e43e",
+        "index": 3.0752255464297362,
+        "resource": [
+          1238,
+          936
+        ],
+        "geo": [
+          145.0005343,
+          -37.7943616
+        ]
+      },
+      {
+        "id": "d5ba0352a917965b",
+        "index": 0.30007879580576136,
+        "resource": [
+          5410,
+          1022
+        ],
+        "geo": [
+          145.0011386,
+          -37.7910104
+        ]
+      },
+      {
+        "id": "fcbe71a435c9836a",
+        "index": 1.9269054317988616,
+        "resource": [
+          5362,
+          2564
+        ],
+        "geo": [
+          145.0026335,
+          -37.7912282
+        ]
+      },
+      {
+        "id": "b9d5785f09344095",
+        "index": 4.18342413459939,
+        "resource": [
+          1944,
+          2479
+        ],
+        "geo": [
+          145.0021776,
+          -37.7939008
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        864,
+        561
+      ],
+      [
+        649,
+        4104
+      ],
+      [
+        5814,
+        4062
+      ],
+      [
+        6101,
+        680
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1d18651d331772b2",
+      "version": "https://annotations.allmaps.org/maps/1d18651d331772b2@3a337cda1d6fde59",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/633796106ac734b9",
+        "version": "https://annotations.allmaps.org/images/633796106ac734b9@caccda596b57471c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a7ab5aa2715049ca",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d32167220417b40c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.299836,
+      "area": 141112.45
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.000131356,
+          -37.794607695
+        ],
+        [
+          145.003620464,
+          -37.795102462
+        ],
+        [
+          145.004188802,
+          -37.79098351
+        ],
+        [
+          145.000867902,
+          -37.790446077
+        ],
+        [
+          145.000131356,
+          -37.794607695
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/1dd5001a90b1e2a8",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-03T00:33:16.135Z",
+    "modified": "2025-11-03T00:33:16.135Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7319561:FL20708513.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7319561:FL20708513.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4257,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7319561/canvas/FL20708513",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7319561/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1504, City of Hawthorn"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "03f5ddfa71663e31",
+        "index": 4.895284699630679,
+        "resource": [
+          6551,
+          3662
+        ],
+        "geo": [
+          145.040782,
+          -37.8270116
+        ]
+      },
+      {
+        "id": "144018923b70ad17",
+        "index": 3.831750450143255,
+        "resource": [
+          6558,
+          941
+        ],
+        "geo": [
+          145.0411737,
+          -37.8248364
+        ]
+      },
+      {
+        "id": "8677eca18cb5566b",
+        "index": 1.267005353652308,
+        "resource": [
+          473,
+          951
+        ],
+        "geo": [
+          145.0350778,
+          -37.8240909
+        ]
+      },
+      {
+        "id": "aa0ff3f68d191305",
+        "index": 2.2512436167538423,
+        "resource": [
+          460,
+          3695
+        ],
+        "geo": [
+          145.0346851,
+          -37.8262845
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        218,
+        753
+      ],
+      [
+        224,
+        3958
+      ],
+      [
+        6812,
+        3898
+      ],
+      [
+        6806,
+        795
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1dd5001a90b1e2a8",
+      "version": "https://annotations.allmaps.org/maps/1dd5001a90b1e2a8@20073887c8c0d152",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6b1f327e628833f1",
+        "version": "https://annotations.allmaps.org/images/6b1f327e628833f1@67e16f1ad6e67ca7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/29ca14c0105b695e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1f009d1c7a5e149b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.18575,
+      "area": 166068.1
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.034852315,
+          -37.823901151
+        ],
+        [
+          145.034410061,
+          -37.826465471
+        ],
+        [
+          145.041012287,
+          -37.827232859
+        ],
+        [
+          145.041440274,
+          -37.824750126
+        ],
+        [
+          145.034852315,
+          -37.823901151
+        ]
+      ]
+    ]
+  }
+}

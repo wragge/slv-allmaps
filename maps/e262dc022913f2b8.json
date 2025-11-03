@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e262dc022913f2b8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-03T20:23:05.093Z",
+  "modified": "2025-11-03T20:23:05.093Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495945:FL21303892.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4368,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495945/canvas/FL21303892",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495945/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Municipality of Nunawading"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4368\" height=\"7000\"><polygon points=\"397,6028 3915,6036 3894,908 404,890 404,2038\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            436,
+            3568
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0998753,
+            -37.8262194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            441,
+            5728
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0956317,
+            -37.8503952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3821,
+            1665
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1520851,
+            -37.810368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1965,
+            3566
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1218271,
+            -37.8287136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2650,
+            5599
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1275486,
+            -37.8526552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            603,
+            1457
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1064551,
+            -37.8029059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3782,
+            3568
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1477175,
+            -37.8317826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2459,
+            1169
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1337251,
+            -37.8026537
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e262dc022913f2b8",
+      "version": "https://annotations.allmaps.org/maps/e262dc022913f2b8@c3a6df4744c0d149",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ee6a4c9976b8f9be",
+        "version": "https://annotations.allmaps.org/images/ee6a4c9976b8f9be@972bde4939272439",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/040bd726f32ed636",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7df5a1e813b935af"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.790794,
+      "area": 28754707.75
+    }
+  }
+}

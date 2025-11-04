@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2f5c5eeb59bebc71",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-04T02:55:28.147Z",
+  "modified": "2025-11-04T02:55:28.147Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7042463:FL21369517.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4685,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7042463/canvas/FL21369517",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7042463/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia East Coast - New South Wales Newcastle Harbour"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4685\" height=\"7000\"><polygon points=\"95,76 4578,100 4518,6882 47,6870\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3511,
+            4063
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.7980594,
+            -32.9186119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2026,
+            3924
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.7835127,
+            -32.9176408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2193,
+            4029
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.7852522,
+            -32.9185279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1987,
+            3995
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.7831607,
+            -32.9182235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1849,
+            3835
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.7816594,
+            -32.9167711
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2291,
+            4210
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.786194,
+            -32.9195213
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2f5c5eeb59bebc71",
+      "version": "https://annotations.allmaps.org/maps/2f5c5eeb59bebc71@491a7d8da087d043",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/55a7b62e78307db1",
+        "version": "https://annotations.allmaps.org/images/55a7b62e78307db1@4089005c171835a1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/32926e24cb7682b4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/67288243ef30638d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.170049,
+      "area": 22199068.43
+    }
+  }
+}

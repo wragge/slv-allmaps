@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/43a90293bebf1b8a",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-04T05:10:22.437Z",
+    "modified": "2025-11-04T05:10:22.437Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043902:FL21357453.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043902:FL21357453.jpg",
+      "type": "ImageService2",
+      "width": 5623,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043902/canvas/FL21357453",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043902/manifest",
+              "label": {
+                "none": [
+                  "Township of Portland, County of Normanby"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0f38ea8ecda2b093",
+        "index": 0.8449546230879683,
+        "resource": [
+          3277,
+          4887
+        ],
+        "geo": [
+          141.6061014,
+          -38.3525963
+        ]
+      },
+      {
+        "id": "96f7695f3819993e",
+        "index": 2.9434786309497483,
+        "resource": [
+          2130,
+          3682
+        ],
+        "geo": [
+          141.5984014,
+          -38.3461488
+        ]
+      },
+      {
+        "id": "b5e85ac6af68de4a",
+        "index": 1.7417825823552489,
+        "resource": [
+          3355,
+          1763
+        ],
+        "geo": [
+          141.6068079,
+          -38.3358988
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        383,
+        6144
+      ],
+      [
+        4998,
+        6144
+      ],
+      [
+        4818,
+        749
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/43a90293bebf1b8a",
+      "version": "https://annotations.allmaps.org/maps/43a90293bebf1b8a@83f11a9da2481282",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e0b4f067f1f47f77",
+        "version": "https://annotations.allmaps.org/images/e0b4f067f1f47f77@4a9281ebe3685951",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1ef3c94b58869c14",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/512eabac3aeb36a2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.68715,
+      "area": 9522808.55
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          141.584184744,
+          -38.326455847
+        ],
+        [
+          141.586428373,
+          -38.359298113
+        ],
+        [
+          141.617686188,
+          -38.359325099
+        ],
+        [
+          141.616774773,
+          -38.330487468
+        ],
+        [
+          141.584184744,
+          -38.326455847
+        ]
+      ]
+    ]
+  }
+}

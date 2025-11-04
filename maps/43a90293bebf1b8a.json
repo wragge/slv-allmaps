@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/43a90293bebf1b8a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-04T05:10:22.437Z",
+  "modified": "2025-11-04T05:10:22.437Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043902:FL21357453.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5623,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043902/canvas/FL21357453",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043902/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Portland, County of Normanby"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5623\" height=\"7000\"><polygon points=\"0,0 383,6144 4998,6144 4818,749\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3277,
+            4887
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6061014,
+            -38.3525963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2130,
+            3682
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.5984014,
+            -38.3461488
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3355,
+            1763
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6068079,
+            -38.3358988
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/43a90293bebf1b8a",
+      "version": "https://annotations.allmaps.org/maps/43a90293bebf1b8a@83f11a9da2481282",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e0b4f067f1f47f77",
+        "version": "https://annotations.allmaps.org/images/e0b4f067f1f47f77@4a9281ebe3685951",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1ef3c94b58869c14",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/512eabac3aeb36a2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.68715,
+      "area": 9522808.55
+    }
+  }
+}

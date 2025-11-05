@@ -1,0 +1,237 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5d3c6c64feebc3fc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T02:23:55.166Z",
+  "modified": "2025-11-05T02:23:55.166Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7042815:FL21354901.jpg",
+      "type": "ImageService2",
+      "height": 4480,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7042815/canvas/FL21354901",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7042815/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Sandhurst, portion B, Bendigo Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4480\"><polygon points=\"1028,523 6141,504 6170,3901 1048,3901\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2622,
+            2004
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2635304,
+            -36.7632679
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3592,
+            1994
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2669859,
+            -36.761463
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2622,
+            2542
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2649322,
+            -36.7651751
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2618,
+            3103
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2665108,
+            -36.7671171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1837,
+            2620
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.261821,
+            -36.7671171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5135,
+            2349
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2754947,
+            -36.7588142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3514,
+            2404
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2679975,
+            -36.7628642
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5034,
+            1498
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2726758,
+            -36.7559497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4212,
+            2362
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2714254,
+            -36.7608881
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5243,
+            2809
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2771613,
+            -36.7602281
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5d3c6c64feebc3fc",
+      "version": "https://annotations.allmaps.org/maps/5d3c6c64feebc3fc@fba1108afe56afa1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/450ce175a9f88e24",
+        "version": "https://annotations.allmaps.org/images/450ce175a9f88e24@986a041db70df6c3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/98280229e0901783",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a93caf377c4f3831"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.152357,
+      "area": 3742090.71
+    }
+  }
+}

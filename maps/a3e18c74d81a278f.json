@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a3e18c74d81a278f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T02:05:04.506Z",
+  "modified": "2025-11-05T02:05:04.506Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9532936:FL21667218.jpg",
+      "type": "ImageService2",
+      "height": 4957,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532936/canvas/FL21667218",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532936/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Sandhurst Sandhurst"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4957\"><polygon points=\"1793,605 4780,589 4827,4202 1817,4249\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4614,
+            2981
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2679807,
+            -36.762849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3668,
+            2689
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2566229,
+            -36.7585426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3796,
+            3697
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2563376,
+            -36.7690161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4409,
+            3221
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2649855,
+            -36.7651675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4151,
+            2511
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2630206,
+            -36.7573476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4267,
+            1803
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2655091,
+            -36.750565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4233,
+            3702
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2625465,
+            -36.7705702
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a3e18c74d81a278f",
+      "version": "https://annotations.allmaps.org/maps/a3e18c74d81a278f@872c102e8f7f5304",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/791d088edc6a3b83",
+        "version": "https://annotations.allmaps.org/images/791d088edc6a3b83@c3e32963a58d6389",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f05a5af88f4f19d6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/728b3cd18f53bf7a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.86641,
+      "area": 14495352.85
+    }
+  }
+}

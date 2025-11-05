@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c511362c25bb5504",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T08:08:47.421Z",
+  "modified": "2025-11-05T08:08:47.421Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587552:FL21664227.jpg",
+      "type": "ImageService2",
+      "height": 4417,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587552/canvas/FL21664227",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587552/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia, South Coast, Victoria Port Phillip /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4417\"><polygon points=\"184,258 6802,243 6858,4413 184,4385\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1519,
+            3314
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5079965,
+            -38.0904913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            985,
+            3315
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.443646,
+            -38.0904913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            846,
+            3681
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4265045,
+            -38.1263513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            515,
+            3861
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3837915,
+            -38.1436109
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            335,
+            3478
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.362154,
+            -38.1064313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3238,
+            4011
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7158891,
+            -38.1584856
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c511362c25bb5504",
+      "version": "https://annotations.allmaps.org/maps/c511362c25bb5504@9e80c5bcedbe773f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8a2e7f2d5cdd462c",
+        "version": "https://annotations.allmaps.org/images/8a2e7f2d5cdd462c@cb80f0e4580cf06a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/84290efe68ff9528",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f368e9ed96a7172f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.09287,
+      "area": 3196687084.76
+    }
+  }
+}

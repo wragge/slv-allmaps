@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/04a289a1673d7cc7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T09:23:59.730Z",
+  "modified": "2025-11-05T09:23:59.730Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15453240:FL21373427.jpg",
+      "type": "ImageService2",
+      "height": 4219,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453240/canvas/FL21373427",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453240/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bulleen, Unwin's survey"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4219\"><polygon points=\"5681,4015 5704,401 933,386 963,3969\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1487,
+            1342
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0767156,
+            -37.7585244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1659,
+            2536
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.07634,
+            -37.7737819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1218,
+            2648
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0691686,
+            -37.7743283
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2591,
+            487
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0957486,
+            -37.7491948
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4206,
+            497
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1216977,
+            -37.7521395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4228,
+            861
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1209692,
+            -37.756964
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/04a289a1673d7cc7",
+      "version": "https://annotations.allmaps.org/maps/04a289a1673d7cc7@32c38b2718dc7542",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0a1af60f73487edd",
+        "version": "https://annotations.allmaps.org/images/0a1af60f73487edd@ec43db85e455d2c5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3a19fce8a8d16648",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4e92bce664d3fc8d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.706541,
+      "area": 34200661.57
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/a0447bd7d0a0d751",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-05T21:52:04.300Z",
+    "modified": "2025-11-05T21:52:04.300Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22840978:FL22841265.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22840978:FL22841265.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4484,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22840978/canvas/FL22841265",
+          "label": {
+            "none": [
+              "pv000262"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22840978/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 400 feet to 1 inch. [Base maps] 8F-N/E [Part of suburbs of Carnegie, Murrumbeena, Hughesdale and Oakleigh]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "66d2ee54ad5e6c27",
+        "index": 1.615709705124496,
+        "resource": [
+          3877,
+          3282
+        ],
+        "geo": [
+          145.0848836,
+          -37.8947875
+        ]
+      },
+      {
+        "id": "94565845c9d36891",
+        "index": 2.6889722738954243,
+        "resource": [
+          3750,
+          1564
+        ],
+        "geo": [
+          145.0836307,
+          -37.881372
+        ]
+      },
+      {
+        "id": "dbef430820633802",
+        "index": 0.7493704404647973,
+        "resource": [
+          2323,
+          2580
+        ],
+        "geo": [
+          145.0696177,
+          -37.8892996
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        570,
+        630
+      ],
+      [
+        547,
+        3567
+      ],
+      [
+        6333,
+        3589
+      ],
+      [
+        6366,
+        630
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a0447bd7d0a0d751",
+      "version": "https://annotations.allmaps.org/maps/a0447bd7d0a0d751@11bfa718f5e306c4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/480f30b326902205",
+        "version": "https://annotations.allmaps.org/images/480f30b326902205@974a23468600aeb9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/545e13dd44bb6e97",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ee0640dfe2cebead"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.155575,
+      "area": 12784752.56
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.052393204,
+          -37.874065895
+        ],
+        [
+          145.052176669,
+          -37.89699933
+        ],
+        [
+          145.109007841,
+          -37.897194728
+        ],
+        [
+          145.109322527,
+          -37.874089548
+        ],
+        [
+          145.052393204,
+          -37.874065895
+        ]
+      ]
+    ]
+  }
+}

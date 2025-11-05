@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a0447bd7d0a0d751",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T21:52:04.300Z",
+  "modified": "2025-11-05T21:52:04.300Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22840978:FL22841265.jpg",
+      "type": "ImageService2",
+      "height": 4484,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22840978/canvas/FL22841265",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "pv000262"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22840978/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 400 feet to 1 inch. [Base maps] 8F-N/E [Part of suburbs of Carnegie, Murrumbeena, Hughesdale and Oakleigh]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4484\"><polygon points=\"570,630 547,3567 6333,3589 6366,630\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3877,
+            3282
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0848836,
+            -37.8947875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3750,
+            1564
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0836307,
+            -37.881372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2323,
+            2580
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0696177,
+            -37.8892996
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a0447bd7d0a0d751",
+      "version": "https://annotations.allmaps.org/maps/a0447bd7d0a0d751@11bfa718f5e306c4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/480f30b326902205",
+        "version": "https://annotations.allmaps.org/images/480f30b326902205@974a23468600aeb9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/545e13dd44bb6e97",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ee0640dfe2cebead"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.155575,
+      "area": 12784752.56
+    }
+  }
+}

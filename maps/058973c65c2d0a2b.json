@@ -1,0 +1,269 @@
+{
+  "id": "https://annotations.allmaps.org/maps/058973c65c2d0a2b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-06T03:15:48.675Z",
+  "modified": "2025-11-06T03:15:48.675Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7325335:FL20708759.jpg",
+      "type": "ImageService2",
+      "height": 4253,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7325335/canvas/FL20708759",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7325335/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 164, 165, 166, City of Footscray"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4253\"><polygon points=\"76,53 6975,39 6983,4240 10,4232\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6251,
+            604
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8909282,
+            -37.8166738
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1303,
+            3857
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8934404,
+            -37.8210236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2685,
+            3862
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.893731,
+            -37.8199295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6461,
+            3872
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8942969,
+            -37.8169099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4412,
+            3882
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8939714,
+            -37.8185396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4388,
+            595
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8906346,
+            -37.8181644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2515,
+            601
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8903813,
+            -37.8196863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            698,
+            3874
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8934062,
+            -37.8215234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            665,
+            592
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8900737,
+            -37.8211317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6244,
+            1773
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8920995,
+            -37.8168241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1273,
+            583
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8901591,
+            -37.8206589
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3119,
+            1662
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8915162,
+            -37.8192794
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/058973c65c2d0a2b",
+      "version": "https://annotations.allmaps.org/maps/058973c65c2d0a2b@4d15310bc0d02a63",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e0160a51aac2299d",
+        "version": "https://annotations.allmaps.org/images/e0160a51aac2299d@9e3c5ab152b54a06",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/795e56d842b28431",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a36d0cea6eec1ef6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.103813,
+      "area": 235709.73
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/074a7c4651fed0a9",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-06T09:11:59.859Z",
+    "modified": "2025-11-06T09:11:59.859Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7329699:FL20709846.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7329699:FL20709846.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4731,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329699/canvas/FL20709846",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329699/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1467, Malvern"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "35265f53e942509b",
+        "index": 1.7052605502389961,
+        "resource": [
+          6094,
+          3842
+        ],
+        "geo": [
+          145.0273416,
+          -37.841398
+        ]
+      },
+      {
+        "id": "386dd5693dbc0994",
+        "index": 0.0878001791316605,
+        "resource": [
+          985,
+          3845
+        ],
+        "geo": [
+          145.0233006,
+          -37.8408868
+        ]
+      },
+      {
+        "id": "dd4054f91ad59f07",
+        "index": 2.902954125225541,
+        "resource": [
+          933,
+          1458
+        ],
+        "geo": [
+          145.0235651,
+          -37.8394377
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        600,
+        4131
+      ],
+      [
+        607,
+        1195
+      ],
+      [
+        6213,
+        1195
+      ],
+      [
+        6251,
+        4137
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/074a7c4651fed0a9",
+      "version": "https://annotations.allmaps.org/maps/074a7c4651fed0a9@abce4e44e4d020b0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/64db47143836f8d2",
+        "version": "https://annotations.allmaps.org/images/64db47143836f8d2@c6b98c93d7d15293",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/778fe0561f92ad1b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0b14a4794fd8b40b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 14.434472,
+      "area": 79394.28
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.022959492,
+          -37.84102114
+        ],
+        [
+          145.027427997,
+          -37.841592208
+        ],
+        [
+          145.027774631,
+          -37.839808799
+        ],
+        [
+          145.023340946,
+          -37.839245878
+        ],
+        [
+          145.022959492,
+          -37.84102114
+        ]
+      ]
+    ]
+  }
+}

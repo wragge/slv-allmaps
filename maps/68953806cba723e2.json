@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/68953806cba723e2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-06T01:09:26.691Z",
+  "modified": "2025-11-06T01:09:26.691Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22950563:FL22951902.jpg",
+      "type": "ImageService2",
+      "height": 4897,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950563/canvas/FL22951902",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6031"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950563/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Horsfall 10000 [base map]. 3.2, Part of municiplaities of Buln Buln 274 and Upper Yarra 263, part of parishes of Beenak 2101 Ellinging 2587 and Nayook West 3290,"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4897\"><polygon points=\"858,735 854,4062 6200,4070 6196,731\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5930,
+            1223
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8142468,
+            -37.8565548
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2318,
+            1904
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7527524,
+            -37.8650043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5764,
+            3551
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8112639,
+            -37.8877241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6095,
+            1326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8173817,
+            -37.8578318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1280,
+            1563
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7348761,
+            -37.8603631
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/68953806cba723e2",
+      "version": "https://annotations.allmaps.org/maps/68953806cba723e2@c82ce07dc0e06c56",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4366c6580cedd837",
+        "version": "https://annotations.allmaps.org/images/4366c6580cedd837@7d0551066bfb6ad5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/55c55fe1d9599a0b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/efcf98da74fed950"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.668307,
+      "area": 39864540.62
+    }
+  }
+}

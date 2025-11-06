@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2146f60585ccf0f6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T22:12:35.499Z",
+  "modified": "2025-11-05T22:12:35.499Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7114995:FL21459167.jpg",
+      "type": "ImageService2",
+      "height": 4399,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114995/canvas/FL21459167",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114995/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Territory of New Guinea, administered by the Commonwealth under mandate from the League of Nations, and Papua, a territory of the Commonwealth of Australia, 1934"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4399\"><polygon points=\"5139,2736 5140,4228 173,4215 193,382 6835,365 6840,2728\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            335,
+            1160
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9988336,
+            -2.6076024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            346,
+            3149
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.0247899,
+            -9.1277184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4610,
+            3916
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153.7705916,
+            -11.6142215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3626,
+            1131
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.8002845,
+            -2.5530696
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2146f60585ccf0f6",
+      "version": "https://annotations.allmaps.org/maps/2146f60585ccf0f6@9c617e0dc7ad530e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4ce025d1775c6d9a",
+        "version": "https://annotations.allmaps.org/images/4ce025d1775c6d9a@471d1c249ea27a64",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7214b906a63bdb7a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/583172f46b9bbcb8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002893,
+      "area": 2757682625604.12
+    }
+  }
+}

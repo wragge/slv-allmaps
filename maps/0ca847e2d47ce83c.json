@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0ca847e2d47ce83c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T22:33:05.508Z",
+  "modified": "2025-11-05T22:33:05.508Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE2510514:FL21569263.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6619,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE2510514/canvas/FL21569263",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE2510514/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Tasmania"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6619\" height=\"7000\"><polygon points=\"0,0 0,7000 6619,7000 6619,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4304,
+            6402
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1486987,
+            -43.4948346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1170,
+            3682
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2255309,
+            -42.2207953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6024,
+            682
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.1726574,
+            -40.8231116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6192,
+            3817
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.299335,
+            -42.2836075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            248,
+            334
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7252243,
+            -40.6434283
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3689,
+            1178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7879615,
+            -41.0543931
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0ca847e2d47ce83c",
+      "version": "https://annotations.allmaps.org/maps/0ca847e2d47ce83c@a0607af05dfb7bbc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7c9c0e28ce97e8c1",
+        "version": "https://annotations.allmaps.org/images/7c9c0e28ce97e8c1@0f46a336562e98b0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/61f66f41c9d43950",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6900638bdc53d5c9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.019637,
+      "area": 120152413603.37
+    }
+  }
+}

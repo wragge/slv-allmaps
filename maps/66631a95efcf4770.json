@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/66631a95efcf4770",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-05T22:21:08.629Z",
+  "modified": "2025-11-05T22:21:08.629Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7048360:FL21357303.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5034,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7048360/canvas/FL21357303",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7048360/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Orbost, Parish of Orbost, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5034\" height=\"7000\"><polygon points=\"600,272 409,3832 1624,5933 3274,6645 3257,3398 4455,2790 4473,254\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2597,
+            779
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.4597581,
+            -37.7018547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3850,
+            2337
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.4632836,
+            -37.7070783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2085,
+            3563
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.4559306,
+            -37.7097321
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/66631a95efcf4770",
+      "version": "https://annotations.allmaps.org/maps/66631a95efcf4770@764ac0d3ff865c1a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2982272215e499ea",
+        "version": "https://annotations.allmaps.org/images/2982272215e499ea@d8516738a95c907a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7ecfcc64b7d12e73",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c13fc0c178bf9f17"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.027932,
+      "area": 2022954.24
+    }
+  }
+}

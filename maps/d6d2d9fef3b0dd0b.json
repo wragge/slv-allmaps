@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d6d2d9fef3b0dd0b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-07T09:12:33.219Z",
+  "modified": "2025-11-07T09:12:33.219Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7320651:FL21467761.jpg",
+      "type": "ImageService2",
+      "height": 5173,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7320651/canvas/FL21467761",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7320651/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2844, Municipality of Moorabbin"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5173\"><polygon points=\"1011,1020 1039,4292 6059,4237 6108,956\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5927,
+            1056
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0272007,
+            -37.9096708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4337,
+            1289
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.027168,
+            -37.9107623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1229,
+            4074
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0291163,
+            -37.913085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5882,
+            3959
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0296446,
+            -37.9099904
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d6d2d9fef3b0dd0b",
+      "version": "https://annotations.allmaps.org/maps/d6d2d9fef3b0dd0b@9c34e5c81a151328",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f29583c69cee6f6e",
+        "version": "https://annotations.allmaps.org/images/f29583c69cee6f6e@385fd6692c5a4c2c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5a7fc70469d48173",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5c9b914462ee3db7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 13.345035,
+      "area": 93062.8
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/7ced9c275c5f3306",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-07T09:25:57.817Z",
+    "modified": "2025-11-07T09:25:57.817Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7328991:FL21469927.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7328991:FL21469927.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4519,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7328991/canvas/FL21469927",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7328991/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 3245, Municipality of Moorabbin"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "00ff85e71f64c02a",
+        "index": 1.1762072492125712,
+        "resource": [
+          5354,
+          1000
+        ],
+        "geo": [
+          145.0330149,
+          -37.9139269
+        ]
+      },
+      {
+        "id": "0b5805355c471238",
+        "index": 2.7568886845031964,
+        "resource": [
+          5444,
+          3527
+        ],
+        "geo": [
+          145.0327523,
+          -37.9158579
+        ]
+      },
+      {
+        "id": "9ce9677129f6fd04",
+        "index": 0.027715520675631766,
+        "resource": [
+          2460,
+          1036
+        ],
+        "geo": [
+          145.0302421,
+          -37.9136523
+        ]
+      },
+      {
+        "id": "19f7d98c3ffb48ab",
+        "index": 3.1216654180765766,
+        "resource": [
+          2556,
+          3122
+        ],
+        "geo": [
+          145.0300596,
+          -37.9152275
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1100,
+        782
+      ],
+      [
+        1120,
+        3670
+      ],
+      [
+        5612,
+        3667
+      ],
+      [
+        5601,
+        791
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7ced9c275c5f3306",
+      "version": "https://annotations.allmaps.org/maps/7ced9c275c5f3306@1b308907de8a7586",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a7491ccf4b1ea666",
+        "version": "https://annotations.allmaps.org/images/a7491ccf4b1ea666@c5f17a177f6f81c5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e5e4aff67837babc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c2b507a87721cdca"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.798881,
+      "area": 93086.21
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.028983166,
+          -37.913306746
+        ],
+        [
+          145.028611623,
+          -37.915492766
+        ],
+        [
+          145.032896964,
+          -37.915976735
+        ],
+        [
+          145.033275469,
+          -37.913800763
+        ],
+        [
+          145.028983166,
+          -37.913306746
+        ]
+      ]
+    ]
+  }
+}

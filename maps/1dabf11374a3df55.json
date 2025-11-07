@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1dabf11374a3df55",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-07T21:37:53.632Z",
+  "modified": "2025-11-07T21:37:53.632Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7003927:FL21479537.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5761,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003927/canvas/FL21479537",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003927/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Myrtleford"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5761\" height=\"7000\"><polygon points=\"4089,445 3551,1401 1189,1557 546,3311 494,6541 4992,6523 5010,428\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2168,
+            3384
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7116319,
+            -36.554525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3132,
+            4531
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7370553,
+            -36.5860162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3602,
+            1881
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7628545,
+            -36.5239616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2618,
+            3167
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.727224,
+            -36.5504551
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1dabf11374a3df55",
+      "version": "https://annotations.allmaps.org/maps/1dabf11374a3df55@c143e7cd1cedff78",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/17a4655bd29ba6b5",
+        "version": "https://annotations.allmaps.org/images/17a4655bd29ba6b5@c7d11c18d9752e46",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6b3405d140ab0156",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b95b7994a3d8ab18"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.361299,
+      "area": 177959444.82
+    }
+  }
+}

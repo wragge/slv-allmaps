@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/634e6b922d595380",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-07T02:26:09.585Z",
+  "modified": "2025-11-07T02:26:09.585Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7318986:FL20709444.jpg",
+      "type": "ImageService2",
+      "height": 4277,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7318986/canvas/FL20709444",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7318986/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 36, Town of Williamstown"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4277\"><polygon points=\"1745,824 142,3317 2010,4092 5374,3307 6701,1789 6743,877\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5754,
+            1114
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9020189,
+            -37.859869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4506,
+            1131
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9023026,
+            -37.8608321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1087,
+            3012
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9048706,
+            -37.8632319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1797,
+            1095
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9028619,
+            -37.8628377
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/634e6b922d595380",
+      "version": "https://annotations.allmaps.org/maps/634e6b922d595380@abca1ac6203d4a0e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a56c579a35287ab1",
+        "version": "https://annotations.allmaps.org/images/a56c579a35287ab1@5bde687bd71a0184",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6002cd71aab4d189",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1b0bcb895cdd8166"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.762544,
+      "area": 110095.23
+    }
+  }
+}

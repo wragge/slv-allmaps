@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4fe5fff0d41e3958",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-07T02:12:19.893Z",
+  "modified": "2025-11-07T02:12:19.893Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002806:FL21479704.jpg",
+      "type": "ImageService2",
+      "height": 5136,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002806/canvas/FL21479704",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002806/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Victoria, Wilsons Promontory"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5136\"><polygon points=\"620,501 620,4128 6282,4131 6285,504\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5998,
+            893
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4744513,
+            -39.025422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5498,
+            2169
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4308068,
+            -39.1131187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4492,
+            1829
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3417714,
+            -39.0903836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3845,
+            884
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2847384,
+            -39.0247849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4139,
+            2471
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3126026,
+            -39.1348564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3243,
+            1769
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.231777,
+            -39.085335
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4fe5fff0d41e3958",
+      "version": "https://annotations.allmaps.org/maps/4fe5fff0d41e3958@2620b95cc5265c80",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3881e7e656c5a374",
+        "version": "https://annotations.allmaps.org/images/3881e7e656c5a374@c972c139932a0008",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/35799bad6f87d49e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3233c150f71f9e31"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.130756,
+      "area": 1201465774.56
+    }
+  }
+}

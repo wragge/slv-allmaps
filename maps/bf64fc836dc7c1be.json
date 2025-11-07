@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bf64fc836dc7c1be",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-07T02:30:01.442Z",
+  "modified": "2025-11-07T02:30:01.442Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7333934:FL20709482.jpg",
+      "type": "ImageService2",
+      "height": 4259,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7333934/canvas/FL20709482",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7333934/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 283, Municipality of Footscray"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4259\"><polygon points=\"56,54 6966,54 6980,4275 5,4238\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1359,
+            3158
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8896481,
+            -37.7906692
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1463,
+            1193
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.887632,
+            -37.7904153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1176,
+            1967
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8883822,
+            -37.7907218
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bf64fc836dc7c1be",
+      "version": "https://annotations.allmaps.org/maps/bf64fc836dc7c1be@80c2f39733d9646b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/340fe4c71eae679c",
+        "version": "https://annotations.allmaps.org/images/340fe4c71eae679c@04347be47029dbfe",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dbb44259c8cac986",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5167e64871709795"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 10.75568,
+      "area": 252204.58
+    }
+  }
+}

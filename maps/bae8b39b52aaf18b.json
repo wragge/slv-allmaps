@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bae8b39b52aaf18b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-06T22:19:50.910Z",
+  "modified": "2025-11-06T22:19:50.910Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7033999:FL21353369.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4779,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033999/canvas/FL21353369",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033999/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town of Wodonga, Parish of Wodonga, County of Bogong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4779\" height=\"7000\"><polygon points=\"246,793 281,6645 4519,6645 4415,845\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1938,
+            5619
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.883879,
+            -36.1198474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2833,
+            5017
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8941178,
+            -36.1161175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3458,
+            1237
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.9071816,
+            -36.0858721
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bae8b39b52aaf18b",
+      "version": "https://annotations.allmaps.org/maps/bae8b39b52aaf18b@9cbe2d023e8f465e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e3d180134aef42e3",
+        "version": "https://annotations.allmaps.org/images/e3d180134aef42e3@d37a83fbfe4bf5b0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9bf6463701d6823b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0743865d30ecc2b2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.073903,
+      "area": 21233407.17
+    }
+  }
+}

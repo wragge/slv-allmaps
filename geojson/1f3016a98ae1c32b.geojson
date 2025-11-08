@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/1f3016a98ae1c32b",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-07T23:25:34.304Z",
+    "modified": "2025-11-07T23:25:34.304Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7324062:FL21462461.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7324062:FL21462461.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4268,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7324062/canvas/FL21462461",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7324062/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1815, Town of Brighton"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "184ec93cd0eb8ca5",
+        "index": 1.5622110194168073,
+        "resource": [
+          3336,
+          3094
+        ],
+        "geo": [
+          145.0004642,
+          -37.8909972
+        ]
+      },
+      {
+        "id": "7bc3dbeeb2b3ee5b",
+        "index": 2.347514256243595,
+        "resource": [
+          1105,
+          3100
+        ],
+        "geo": [
+          145.0001262,
+          -37.8927826
+        ]
+      },
+      {
+        "id": "c7d53a68d93b65b7",
+        "index": 3.2377766884107135,
+        "resource": [
+          1110,
+          1338
+        ],
+        "geo": [
+          144.9983199,
+          -37.8925573
+        ]
+      },
+      {
+        "id": "3f388713af123dee",
+        "index": 0.10557198338471008,
+        "resource": [
+          5694,
+          1322
+        ],
+        "geo": [
+          144.9990118,
+          -37.8888782
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        758,
+        1036
+      ],
+      [
+        771,
+        3473
+      ],
+      [
+        3954,
+        3452
+      ],
+      [
+        6536,
+        1030
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1f3016a98ae1c32b",
+      "version": "https://annotations.allmaps.org/maps/1f3016a98ae1c32b@bd6422a4cad96fac",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c16a607c725a33f8",
+        "version": "https://annotations.allmaps.org/images/c16a607c725a33f8@a5b57dee320a5227",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/34ffa405bba182c8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9f0edc0e0b45870c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.030987,
+      "area": 89314.56
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.997955975,
+          -37.892800089
+        ],
+        [
+          145.000456843,
+          -37.893099861
+        ],
+        [
+          145.000926981,
+          -37.890545296
+        ],
+        [
+          144.998842337,
+          -37.888166956
+        ],
+        [
+          144.997955975,
+          -37.892800089
+        ]
+      ]
+    ]
+  }
+}

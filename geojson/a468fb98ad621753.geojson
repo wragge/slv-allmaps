@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/a468fb98ad621753",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-07T23:01:01.567Z",
+    "modified": "2025-11-07T23:01:01.567Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7319986:FL21468159.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7319986:FL21468159.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4425,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7319986/canvas/FL21468159",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7319986/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2855, [Municipality of] Caulfield"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "7801371d7d5b8896",
+        "index": 0.9910526320922806,
+        "resource": [
+          6359,
+          2978
+        ],
+        "geo": [
+          145.0611615,
+          -37.8981533
+        ]
+      },
+      {
+        "id": "a76613b2ade42e12",
+        "index": 1.8347526620265175,
+        "resource": [
+          6376,
+          898
+        ],
+        "geo": [
+          145.0591493,
+          -37.8979089
+        ]
+      },
+      {
+        "id": "8294dda1b7bcc42f",
+        "index": 2.8148311269599233,
+        "resource": [
+          3708,
+          2677
+        ],
+        "geo": [
+          145.0605,
+          -37.9001703
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        642,
+        373
+      ],
+      [
+        586,
+        4060
+      ],
+      [
+        6494,
+        4113
+      ],
+      [
+        6552,
+        390
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a468fb98ad621753",
+      "version": "https://annotations.allmaps.org/maps/a468fb98ad621753@79e4e1c5cfcc6965",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/637cc7d7507fc8ca",
+        "version": "https://annotations.allmaps.org/images/637cc7d7507fc8ca@972c424e382907ce",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/eeb72b1640c6e7e4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/42a40427d0e15236"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.574315,
+      "area": 163437.3
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.057840589,
+          -37.902285599
+        ],
+        [
+          145.061403797,
+          -37.902738828
+        ],
+        [
+          145.062279638,
+          -37.898175069
+        ],
+        [
+          145.058681842,
+          -37.897716291
+        ],
+        [
+          145.057840589,
+          -37.902285599
+        ]
+      ]
+    ]
+  }
+}

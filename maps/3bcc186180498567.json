@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3bcc186180498567",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-08T11:30:19.281Z",
+  "modified": "2025-11-08T11:30:19.281Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7448217:FL19260238.tif",
+      "type": "ImageService2",
+      "height": 1156,
+      "width": 1566,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7448217/canvas/FL19260238",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map Elsternwick including Elwood and Gardenvale"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7448217/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "1912 Moultons directory of streets for Melbourne and suburbs Moulton's directory of streets for Melbourne and suburbs."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"1566\" height=\"1156\"><polygon points=\"40,50 32,1103 1417,1105 1415,51\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            107,
+            386
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9778844,
+            -37.8818266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            481,
+            741
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.990738,
+            -37.8911862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            576,
+            78
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9980184,
+            -37.8769293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            484,
+            1077
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9895213,
+            -37.8978016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1384,
+            80
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.016288,
+            -37.8791609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1388,
+            1077
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0122063,
+            -37.9004974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            754,
+            426
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0007657,
+            -37.8846312
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3bcc186180498567",
+      "version": "https://annotations.allmaps.org/maps/3bcc186180498567@b2afc0163b8964a2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8d3224dfd1091e1f",
+        "version": "https://annotations.allmaps.org/images/8d3224dfd1091e1f@12ba1347df528590",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/37376c23a9ebbd1a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9cb263a72125d172"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.414594,
+      "area": 8458012.47
+    }
+  }
+}

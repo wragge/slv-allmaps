@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b87bb6f6f3137dc7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-10T07:15:43.879Z",
+  "modified": "2025-11-10T07:15:43.879Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7329864:FL21467949.jpg",
+      "type": "ImageService2",
+      "height": 4448,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329864/canvas/FL21467949",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329864/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 4270, Municipality of Mordialloc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4448\"><polygon points=\"2943,921 1097,3053 1511,3898 6071,3898 6065,899\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4104,
+            1479
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0749532,
+            -37.9985576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1777,
+            3626
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.076659,
+            -38.0005423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5777,
+            2264
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0759448,
+            -37.9973959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5767,
+            3615
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0772236,
+            -37.9975605
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b87bb6f6f3137dc7",
+      "version": "https://annotations.allmaps.org/maps/b87bb6f6f3137dc7@da2fb97a769d6212",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0899e67e1fa703ad",
+        "version": "https://annotations.allmaps.org/images/0899e67e1fa703ad@72bb12e48a13e543",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5cd1077ede9db802",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/618ef4b5bf726156"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.880078,
+      "area": 89915.41
+    }
+  }
+}

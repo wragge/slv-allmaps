@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/28fb795c9c5c8b88",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-11T20:05:54.303Z",
+    "modified": "2025-11-11T20:05:54.303Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155044:FL23156228.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155044:FL23156228.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5605,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155044/canvas/FL23156228",
+          "label": {
+            "none": [
+              "Image 2"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155044/manifest",
+              "label": {
+                "none": [
+                  "Victorian Railways, Melbourne & Coburg line"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "453a57cd2369cb9f",
+        "index": 0.9436749235152032,
+        "resource": [
+          6522,
+          5023
+        ],
+        "geo": [
+          144.9606198,
+          -37.7752821
+        ]
+      },
+      {
+        "id": "950c64cc5e185d4f",
+        "index": 1.452809089459683,
+        "resource": [
+          4496,
+          5549
+        ],
+        "geo": [
+          144.9594373,
+          -37.7815783
+        ]
+      },
+      {
+        "id": "d4bc269b4d61848d",
+        "index": 2.6641195606509367,
+        "resource": [
+          431,
+          1552
+        ],
+        "geo": [
+          144.9421953,
+          -37.7874794
+        ]
+      },
+      {
+        "id": "37a0201b1eed5c1b",
+        "index": 3.1886275902534162,
+        "resource": [
+          596,
+          1424
+        ],
+        "geo": [
+          144.9419678,
+          -37.7868784
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5605
+      ],
+      [
+        7000,
+        5605
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/28fb795c9c5c8b88",
+      "version": "https://annotations.allmaps.org/maps/28fb795c9c5c8b88@f80d495d7e6898b4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4f695c08ec1da599",
+        "version": "https://annotations.allmaps.org/images/4f695c08ec1da599@6b9b307219e389b9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e5f13ce34e1c1b2a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ed05febb51cb0f2d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.206506,
+      "area": 3816011.19
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.936993428,
+          -37.786620278
+        ],
+        [
+          144.953553928,
+          -37.794065975
+        ],
+        [
+          144.962978878,
+          -37.774736728
+        ],
+        [
+          144.946418379,
+          -37.767291031
+        ],
+        [
+          144.936993428,
+          -37.786620278
+        ]
+      ]
+    ]
+  }
+}

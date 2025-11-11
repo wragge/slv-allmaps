@@ -1,0 +1,180 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/eb09650237967541",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-10T23:44:48.948Z",
+    "modified": "2025-11-10T23:44:48.948Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7117039:FL21459647.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7117039:FL21459647.jpg",
+      "type": "ImageService2",
+      "width": 4362,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7117039/canvas/FL21459647",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7117039/manifest",
+              "label": {
+                "none": [
+                  "Plan of Ballaarat gold field shewing position of the estate of the Winters Freehold Gold Mining Co. registered."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "3f88d0063a470be2",
+        "index": 0.7456772339812774,
+        "resource": [
+          1791,
+          917
+        ],
+        "geo": [
+          143.8396371,
+          -37.5430512
+        ]
+      },
+      {
+        "id": "516e8c1a0aa925f6",
+        "index": 2.8253249367434634,
+        "resource": [
+          1915,
+          3472
+        ],
+        "geo": [
+          143.8350511,
+          -37.5815789
+        ]
+      },
+      {
+        "id": "60aed132b05cc5c3",
+        "index": 1.998399399391226,
+        "resource": [
+          3170,
+          908
+        ],
+        "geo": [
+          143.865091,
+          -37.5460982
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        120,
+        140
+      ],
+      [
+        122,
+        5613
+      ],
+      [
+        959,
+        6239
+      ],
+      [
+        2167,
+        6729
+      ],
+      [
+        2661,
+        5942
+      ],
+      [
+        3779,
+        5882
+      ],
+      [
+        4186,
+        4585
+      ],
+      [
+        4261,
+        130
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/eb09650237967541",
+      "version": "https://annotations.allmaps.org/maps/eb09650237967541@8ca3f2fd42add7a9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a4bd92c9e241425f",
+        "version": "https://annotations.allmaps.org/images/a4bd92c9e241425f@71f47149ab8578e0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/efba1294a46a7c73",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5dd6e899e6bdc0b4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.601197,
+      "area": 67191696.09
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.810912769,
+          -37.527566138
+        ],
+        [
+          143.796227936,
+          -37.609487104
+        ],
+        [
+          143.809978916,
+          -37.620787843
+        ],
+        [
+          143.830937211,
+          -37.630909014
+        ],
+        [
+          143.84216384,
+          -37.620269488
+        ],
+        [
+          143.862941907,
+          -37.621950959
+        ],
+        [
+          143.873936037,
+          -37.603477348
+        ],
+        [
+          143.887302503,
+          -37.536970812
+        ],
+        [
+          143.810912769,
+          -37.527566138
+        ]
+      ]
+    ]
+  }
+}

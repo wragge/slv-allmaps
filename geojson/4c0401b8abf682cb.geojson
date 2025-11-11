@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/4c0401b8abf682cb",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-10T23:07:39.443Z",
+    "modified": "2025-11-10T23:07:39.443Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22755943:FL22756418.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22755943:FL22756418.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5017,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22755943/canvas/FL22756418",
+          "label": {
+            "none": [
+              "vc300665"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22755943/manifest",
+              "label": {
+                "none": [
+                  "City of Warrnambool /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "731380c782e397a4",
+        "index": 0.6808135866139333,
+        "resource": [
+          3161,
+          4229
+        ],
+        "geo": [
+          142.4719739,
+          -38.3966653
+        ]
+      },
+      {
+        "id": "f06bd04ff11c8e43",
+        "index": 1.2045821534333339,
+        "resource": [
+          972,
+          957
+        ],
+        "geo": [
+          142.4425301,
+          -38.3501563
+        ]
+      },
+      {
+        "id": "fb38dc23a12a9cbc",
+        "index": 2.0136316791748623,
+        "resource": [
+          4605,
+          3452
+        ],
+        "geo": [
+          142.4979188,
+          -38.3888471
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        448,
+        188
+      ],
+      [
+        468,
+        4788
+      ],
+      [
+        6729,
+        4808
+      ],
+      [
+        6698,
+        180
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4c0401b8abf682cb",
+      "version": "https://annotations.allmaps.org/maps/4c0401b8abf682cb@00c84b5313112730",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4868d5b15057984c",
+        "version": "https://annotations.allmaps.org/images/4868d5b15057984c@83b04968989ccf86",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6ed3afd3511fa750",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cb7337b24f2e3b77"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.678992,
+      "area": 62604798.99
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          142.435450227,
+          -38.339209889
+        ],
+        [
+          142.425565316,
+          -38.399572474
+        ],
+        [
+          142.530529427,
+          -38.410120672
+        ],
+        [
+          142.540292057,
+          -38.349372791
+        ],
+        [
+          142.435450227,
+          -38.339209889
+        ]
+      ]
+    ]
+  }
+}

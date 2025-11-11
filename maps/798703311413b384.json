@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/798703311413b384",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T09:36:13.005Z",
+  "modified": "2025-11-11T09:36:13.005Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498384:FL21307676.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6967,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498384/canvas/FL21307676",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498384/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "M.M.B.W. Robertson Township"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6967\" height=\"7000\"><polygon points=\"131,183 161,6853 6801,6812 6801,142\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3473,
+            2829
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3992314,
+            -37.9557784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3407,
+            4485
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3980426,
+            -37.9607904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            730,
+            1747
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3890607,
+            -37.9511177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4162,
+            3202
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4016154,
+            -37.9572477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2400,
+            3952
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3944034,
+            -37.9587308
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/798703311413b384",
+      "version": "https://annotations.allmaps.org/maps/798703311413b384@e2605381a923c895",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9df74f684b0201d9",
+        "version": "https://annotations.allmaps.org/images/9df74f684b0201d9@2ae9195b43e3042f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e595f92617c0669c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3732e2b31a1f3c3c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.898649,
+      "area": 5283098.89
+    }
+  }
+}

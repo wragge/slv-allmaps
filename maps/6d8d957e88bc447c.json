@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6d8d957e88bc447c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T09:49:19.816Z",
+  "modified": "2025-11-11T09:49:19.816Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485145:FL21303938.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5193,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485145/canvas/FL21303938",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485145/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Melbourne & suburbs record plan of sewerage work done up to Dec. 31st 1898 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5193\" height=\"7000\"><polygon points=\"456,4546 2383,4587 3216,6069 4623,6012 4636,942 450,1011\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3329,
+            1082
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0588378,
+            -37.6980263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3399,
+            5962
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0160653,
+            -37.9755775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4123,
+            2576
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0997421,
+            -37.7898493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1625,
+            1845
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9280702,
+            -37.730337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1628,
+            4191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9030433,
+            -37.8625927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4182,
+            4524
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0871733,
+            -37.8994239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            992,
+            2865
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8704295,
+            -37.7817085
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6d8d957e88bc447c",
+      "version": "https://annotations.allmaps.org/maps/6d8d957e88bc447c@e578837844f4c1de",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/baf8ff0d748b9884",
+        "version": "https://annotations.allmaps.org/images/baf8ff0d748b9884@f6fa597fe7421c15",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/26a56d69853d0fd1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8944a5e16fb78f41"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.156299,
+      "area": 724990876.85
+    }
+  }
+}

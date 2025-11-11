@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1bec5fa9abf88c49",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T09:21:55.937Z",
+  "modified": "2025-11-11T09:21:55.937Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22949889:FL22950390.jpg",
+      "type": "ImageService2",
+      "height": 4844,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22949889/canvas/FL22950390",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6026"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22949889/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Horsfall 10000 [base map]. 2.2, Part of parishes of Bennak 2101 Tonimbuk East 3609, part of municipalities of Buln Buln 274 and Upper Yarra 263"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4844\"><polygon points=\"828,798 6126,819 6136,4123 853,4109\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1898,
+            1129
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.655455,
+            -37.8526487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1018,
+            1787
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6399546,
+            -37.8614115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6095,
+            1436
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7273526,
+            -37.8574985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3844,
+            806
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6890168,
+            -37.8486572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            913,
+            2402
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6379727,
+            -37.8698881
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1bec5fa9abf88c49",
+      "version": "https://annotations.allmaps.org/maps/1bec5fa9abf88c49@c01f7e9cb8bb6321",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d383109219c100f3",
+        "version": "https://annotations.allmaps.org/images/d383109219c100f3@099d6e61ac9bc69e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1f31654eba51800a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6e6c9070a06869c7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.66198,
+      "area": 39929944.39
+    }
+  }
+}

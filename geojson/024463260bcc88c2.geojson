@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/024463260bcc88c2",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-11T09:59:28.858Z",
+    "modified": "2025-11-11T09:59:28.858Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493465:FL21304624.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493465:FL21304624.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5919,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493465/canvas/FL21304624",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493465/manifest",
+              "label": {
+                "none": [
+                  "[M.M.B.W. grid map of Ballan, Meredith, Sunbury, Melbourne region, block 5]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "03178eafeed85020",
+        "index": 1.7663353884558481,
+        "resource": [
+          6610,
+          4624
+        ],
+        "geo": [
+          145.0369919,
+          -37.995705
+        ]
+      },
+      {
+        "id": "266376dc876d8d4c",
+        "index": 0.9916925244770691,
+        "resource": [
+          4068,
+          1119
+        ],
+        "geo": [
+          144.5844821,
+          -37.52134
+        ]
+      },
+      {
+        "id": "5bad1456a89ce1a5",
+        "index": 2.38849965972926,
+        "resource": [
+          952,
+          4864
+        ],
+        "geo": [
+          144.0502334,
+          -38.0289853
+        ]
+      },
+      {
+        "id": "cb601768853aa524",
+        "index": 3.0362126445967306,
+        "resource": [
+          224,
+          2163
+        ],
+        "geo": [
+          143.9253915,
+          -37.6536991
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        195,
+        248
+      ],
+      [
+        6834,
+        252
+      ],
+      [
+        6890,
+        5237
+      ],
+      [
+        234,
+        5147
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/024463260bcc88c2",
+      "version": "https://annotations.allmaps.org/maps/024463260bcc88c2@d6e47124e94ee4cb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cbce1c5f0eaea7b9",
+        "version": "https://annotations.allmaps.org/images/cbce1c5f0eaea7b9@31b2a8909f233da0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d86c0113db0d8507",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c92803827712b491"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.065751,
+      "area": 7598454062.75
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.913203646,
+          -37.396721514
+        ],
+        [
+          143.928964164,
+          -38.063922075
+        ],
+        [
+          145.084746811,
+          -38.081503209
+        ],
+        [
+          145.065876942,
+          -37.402577156
+        ],
+        [
+          143.913203646,
+          -37.396721514
+        ]
+      ]
+    ]
+  }
+}

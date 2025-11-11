@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/04e48a5f45c3debd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T21:52:24.070Z",
+  "modified": "2025-11-11T21:52:24.070Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497673:FL21305483.jpg",
+      "type": "ImageService2",
+      "height": 6747,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497673/canvas/FL21305483",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497673/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Croajingolong East"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6747\"><polygon points=\"357,377 6643,3450 6179,4106 5196,4077 4771,4954 4133,5334 3447,5685 2090,5883 371,5759\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4630,
+            2546
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.677554,
+            -37.389546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1322,
+            3931
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.1510777,
+            -37.5662103
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2099,
+            1293
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.2749264,
+            -37.2308278
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5943,
+            3494
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.8879228,
+            -37.5076422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1402,
+            5407
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.162789,
+            -37.7525822
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/04e48a5f45c3debd",
+      "version": "https://annotations.allmaps.org/maps/04e48a5f45c3debd@10af5c06cddb8525",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ad0b18733b5d67cd",
+        "version": "https://annotations.allmaps.org/images/ad0b18733b5d67cd@cd4a3d987d253528",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/93ff033751fab43e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0b94db4bd1adfb5e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.07112,
+      "area": 4077698024.05
+    }
+  }
+}

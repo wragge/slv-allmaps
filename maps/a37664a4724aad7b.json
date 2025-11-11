@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a37664a4724aad7b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T10:25:50.948Z",
+  "modified": "2025-11-11T10:25:50.948Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22727690:FL22727852.jpg",
+      "type": "ImageService2",
+      "height": 4992,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22727690/canvas/FL22727852",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300343"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22727690/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Kyneton /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4992\"><polygon points=\"0,0 0,4992 7000,4992 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3758,
+            3314
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.457264,
+            -37.2513279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4316,
+            1297
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4647976,
+            -37.2380515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4787,
+            3691
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4658657,
+            -37.2548976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2373,
+            1445
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4477003,
+            -37.2373008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2373,
+            3371
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.445369,
+            -37.2503875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3236,
+            4461
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4514524,
+            -37.2588652
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a37664a4724aad7b",
+      "version": "https://annotations.allmaps.org/maps/a37664a4724aad7b@dac5e9db6851bfb1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2d46c87490458590",
+        "version": "https://annotations.allmaps.org/images/2d46c87490458590@3af987327bb2bc15",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/69ac18e223445c14",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a3d77a313f2d1c75"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.293716,
+      "area": 20878290.35
+    }
+  }
+}

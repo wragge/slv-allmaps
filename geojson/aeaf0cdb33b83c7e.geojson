@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/aeaf0cdb33b83c7e",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-11T10:21:20.019Z",
+    "modified": "2025-11-11T10:21:20.019Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485220:FL21304620.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485220:FL21304620.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4777,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485220/canvas/FL21304620",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485220/manifest",
+              "label": {
+                "none": [
+                  "Dandenong and Berwick Dandenong and Berwick"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "2f58465ba997127c",
+        "index": 2.561988997856489,
+        "resource": [
+          5109,
+          2542
+        ],
+        "geo": [
+          145.3061998,
+          -38.0289123
+        ]
+      },
+      {
+        "id": "6747d1bc95d175a8",
+        "index": 3.134197716255334,
+        "resource": [
+          4304,
+          4221
+        ],
+        "geo": [
+          145.2764246,
+          -38.0821698
+        ]
+      },
+      {
+        "id": "fe9b4aeab0549ba6",
+        "index": 0.38269154285218543,
+        "resource": [
+          2036,
+          282
+        ],
+        "geo": [
+          145.1848011,
+          -37.9584423
+        ]
+      },
+      {
+        "id": "ffd7272d82cfde1e",
+        "index": 1.7545179768466292,
+        "resource": [
+          3490,
+          771
+        ],
+        "geo": [
+          145.2422597,
+          -37.9730587
+        ]
+      },
+      {
+        "id": "045d02a944932e55",
+        "index": 4.5293710236943845,
+        "resource": [
+          2275,
+          3920
+        ],
+        "geo": [
+          145.1947742,
+          -38.0721694
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        4777
+      ],
+      [
+        7000,
+        4777
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/aeaf0cdb33b83c7e",
+      "version": "https://annotations.allmaps.org/maps/aeaf0cdb33b83c7e@ee129e1217a3b758",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/39babf03f03ef904",
+        "version": "https://annotations.allmaps.org/images/39babf03f03ef904@d71160d29d1e6ad8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/33e5875b887bd0e8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/05b3f39e63ea2e06"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.287385,
+      "area": 404878492.62
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.104006171,
+          -37.949329564
+        ],
+        [
+          145.105715896,
+          -38.09951397
+        ],
+        [
+          145.382327781,
+          -38.09916256
+        ],
+        [
+          145.380618056,
+          -37.948978154
+        ],
+        [
+          145.104006171,
+          -37.949329564
+        ]
+      ]
+    ]
+  }
+}

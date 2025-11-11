@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/19f35f653f5c167d",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-11T11:09:11.094Z",
+    "modified": "2025-11-11T11:09:11.094Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155532:FL23156219.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155532:FL23156219.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5017,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155532/canvas/FL23156219",
+          "label": {
+            "none": [
+              "ma000857"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155532/manifest",
+              "label": {
+                "none": [
+                  "Albury-Wodonga Corporation Wodonga to Cudgewa railway"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "c1181914bbeb6045",
+        "index": 2.9689936397184034,
+        "resource": [
+          1226,
+          556
+        ],
+        "geo": [
+          147.0018595,
+          -35.9248513
+        ]
+      },
+      {
+        "id": "c7478dd9c7c95a24",
+        "index": 1.3180617717292602,
+        "resource": [
+          6194,
+          490
+        ],
+        "geo": [
+          147.8118021,
+          -35.9111709
+        ]
+      },
+      {
+        "id": "f874894dcd0794b7",
+        "index": 0.69371831242193,
+        "resource": [
+          6619,
+          2543
+        ],
+        "geo": [
+          147.8875889,
+          -36.1833529
+        ]
+      },
+      {
+        "id": "68cdbbff3a9505ae",
+        "index": 3.3012947907018018,
+        "resource": [
+          467,
+          4037
+        ],
+        "geo": [
+          146.8770559,
+          -36.3901731
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5017
+      ],
+      [
+        7000,
+        5017
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/19f35f653f5c167d",
+      "version": "https://annotations.allmaps.org/maps/19f35f653f5c167d@dc1f9375d45dac96",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/560f8c05f0c77793",
+        "version": "https://annotations.allmaps.org/images/560f8c05f0c77793@1e657a1f5c3e78bb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2aec2c568729f360",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/128c64f49bb98516"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.06773,
+      "area": 7655707222.66
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.7988943,
+          -35.852488618
+        ],
+        [
+          146.802498562,
+          -36.521055134
+        ],
+        [
+          147.949662098,
+          -36.513021156
+        ],
+        [
+          147.946057835,
+          -35.84445464
+        ],
+        [
+          146.7988943,
+          -35.852488618
+        ]
+      ]
+    ]
+  }
+}

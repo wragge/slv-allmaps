@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/742e3ec9a599915b",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-11T10:53:22.853Z",
+    "modified": "2025-11-11T10:53:22.853Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7114648:FL21457079.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7114648:FL21457079.jpg",
+      "type": "ImageService2",
+      "width": 5137,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114648/canvas/FL21457079",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114648/manifest",
+              "label": {
+                "none": [
+                  "Melbourne & River Murray railway north Kyneton deviations."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "b1edf2319e53f8f2",
+        "index": 1.079815435206919,
+        "resource": [
+          2762,
+          1873
+        ],
+        "geo": [
+          144.5231487,
+          -37.2250353
+        ]
+      },
+      {
+        "id": "bceaaeda125d9155",
+        "index": 0.5107020543336649,
+        "resource": [
+          629,
+          1488
+        ],
+        "geo": [
+          144.3794485,
+          -37.1881518
+        ]
+      },
+      {
+        "id": "fe401c15234f73cc",
+        "index": 2.0337972566139446,
+        "resource": [
+          3167,
+          4184
+        ],
+        "geo": [
+          144.5304143,
+          -37.354112
+        ]
+      },
+      {
+        "id": "3f8e1b852de4edb5",
+        "index": 3.0320216515005667,
+        "resource": [
+          1332,
+          3912
+        ],
+        "geo": [
+          144.4064224,
+          -37.3263719
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        5137,
+        7000
+      ],
+      [
+        5137,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/742e3ec9a599915b",
+      "version": "https://annotations.allmaps.org/maps/742e3ec9a599915b@cb6af9409445887c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/581abb1266dd9450",
+        "version": "https://annotations.allmaps.org/images/581abb1266dd9450@e3fa353818bc1d2a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e8385046cdc2afcf",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e800915956992e2f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.162705,
+      "area": 1358336272.24
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.349368167,
+          -37.102300501
+        ],
+        [
+          144.287065909,
+          -37.485627382
+        ],
+        [
+          144.641207842,
+          -37.522785936
+        ],
+        [
+          144.7035101,
+          -37.139459055
+        ],
+        [
+          144.349368167,
+          -37.102300501
+        ]
+      ]
+    ]
+  }
+}

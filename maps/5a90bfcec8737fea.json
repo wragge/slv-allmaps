@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5a90bfcec8737fea",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T10:09:47.148Z",
+  "modified": "2025-11-11T10:09:47.148Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8754144:FL20708814.jpg",
+      "type": "ImageService2",
+      "height": 4430,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8754144/canvas/FL20708814",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Base map"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8754144/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works, scale 1600 feet to 1 inch [index plan]. 10G, Municipalities of Box Hill, Doncaster and Templestowe, Nunawading & Ringwood"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4430\"><polygon points=\"599,628 6672,608 6699,3652 602,3675\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6365,
+            2543
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2134041,
+            -37.81441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            745,
+            762
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.111132,
+            -37.7885074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5647,
+            678
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2008005,
+            -37.7875722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6363,
+            3347
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2133271,
+            -37.8260455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            839,
+            3477
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1129006,
+            -37.827705
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5a90bfcec8737fea",
+      "version": "https://annotations.allmaps.org/maps/5a90bfcec8737fea@49f43e4c57dd9505",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0a9635d7b4beeaa8",
+        "version": "https://annotations.allmaps.org/images/0a9635d7b4beeaa8@4108d43546c98ef0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/517bb0ff4972d34a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f383f3d394c7b1a7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.62415,
+      "area": 47571666.51
+    }
+  }
+}

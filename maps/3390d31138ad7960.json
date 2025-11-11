@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3390d31138ad7960",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T10:36:51.487Z",
+  "modified": "2025-11-11T10:36:51.487Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22790013:FL22798645.jpg",
+      "type": "ImageService2",
+      "height": 4990,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22790013/canvas/FL22798645",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300340"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22790013/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Shire of Kyneton / Shire of Kyneton."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4990\"><polygon points=\"0,0 0,4990 7000,4990 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5955,
+            2147
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7047074,
+            -37.2003126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1326,
+            2960
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3900945,
+            -37.1601042
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4301,
+            1239
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6172441,
+            -37.1261739
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2819,
+            4627
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4488948,
+            -37.2719813
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3390d31138ad7960",
+      "version": "https://annotations.allmaps.org/maps/3390d31138ad7960@59d8c0202358d488",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6f446a980e70b19a",
+        "version": "https://annotations.allmaps.org/images/6f446a980e70b19a@f0d1798e253db64c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e252d724ad9a5970",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a9518cfcd1cfc742"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.166916,
+      "area": 1253727363.93
+    }
+  }
+}

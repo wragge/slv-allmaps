@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/221ec53f6d245ed3",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T11:01:15.538Z",
+  "modified": "2025-11-11T11:01:15.538Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15464655:FL21372097.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5606,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15464655/canvas/FL21372097",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15464655/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Agricultural lands at Kyneton, in the Parish of Lauriston"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5606\" height=\"7000\"><polygon points=\"483,1075 3740,1118 3729,1889 3269,1873 3618,3672 5043,4536 4878,5622 3250,6084 1892,6051 553,5205\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4645,
+            5386
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4464788,
+            -37.2438654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1953,
+            5178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4089558,
+            -37.237248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3221,
+            3834
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4297992,
+            -37.2249545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            611,
+            3859
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3933971,
+            -37.2205982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3556,
+            1848
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4380703,
+            -37.2033226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            593,
+            5168
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.390584,
+            -37.2350877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            580,
+            1348
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3973289,
+            -37.1928976
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/221ec53f6d245ed3",
+      "version": "https://annotations.allmaps.org/maps/221ec53f6d245ed3@9768ee24365f9819",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/53382a4a7476501d",
+        "version": "https://annotations.allmaps.org/images/53382a4a7476501d@9c55e9b847007a1a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9ac53e81392f0aac",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2aa7f1eaf99f441b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.80583,
+      "area": 25959004.54
+    }
+  }
+}

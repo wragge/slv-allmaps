@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/259fafd1fb774e73",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T10:50:10.217Z",
+  "modified": "2025-11-11T10:50:10.217Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15499085:FL21305458.jpg",
+      "type": "ImageService2",
+      "height": 5022,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499085/canvas/FL21305458",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499085/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Victorian Railways, Kyneton and Redesdale line plan of land."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5022\"><polygon points=\"0,0 0,5022 7000,5022 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5548,
+            4160
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5039227,
+            -37.0907525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1089,
+            2733
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4864922,
+            -37.116496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2122,
+            2414
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4856194,
+            -37.109863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4467,
+            3798
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4998327,
+            -37.0972655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1369,
+            2246
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4832327,
+            -37.1141525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5454,
+            2574
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4918761,
+            -37.0891851
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/259fafd1fb774e73",
+      "version": "https://annotations.allmaps.org/maps/259fafd1fb774e73@ed356a084a177cae",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4fa241d8166df092",
+        "version": "https://annotations.allmaps.org/images/4fa241d8166df092@0ab257f13f65c275",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/34e5e8f3753fcd29",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/db48cc7feac02d24"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.433439,
+      "area": 17108679.4
+    }
+  }
+}

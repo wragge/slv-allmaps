@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f84dfa9232c6adad",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T11:14:40.877Z",
+  "modified": "2025-11-11T11:14:40.877Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588702:FL21661751.jpg",
+      "type": "ImageService2",
+      "height": 4966,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588702/canvas/FL21661751",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588702/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "The handy pocket map of Melbourne and suburban railway and tramway systems showing cable, electric tramway and railway service, railway stations and tram termini throughout the metropolitan area."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4966\"><polygon points=\"884,519 6758,494 6765,4894 905,4908\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6248,
+            4713
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0915351,
+            -37.8755515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5513,
+            794
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0784455,
+            -37.7349282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1283,
+            4622
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8857742,
+            -37.8463659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1789,
+            1110
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9281302,
+            -37.7303999
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f84dfa9232c6adad",
+      "version": "https://annotations.allmaps.org/maps/f84dfa9232c6adad@87ada278eb6a5c86",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/efe212be5b3b00dc",
+        "version": "https://annotations.allmaps.org/images/efe212be5b3b00dc@3dff219d17b40524",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4665afebb73bb1f6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8d0ad91bed7772ab"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.267033,
+      "area": 361576751.04
+    }
+  }
+}

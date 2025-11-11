@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/19f35f653f5c167d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T11:09:11.094Z",
+  "modified": "2025-11-11T11:09:11.094Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155532:FL23156219.jpg",
+      "type": "ImageService2",
+      "height": 5017,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155532/canvas/FL23156219",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000857"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155532/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Albury-Wodonga Corporation Wodonga to Cudgewa railway"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5017\"><polygon points=\"0,0 0,5017 7000,5017 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1226,
+            556
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.0018595,
+            -35.9248513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6194,
+            490
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.8118021,
+            -35.9111709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6619,
+            2543
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.8875889,
+            -36.1833529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            467,
+            4037
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8770559,
+            -36.3901731
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/19f35f653f5c167d",
+      "version": "https://annotations.allmaps.org/maps/19f35f653f5c167d@dc1f9375d45dac96",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/560f8c05f0c77793",
+        "version": "https://annotations.allmaps.org/images/560f8c05f0c77793@1e657a1f5c3e78bb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2aec2c568729f360",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/128c64f49bb98516"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.06773,
+      "area": 7655707222.66
+    }
+  }
+}

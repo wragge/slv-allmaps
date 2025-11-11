@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/90dc97e30a44e58d",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-11T10:42:00.846Z",
+    "modified": "2025-11-11T10:42:00.846Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002113:FL21480818.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002113:FL21480818.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4739,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002113/canvas/FL21480818",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002113/manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : standard 2 inches to 1 mile series topographical map. 827 B, Daylesford B"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "50f642de07fd6355",
+        "index": 0.6010764705129863,
+        "resource": [
+          5914,
+          3323
+        ],
+        "geo": [
+          144.4935132,
+          -37.3653711
+        ]
+      },
+      {
+        "id": "6447626fce0ca1c0",
+        "index": 1.1163323511640022,
+        "resource": [
+          6021,
+          637
+        ],
+        "geo": [
+          144.4985053,
+          -37.2549432
+        ]
+      },
+      {
+        "id": "f2dde6dedb965e0b",
+        "index": 2.0322727618705883,
+        "resource": [
+          2288,
+          1029
+        ],
+        "geo": [
+          144.3072268,
+          -37.271062
+        ]
+      },
+      {
+        "id": "bb2e5e5991562e6b",
+        "index": 3.3375081140003973,
+        "resource": [
+          1948,
+          3169
+        ],
+        "geo": [
+          144.2895772,
+          -37.3588258
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1162,
+        472
+      ],
+      [
+        6037,
+        476
+      ],
+      [
+        6031,
+        3517
+      ],
+      [
+        1166,
+        3512
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/90dc97e30a44e58d",
+      "version": "https://annotations.allmaps.org/maps/90dc97e30a44e58d@3bc771587bef0b0b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/809e27da22bced5e",
+        "version": "https://annotations.allmaps.org/images/809e27da22bced5e@5d6f0112450021aa",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fcf435d487ece005",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/854c39a25024c2fa"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.219544,
+      "area": 307206195.67
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.249187386,
+          -37.248085707
+        ],
+        [
+          144.249633207,
+          -37.372955388
+        ],
+        [
+          144.499396866,
+          -37.373294088
+        ],
+        [
+          144.499464354,
+          -37.248383605
+        ],
+        [
+          144.249187386,
+          -37.248085707
+        ]
+      ]
+    ]
+  }
+}

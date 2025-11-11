@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/90dc97e30a44e58d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T10:42:00.846Z",
+  "modified": "2025-11-11T10:42:00.846Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002113:FL21480818.jpg",
+      "type": "ImageService2",
+      "height": 4739,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002113/canvas/FL21480818",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002113/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : standard 2 inches to 1 mile series topographical map. 827 B, Daylesford B"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4739\"><polygon points=\"1162,472 6037,476 6031,3517 1166,3512\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5914,
+            3323
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4935132,
+            -37.3653711
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6021,
+            637
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4985053,
+            -37.2549432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2288,
+            1029
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3072268,
+            -37.271062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1948,
+            3169
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2895772,
+            -37.3588258
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/90dc97e30a44e58d",
+      "version": "https://annotations.allmaps.org/maps/90dc97e30a44e58d@3bc771587bef0b0b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/809e27da22bced5e",
+        "version": "https://annotations.allmaps.org/images/809e27da22bced5e@5d6f0112450021aa",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fcf435d487ece005",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/854c39a25024c2fa"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.219544,
+      "area": 307206195.67
+    }
+  }
+}

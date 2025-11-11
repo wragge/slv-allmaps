@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/742e3ec9a599915b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T10:53:22.853Z",
+  "modified": "2025-11-11T10:53:22.853Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7114648:FL21457079.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5137,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114648/canvas/FL21457079",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114648/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne & River Murray railway north Kyneton deviations."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5137\" height=\"7000\"><polygon points=\"0,0 0,7000 5137,7000 5137,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2762,
+            1873
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5231487,
+            -37.2250353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            629,
+            1488
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3794485,
+            -37.1881518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3167,
+            4184
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5304143,
+            -37.354112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1332,
+            3912
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4064224,
+            -37.3263719
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/742e3ec9a599915b",
+      "version": "https://annotations.allmaps.org/maps/742e3ec9a599915b@cb6af9409445887c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/581abb1266dd9450",
+        "version": "https://annotations.allmaps.org/images/581abb1266dd9450@e3fa353818bc1d2a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e8385046cdc2afcf",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e800915956992e2f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.162705,
+      "area": 1358336272.24
+    }
+  }
+}

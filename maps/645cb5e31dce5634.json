@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/645cb5e31dce5634",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-11T01:11:38.664Z",
+  "modified": "2025-11-11T01:11:38.664Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501330:FL21377637.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5232,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501330/canvas/FL21377637",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501330/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan and sections of the low land comprising the Carrum Swamp and situated between the sold lands in the Parish of Lyndhurst"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5232\" height=\"7000\"><polygon points=\"425,991 440,2009 1077,2631 1644,3579 1990,4332 2306,5410 2391,6313 2421,6639 4603,6640 4597,431 4247,426 4227,787 3981,787 3790,1002\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4524,
+            5663
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1939666,
+            -38.1171221
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4583,
+            1039
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2182938,
+            -37.9998871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3396,
+            5676
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1574418,
+            -38.1126289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            768,
+            2036
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0920157,
+            -38.0098857
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4300,
+            3941
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1948452,
+            -38.0719244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1163,
+            1048
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1094527,
+            -37.9865658
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/645cb5e31dce5634",
+      "version": "https://annotations.allmaps.org/maps/645cb5e31dce5634@7af431a819d72c66",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/008c80ec391150e0",
+        "version": "https://annotations.allmaps.org/images/008c80ec391150e0@824f00c619c9867b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1efe5787ffcf765b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/92e4e8875d10b7e4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.352366,
+      "area": 140523001.72
+    }
+  }
+}

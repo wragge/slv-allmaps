@@ -1,0 +1,221 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3bc3c136f793e17e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T04:16:17.235Z",
+  "modified": "2025-11-12T04:16:17.235Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7030671:FL21353605.jpg",
+      "type": "ImageService2",
+      "height": 5006,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030671/canvas/FL21353605",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030671/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Winyar, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5006\"><polygon points=\"0,0 0,5006 7000,5006 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6404,
+            567
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.0791076,
+            -37.47095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3563,
+            929
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.0030709,
+            -37.4747504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1516,
+            2228
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.9456569,
+            -37.5041887
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1194,
+            3849
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.9370788,
+            -37.5404725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4328,
+            561
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.0181921,
+            -37.4711179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1305,
+            4515
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.9402358,
+            -37.5549193
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            447,
+            4483
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.9171929,
+            -37.5548438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6715,
+            2300
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.0879022,
+            -37.5076901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6689,
+            4475
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.0898809,
+            -37.5537862
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3bc3c136f793e17e",
+      "version": "https://annotations.allmaps.org/maps/3bc3c136f793e17e@823f9b4dbd4d1787",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4f2c868e4a2fb2ab",
+        "version": "https://annotations.allmaps.org/images/4f2c868e4a2fb2ab@899bc98b02f7c89b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6303304699b73000",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/39d90de49fbfe851"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.41292,
+      "area": 205521028.93
+    }
+  }
+}

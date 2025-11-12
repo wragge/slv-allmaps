@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/cc99ca7f75c0b015",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-12T00:41:11.676Z",
+    "modified": "2025-11-12T00:41:11.676Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7041578:FL21357025.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7041578:FL21357025.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5210,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041578/canvas/FL21357025",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041578/manifest",
+              "label": {
+                "none": [
+                  "Wurrin, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "01517537e7b2c1f2",
+        "index": 0.4741442052973952,
+        "resource": [
+          5934,
+          2612
+        ],
+        "geo": [
+          149.6777525,
+          -37.3893693
+        ]
+      },
+      {
+        "id": "04a20fecbc73208a",
+        "index": 3.251674876787617,
+        "resource": [
+          821,
+          4406
+        ],
+        "geo": [
+          149.5421586,
+          -37.4099617
+        ]
+      },
+      {
+        "id": "3ecd530fbf4b694a",
+        "index": 2.9019442687039216,
+        "resource": [
+          6478,
+          4787
+        ],
+        "geo": [
+          149.6825637,
+          -37.4341267
+        ]
+      },
+      {
+        "id": "5361a46cb1499e95",
+        "index": 4.264661801259971,
+        "resource": [
+          378,
+          977
+        ],
+        "geo": [
+          149.5482072,
+          -37.3388075
+        ]
+      },
+      {
+        "id": "ed6f1ed3181cac6e",
+        "index": 5.742317645646191,
+        "resource": [
+          463,
+          2827
+        ],
+        "geo": [
+          149.5405264,
+          -37.3777063
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5210
+      ],
+      [
+        7000,
+        5210
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cc99ca7f75c0b015",
+      "version": "https://annotations.allmaps.org/maps/cc99ca7f75c0b015@b21276bdf3bd4635",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/312de7a5cf5d6fa6",
+        "version": "https://annotations.allmaps.org/images/312de7a5cf5d6fa6@af3e2b8de0c6af88",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/06a7572b233843c7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cb4240fb7519517f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.44269,
+      "area": 186095650.4
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          149.54271976,
+          -37.318498
+        ],
+        [
+          149.518090692,
+          -37.423901345
+        ],
+        [
+          149.692865648,
+          -37.444639885
+        ],
+        [
+          149.717494715,
+          -37.33923654
+        ],
+        [
+          149.54271976,
+          -37.318498
+        ]
+      ]
+    ]
+  }
+}

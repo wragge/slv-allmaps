@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3fdadf00c0e35a9a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T07:24:20.018Z",
+  "modified": "2025-11-12T07:24:20.018Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7033473:FL21353765.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4839,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033473/canvas/FL21353765",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033473/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Willung, Parish of Willung, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4839\" height=\"7000\"><polygon points=\"667,2560 697,6380 3755,6416 4157,2555 672,2565\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3199,
+            5747
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8200428,
+            -38.2548615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3586,
+            2889
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8219157,
+            -38.2500788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1634,
+            6371
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8164127,
+            -38.2554572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2002,
+            2857
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8184173,
+            -38.2496127
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3fdadf00c0e35a9a",
+      "version": "https://annotations.allmaps.org/maps/3fdadf00c0e35a9a@64e5c1fbf97e19cc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c80b03f14b37e268",
+        "version": "https://annotations.allmaps.org/images/c80b03f14b37e268@b556262c1bd10a13",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c3c74ccbc5cadbd1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0454340397bfc391"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000287,
+      "area": 152141089511451.38
+    }
+  }
+}

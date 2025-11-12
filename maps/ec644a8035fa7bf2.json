@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ec644a8035fa7bf2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T07:28:37.014Z",
+  "modified": "2025-11-12T07:28:37.014Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029553:FL21353509.jpg",
+      "type": "ImageService2",
+      "height": 5834,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029553/canvas/FL21353509",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029553/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Bongurra, Parish of Nerrena, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5834\"><polygon points=\"0,0 0,5834 7000,5834 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1459,
+            2777
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9795441,
+            -38.576098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4728,
+            3734
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9850897,
+            -38.5783005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3390,
+            4471
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9824556,
+            -38.578941
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1370,
+            3950
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9790394,
+            -38.5777519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5227,
+            2570
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9864482,
+            -38.5766818
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ec644a8035fa7bf2",
+      "version": "https://annotations.allmaps.org/maps/ec644a8035fa7bf2@1475b5c3f2eb2677",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e54d19b9be087542",
+        "version": "https://annotations.allmaps.org/images/e54d19b9be087542@b4e43a9d2df6cea7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/316eb31d5aac5c78",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/57c6062f112205bb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000607,
+      "area": 110896298851889.66
+    }
+  }
+}

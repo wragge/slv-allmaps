@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/879b65e019504d5a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T06:32:32.509Z",
+  "modified": "2025-11-12T06:32:32.509Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7039429:FL21354067.jpg",
+      "type": "ImageService2",
+      "height": 5456,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039429/canvas/FL21354067",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039429/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Drouin, Parish of Drouin West, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5456\"><polygon points=\"1907,227 6706,308 6658,5090 1821,5102\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6230,
+            614
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8643504,
+            -38.1273426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4905,
+            4895
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8551301,
+            -38.1422411
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4913,
+            3688
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8561007,
+            -38.1378301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6236,
+            3112
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8625852,
+            -38.1364633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2636,
+            1278
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8472553,
+            -38.1278426
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/879b65e019504d5a",
+      "version": "https://annotations.allmaps.org/maps/879b65e019504d5a@dc181c566d444d32",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e8bf9f8e0ede1db8",
+        "version": "https://annotations.allmaps.org/images/e8bf9f8e0ede1db8@60a62ab7d6d3a513",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ec153bff680d4b8c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/23a14206708f81b7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.441655,
+      "area": 3902597.05
+    }
+  }
+}

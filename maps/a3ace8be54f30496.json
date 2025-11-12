@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a3ace8be54f30496",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T06:53:44.803Z",
+  "modified": "2025-11-12T06:53:44.803Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15454962:FL21373137.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5139,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15454962/canvas/FL21373137",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15454962/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Waterloo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5139\" height=\"7000\"><polygon points=\"218,1651 4660,1641 4797,6605 804,6590\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3326,
+            4181
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0621326,
+            -38.2038571
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4506,
+            4865
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0668651,
+            -38.2069269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3747,
+            5103
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0633792,
+            -38.2072899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4451,
+            4110
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0671753,
+            -38.2042693
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a3ace8be54f30496",
+      "version": "https://annotations.allmaps.org/maps/a3ace8be54f30496@b66a18a7d2505812",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8e396b1de8b6a2cf",
+        "version": "https://annotations.allmaps.org/images/8e396b1de8b6a2cf@799c3f4698d4545b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/23b69b7132bcefe1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/808813bae7af9660"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.559074,
+      "area": 3188654.06
+    }
+  }
+}

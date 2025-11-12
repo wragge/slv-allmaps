@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b834f63e8830e995",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T07:36:55.664Z",
+  "modified": "2025-11-12T07:36:55.664Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7037840:FL21355709.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5965,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037840/canvas/FL21355709",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037840/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Flynns Creek, Parish of Rosedale, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5965\" height=\"7000\"><polygon points=\"600,2550 5070,2601 5167,6106 570,6040\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2083,
+            4008
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6766001,
+            -38.2188717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2048,
+            5816
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6764245,
+            -38.2197627
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3323,
+            4018
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.67752,
+            -38.2189945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3308,
+            5862
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6773339,
+            -38.2198868
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b834f63e8830e995",
+      "version": "https://annotations.allmaps.org/maps/b834f63e8830e995@c8c1fdf9ae600806",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9f195b620c8e5420",
+        "version": "https://annotations.allmaps.org/images/9f195b620c8e5420@24be03a11de9d33d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c2dd794bbbd57dcc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e2ec092fa8e23a32"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002269,
+      "area": 3079425506911.28
+    }
+  }
+}

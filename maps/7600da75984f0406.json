@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7600da75984f0406",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T06:47:56.323Z",
+  "modified": "2025-11-12T06:47:56.323Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15502415:FL21379791.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6871,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15502415/canvas/FL21379791",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15502415/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Moe, parishes of Moe & Yarragon, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6871\" height=\"7000\"><polygon points=\"388,2169 4131,2128 4289,4460 4751,4892 3700,6263 433,5507\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2008,
+            2703
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2613621,
+            -38.1733023
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1877,
+            4170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2609798,
+            -38.1773617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1913,
+            3253
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.261045,
+            -38.1748209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3193,
+            2780
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2654908,
+            -38.1735134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2088,
+            5670
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2617904,
+            -38.1814403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3755,
+            4497
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.267562,
+            -38.1781547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3722,
+            5751
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2675532,
+            -38.1816015
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7600da75984f0406",
+      "version": "https://annotations.allmaps.org/maps/7600da75984f0406@4fcb0c9844a3f3ec",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/64db522ba57c8f7f",
+        "version": "https://annotations.allmaps.org/images/64db522ba57c8f7f@cf1f0998dea3b8a4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/889b5cf94006dcfb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f48bb26a091356d9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.27464,
+      "area": 1355777.18
+    }
+  }
+}

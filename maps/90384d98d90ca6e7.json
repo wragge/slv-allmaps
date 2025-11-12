@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/90384d98d90ca6e7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T07:19:46.683Z",
+  "modified": "2025-11-12T07:19:46.683Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15476880:FL21378335.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4913,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15476880/canvas/FL21378335",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15476880/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Maryvale County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4913\" height=\"7000\"><polygon points=\"201,1900 4676,1808 4671,6568 328,6502\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3089,
+            3684
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.447168,
+            -38.2030448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4563,
+            2258
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4989051,
+            -38.177276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4132,
+            3385
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4794691,
+            -38.2006849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1625,
+            5443
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3949537,
+            -38.2368212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1784,
+            2085
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4180179,
+            -38.1607684
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/90384d98d90ca6e7",
+      "version": "https://annotations.allmaps.org/maps/90384d98d90ca6e7@eca98f5c2cb785c7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b7c7b63ff5b9e95a",
+        "version": "https://annotations.allmaps.org/images/b7c7b63ff5b9e95a@a26312c33420146c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7558da019094cec3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d5b9cfb0e66c87d8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000378,
+      "area": 144240659423018.62
+    }
+  }
+}

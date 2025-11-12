@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8003b2dabe065a32",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T06:24:00.653Z",
+  "modified": "2025-11-12T06:24:00.653Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501625:FL21376447.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5893,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501625/canvas/FL21376447",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501625/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town & suburban allotment Neerim, Parish of Neerim, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5893\" height=\"7000\"><polygon points=\"0,0 0,7000 5893,7000 5893,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            854,
+            930
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9514763,
+            -37.9528255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2662,
+            6187
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9539191,
+            -37.9626833
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2271,
+            5080
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9533646,
+            -37.9606229
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            889,
+            6187
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9500103,
+            -37.9621496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2997,
+            1789
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9559725,
+            -37.9549411
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8003b2dabe065a32",
+      "version": "https://annotations.allmaps.org/maps/8003b2dabe065a32@6cad55541144b942",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6f923106aa4515e7",
+        "version": "https://annotations.allmaps.org/images/6f923106aa4515e7@2012e45c069bc30a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a438077ae33fe180",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a99e5b05ba8f1889"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 5.054135,
+      "area": 1614881.98
+    }
+  }
+}

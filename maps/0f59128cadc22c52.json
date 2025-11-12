@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0f59128cadc22c52",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T07:33:31.240Z",
+  "modified": "2025-11-12T07:33:31.240Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9594286:FL21654274.jpg",
+      "type": "ImageService2",
+      "height": 4983,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9594286/canvas/FL21654274",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9594286/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Buffalo, Parish of Meeniyan, County of Buln-Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4983\"><polygon points=\"1920,1519 4708,1501 4668,4271 1898,4274\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2912,
+            3342
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0257113,
+            -38.6564897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3917,
+            3400
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0327946,
+            -38.6577435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4389,
+            2349
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0373714,
+            -38.6522615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3081,
+            2470
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0279805,
+            -38.6517956
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0f59128cadc22c52",
+      "version": "https://annotations.allmaps.org/maps/0f59128cadc22c52@c9f407482499912c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/be3508625d9886cd",
+        "version": "https://annotations.allmaps.org/images/be3508625d9886cd@6860a890474e5e58",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/391b085f41586c1b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ab036021612cf603"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000873,
+      "area": 10074376156984.04
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9dcb09d9e4707158",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T07:03:55.452Z",
+  "modified": "2025-11-12T07:03:55.452Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15465845:FL21372971.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5244,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15465845/canvas/FL21372971",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15465845/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Trafalgar"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5244\" height=\"7000\"><polygon points=\"158,2454 4679,1651 5157,3896 4629,6644 682,6563\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2706,
+            4623
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1541068,
+            -38.2096457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3570,
+            4251
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1575161,
+            -38.2084417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3426,
+            5123
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1570274,
+            -38.2112669
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9dcb09d9e4707158",
+      "version": "https://annotations.allmaps.org/maps/9dcb09d9e4707158@7d2f8c7f9cbf868a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/37752086d02949a9",
+        "version": "https://annotations.allmaps.org/images/37752086d02949a9@9fca1195a467c35b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e1335235054d6874",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e3e0eaa0eba8d8a0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.821352,
+      "area": 2588426.79
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f33717961e153c9b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T02:52:03.702Z",
+  "modified": "2025-11-12T02:52:03.702Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7049631:FL21355537.jpg",
+      "type": "ImageService2",
+      "height": 4415,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049631/canvas/FL21355537",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049631/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Wurrin, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4415\"><polygon points=\"0,0 0,4415 7000,4415 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5518,
+            3954
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6929682,
+            -37.4399695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5797,
+            3653
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.7038769,
+            -37.4333862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            465,
+            2241
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.5391236,
+            -37.3774713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            794,
+            3473
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.5421951,
+            -37.4098576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4746,
+            2096
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6775816,
+            -37.3893111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6362,
+            2580
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.7264512,
+            -37.4084314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5163,
+            3782
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.682457,
+            -37.4341512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            473,
+            800
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.5482396,
+            -37.3384997
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f33717961e153c9b",
+      "version": "https://annotations.allmaps.org/maps/f33717961e153c9b@fb12b07725efed77",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4340e61fc696d018",
+        "version": "https://annotations.allmaps.org/images/4340e61fc696d018@3ef40bb71cb9b943",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/97549f4e85858be5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ed06e1e92f7e6381"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.344485,
+      "area": 260427980.72
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/78a3270a814ee053",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T04:05:53.217Z",
+  "modified": "2025-11-12T04:05:53.217Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7051322:FL21358077.jpg",
+      "type": "ImageService2",
+      "height": 5000,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7051322/canvas/FL21358077",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7051322/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Loomat, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5000\"><polygon points=\"0,0 0,5000 7000,5000 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1166,
+            3680
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.1963142,
+            -37.3920194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2984,
+            3823
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.2470389,
+            -37.3951674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6572,
+            4364
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.3527776,
+            -37.4083648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1547,
+            2028
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.2072659,
+            -37.3553819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2998,
+            4372
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.2480591,
+            -37.4088412
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1634,
+            475
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.2102473,
+            -37.321175
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/78a3270a814ee053",
+      "version": "https://annotations.allmaps.org/maps/78a3270a814ee053@cd0326e1b269bfa6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9ccc743fe84bc342",
+        "version": "https://annotations.allmaps.org/images/9ccc743fe84bc342@d036610d5ee671bb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fb26c618adc5aeb5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/52f24702bec051cf"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.396337,
+      "area": 222812549.07
+    }
+  }
+}

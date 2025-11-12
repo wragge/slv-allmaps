@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/73627977fb897cd0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T03:13:59.303Z",
+  "modified": "2025-11-12T03:13:59.303Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036802:FL21475845.jpg",
+      "type": "ImageService2",
+      "height": 4992,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036802/canvas/FL21475845",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036802/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Mallacoota, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4992\"><polygon points=\"0,0 0,4992 7000,4992 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1830,
+            853
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6693142,
+            -37.4975921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2908,
+            2290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6893053,
+            -37.5301321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5876,
+            3701
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.7568806,
+            -37.5667592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5818,
+            3162
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.7576424,
+            -37.5562205
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/73627977fb897cd0",
+      "version": "https://annotations.allmaps.org/maps/73627977fb897cd0@9b831df0450e3524",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f02cf90d13dba4d4",
+        "version": "https://annotations.allmaps.org/images/f02cf90d13dba4d4@c8554b88c67412e0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4295f82318d45f05",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7f3d5e3194459f68"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.443789,
+      "area": 177426917.05
+    }
+  }
+}

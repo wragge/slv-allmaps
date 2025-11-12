@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/73627977fb897cd0",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-12T03:13:59.303Z",
+    "modified": "2025-11-12T03:13:59.303Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036802:FL21475845.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036802:FL21475845.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4992,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036802/canvas/FL21475845",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036802/manifest",
+              "label": {
+                "none": [
+                  "Mallacoota, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "2fab36e2a94f6fd5",
+        "index": 2.09812944818954,
+        "resource": [
+          1830,
+          853
+        ],
+        "geo": [
+          149.6693142,
+          -37.4975921
+        ]
+      },
+      {
+        "id": "6a5aa76a25ff823d",
+        "index": 1.8832774920193187,
+        "resource": [
+          2908,
+          2290
+        ],
+        "geo": [
+          149.6893053,
+          -37.5301321
+        ]
+      },
+      {
+        "id": "6dcacc37d0af7c41",
+        "index": 0.759808095573878,
+        "resource": [
+          5876,
+          3701
+        ],
+        "geo": [
+          149.7568806,
+          -37.5667592
+        ]
+      },
+      {
+        "id": "5eb71866fbc67eee",
+        "index": 3.8969068669734246,
+        "resource": [
+          5818,
+          3162
+        ],
+        "geo": [
+          149.7576424,
+          -37.5562205
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        4992
+      ],
+      [
+        7000,
+        4992
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/73627977fb897cd0",
+      "version": "https://annotations.allmaps.org/maps/73627977fb897cd0@9b831df0450e3524",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f02cf90d13dba4d4",
+        "version": "https://annotations.allmaps.org/images/f02cf90d13dba4d4@c8554b88c67412e0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4295f82318d45f05",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7f3d5e3194459f68"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.443789,
+      "area": 177426917.05
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          149.627654604,
+          -37.475194362
+        ],
+        [
+          149.604512903,
+          -37.576360186
+        ],
+        [
+          149.778707542,
+          -37.596445552
+        ],
+        [
+          149.801849243,
+          -37.495279728
+        ],
+        [
+          149.627654604,
+          -37.475194362
+        ]
+      ]
+    ]
+  }
+}

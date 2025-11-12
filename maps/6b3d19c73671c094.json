@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6b3d19c73671c094",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T03:35:15.852Z",
+  "modified": "2025-11-12T03:35:15.852Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7047751:FL21357749.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4868,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7047751/canvas/FL21357749",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7047751/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Manorina, Parish of Jilwain, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4868\" height=\"7000\"><polygon points=\"0,0 0,7000 4868,7000 4868,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4341,
+            3347
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7953846,
+            -37.6701165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4325,
+            6037
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7982305,
+            -37.6728768
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            974,
+            3339
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7910098,
+            -37.6728867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2632,
+            4455
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7942516,
+            -37.6724337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4338,
+            4567
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7966543,
+            -37.6713605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3002,
+            4567
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7949122,
+            -37.6724523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            978,
+            6053
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.7937427,
+            -37.6756829
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6b3d19c73671c094",
+      "version": "https://annotations.allmaps.org/maps/6b3d19c73671c094@2507143358f9acbc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3e9f2febaf490830",
+        "version": "https://annotations.allmaps.org/images/3e9f2febaf490830@4a02f80073ed555d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/83c361006b240a94",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/55bafcb015e27d50"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 6.787819,
+      "area": 739585.11
+    }
+  }
+}

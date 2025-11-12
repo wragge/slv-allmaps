@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/853ba0f1a7babc44",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T03:30:47.812Z",
+  "modified": "2025-11-12T03:30:47.812Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7026530:FL21353101.jpg",
+      "type": "ImageService2",
+      "height": 4754,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7026530/canvas/FL21353101",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7026530/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Maramingo, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4754\"><polygon points=\"119,114 6946,169 6884,3985 3479,3940 3479,3802 1392,3764 1423,2512 188,2518\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5857,
+            2991
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6795577,
+            -37.4803669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6473,
+            666
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.7038222,
+            -37.433422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5669,
+            785
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6825851,
+            -37.4340397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5900,
+            1013
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.6878499,
+            -37.4392288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            443,
+            1908
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.5432794,
+            -37.4415304
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/853ba0f1a7babc44",
+      "version": "https://annotations.allmaps.org/maps/853ba0f1a7babc44@8f6df15d2d2c2a7f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ba51d2be8830dd15",
+        "version": "https://annotations.allmaps.org/images/ba51d2be8830dd15@f3f71dc223d963ba",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/edd1e46e2a1dd5cf",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9ad793be479c34e9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.429926,
+      "area": 127949573.54
+    }
+  }
+}

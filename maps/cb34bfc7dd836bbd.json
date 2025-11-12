@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cb34bfc7dd836bbd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T20:06:27.840Z",
+  "modified": "2025-11-12T20:06:27.840Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7044118:FL21355341.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5329,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044118/canvas/FL21355341",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044118/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town and Parish of Longford, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5329\" height=\"7000\"><polygon points=\"1194,3752 1087,6813 5257,6809 5280,4946 4973,4883 4899,1482 2093,1589\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1297,
+            6625
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.07418537318898,
+            -38.168926777507615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4082,
+            6629
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.09245486445673,
+            -38.171267190127466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2842,
+            2188
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.08914818537033,
+            -38.14752307769698
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cb34bfc7dd836bbd",
+      "version": "https://annotations.allmaps.org/maps/cb34bfc7dd836bbd@2d5d44bf7942f542",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8a7142d307e348f2",
+        "version": "https://annotations.allmaps.org/images/8a7142d307e348f2@88add484776a5db0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/200a252191bf928f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e3e0a5e2f26c639b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000356,
+      "area": 154026555186650.78
+    }
+  }
+}

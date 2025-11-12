@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/cb34bfc7dd836bbd",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-12T20:06:27.840Z",
+    "modified": "2025-11-12T20:06:27.840Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7044118:FL21355341.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7044118:FL21355341.jpg",
+      "type": "ImageService2",
+      "width": 5329,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044118/canvas/FL21355341",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044118/manifest",
+              "label": {
+                "none": [
+                  "Town and Parish of Longford, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0cbd53f75593c148",
+        "index": 1.9994870036813897,
+        "resource": [
+          1297,
+          6625
+        ],
+        "geo": [
+          147.07418537318898,
+          -38.168926777507615
+        ]
+      },
+      {
+        "id": "2b3d8842d2688ead",
+        "index": 2.86024298183524,
+        "resource": [
+          4082,
+          6629
+        ],
+        "geo": [
+          147.09245486445673,
+          -38.171267190127466
+        ]
+      },
+      {
+        "id": "35f1483fbbcc06bb",
+        "index": 0.7413661493232617,
+        "resource": [
+          2842,
+          2188
+        ],
+        "geo": [
+          147.08914818537033,
+          -38.14752307769698
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1194,
+        3752
+      ],
+      [
+        1087,
+        6813
+      ],
+      [
+        5257,
+        6809
+      ],
+      [
+        5280,
+        4946
+      ],
+      [
+        4973,
+        4883
+      ],
+      [
+        4899,
+        1482
+      ],
+      [
+        2093,
+        1589
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cb34bfc7dd836bbd",
+      "version": "https://annotations.allmaps.org/maps/cb34bfc7dd836bbd@2d5d44bf7942f542",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8a7142d307e348f2",
+        "version": "https://annotations.allmaps.org/images/8a7142d307e348f2@88add484776a5db0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/200a252191bf928f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e3e0a5e2f26c639b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000356,
+      "area": 154026555186650.78
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16372495.997564062,
+          -4601224.847562909
+        ],
+        [
+          16372047.275880938,
+          -4603428.405821227
+        ],
+        [
+          16375093.63399371,
+          -4603917.369003356
+        ],
+        [
+          16375335.969474563,
+          -4602571.26070199
+        ],
+        [
+          16375119.355691247,
+          -4602489.437174062
+        ],
+        [
+          16375477.030946355,
+          -4600018.367953558
+        ],
+        [
+          16373414.503833052,
+          -4599764.863598995
+        ],
+        [
+          16372495.997564062,
+          -4601224.847562909
+        ]
+      ]
+    ]
+  }
+}

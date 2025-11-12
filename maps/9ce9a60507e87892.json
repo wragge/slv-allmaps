@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9ce9a60507e87892",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T10:31:33.633Z",
+  "modified": "2025-11-12T10:31:33.633Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7039898:FL21355935.jpg",
+      "type": "ImageService2",
+      "height": 5343,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039898/canvas/FL21355935",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039898/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Port Albert, Parish of Alberton East, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5343\"><polygon points=\"452,1919 6270,1944 6329,4181 1561,4125 679,3548\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2773,
+            3818
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68823,
+            -38.6649976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2778,
+            2121
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6895405,
+            -38.6591234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1847,
+            3884
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6840766,
+            -38.6646553
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            924,
+            2118
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6814144,
+            -38.6580091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5539,
+            3380
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7007002,
+            -38.6650828
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9ce9a60507e87892",
+      "version": "https://annotations.allmaps.org/maps/9ce9a60507e87892@91dfbc050a6e8256",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e7fae461c4a3f77e",
+        "version": "https://annotations.allmaps.org/images/e7fae461c4a3f77e@ac88367f6d3f6a52",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/45fa0ef4169d26b2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0630bb0b7293b064"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000265,
+      "area": 176257597881472.66
+    }
+  }
+}

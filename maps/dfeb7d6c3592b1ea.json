@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/dfeb7d6c3592b1ea",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T10:22:23.312Z",
+  "modified": "2025-11-12T10:22:23.312Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7031240:FL21477425.jpg",
+      "type": "ImageService2",
+      "height": 4910,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031240/canvas/FL21477425",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031240/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Inverlock, Parishes of Kirrak and Drumdlemara, County of Buln Buln /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4910\"><polygon points=\"0,0 0,4910 7000,4910 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            320,
+            1163
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7263255,
+            -38.6264787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6513,
+            1757
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7566377,
+            -38.6323215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4556,
+            601
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7478697,
+            -38.6267445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            359,
+            3026
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7251656,
+            -38.6336757
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3444,
+            2705
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7407801,
+            -38.6342083
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/dfeb7d6c3592b1ea",
+      "version": "https://annotations.allmaps.org/maps/dfeb7d6c3592b1ea@46a8c8712916625d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/44d01bf9f86450ec",
+        "version": "https://annotations.allmaps.org/images/44d01bf9f86450ec@10ec1f04c8fb3ef2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ee4e65e979241f4d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/812ba1cd2235eb94"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000649,
+      "area": 81692112137792.77
+    }
+  }
+}

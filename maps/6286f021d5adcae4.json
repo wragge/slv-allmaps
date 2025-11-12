@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6286f021d5adcae4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T10:13:32.878Z",
+  "modified": "2025-11-12T10:13:32.878Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7051125:FL21357967.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5953,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7051125/canvas/FL21357967",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7051125/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town of Woodside, Parish of Woodside, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5953\" height=\"7000\"><polygon points=\"0,0 0,7000 5953,7000 5953,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4112,
+            2068
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8800493,
+            -38.5178768
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5438,
+            4322
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8839229,
+            -38.5259746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5428,
+            6108
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8827135,
+            -38.5319403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            479,
+            4631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8631848,
+            -38.5243526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            486,
+            5927
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8622885,
+            -38.5286366
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6286f021d5adcae4",
+      "version": "https://annotations.allmaps.org/maps/6286f021d5adcae4@edbc9e0d33ef32e2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1962fe873da19f55",
+        "version": "https://annotations.allmaps.org/images/1962fe873da19f55@ee746762aa83f501",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/af04b6e17e19bf9b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/209268b59a18e602"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001973,
+      "area": 10700909745579.69
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/91709de24c5a1aa8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:56:04.182Z",
+  "modified": "2025-11-12T09:56:04.182Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029191:FL21351475.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4948,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029191/canvas/FL21351475",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029191/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town of Tarraville, Parish of Tarra Tarra, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4948\" height=\"7000\"><polygon points=\"305,1681 4780,1712 4811,6822 239,6817\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1448,
+            2123
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7167928,
+            -38.6354493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4598,
+            4602
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7265684,
+            -38.643821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4606,
+            2132
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.728032,
+            -38.6369301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1749,
+            3310
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7171622,
+            -38.6389111
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/91709de24c5a1aa8",
+      "version": "https://annotations.allmaps.org/maps/91709de24c5a1aa8@739c4c3120a364c4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/90e566873738bc52",
+        "version": "https://annotations.allmaps.org/images/90e566873738bc52@6d3b55886e3b5450",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ee17ef9ffcaf4a6a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c7321742a226eb5b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002129,
+      "area": 5111661096398.89
+    }
+  }
+}

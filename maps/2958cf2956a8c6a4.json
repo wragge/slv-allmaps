@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2958cf2956a8c6a4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:35:02.553Z",
+  "modified": "2025-11-12T09:35:02.553Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7018789:FL21347873.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5415,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7018789/canvas/FL21347873",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7018789/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township allotments, Topwnship of Mirboo North, Parish of Mriboo, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5415\" height=\"7000\"><polygon points=\"772,1773 742,6380 4602,6187 4252,1737\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2698,
+            5381
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1558714,
+            -38.3988876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3474,
+            2512
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1587029,
+            -38.3939987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            987,
+            3341
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1527047,
+            -38.3947287
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3786,
+            5537
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1583385,
+            -38.3994976
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2958cf2956a8c6a4",
+      "version": "https://annotations.allmaps.org/maps/2958cf2956a8c6a4@086d48d9bfd80e77",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/57ba2a315b43c9ba",
+        "version": "https://annotations.allmaps.org/images/57ba2a315b43c9ba@e3eae506beb08e94",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bdbb2bf28d39169f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a1b0960dfc555579"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000323,
+      "area": 159141925157910.25
+    }
+  }
+}

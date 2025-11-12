@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/5cdc901216455641",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-12T10:04:01.887Z",
+    "modified": "2025-11-12T10:04:01.887Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036901:FL21354166.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036901:FL21354166.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6235,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036901/canvas/FL21354166",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036901/manifest",
+              "label": {
+                "none": [
+                  "Township of Alberton, Parish of Alberton East, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "014ef7b44e64f170",
+        "index": 2.337296417040458,
+        "resource": [
+          1857,
+          3113
+        ],
+        "geo": [
+          146.6570103,
+          -38.6176353
+        ]
+      },
+      {
+        "id": "202b553c543dcf9a",
+        "index": 0.7582665678696547,
+        "resource": [
+          2885,
+          932
+        ],
+        "geo": [
+          146.6598421,
+          -38.6080636
+        ]
+      },
+      {
+        "id": "4173ce8be8d84fdd",
+        "index": 1.5380939209635438,
+        "resource": [
+          3882,
+          881
+        ],
+        "geo": [
+          146.6647089,
+          -38.6069589
+        ]
+      },
+      {
+        "id": "81a5988897c66df5",
+        "index": 3.078324531941628,
+        "resource": [
+          3414,
+          4055
+        ],
+        "geo": [
+          146.6657881,
+          -38.6199338
+        ]
+      },
+      {
+        "id": "4b0e67792d1522e8",
+        "index": 4.3725111619730255,
+        "resource": [
+          4965,
+          3073
+        ],
+        "geo": [
+          146.6725329,
+          -38.614725
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        6235
+      ],
+      [
+        7000,
+        6235
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5cdc901216455641",
+      "version": "https://annotations.allmaps.org/maps/5cdc901216455641@4da4eeeac5db9e53",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2836b5eb88b9a7a9",
+        "version": "https://annotations.allmaps.org/images/2836b5eb88b9a7a9@8c58d454092e68f3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/49d264070856beb6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f8c90fd31547bca1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000902,
+      "area": 53588163387756.91
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16324378.270960756,
+          -4665522.827257819
+        ],
+        [
+          16325122.008134218,
+          -4669042.285882949
+        ],
+        [
+          16329019.364802675,
+          -4668157.484253044
+        ],
+        [
+          16328275.62762921,
+          -4664638.025627915
+        ],
+        [
+          16324378.270960756,
+          -4665522.827257819
+        ]
+      ]
+    ]
+  }
+}

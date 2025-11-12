@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7588b37125110b65",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:59:56.497Z",
+  "modified": "2025-11-12T09:59:56.497Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7024888:FL21348239.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5037,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024888/canvas/FL21348239",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024888/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town of Warragul, Parish of Drouin East, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5037\" height=\"7000\"><polygon points=\"450,1527 4751,1591 4729,6576 1142,6557 623,3709\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            748,
+            1743
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9200617,
+            -38.1504996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1249,
+            5702
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9197341,
+            -38.168185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3404,
+            5573
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9318633,
+            -38.1689253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1267,
+            3895
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9212866,
+            -38.1602598
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4523,
+            1851
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9409658,
+            -38.1533219
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7588b37125110b65",
+      "version": "https://annotations.allmaps.org/maps/7588b37125110b65@71cdc44c88adac00",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/995e75ecd5d0fa1d",
+        "version": "https://annotations.allmaps.org/images/995e75ecd5d0fa1d@1b7ebcd5b906304a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f7455b168cf450e7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ed80537a2862d182"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000604,
+      "area": 54975958642251.14
+    }
+  }
+}

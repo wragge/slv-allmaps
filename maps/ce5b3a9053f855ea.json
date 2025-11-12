@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ce5b3a9053f855ea",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:31:24.442Z",
+  "modified": "2025-11-12T09:31:24.442Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7044736:FL21354789.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5215,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044736/canvas/FL21354789",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044736/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Allotments, Township of Seaspray, Parish of Gifford, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5215\" height=\"7000\"><polygon points=\"606,1854 144,5400 1998,6898 3598,6868 5188,4607 4904,2382\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1783,
+            2084
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1908875,
+            -38.3705697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3475,
+            2362
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1936013,
+            -38.3713107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3889,
+            2435
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.194268,
+            -38.3714942
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            511,
+            4605
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1880709,
+            -38.3735338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            810,
+            2769
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1890727,
+            -38.3712192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4493,
+            3875
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1949478,
+            -38.3734326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4226,
+            3672
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1945853,
+            -38.3731225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1675,
+            6230
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1895218,
+            -38.3759001
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ce5b3a9053f855ea",
+      "version": "https://annotations.allmaps.org/maps/ce5b3a9053f855ea@065c12a60112dd02",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/aa5597b5e6c817bb",
+        "version": "https://annotations.allmaps.org/images/aa5597b5e6c817bb@2c6f4180b243295a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c9d8dfcf2c7e44ea",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9263aea71e4e0816"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000375,
+      "area": 140190588835348.4
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ed74d453aebef6aa",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:23:54.405Z",
+  "modified": "2025-11-12T09:23:54.405Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029940:FL21352641.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5214,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029940/canvas/FL21352641",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029940/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Traralgon, Parish of Traralgon, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5214\" height=\"7000\"><polygon points=\"1047,1419 4951,1659 4915,6416 1015,6442\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1136,
+            2463
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5338158,
+            -38.1930856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3935,
+            4416
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5464483,
+            -38.2015154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2060,
+            1599
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5389952,
+            -38.1902359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4890,
+            1924
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5521699,
+            -38.1925719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1495,
+            4466
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5346425,
+            -38.2006831
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ed74d453aebef6aa",
+      "version": "https://annotations.allmaps.org/maps/ed74d453aebef6aa@8e60cdbce5604d7d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9dbb9918d0a585fb",
+        "version": "https://annotations.allmaps.org/images/9dbb9918d0a585fb@0675493bcaa210ef",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/57012eb0aa460c0e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6b62b697a1a8f468"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.003339,
+      "area": 1711367264004.86
+    }
+  }
+}

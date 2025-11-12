@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/dbbe4e90c2b86bfd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:46:35.376Z",
+  "modified": "2025-11-12T09:46:35.376Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7020884:FL21349191.jpg",
+      "type": "ImageService2",
+      "height": 4857,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7020884/canvas/FL21349191",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7020884/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Hedley, Parish of Welshpool, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4857\"><polygon points=\"169,2150 6418,1156 6834,3140 2280,4561\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2567,
+            4049
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4932203,
+            -38.6480539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4056,
+            3057
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5006996,
+            -38.6452095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1590,
+            2480
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4897437,
+            -38.6420218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3875,
+            2798
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4999795,
+            -38.6442328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2423,
+            3820
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4927027,
+            -38.6471722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5263,
+            1914
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5069275,
+            -38.6417546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6487,
+            2818
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5119248,
+            -38.6455043
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/dbbe4e90c2b86bfd",
+      "version": "https://annotations.allmaps.org/maps/dbbe4e90c2b86bfd@7ddf0532b4ae5468",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/aa40efa2c1dfcffe",
+        "version": "https://annotations.allmaps.org/images/aa40efa2c1dfcffe@e08b1bcc66f1626a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/626428cd2249b219",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3121c57f02643aff"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001109,
+      "area": 10901161635909.41
+    }
+  }
+}

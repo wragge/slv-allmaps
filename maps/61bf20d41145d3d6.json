@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/61bf20d41145d3d6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:53:11.381Z",
+  "modified": "2025-11-12T09:53:11.381Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7033414:FL21353431.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6471,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033414/canvas/FL21353431",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033414/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Tarwin, Parish of Tarwin, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6471\" height=\"7000\"><polygon points=\"396,6340 6029,6136 5948,4861 304,945\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2377,
+            6092
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8682278,
+            -38.7067238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            390,
+            4143
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8640938,
+            -38.702348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2246,
+            3339
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8689884,
+            -38.7013263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1106,
+            2146
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8666384,
+            -38.6986073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            436,
+            5470
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8636607,
+            -38.7049133
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5481,
+            5894
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.875954,
+            -38.7073331
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/61bf20d41145d3d6",
+      "version": "https://annotations.allmaps.org/maps/61bf20d41145d3d6@71b96c548433588a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4fe612673191cf39",
+        "version": "https://annotations.allmaps.org/images/4fe612673191cf39@460f9f5676c618c3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/33d7d4cd4a440e9c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/13d372f0073ae173"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000373,
+      "area": 134300009923587.77
+    }
+  }
+}

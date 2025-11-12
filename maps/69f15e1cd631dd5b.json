@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/69f15e1cd631dd5b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T10:05:49.993Z",
+  "modified": "2025-11-12T10:05:49.993Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7035936:FL21477727.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6971,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035936/canvas/FL21477727",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035936/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Morwell, Parish of Maryvale, County of Buln Buln/"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6971\" height=\"7000\"><polygon points=\"0,0 0,7000 6971,7000 6971,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1264,
+            2094
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3946341,
+            -38.2358252
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5666,
+            5945
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4006182,
+            -38.2414984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1587,
+            5778
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3942135,
+            -38.2404304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5688,
+            3543
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4012205,
+            -38.2385344
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/69f15e1cd631dd5b",
+      "version": "https://annotations.allmaps.org/maps/69f15e1cd631dd5b@6942cb5dc6a3cd56",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1da82d4eabb8c931",
+        "version": "https://annotations.allmaps.org/images/1da82d4eabb8c931@7f135d47b3c18c37",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/66ec4c606f63acaa",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a2c52470cd529924"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000576,
+      "area": 147219074729566.38
+    }
+  }
+}

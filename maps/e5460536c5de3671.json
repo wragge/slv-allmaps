@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e5460536c5de3671",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:19:07.783Z",
+  "modified": "2025-11-12T09:19:07.783Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036069:FL21352931.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 3737,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036069/canvas/FL21352931",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036069/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Carrajung, Parish of Carrajung, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"3737\" height=\"7000\"><polygon points=\"795,1565 3310,1538 3269,6361 696,6334\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3072,
+            6082
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7010289,
+            -38.3712752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3042,
+            3385
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7021027,
+            -38.3663652
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1270,
+            5213
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6971928,
+            -38.3693287
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1861,
+            3726
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6992691,
+            -38.3667318
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e5460536c5de3671",
+      "version": "https://annotations.allmaps.org/maps/e5460536c5de3671@a903256e8569f9ba",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/95a8630c26dd9c36",
+        "version": "https://annotations.allmaps.org/images/95a8630c26dd9c36@d7d675075cd67099",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/16147a2ad181a94f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6b471a5a1659f3cd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000279,
+      "area": 156650722593193.94
+    }
+  }
+}

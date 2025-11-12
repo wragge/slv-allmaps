@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bacd966de666fafe",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T09:14:58.535Z",
+  "modified": "2025-11-12T09:14:58.535Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7027885:FL21352693.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4951,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7027885/canvas/FL21352693",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7027885/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town of Giffard, Parish of Giffard, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4951\" height=\"7000\"><polygon points=\"352,2448 383,6202 4010,6208 3989,2474\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1020,
+            5659
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1650171,
+            -38.3596562
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1043,
+            2692
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1658668,
+            -38.355537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3515,
+            5672
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1694398,
+            -38.3602351
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2913,
+            2890
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1691234,
+            -38.3562399
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bacd966de666fafe",
+      "version": "https://annotations.allmaps.org/maps/bacd966de666fafe@ab5b877cad42e74a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0068aa976e0e38f1",
+        "version": "https://annotations.allmaps.org/images/0068aa976e0e38f1@6fa3db7aa5928d3f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f964b195cc30eacc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a5ba563a981d2eaa"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000311,
+      "area": 140465211514053.23
+    }
+  }
+}

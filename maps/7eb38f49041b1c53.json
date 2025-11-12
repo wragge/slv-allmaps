@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7eb38f49041b1c53",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T21:57:09.742Z",
+  "modified": "2025-11-12T21:57:09.742Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045506:FL21354107.jpg",
+      "type": "ImageService2",
+      "height": 4617,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045506/canvas/FL21354107",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045506/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Meeniyan, Parish of Nerrena, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4617\"><polygon points=\"296,1787 1549,4360 5144,4463 5291,2693 6493,120 3129,220 2675,1911\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3437,
+            4276
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0075413546773,
+            -38.59484316602787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5189,
+            2874
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.02135781124906,
+            -38.588638408914115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1946,
+            4236
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.99722185697664,
+            -38.59332316262399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3936,
+            2685
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.012818125301,
+            -38.58655616556488
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5096,
+            476
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.02328149957543,
+            -38.575433815279965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            917,
+            2481
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.99192107661554,
+            -38.58282418808076
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7eb38f49041b1c53",
+      "version": "https://annotations.allmaps.org/maps/7eb38f49041b1c53@d1cdbb7b473de148",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2289ae4c42df9079",
+        "version": "https://annotations.allmaps.org/images/2289ae4c42df9079@35cf1bb1a7adf45e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e18b0b5b41c1e82d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1328059ab5b5dfc1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000487,
+      "area": 69368514498161.47
+    }
+  }
+}

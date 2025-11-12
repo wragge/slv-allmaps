@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/46985839c96b9d13",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T21:44:59.371Z",
+  "modified": "2025-11-12T21:44:59.371Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7040119:FL21356715.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4949,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7040119/canvas/FL21356715",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7040119/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Nilma, Parish of Drouin East, County of Buln Buln, Shire of Warragul"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4949\" height=\"7000\"><polygon points=\"413,1262 388,5501 4323,2908\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            954,
+            2275
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9647164753544,
+            -38.17003403660359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1556,
+            3615
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.96630060383853,
+            -38.172899198158234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            541,
+            5095
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9635999789374,
+            -38.17605074961378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1923,
+            2908
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9673065476852,
+            -38.17140053463227
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2442,
+            3792
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.96871048101463,
+            -38.17329803715346
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/46985839c96b9d13",
+      "version": "https://annotations.allmaps.org/maps/46985839c96b9d13@03596c8659ee6d06",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2084a79e31adb18e",
+        "version": "https://annotations.allmaps.org/images/2084a79e31adb18e@66a1faccc061105c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b8012a24160639d5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e37f8e8c2f90a4c8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000392,
+      "area": 54169764800826.48
+    }
+  }
+}

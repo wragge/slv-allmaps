@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2443c226567c156b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T00:07:19.884Z",
+  "modified": "2025-11-12T00:07:19.884Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029279:FL21352679.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4987,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029279/canvas/FL21352679",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029279/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bralak, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4987\" height=\"7000\"><polygon points=\"0,0 0,7000 4987,7000 4987,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3754,
+            1466
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.5761138,
+            -37.4841044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            802,
+            5745
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.4750646,
+            -37.6059022
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3378,
+            1392
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.563177,
+            -37.4818155
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2443c226567c156b",
+      "version": "https://annotations.allmaps.org/maps/2443c226567c156b@4d840d24a4ff6eba",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/28353de98816613d",
+        "version": "https://annotations.allmaps.org/images/28353de98816613d@b5f8e40285a9a50b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3cd1268dc1ac27e5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2b69ab03302d020d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.321094,
+      "area": 338589557.33
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b7284540dc3106ad",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T07:00:02.606Z",
+  "modified": "2025-11-13T07:00:02.606Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7022643:FL21349816.jpg",
+      "type": "ImageService2",
+      "height": 4420,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022643/canvas/FL21349816",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022643/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Millewa, counties of Gunbower and Bendigo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4420\"><polygon points=\"0,0 0,4420 7000,4420 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3744,
+            3853
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70964540245507,
+            -36.22532330666435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5070,
+            1704
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74287408904445,
+            -36.18233963473759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5003,
+            3851
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.741065654075,
+            -36.22530714546922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4473,
+            1701
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.72791838196343,
+            -36.18223090760691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4605,
+            547
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73127778477578,
+            -36.158899661310265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            952,
+            3890
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.64122909486372,
+            -36.22537735102793
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b7284540dc3106ad",
+      "version": "https://annotations.allmaps.org/maps/b7284540dc3106ad@2abfe8f096b14286",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/354ae3f3a4159de7",
+        "version": "https://annotations.allmaps.org/images/354ae3f3a4159de7@ab5988a44fb273d8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/74e9abbb6be8193a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/515c098d21085aa5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001717,
+      "area": 10491097124123.88
+    }
+  }
+}

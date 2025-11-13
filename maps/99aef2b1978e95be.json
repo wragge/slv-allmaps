@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/99aef2b1978e95be",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T07:57:17.364Z",
+  "modified": "2025-11-13T07:57:17.364Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7025289:FL21350495.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4559,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7025289/canvas/FL21350495",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7025289/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the argicultural area of Millewa,"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4559\" height=\"7000\"><polygon points=\"0,0 0,7000 4559,7000 4559,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1799,
+            6078
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.68885147023263,
+            -36.298754349547565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1366,
+            1391
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.67344356655673,
+            -36.16504085219782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1371,
+            6078
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6736533831525,
+            -36.29877872775938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2200,
+            6086
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7033189807736,
+            -36.29889768055317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2962,
+            1384
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73040324676487,
+            -36.164948892716495
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/99aef2b1978e95be",
+      "version": "https://annotations.allmaps.org/maps/99aef2b1978e95be@8cd3e2e8a5f12bc3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e77962d53c6c588a",
+        "version": "https://annotations.allmaps.org/images/e77962d53c6c588a@41f17827c74b173a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bf2ef938863b0d10",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ce32c857f01463d1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000452,
+      "area": 156133379200173.72
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3bca6662e0f08ca0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T07:23:08.653Z",
+  "modified": "2025-11-13T07:23:08.653Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7024315:FL21348881.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4970,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024315/canvas/FL21348881",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024315/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Werrimull, Parishes of Werrimull and Murrnroong, County of Millewa"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4970\" height=\"7000\"><polygon points=\"687,1611 748,6068 4764,6124 4810,1575\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3047,
+            5942
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59735330444488,
+            -34.392260484209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2392,
+            1742
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.595019744715,
+            -34.379740805500354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4499,
+            1736
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6027578248934,
+            -34.37985194925257
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4431,
+            5942
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6024050714284,
+            -34.39226565922421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1014,
+            6048
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59000524283624,
+            -34.39256972186464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1081,
+            1747
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59038602838086,
+            -34.3796785872662
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3bca6662e0f08ca0",
+      "version": "https://annotations.allmaps.org/maps/3bca6662e0f08ca0@a155bff670c4aff2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/43dae3b2bfd8d9d4",
+        "version": "https://annotations.allmaps.org/images/43dae3b2bfd8d9d4@92e3a58f678e1581",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c99ebb2dc568d03b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/daf2b368a2a2a524"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000664,
+      "area": 41501268847828.14
+    }
+  }
+}

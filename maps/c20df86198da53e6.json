@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c20df86198da53e6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T06:25:37.129Z",
+  "modified": "2025-11-13T06:25:37.129Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7031785:FL21354609.jpg",
+      "type": "ImageService2",
+      "height": 5562,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031785/canvas/FL21354609",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031785/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Pyalong, Parish of Pyalong, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5562\"><polygon points=\"727,1505 888,4648 2759,5490 6180,4588 5750,1054\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5303,
+            4273
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8668103445188,
+            -37.12270202602612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3973,
+            2178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.86259620965222,
+            -37.11748440163211
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1600,
+            3868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.85503764331173,
+            -37.121788530157176
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c20df86198da53e6",
+      "version": "https://annotations.allmaps.org/maps/c20df86198da53e6@149fc9bf13bcb346",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e5038412bea8688e",
+        "version": "https://annotations.allmaps.org/images/e5038412bea8688e@e731305815e738fe",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1f91a23ec0c2f8bc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3a20c5ca2500566a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000321,
+      "area": 190059722061863.7
+    }
+  }
+}

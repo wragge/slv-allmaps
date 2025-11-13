@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d70c614f1a85c60b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T06:12:18.009Z",
+  "modified": "2025-11-13T06:12:18.009Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7317530:FL21483740.jpg",
+      "type": "ImageService2",
+      "height": 5182,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7317530/canvas/FL21483740",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7317530/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Part of Parish of Redesdale, Glenhope, Emberton, and Metcalfe]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5182\"><polygon points=\"866,645 849,4143 6112,4165 6119,667\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3902,
+            1051
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.52399785967992,
+            -37.05405453584441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4540,
+            912
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.54475448061612,
+            -37.05305460998654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4144,
+            2145
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5268876182983,
+            -37.08225057516091
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d70c614f1a85c60b",
+      "version": "https://annotations.allmaps.org/maps/d70c614f1a85c60b@50ae7f83f8e0d826",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a2f4945d33ad5368",
+        "version": "https://annotations.allmaps.org/images/a2f4945d33ad5368@e18a28b233ad18fa",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/64672c3f4cecb45a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e64f39324085beb7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002752,
+      "area": 2429271727591.83
+    }
+  }
+}

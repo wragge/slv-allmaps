@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9e6a57df9ff59b31",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T06:52:02.916Z",
+  "modified": "2025-11-13T06:52:02.916Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7030484:FL21352455.jpg",
+      "type": "ImageService2",
+      "height": 5212,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030484/canvas/FL21352455",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030484/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Trentham, Parish of Trentham, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5212\"><polygon points=\"211,211 166,1682 694,1773 1079,2840 415,4873 4032,4865 4073,3387 5107,3515 5069,2304 6212,2297 6132,1535 5050,1426 5012,321\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4770,
+            819
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.33075457458074,
+            -37.38772507892871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            762,
+            1268
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.31655344744848,
+            -37.387315087730165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4787,
+            3065
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.32961367333314,
+            -37.39394212019113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1411,
+            4511
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.31716294228187,
+            -37.396543024774225
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9e6a57df9ff59b31",
+      "version": "https://annotations.allmaps.org/maps/9e6a57df9ff59b31@93ae2bb9704e6891",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/68de58930bd542b0",
+        "version": "https://annotations.allmaps.org/images/68de58930bd542b0@8060da24f420749a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0ec01c8c1be6e5aa",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7b392819fc100956"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000382,
+      "area": 136779949439499.28
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d70c614f1a85c60b",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-13T06:12:18.009Z",
+    "modified": "2025-11-13T06:12:18.009Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7317530:FL21483740.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7317530:FL21483740.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5182,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7317530/canvas/FL21483740",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7317530/manifest",
+              "label": {
+                "none": [
+                  "[Part of Parish of Redesdale, Glenhope, Emberton, and Metcalfe]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "17244a1d0857778e",
+        "index": 0.4707694080301503,
+        "resource": [
+          3902,
+          1051
+        ],
+        "geo": [
+          144.52399785967992,
+          -37.05405453584441
+        ]
+      },
+      {
+        "id": "79f4541ac7414f6e",
+        "index": 1.8377094134154786,
+        "resource": [
+          4540,
+          912
+        ],
+        "geo": [
+          144.54475448061612,
+          -37.05305460998654
+        ]
+      },
+      {
+        "id": "ac41f3b4c82bb6fa",
+        "index": 2.314356571112118,
+        "resource": [
+          4144,
+          2145
+        ],
+        "geo": [
+          144.5268876182983,
+          -37.08225057516091
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        866,
+        645
+      ],
+      [
+        849,
+        4143
+      ],
+      [
+        6112,
+        4165
+      ],
+      [
+        6119,
+        667
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d70c614f1a85c60b",
+      "version": "https://annotations.allmaps.org/maps/d70c614f1a85c60b@50ae7f83f8e0d826",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a2f4945d33ad5368",
+        "version": "https://annotations.allmaps.org/images/a2f4945d33ad5368@e18a28b233ad18fa",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/64672c3f4cecb45a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e64f39324085beb7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002752,
+      "area": 2429271727591.83
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16077858.904537452,
+          -4443596.687918346
+        ],
+        [
+          16076106.889916964,
+          -4455748.358531323
+        ],
+        [
+          16094602.307900006,
+          -4458660.590323181
+        ],
+        [
+          16096319.159949733,
+          -4446503.531626255
+        ],
+        [
+          16077858.904537452,
+          -4443596.687918346
+        ]
+      ]
+    ]
+  }
+}

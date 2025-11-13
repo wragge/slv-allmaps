@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e592a72dff2a2737",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T06:33:42.726Z",
+  "modified": "2025-11-13T06:33:42.726Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7023157:FL21348783.jpg",
+      "type": "ImageService2",
+      "height": 5774,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7023157/canvas/FL21348783",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7023157/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Sections of land adjoining the Township of Pyalong, Mollisons Creek, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5774\"><polygon points=\"187,2473 216,4504 2823,5611 5886,4521 6684,3025 4244,-17 2455,994 1398,1980\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1945,
+            2265
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.86263148034652,
+            -37.12237772831795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3128,
+            1397
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.86631646818438,
+            -37.12050353491156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2480,
+            3142
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8641172098711,
+            -37.12467980846786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3101,
+            2433
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8661349435191,
+            -37.1229125559297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2879,
+            5504
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8650682246601,
+            -37.1303572258814
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e592a72dff2a2737",
+      "version": "https://annotations.allmaps.org/maps/e592a72dff2a2737@70f5b41ecb5c1c49",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4652f2dc316a1954",
+        "version": "https://annotations.allmaps.org/images/4652f2dc316a1954@69fb6262f27db014",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/22800125fb39cb9b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fddfe1c22730c70e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000653,
+      "area": 53982727417371.51
+    }
+  }
+}

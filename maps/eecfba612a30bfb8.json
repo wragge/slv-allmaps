@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/eecfba612a30bfb8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T01:53:41.726Z",
+  "modified": "2025-11-13T01:53:41.726Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7037949:FL21352913.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4940,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037949/canvas/FL21352913",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037949/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Metung, Parish of Bumberah, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4940\" height=\"7000\"><polygon points=\"712,314 798,3996 3296,6382 4162,6417 3210,5106 4288,1778\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2761,
+            4281
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.8543829419168,
+            -37.8893902500842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1860,
+            3008
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.85094147672118,
+            -37.88393578700685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2730,
+            5275
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.85349662962705,
+            -37.89303364199845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3479,
+            6081
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.85655085654417,
+            -37.8968082459462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2183,
+            1554
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.85366529391473,
+            -37.87849765113334
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/eecfba612a30bfb8",
+      "version": "https://annotations.allmaps.org/maps/eecfba612a30bfb8@c5ab1ca58aada95c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5773185dbc7927e1",
+        "version": "https://annotations.allmaps.org/images/5773185dbc7927e1@59f60e6cdd4093e0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8594c26a19e277cd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d68c293bee026be9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000282,
+      "area": 165836518600365.6
+    }
+  }
+}

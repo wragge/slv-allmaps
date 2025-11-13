@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b787fbc3ccd47881",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T02:40:33.356Z",
+  "modified": "2025-11-13T02:40:33.356Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7033575:FL21351329.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6126,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033575/canvas/FL21351329",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033575/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Tonjio Munjie, Parish of Tongio Munjie East, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6126\" height=\"7000\"><polygon points=\"698,6119 5008,6164 5059,4635 4279,4594 4405,2274 449,2791\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2948,
+            3603
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.7206877866965,
+            -37.216105895185535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2796,
+            3741
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.7203070833748,
+            -37.21636530556129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1098,
+            5723
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.71608955582707,
+            -37.22012711352723
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2139,
+            4671
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.71868338830916,
+            -37.2181440743155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2783,
+            4113
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.72025614290715,
+            -37.21707634801255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1338,
+            4787
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.71671360544173,
+            -37.21833706174469
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2154,
+            4331
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.71874702148818,
+            -37.21747266995699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2104,
+            5913
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.71845506328958,
+            -37.220519982582395
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b787fbc3ccd47881",
+      "version": "https://annotations.allmaps.org/maps/b787fbc3ccd47881@d744928ec2eb4f70",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0a51b3c33ca2a003",
+        "version": "https://annotations.allmaps.org/images/0a51b3c33ca2a003@db21e80fdb514009",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/66341f00647a003e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ad57521b8aa3d21d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000272,
+      "area": 198684232753175.25
+    }
+  }
+}

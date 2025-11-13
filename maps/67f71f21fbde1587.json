@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/67f71f21fbde1587",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T02:52:18.048Z",
+  "modified": "2025-11-13T02:52:18.048Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7027040:FL21354937.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5909,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7027040/canvas/FL21354937",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7027040/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Tostaree, Parish of Tildesley West, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5909\" height=\"7000\"><polygon points=\"1121,2300 229,3789 3557,6048 5740,5298\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1023,
+            3999
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.17478128453973,
+            -37.747505029067405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4744,
+            5250
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.17890329593104,
+            -37.74972795657703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2414,
+            3846
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.176544830843,
+            -37.747798576449675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3239,
+            5495
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.17737280585538,
+            -37.7496399848469
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1437,
+            3328
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.17529687516907,
+            -37.7470522817856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1961,
+            4576
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.17589683908267,
+            -37.74835622962153
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/67f71f21fbde1587",
+      "version": "https://annotations.allmaps.org/maps/67f71f21fbde1587@b77fc775c38f3bf0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b36c10f714f7c809",
+        "version": "https://annotations.allmaps.org/images/b36c10f714f7c809@8673c3983a88fd28",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/50f1da82ea206b8e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3d808d505dc273ec"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000314,
+      "area": 86109856148062.66
+    }
+  }
+}

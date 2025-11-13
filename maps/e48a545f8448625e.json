@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e48a545f8448625e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T23:16:45.828Z",
+  "modified": "2025-11-12T23:16:45.828Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036435:FL21355373.jpg",
+      "type": "ImageService2",
+      "height": 5321,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036435/canvas/FL21355373",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036435/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Cunninghame, Parish of Colquhoun, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5321\"><polygon points=\"235,5132 1359,5055 6757,2753 6803,1090 1109,1047\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1095,
+            4101
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.01700949805218,
+            -37.871899625843405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4328,
+            2754
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.04189321945097,
+            -37.867203008046324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            747,
+            4006
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0146675383732,
+            -37.871033401242315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4310,
+            2346
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.04221486735628,
+            -37.86486083457128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1553,
+            2059
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0226868084846,
+            -37.86064775905539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1645,
+            2744
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.02255017046542,
+            -37.86466390440271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1113,
+            3285
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.018096019883,
+            -37.86722859182417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3916,
+            1300
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.04058582037845,
+            -37.8585262783768
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e48a545f8448625e",
+      "version": "https://annotations.allmaps.org/maps/e48a545f8448625e@9616866b9709067e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cc31c7d86957d736",
+        "version": "https://annotations.allmaps.org/images/cc31c7d86957d736@75881e21de1a1adb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4ebc7ce16beeb417",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/013e4121bcb745bc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000295,
+      "area": 208551752313659.62
+    }
+  }
+}

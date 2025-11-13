@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b01c5b6dc7382db8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-12T22:26:13.814Z",
+  "modified": "2025-11-12T22:26:13.814Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050425:FL21358794.jpg",
+      "type": "ImageService2",
+      "height": 5296,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050425/canvas/FL21358794",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050425/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Darnum, Parish of Darnum, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5296\"><polygon points=\"285,65 300,1475 5244,3338 6681,2771 6757,130\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5112,
+            2914
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.00851888955623,
+            -38.190540751306656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3351,
+            889
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.00261038319343,
+            -38.18529704865868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2032,
+            1815
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.99830461245563,
+            -38.18774320147105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6128,
+            1404
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0117936850121,
+            -38.1865646289998
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b01c5b6dc7382db8",
+      "version": "https://annotations.allmaps.org/maps/b01c5b6dc7382db8@2821e609062a1acd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/73cde542429f2ade",
+        "version": "https://annotations.allmaps.org/images/73cde542429f2ade@d27de48b2f5db0a4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6af0b99aa7cbca81",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/180987241f62450a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000255,
+      "area": 242761591940267.03
+    }
+  }
+}

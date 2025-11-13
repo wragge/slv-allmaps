@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ba06793dfe2e954c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T04:52:46.702Z",
+  "modified": "2025-11-13T04:52:46.702Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045736:FL21354941.jpg",
+      "type": "ImageService2",
+      "height": 5302,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045736/canvas/FL21354941",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045736/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Cassilis, Parish of Jirnkee, County of Dargo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5302\"><polygon points=\"0,0 0,5302 7000,5302 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5990,
+            3612
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.61577959764293,
+            -37.22423043215958
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5342,
+            2824
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.6135843550834,
+            -37.22131518858577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2526,
+            2064
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.60321799960838,
+            -37.21747488232161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5568,
+            2558
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.61453427786358,
+            -37.22070064145653
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2006,
+            3939
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.6000425729937,
+            -37.22301031277553
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ba06793dfe2e954c",
+      "version": "https://annotations.allmaps.org/maps/ba06793dfe2e954c@0af2b27f243a5092",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bb9fbd71a80bc4ed",
+        "version": "https://annotations.allmaps.org/images/bb9fbd71a80bc4ed@2d7619974489fe46",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/02843bf78fc462e2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2b549abefee7d6d0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001602,
+      "area": 14467522556702.98
+    }
+  }
+}

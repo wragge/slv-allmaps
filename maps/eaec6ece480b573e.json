@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/eaec6ece480b573e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T04:27:13.446Z",
+  "modified": "2025-11-13T04:27:13.446Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7034563:FL21355759.jpg",
+      "type": "ImageService2",
+      "height": 4863,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7034563/canvas/FL21355759",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7034563/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Stirling Parish of Yambulla, County of Dargo /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4863\"><polygon points=\"0,0 0,4863 7000,4863 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2227,
+            2799
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.74642698754928,
+            -37.44143763559789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3587,
+            3335
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.74978100993502,
+            -37.44320876608365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3610,
+            3138
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.7499240871948,
+            -37.442754376310745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2154,
+            3188
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.7460460675747,
+            -37.44228299027777
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/eaec6ece480b573e",
+      "version": "https://annotations.allmaps.org/maps/eaec6ece480b573e@0836f8860d22ec69",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/509fe47a2fcc8a78",
+        "version": "https://annotations.allmaps.org/images/509fe47a2fcc8a78@21d1853a42d35039",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1d77f0e7d937223f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d6ab7451639d0e95"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000796,
+      "area": 53772032806534
+    }
+  }
+}

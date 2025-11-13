@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/dddd985564e2b959",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T04:33:54.080Z",
+  "modified": "2025-11-13T04:33:54.080Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7028648:FL21355061.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4195,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7028648/canvas/FL21355061",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7028648/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Cowa, Parish of Cowa, County of Dargo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4195\" height=\"7000\"><polygon points=\"0,0 0,7000 4195,7000 4195,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2892,
+            6183
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.25118779527946,
+            -37.43110852866138
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2003,
+            5324
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.24992009232932,
+            -37.42971767850032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1461,
+            2309
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.25003147743928,
+            -37.42577204430762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            824,
+            2246
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.2490480120553,
+            -37.42553327802484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2184,
+            4819
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.25038701216772,
+            -37.429145614504755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2924,
+            5790
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.251273732615,
+            -37.43054612224708
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/dddd985564e2b959",
+      "version": "https://annotations.allmaps.org/maps/dddd985564e2b959@2548be4ad5a431df",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3af61387260eda8f",
+        "version": "https://annotations.allmaps.org/images/3af61387260eda8f@ece12eb25e1f24f5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/37e459d6acb219af",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/690b46c387362d5c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000758,
+      "area": 51083082491030.58
+    }
+  }
+}

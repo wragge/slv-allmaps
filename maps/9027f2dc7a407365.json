@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9027f2dc7a407365",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T04:58:58.969Z",
+  "modified": "2025-11-13T04:58:58.969Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7033658:FL21351807.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5119,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033658/canvas/FL21351807",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033658/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Tongio West, Parish of Tongio-Munjie West, County of Dargo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5119\" height=\"7000\"><polygon points=\"0,0 0,7000 5119,7000 5119,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4708,
+            2805
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.63786709533247,
+            -37.24321328304578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2654,
+            2553
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.6332555741846,
+            -37.24265646173822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2135,
+            5759
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.6319188858849,
+            -37.24865332770228
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1586,
+            3050
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.63084571696055,
+            -37.24355094291384
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9027f2dc7a407365",
+      "version": "https://annotations.allmaps.org/maps/9027f2dc7a407365@4b9b90dd721ae73a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/eb35f00e772709d3",
+        "version": "https://annotations.allmaps.org/images/eb35f00e772709d3@e20f0ebe0e53a6e7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f6710b22f0b4cdb6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cad48cafbcb2c834"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.013166,
+      "area": 206728984589.8
+    }
+  }
+}

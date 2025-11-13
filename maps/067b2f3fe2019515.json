@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/067b2f3fe2019515",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T09:34:56.204Z",
+  "modified": "2025-11-13T09:34:56.204Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045993:FL21355891.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4948,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045993/canvas/FL21355891",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045993/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Meringur, County of Millewa"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4948\" height=\"7000\"><polygon points=\"772,1200 772,5420 3994,6043 4009,1266\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1857,
+            5470
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.32902089378973,
+            -34.39002224063914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1974,
+            5429
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.33323520584946,
+            -34.38911090951024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3838,
+            1417
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.39763099296863,
+            -34.27636612861616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1978,
+            4822
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.3336104918872,
+            -34.37230226968762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1970,
+            2557
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.33376439650237,
+            -34.30841916155213
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3834,
+            5771
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.39671675994055,
+            -34.399776673150825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            908,
+            1399
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.2976397597629,
+            -34.27585058433964
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/067b2f3fe2019515",
+      "version": "https://annotations.allmaps.org/maps/067b2f3fe2019515@da39be8c827f8a5c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a031dea09946a04d",
+        "version": "https://annotations.allmaps.org/images/a031dea09946a04d@65b14b90def73c7c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ca13757b5ebb508f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a38819ca00688ab5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000328,
+      "area": 135039066465792.19
+    }
+  }
+}

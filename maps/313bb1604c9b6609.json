@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/313bb1604c9b6609",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T09:25:46.737Z",
+  "modified": "2025-11-13T09:25:46.737Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7021108:FL21349653.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4327,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7021108/canvas/FL21349653",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7021108/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Kyneton, parishes of Kyneton & Lauriston, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4327\" height=\"7000\"><polygon points=\"958,1211 122,2634 593,5688 2209,6585 4276,6625 4124,1175\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1260,
+            3524
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44438006558067,
+            -37.24151787612297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4182,
+            6234
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.45659420337972,
+            -37.25524327482745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2308,
+            5901
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4475623787693,
+            -37.252775534670064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4179,
+            5775
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.45694549299344,
+            -37.25345278263959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1041,
+            5435
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4416137451409,
+            -37.25014041990803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2797,
+            1929
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.45311918347494,
+            -37.23725962582445
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/313bb1604c9b6609",
+      "version": "https://annotations.allmaps.org/maps/313bb1604c9b6609@7b3c673cd52e8a29",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0a88f1a1cb0021ee",
+        "version": "https://annotations.allmaps.org/images/0a88f1a1cb0021ee@f5bc8136b149eaff",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/25344662a06144ac",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2b32e3b6f8c13094"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000292,
+      "area": 229519066831413.8
+    }
+  }
+}

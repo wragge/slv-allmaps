@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4f86de5eb0ed02fb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-13T08:59:29.475Z",
+  "modified": "2025-11-13T08:59:29.475Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7031422:FL21353191.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5373,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031422/canvas/FL21353191",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031422/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Gavan Duffy, Parish of Glenburnie, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5373\" height=\"7000\"><polygon points=\"1476,1661 1643,2917 579,3186 2150,6635 3978,6063 3244,1758\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3326,
+            5701
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98549313818626,
+            -37.298118837516355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3089,
+            3433
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98584788756068,
+            -37.2901629269926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1899,
+            1778
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98165520525583,
+            -37.2838482206046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2640,
+            6260
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98214809010022,
+            -37.2996730661041
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4f86de5eb0ed02fb",
+      "version": "https://annotations.allmaps.org/maps/4f86de5eb0ed02fb@0672bf004239f70d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c6280e722b824277",
+        "version": "https://annotations.allmaps.org/images/c6280e722b824277@11916244b9b5a147",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/696e5632222626ac",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3848d62db6e1be63"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000276,
+      "area": 139033134525632.48
+    }
+  }
+}

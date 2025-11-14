@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1b53e13e5161baaa",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-14T06:25:36.286Z",
+  "modified": "2025-11-14T06:25:36.286Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8773061:FL21677791.jpg",
+      "type": "ImageService2",
+      "height": 4968,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8773061/canvas/FL21677791",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8773061/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Selections at and near Brandy Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4968\"><polygon points=\"3609,107 2703,81 146,2457 117,4927 6574,4923 6490,2107 4192,1224\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4442,
+            3130
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0676345140867,
+            -38.20362400509613
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2938,
+            471
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9543416559373,
+            -37.95877549840106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6245,
+            2567
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27128505319894,
+            -38.17974729576063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2354,
+            2700
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.854976629489,
+            -38.135821875919376
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1b53e13e5161baaa",
+      "version": "https://annotations.allmaps.org/maps/1b53e13e5161baaa@1460c371bef4474b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0dbcf7eb8ca46811",
+        "version": "https://annotations.allmaps.org/images/0dbcf7eb8ca46811@8934f7ec639d50f1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d3601148bdd08454",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4869a55c52555a74"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000499,
+      "area": 95838465510083.5
+    }
+  }
+}

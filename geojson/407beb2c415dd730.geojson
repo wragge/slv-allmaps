@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/407beb2c415dd730",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-14T11:34:30.112Z",
+    "modified": "2025-11-14T11:34:30.112Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15496035:FL21459399.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15496035:FL21459399.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4910,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496035/canvas/FL21459399",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496035/manifest",
+              "label": {
+                "none": [
+                  "Map of Gippsland shewing the stations occupied by the squatters"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0c30097e1c603a1d",
+        "index": 0.3651851951772801,
+        "resource": [
+          1146,
+          1195
+        ],
+        "geo": [
+          146.6657103544481,
+          -38.61966238741527
+        ]
+      },
+      {
+        "id": "26b70cfd76d3d6bd",
+        "index": 3.987462240600916,
+        "resource": [
+          1625,
+          820
+        ],
+        "geo": [
+          146.6723484103116,
+          -38.6154959322646
+        ]
+      },
+      {
+        "id": "38dcef9d16c291db",
+        "index": 4.526705884136249,
+        "resource": [
+          1144,
+          814
+        ],
+        "geo": [
+          146.6649115757118,
+          -38.616738100183596
+        ]
+      },
+      {
+        "id": "b298734f757100f7",
+        "index": 2.65562614002235,
+        "resource": [
+          1619,
+          1201
+        ],
+        "geo": [
+          146.6731696006354,
+          -38.618396832995884
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1009,
+        650
+      ],
+      [
+        1009,
+        1574
+      ],
+      [
+        1707,
+        1587
+      ],
+      [
+        1686,
+        647
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/407beb2c415dd730",
+      "version": "https://annotations.allmaps.org/maps/407beb2c415dd730@b237caf59a3ae079",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1fe2b0ece6ff4111",
+        "version": "https://annotations.allmaps.org/images/1fe2b0ece6ff4111@acfa49cd0e9528ff",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/58b61a91286eef29",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/55b650747d5bf73f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00013,
+      "area": 37654688728560.4
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16326384.690308765,
+          -4666796.048201212
+        ],
+        [
+          16326611.78097952,
+          -4667800.549630883
+        ],
+        [
+          16327825.967635019,
+          -4667543.765997048
+        ],
+        [
+          16327558.510811865,
+          -4666530.021378048
+        ],
+        [
+          16326384.690308765,
+          -4666796.048201212
+        ]
+      ]
+    ]
+  }
+}

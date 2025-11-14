@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9a0b6b5b431f1710",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-14T10:43:48.450Z",
+  "modified": "2025-11-14T10:43:48.450Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390131:FL21478766.jpg",
+      "type": "ImageService2",
+      "height": 5089,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390131/canvas/FL21478766",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390131/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. Moe, Morwell Area"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5089\"><polygon points=\"124,195 139,4626 5286,4590 5266,3622 6953,3615 6927,1403 5407,1420 5385,183\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5900,
+            3578
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.52108397311054,
+            -38.24560346231409
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            359,
+            1195
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.32297689876856,
+            -38.184991112429685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6675,
+            1999
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.54680649416065,
+            -38.20166769722304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2352,
+            3092
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.39474942725758,
+            -38.23665504221264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            345,
+            1985
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.32300759882418,
+            -38.20653723352166
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9a0b6b5b431f1710",
+      "version": "https://annotations.allmaps.org/maps/9a0b6b5b431f1710@e47ce0218b77ec0a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ab19178c8d551cca",
+        "version": "https://annotations.allmaps.org/images/ab19178c8d551cca@ee3d744aa513944f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cf46548ca8615c47",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d3f0dc4f30334959"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000554,
+      "area": 86657146709217.83
+    }
+  }
+}

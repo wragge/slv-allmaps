@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ae683b2590fac77f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-14T10:53:52.763Z",
+  "modified": "2025-11-14T10:53:52.763Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391062:FL21480638.jpg",
+      "type": "ImageService2",
+      "height": 4985,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391062/canvas/FL21480638",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391062/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 861 D3C, Moe"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4985\"><polygon points=\"378,367 444,4236 6571,4236 6535,287\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2737,
+            1437
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27326917503876,
+            -38.22463988438717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1560,
+            3035
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.26011180618082,
+            -38.23899884747655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1280,
+            2807
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.25711083222717,
+            -38.23701249258421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2475,
+            1972
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27020323418213,
+            -38.2295454057184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            498,
+            1380
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2489143079825,
+            -38.223460962788906
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ae683b2590fac77f",
+      "version": "https://annotations.allmaps.org/maps/ae683b2590fac77f@fd00e594d690bbca",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7669eb5bd476512f",
+        "version": "https://annotations.allmaps.org/images/7669eb5bd476512f@d50583168dac333d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/48aebeba343a9345",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f3feabb8596bf413"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000746,
+      "area": 43136596227011.49
+    }
+  }
+}

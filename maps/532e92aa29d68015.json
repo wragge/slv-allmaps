@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/532e92aa29d68015",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-14T05:57:03.358Z",
+  "modified": "2025-11-14T05:57:03.358Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15466560:FL21374235.jpg",
+      "type": "ImageService2",
+      "height": 5338,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466560/canvas/FL21374235",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466560/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Allotments in the parish of Yarragon, county of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5338\"><polygon points=\"3168,1591 3149,4438 6555,2727 6493,1688\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3359,
+            3632
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.23579975243564,
+            -38.15959339816022
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3204,
+            2946
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.23478300657717,
+            -38.156011065195294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4647,
+            3343
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.24449042176502,
+            -38.15801467863285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4284,
+            2704
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.24191805675457,
+            -38.15462378505592
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/532e92aa29d68015",
+      "version": "https://annotations.allmaps.org/maps/532e92aa29d68015@db211cba6f9da820",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b581eff13af1c1ab",
+        "version": "https://annotations.allmaps.org/images/b581eff13af1c1ab@30b3f2130816878d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/26ca9732ba778e9b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2324c6970538d4cf"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000848,
+      "area": 9121229495066.68
+    }
+  }
+}

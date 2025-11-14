@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/389360f27c209adf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-14T05:42:11.402Z",
+  "modified": "2025-11-14T05:42:11.402Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7094308:FL21474255.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5319,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7094308/canvas/FL21474255",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7094308/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Parish of Moe allotment 13, 1885"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5319\" height=\"7000\"><polygon points=\"37,2483 59,6431 4707,6246 4358,2438\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2417,
+            4599
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.06946311097852,
+            -38.21964481810963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2727,
+            5190
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.07026423178098,
+            -38.22159344725881
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1134,
+            5199
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.06434153521008,
+            -38.22079641203125
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/389360f27c209adf",
+      "version": "https://annotations.allmaps.org/maps/389360f27c209adf@f75b0dfea747d37c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/848864fd8f2ef33d",
+        "version": "https://annotations.allmaps.org/images/848864fd8f2ef33d@b8b68189467674e0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3d05360227708d4b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/152df1e47b41d591"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000408,
+      "area": 104613197931247.84
+    }
+  }
+}

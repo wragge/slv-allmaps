@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/06d3e0f1c9d318ee",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-15T10:29:26.909Z",
+  "modified": "2025-11-15T10:29:26.909Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15453460:FL21375247.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5130,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453460/canvas/FL21375247",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453460/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Kyneton no. 53"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5130\" height=\"7000\"><polygon points=\"265,6220 3953,6291 3973,2923 255,2892\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2904,
+            4104
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44704421902725,
+            -37.24181927965005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2922,
+            5251
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4543207171988,
+            -37.24265074014105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            792,
+            5289
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.45233015460406,
+            -37.2533491618179
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/06d3e0f1c9d318ee",
+      "version": "https://annotations.allmaps.org/maps/06d3e0f1c9d318ee@26be1e94fde05c03",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ef93599daf7c695d",
+        "version": "https://annotations.allmaps.org/images/ef93599daf7c695d@fa636f54fff287f9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ccd5c1bdc0ef48d6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/af5bcc74478cacce"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001153,
+      "area": 9329316513025.2
+    }
+  }
+}

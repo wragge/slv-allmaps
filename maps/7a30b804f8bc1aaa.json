@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7a30b804f8bc1aaa",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-15T10:32:58.336Z",
+  "modified": "2025-11-15T10:32:58.336Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15453580:FL21372077.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4750,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453580/canvas/FL21372077",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453580/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Carlsruhe no. 58a"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4750\" height=\"7000\"><polygon points=\"481,1347 476,5642 3601,5764 3601,1383\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2188,
+            4357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.49787522494546,
+            -37.282595928598546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1412,
+            4463
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.49791652846056,
+            -37.27866186106949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2190,
+            3433
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50376798050064,
+            -37.283291305008646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1412,
+            3489
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5041205056512,
+            -37.27937791781328
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7a30b804f8bc1aaa",
+      "version": "https://annotations.allmaps.org/maps/7a30b804f8bc1aaa@e0cb93618c426a14",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/94fc082a6e367212",
+        "version": "https://annotations.allmaps.org/images/94fc082a6e367212@2db8e92382dee5a8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e0f4bdb400316679",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fbf6550c2c0685a4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000605,
+      "area": 37002872882760.25
+    }
+  }
+}

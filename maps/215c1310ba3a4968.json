@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/215c1310ba3a4968",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-15T05:39:49.117Z",
+  "modified": "2025-11-15T05:39:49.117Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385931:FL21479117.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5586,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385931/canvas/FL21479117",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385931/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 881, Yanakie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5586\" height=\"7000\"><polygon points=\"129,522 134,6330 5357,6334 5360,530\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            638,
+            6259
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2761791768737,
+            -38.9730782743448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            651,
+            1648
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.26934134917667,
+            -38.80638071774767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4994,
+            4685
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4737314609008,
+            -38.915646209502526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4142,
+            868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.43822889091052,
+            -38.77896840278062
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/215c1310ba3a4968",
+      "version": "https://annotations.allmaps.org/maps/215c1310ba3a4968@48a863703b6d7c28",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2ecdf454ffb683e1",
+        "version": "https://annotations.allmaps.org/images/2ecdf454ffb683e1@75836a91cce22649",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/962b8e7dca077b47",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/89cd5411af35f5e0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000794,
+      "area": 48123431634397.54
+    }
+  }
+}

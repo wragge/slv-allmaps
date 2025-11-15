@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8d223bf8a9bcecc9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-15T07:17:51.775Z",
+  "modified": "2025-11-15T07:17:51.775Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390713:FL21479493.jpg",
+      "type": "ImageService2",
+      "height": 4430,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390713/canvas/FL21479493",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390713/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 822 D, Howitt"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4430\"><polygon points=\"142,265 156,3533 6738,3547 6726,326\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1894,
+            2690
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.82477359930454,
+            -37.200009643329444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            255,
+            1073
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.75114722076188,
+            -37.14733784321198
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3417,
+            1794
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.88762220968954,
+            -37.16548233348883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2921,
+            3354
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8705879658911,
+            -37.222942668394396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6080,
+            629
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.00320266019588,
+            -37.122414276352735
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8d223bf8a9bcecc9",
+      "version": "https://annotations.allmaps.org/maps/8d223bf8a9bcecc9@600117c9ade1e6e6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b50233d4b6536fc4",
+        "version": "https://annotations.allmaps.org/images/b50233d4b6536fc4@094bf1b61640c3b4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3d39b45b441ddcbe",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/775c796abbc075df"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00041,
+      "area": 126939085641939.19
+    }
+  }
+}

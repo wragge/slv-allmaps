@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cabfc298a3770ecb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-15T09:04:12.319Z",
+  "modified": "2025-11-15T09:04:12.319Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387506:FL21479501.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4930,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387506/canvas/FL21479501",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387506/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Photomap Merbein to South Australian Border. Groundwater bores record plan /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4930\" height=\"7000\"><polygon points=\"114,556 135,6178 4803,6169 4804,550\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4155,
+            1196
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.11297400678046,
+            -34.13287626074356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3555,
+            3043
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.09453858192103,
+            -34.17844315566233
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            221,
+            3878
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9973089538894,
+            -34.19693229281425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            228,
+            4795
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9973089538894,
+            -34.21928777232824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            219,
+            3496
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.99723818952782,
+            -34.188152341961306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4164,
+            715
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.11353123095796,
+            -34.121545065418694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4640,
+            1257
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.1271109134447,
+            -34.13443413399277
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1364,
+            4977
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.03048989887532,
+            -34.22402730830929
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cabfc298a3770ecb",
+      "version": "https://annotations.allmaps.org/maps/cabfc298a3770ecb@d07af19671bcbcd3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4881686a5cb11118",
+        "version": "https://annotations.allmaps.org/images/4881686a5cb11118@ed517f90035aca79",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/048ce6ce5a912b19",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d91fa6b2de204486"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000331,
+      "area": 239619491077173.84
+    }
+  }
+}

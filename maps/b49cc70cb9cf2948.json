@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b49cc70cb9cf2948",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-15T09:36:24.675Z",
+  "modified": "2025-11-15T09:36:24.675Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386841:FL21479323.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5106,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386841/canvas/FL21479323",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386841/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Photomap Merbein to South Australian Border. Groundwater bores record plan /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5106\" height=\"7000\"><polygon points=\"169,238 173,6101 4934,6091 4925,235\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3725,
+            680
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.09716608627713,
+            -34.38051140278966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3786,
+            4526
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.09794025762562,
+            -34.46835048269092
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3809,
+            1886
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.09943848844932,
+            -34.4080659579394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3667,
+            1122
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.09549713177182,
+            -34.390332208052584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            275,
+            3460
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.99924022908385,
+            -34.44260369347069
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b49cc70cb9cf2948",
+      "version": "https://annotations.allmaps.org/maps/b49cc70cb9cf2948@45661334dcdfb64a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0b764e33a44f9038",
+        "version": "https://annotations.allmaps.org/images/0b764e33a44f9038@120c2e145d461bfa",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/666748301f13396f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/811d97b55e2ca58a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000771,
+      "area": 46938540503555.69
+    }
+  }
+}

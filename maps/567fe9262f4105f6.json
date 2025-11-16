@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/567fe9262f4105f6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T06:13:28.577Z",
+  "modified": "2025-11-16T06:13:28.577Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386569:FL21481428.jpg",
+      "type": "ImageService2",
+      "height": 5025,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386569/canvas/FL21481428",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386569/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 818 B3 & parts of B4 D1, Pyalong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5025\"><polygon points=\"2363,208 2092,208 345,208 368,4432 3370,4443 3358,2694 5515,2675 5526,1773 6619,1792 6601,217\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4714,
+            2418
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84667807550352,
+            -37.09903841768888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3666,
+            1030
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8226092130522,
+            -37.07429263646125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3249,
+            1277
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8135375688891,
+            -37.07890080389777
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1822,
+            675
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.78084589642145,
+            -37.066377921723074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1411,
+            3817
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7690242615215,
+            -37.12267395102262
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/567fe9262f4105f6",
+      "version": "https://annotations.allmaps.org/maps/567fe9262f4105f6@d89a8c0ad77c288e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/86674b457a92a803",
+        "version": "https://annotations.allmaps.org/images/86674b457a92a803@84d03161fd8a6e4b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4fba006af937a481",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/83149090524cec28"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000811,
+      "area": 30010306817039.2
+    }
+  }
+}

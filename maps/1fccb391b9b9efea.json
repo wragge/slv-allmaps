@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1fccb391b9b9efea",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T01:52:17.687Z",
+  "modified": "2025-11-16T01:52:17.687Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7389044:FL21481494.jpg",
+      "type": "ImageService2",
+      "height": 4466,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7389044/canvas/FL21481494",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7389044/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 818 C2 & part of D1, Pyalong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4466\"><polygon points=\"195,295 192,3939 3692,3949 3695,3823 4864,3819 4851,2763 4026,2688 4024,1897 6934,1847 6919,308\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1458,
+            3595
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.65060146692434,
+            -37.18080846723674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2024,
+            666
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.66413196870928,
+            -37.12686880053415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            517,
+            1792
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.62793800067135,
+            -37.148262998896875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5278,
+            1061
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74318849249806,
+            -37.13458191739296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3728,
+            3404
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7060881878097,
+            -37.17634967364047
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1fccb391b9b9efea",
+      "version": "https://annotations.allmaps.org/maps/1fccb391b9b9efea@d57c58743075d6b7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/028c6f044bc0cfd3",
+        "version": "https://annotations.allmaps.org/images/028c6f044bc0cfd3@5f4110b8de212c5c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/204eeeda38b66310",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8ac878b138afa03b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000336,
+      "area": 171808500780311.75
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/dd0809efe400eded",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T02:06:34.089Z",
+  "modified": "2025-11-16T02:06:34.089Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385776:FL21481592.jpg",
+      "type": "ImageService2",
+      "height": 6495,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385776/canvas/FL21481592",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385776/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 818 C4, Pyalong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6495\"><polygon points=\"837,238 853,3408 836,5751 4275,5763 4368,4741 5027,4744 5117,3843 6080,3857 6087,2780 6267,1088 5800,1018 5786,227\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4766,
+            4103
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.68863176987583,
+            -37.23617344899924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5735,
+            1520
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70461309713886,
+            -37.200292266037074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5275,
+            3203
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6977679672043,
+            -37.22375427348908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2950,
+            1660
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.65905258007672,
+            -37.20240923522288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3482,
+            1175
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.66750024110388,
+            -37.19638174706112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1009,
+            4856
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.62262120794827,
+            -37.24539589274366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5661,
+            374
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70359276923102,
+            -37.184974405537304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4128,
+            5340
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6777834939664,
+            -37.25420422980692
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/dd0809efe400eded",
+      "version": "https://annotations.allmaps.org/maps/dd0809efe400eded@b3ab4d18b2232ee6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a46b6570800e26d2",
+        "version": "https://annotations.allmaps.org/images/a46b6570800e26d2@ba7f4c8321a15789",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d28eab676976265a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/aaa40815b96e8ccd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001807,
+      "area": 8012898341224.19
+    }
+  }
+}

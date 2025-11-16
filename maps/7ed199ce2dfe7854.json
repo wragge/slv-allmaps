@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7ed199ce2dfe7854",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T02:13:33.243Z",
+  "modified": "2025-11-16T02:13:33.243Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386721:FL21481542.jpg",
+      "type": "ImageService2",
+      "height": 5156,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386721/canvas/FL21481542",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386721/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 818 C3, Pyalong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5156\"><polygon points=\"327,279 284,4517 6638,4548 6661,281\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2163,
+            2361
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53530739273236,
+            -37.21738724219006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            466,
+            4163
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4997385194108,
+            -37.24793524259742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1856,
+            4377
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.52979662387833,
+            -37.25137389235378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4385,
+            4143
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.58172191009226,
+            -37.24609726206665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4818,
+            1899
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.59165096760205,
+            -37.20900577827308
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            960,
+            1613
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5093023895122,
+            -37.20415788149285
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7ed199ce2dfe7854",
+      "version": "https://annotations.allmaps.org/maps/7ed199ce2dfe7854@aa30e6530a92b92d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5b089ba6c16f73c0",
+        "version": "https://annotations.allmaps.org/images/5b089ba6c16f73c0@0dffaf2d2ce26e57",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6d460c658517940b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/378e030d73e982c0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000488,
+      "area": 113160335246913.36
+    }
+  }
+}

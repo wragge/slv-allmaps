@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/f19cf88e046e860b",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-16T08:51:48.847Z",
+    "modified": "2025-11-16T08:51:48.847Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388969:FL21482402.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388969:FL21482402.jpg",
+      "type": "ImageService2",
+      "width": 6007,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388969/canvas/FL21482402",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388969/manifest",
+              "label": {
+                "none": [
+                  "Paignie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0d0a2ebeff9104a0",
+        "index": 0.881574568020332,
+        "resource": [
+          745,
+          1710
+        ],
+        "geo": [
+          141.99744441744423,
+          -35.126179820799194
+        ]
+      },
+      {
+        "id": "4c596c937a1c7be1",
+        "index": 1.3656835425776865,
+        "resource": [
+          5041,
+          1730
+        ],
+        "geo": [
+          141.99695449622783,
+          -34.99770256367012
+        ]
+      },
+      {
+        "id": "c80ba6306ad6e135",
+        "index": 2.1431622821302496,
+        "resource": [
+          1539,
+          5156
+        ],
+        "geo": [
+          142.12242481403604,
+          -35.10247916241021
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        76,
+        542
+      ],
+      [
+        96,
+        6443
+      ],
+      [
+        5931,
+        6463
+      ],
+      [
+        5977,
+        562
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f19cf88e046e860b",
+      "version": "https://annotations.allmaps.org/maps/f19cf88e046e860b@88efd910d85a6e85",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2d8245b6d3505777",
+        "version": "https://annotations.allmaps.org/images/2d8245b6d3505777@cbdf2311894d2e39",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ec9493d1a028709c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/88ea0edcf36f8cd0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000815,
+      "area": 52135500710437.02
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15802380.17217763,
+          -4183761.332034391
+        ],
+        [
+          15826246.885809148,
+          -4183686.908477116
+        ],
+        [
+          15826143.831440669,
+          -4159954.653806246
+        ],
+        [
+          15802275.037175732,
+          -4159760.640284439
+        ],
+        [
+          15802380.17217763,
+          -4183761.332034391
+        ]
+      ]
+    ]
+  }
+}

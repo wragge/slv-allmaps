@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f19cf88e046e860b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T08:51:48.847Z",
+  "modified": "2025-11-16T08:51:48.847Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388969:FL21482402.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6007,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388969/canvas/FL21482402",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388969/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Paignie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6007\" height=\"7000\"><polygon points=\"76,542 96,6443 5931,6463 5977,562\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            745,
+            1710
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.99744441744423,
+            -35.126179820799194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5041,
+            1730
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.99695449622783,
+            -34.99770256367012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1539,
+            5156
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.12242481403604,
+            -35.10247916241021
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f19cf88e046e860b",
+      "version": "https://annotations.allmaps.org/maps/f19cf88e046e860b@88efd910d85a6e85",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2d8245b6d3505777",
+        "version": "https://annotations.allmaps.org/images/2d8245b6d3505777@cbdf2311894d2e39",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ec9493d1a028709c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/88ea0edcf36f8cd0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000815,
+      "area": 52135500710437.02
+    }
+  }
+}

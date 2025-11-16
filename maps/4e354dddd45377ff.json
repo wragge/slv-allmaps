@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4e354dddd45377ff",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T05:23:16.671Z",
+  "modified": "2025-11-16T05:23:16.671Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7327749:FL21466529.jpg",
+      "type": "ImageService2",
+      "height": 4807,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7327749/canvas/FL21466529",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7327749/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 400 feet to 1 inch. no. 250, Chelsea & Mordialloc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4807\"><polygon points=\"1415,571 1460,3729 6246,3764 6172,566\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4709,
+            2361
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09596889533566,
+            -37.9995090369126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5794,
+            2366
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09672727375323,
+            -37.995488714746266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2221,
+            3308
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.098504851143,
+            -38.00858167636428
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4e354dddd45377ff",
+      "version": "https://annotations.allmaps.org/maps/4e354dddd45377ff@27e32f20297320ab",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/affd43450d5bfe52",
+        "version": "https://annotations.allmaps.org/images/affd43450d5bfe52@551d5c8ca70fc533",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c3ea14ede37a0d46",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c4a8949ead183fb2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001754,
+      "area": 4930308342214.75
+    }
+  }
+}

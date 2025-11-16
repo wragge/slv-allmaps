@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/85643a53794050e9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-16T05:39:46.345Z",
+  "modified": "2025-11-16T05:39:46.345Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7317928:FL21468627.jpg",
+      "type": "ImageService2",
+      "height": 4525,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7317928/canvas/FL21468627",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7317928/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 4291, Municipality of Mordialloc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4525\"><polygon points=\"993,948 578,3677 6184,3706 6655,2201 5390,1843 5522,1436 3003,671 2998,977\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4385,
+            3682
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0876133960303,
+            -38.002498588985056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            957,
+            1307
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.08362792862977,
+            -38.00225215227606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5099,
+            1653
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.08721421781723,
+            -38.000905471947064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5989,
+            3427
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0888150595586,
+            -38.00172898760563
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2182,
+            2928
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.08542410061187,
+            -38.00284989622877
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/85643a53794050e9",
+      "version": "https://annotations.allmaps.org/maps/85643a53794050e9@26e3c0c0052a31da",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5af515a55f087f15",
+        "version": "https://annotations.allmaps.org/images/5af515a55f087f15@ebf08bcf300742f9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a35cd76133baea4a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7bc962b09cceeadc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000418,
+      "area": 81354113184274.34
+    }
+  }
+}

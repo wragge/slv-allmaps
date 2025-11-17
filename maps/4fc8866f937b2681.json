@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4fc8866f937b2681",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-17T09:25:34.843Z",
+  "modified": "2025-11-17T09:25:34.843Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388486:FL21480930.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5036,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388486/canvas/FL21480930",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388486/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Werrimull"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5036\" height=\"7000\"><polygon points=\"288,801 327,6081 4748,6044 4697,763\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            282,
+            2213
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.49701381447807,
+            -34.405677990031855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            593,
+            4929
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.5062126644604,
+            -34.47351747183149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3636,
+            1436
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59692728456616,
+            -34.38731045618566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3639,
+            4641
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59668797731166,
+            -34.466196922089935
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4fc8866f937b2681",
+      "version": "https://annotations.allmaps.org/maps/4fc8866f937b2681@22fa37011ba5695f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8fa2cdc6fd3a2c5e",
+        "version": "https://annotations.allmaps.org/images/8fa2cdc6fd3a2c5e@c31f0b69413a34fb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3470fc0442a2c604",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a751e8018a7115cc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001499,
+      "area": 10373450361435.95
+    }
+  }
+}

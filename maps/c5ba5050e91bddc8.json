@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c5ba5050e91bddc8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-17T06:30:49.356Z",
+  "modified": "2025-11-17T06:30:49.356Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386256:FL21483987.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4717,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386256/canvas/FL21483987",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386256/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Wakool River]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4717\" height=\"7000\"><polygon points=\"93,687 89,6086 4627,6118 4657,723\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            211,
+            5431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.37441719045603,
+            -34.86025336701453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2594,
+            5853
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.44399741185276,
+            -34.8703911278259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            526,
+            3265
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3832317188431,
+            -34.80831925079894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1819,
+            1694
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.42066421130755,
+            -34.7699036075673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3385,
+            3631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.46745839449363,
+            -34.81673549900869
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c5ba5050e91bddc8",
+      "version": "https://annotations.allmaps.org/maps/c5ba5050e91bddc8@6f9434d01bb1fdfd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/436c49e6857c8ed0",
+        "version": "https://annotations.allmaps.org/images/436c49e6857c8ed0@933ba8917bb3beba",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1ad281b5e6c7d651",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/914f966b4e52131b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001044,
+      "area": 22528380204322.3
+    }
+  }
+}

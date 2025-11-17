@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d046214336e2e2c7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-17T06:59:49.672Z",
+  "modified": "2025-11-17T06:59:49.672Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385396:FL21483947.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4774,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385396/canvas/FL21483947",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385396/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Waldaira Lake]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4774\" height=\"7000\"><polygon points=\"99,689 88,6104 4649,6117 4660,716\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1839,
+            4664
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.29878671096276,
+            -34.71596908227337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3077,
+            2300
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3339550102732,
+            -34.660047219363776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            490,
+            3221
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.25825971264044,
+            -34.68161799482654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3370,
+            1413
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.34289977862977,
+            -34.638993723717846
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d046214336e2e2c7",
+      "version": "https://annotations.allmaps.org/maps/d046214336e2e2c7@5e3044c4d384a64b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/30a1d650d57c8ca5",
+        "version": "https://annotations.allmaps.org/images/30a1d650d57c8ca5@7ed8c2574eafe491",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/58460e3e30e7caf5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e6eaf1df4a5e2174"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00046,
+      "area": 116639484114699.44
+    }
+  }
+}

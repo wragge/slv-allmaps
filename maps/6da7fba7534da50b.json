@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6da7fba7534da50b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-17T07:13:02.131Z",
+  "modified": "2025-11-17T07:13:02.131Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387211:FL21484053.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4721,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387211/canvas/FL21484053",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387211/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Kyalite]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4721\" height=\"7000\"><polygon points=\"79,664 64,6104 4656,6164 4682,702\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3681,
+            3728
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.47711997936324,
+            -34.94350393744869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2826,
+            4816
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.45239605746377,
+            -34.96996726525714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2463,
+            5083
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.44246061708503,
+            -34.97648261281987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2717,
+            1927
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.44873550345966,
+            -34.90035403543526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            864,
+            4742
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3957874880486,
+            -34.96880586256166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            585,
+            2324
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.38653554558147,
+            -34.91041921989238
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6da7fba7534da50b",
+      "version": "https://annotations.allmaps.org/maps/6da7fba7534da50b@37773b563dde602c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e00ef860dccdd1a9",
+        "version": "https://annotations.allmaps.org/images/e00ef860dccdd1a9@e6b7aa3e4feedf98",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3dbc7c6ff7b93afa",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/68af23c6d7325a43"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00053,
+      "area": 89268097074267.34
+    }
+  }
+}

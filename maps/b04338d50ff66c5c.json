@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b04338d50ff66c5c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-18T10:17:12.759Z",
+  "modified": "2025-11-18T10:17:12.759Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7033838:FL21352609.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5405,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033838/canvas/FL21352609",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7033838/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Wonnangatta, Gippsland"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5405\" height=\"7000\"><polygon points=\"1595,1726 3150,6234 4493,5662 3140,1635\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3529,
+            4227
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.0756437222526,
+            -37.38168490038064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3579,
+            4329
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.07570432811457,
+            -37.38206213669347
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3301,
+            4046
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.0749810981447,
+            -37.38100908079434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3860,
+            5026
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.07669388202027,
+            -37.3842760734886
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b04338d50ff66c5c",
+      "version": "https://annotations.allmaps.org/maps/b04338d50ff66c5c@8b68c0036569fa74",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8404c10e14363de6",
+        "version": "https://annotations.allmaps.org/images/8404c10e14363de6@9f356de07fb4f05b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1a0d9e199da8658d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0c4375b88e59701f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000191,
+      "area": 181290427316771.12
+    }
+  }
+}

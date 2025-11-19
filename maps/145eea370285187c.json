@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/145eea370285187c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T00:40:41.560Z",
+  "modified": "2025-11-19T00:40:41.560Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15465710:FL21371991.jpg",
+      "type": "ImageService2",
+      "height": 3543,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15465710/canvas/FL21371991",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15465710/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Map of portion of Portarlington]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3543\"><polygon points=\"185,827 72,3126 6837,3231 6898,994\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4936,
+            2660
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.667344435266,
+            -38.115574713583406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4948,
+            2178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.66756348898804,
+            -38.11442427730363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3221,
+            2613
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6621050636245,
+            -38.114936059868555
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/145eea370285187c",
+      "version": "https://annotations.allmaps.org/maps/145eea370285187c@48b7d33de585bbee",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f4dac7c95e837e3e",
+        "version": "https://annotations.allmaps.org/images/f4dac7c95e837e3e@6c1a1a7b5b35e460",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f362ed2f7f629fb1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/68188569f6742d18"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007054,
+      "area": 307431198691.8
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9b82bc68e4465696",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T02:58:58.342Z",
+  "modified": "2025-11-19T02:58:58.342Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485280:FL21305178.jpg",
+      "type": "ImageService2",
+      "height": 4802,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485280/canvas/FL21305178",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485280/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Coburg and Heidelberg village reserves and surrounding districts]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4802\"><polygon points=\"265,652 282,3838 4118,3841 4115,655\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1952,
+            1498
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9679104417064,
+            -37.7342048085276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2647,
+            1505
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99023260562984,
+            -37.73654027654482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1952,
+            1844
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96669444833947,
+            -37.741245333963384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2648,
+            1855
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9892337539369,
+            -37.74368360373462
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9b82bc68e4465696",
+      "version": "https://annotations.allmaps.org/maps/9b82bc68e4465696@fd416da100991c14",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6bd13e21443d5905",
+        "version": "https://annotations.allmaps.org/images/6bd13e21443d5905@8884e684c850900e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9d695caa21971af7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d9352e24094ea4a2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00043,
+      "area": 66351569730868.62
+    }
+  }
+}

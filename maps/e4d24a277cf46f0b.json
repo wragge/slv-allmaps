@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e4d24a277cf46f0b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T10:51:34.915Z",
+  "modified": "2025-11-19T10:51:34.915Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7031099:FL21351765.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5229,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031099/canvas/FL21351765",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031099/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Country lots near the Village of Woodside, Parish of Woodside, Gippsland"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5229\" height=\"7000\"><polygon points=\"2584,912 2108,3034 457,3186 512,6200 1966,6149 1991,5359 3820,5313 4656,3373 4570,897\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3669,
+            5170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.9224934072355,
+            -38.52311525120794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1541,
+            5197
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8806162725599,
+            -38.5177697878591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3522,
+            1447
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.9323522485293,
+            -38.46514312647985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            751,
+            4080
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8684582203843,
+            -38.49854841304756
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e4d24a277cf46f0b",
+      "version": "https://annotations.allmaps.org/maps/e4d24a277cf46f0b@9857bb8eea8090b5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ace9b4ae07bbabb1",
+        "version": "https://annotations.allmaps.org/images/ace9b4ae07bbabb1@3a01083e5e45ce21",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5137ee6ba4a52f0a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/48fb8e4ca11181d1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00043,
+      "area": 79421410855315.53
+    }
+  }
+}

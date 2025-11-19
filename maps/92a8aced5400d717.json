@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/92a8aced5400d717",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T10:45:06.118Z",
+  "modified": "2025-11-19T10:45:06.118Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7024375:FL21349388.jpg",
+      "type": "ImageService2",
+      "height": 5345,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024375/canvas/FL21349388",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024375/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village lots at the Tynong railway station, Parish of Bunyip, County of Mornington"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5345\"><polygon points=\"532,1745 339,4746 6249,4456 6241,2971\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1033,
+            3384
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62156943912998,
+            -38.08493588430399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1023,
+            3962
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6215890406968,
+            -38.08566101265081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2469,
+            2907
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62379095008748,
+            -38.08432131954302
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2374,
+            4084
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62347229733018,
+            -38.085768913306225
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/92a8aced5400d717",
+      "version": "https://annotations.allmaps.org/maps/92a8aced5400d717@3a4d811355422dec",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/67299a0157e6717d",
+        "version": "https://annotations.allmaps.org/images/67299a0157e6717d@8e9934f6491619ba",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/58f332a085c045de",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1bdbc79eb17e9093"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000375,
+      "area": 92839621560552.69
+    }
+  }
+}

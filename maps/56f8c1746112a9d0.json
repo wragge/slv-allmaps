@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/56f8c1746112a9d0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T08:04:30.995Z",
+  "modified": "2025-11-19T08:04:30.995Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043757:FL21356549.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4950,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043757/canvas/FL21356549",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043757/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Dunbulbalane, Parish of Dunbulbalane, County of Moira"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4950\" height=\"7000\"><polygon points=\"802,2903 789,5750 4087,5815 4146,2925\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2073,
+            4406
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.55928022985177,
+            -36.12377149226554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2073,
+            3004
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.559270920855,
+            -36.115988194117996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3567,
+            4376
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.569897725374,
+            -36.123746242256736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1264,
+            3484
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.55372533331888,
+            -36.11876742062444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3729,
+            3008
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.57079228128617,
+            -36.115999776321516
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/56f8c1746112a9d0",
+      "version": "https://annotations.allmaps.org/maps/56f8c1746112a9d0@8e0dbf590b94ff0c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fe5ae0c225bf6317",
+        "version": "https://annotations.allmaps.org/images/fe5ae0c225bf6317@c788c004398166eb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5b61a653944b9411",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f3a3c5f10930f70d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000512,
+      "area": 36337381671290.4
+    }
+  }
+}

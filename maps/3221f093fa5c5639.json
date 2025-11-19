@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3221f093fa5c5639",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T09:37:34.448Z",
+  "modified": "2025-11-19T09:37:34.448Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15417985:FL21372043.jpg",
+      "type": "ImageService2",
+      "height": 5322,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15417985/canvas/FL21372043",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15417985/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Elsternwick"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5322\"><polygon points=\"641,339 613,1335 3368,4267 3580,5152 6674,5196 6765,462\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4397,
+            868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99214794405117,
+            -37.8833394034812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1353,
+            873
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9784644830762,
+            -37.881854421206405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4373,
+            3016
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99068548856775,
+            -37.89101185007888
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3221f093fa5c5639",
+      "version": "https://annotations.allmaps.org/maps/3221f093fa5c5639@c19ea101427d7e3e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/67771cf41ed119d9",
+        "version": "https://annotations.allmaps.org/images/67771cf41ed119d9@57212d85249e065a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9a8120f777032f7c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/854507dc39ed565d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001344,
+      "area": 12449869738451.32
+    }
+  }
+}

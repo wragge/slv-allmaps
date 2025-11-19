@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/63635f05f1944472",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-19T09:33:46.177Z",
+  "modified": "2025-11-19T09:33:46.177Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7051057:FL21357903.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5180,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7051057/canvas/FL21357903",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7051057/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Waanyarra,"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5180\" height=\"7000\"><polygon points=\"402,1501 377,5140 4473,5148 4559,1508\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2781,
+            4418
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78451645916437,
+            -36.80725021703329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2516,
+            2329
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.79323697092735,
+            -36.81186825520809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2071,
+            2330
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.95898437500045,
+            -39.97712009844073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1326,
+            2326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78743202710393,
+            -36.806351165529534
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/63635f05f1944472",
+      "version": "https://annotations.allmaps.org/maps/63635f05f1944472@bf82f7bc002a4cf6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/65260b77b30dc3ff",
+        "version": "https://annotations.allmaps.org/images/65260b77b30dc3ff@76fe152e2f44a313",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/74b9cacacb20c014",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/49213e688ec60417"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002425,
+      "area": 2554122020214.38
+    }
+  }
+}

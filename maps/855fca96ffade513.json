@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/855fca96ffade513",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T07:51:59.205Z",
+  "modified": "2025-11-20T07:51:59.205Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8805771:FL21648969.jpg",
+      "type": "ImageService2",
+      "height": 5110,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8805771/canvas/FL21648969",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8805771/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Tooradin, Westernport"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5110\"><polygon points=\"205,913 261,4944 5722,4944 5622,4234 3655,4208 2879,2869 2221,2159\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1350,
+            2332
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.37535964215243,
+            -38.20803357342401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2583,
+            3539
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.3767548033302,
+            -38.20953646450676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1153,
+            3441
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.37483386929847,
+            -38.20920953954532
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2902,
+            4182
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.37705831750884,
+            -38.210305437675466
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/855fca96ffade513",
+      "version": "https://annotations.allmaps.org/maps/855fca96ffade513@9c6f47b17da80ba2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bcc0638495ecca89",
+        "version": "https://annotations.allmaps.org/images/bcc0638495ecca89@748aebbc308e5f24",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3d202798c83f11a4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/22eb1a3875ae5dad"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00065,
+      "area": 25803804538063.17
+    }
+  }
+}

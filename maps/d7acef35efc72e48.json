@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d7acef35efc72e48",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T07:48:04.733Z",
+  "modified": "2025-11-20T07:48:04.733Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15478922:FL21377811.jpg",
+      "type": "ImageService2",
+      "height": 4985,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15478922/canvas/FL21377811",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15478922/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Gypsy Village"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4985\"><polygon points=\"369,1216 365,4357 6613,4274 6627,1223\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            543,
+            1780
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00134123012458,
+            -37.94448263888604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5213,
+            1801
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00857835847012,
+            -37.945366219669516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            532,
+            3765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00088012846498,
+            -37.94691857063433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5220,
+            3737
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00811285672387,
+            -37.94779251673301
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d7acef35efc72e48",
+      "version": "https://annotations.allmaps.org/maps/d7acef35efc72e48@be52dce82f5d5a07",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6398f3e4eaffc040",
+        "version": "https://annotations.allmaps.org/images/6398f3e4eaffc040@0842d320c967745c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f1ffe4aa2aaaee34",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/71ff1e4679181a28"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002344,
+      "area": 3523516398601.5
+    }
+  }
+}

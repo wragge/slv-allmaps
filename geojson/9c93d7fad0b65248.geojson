@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/9c93d7fad0b65248",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-20T07:22:32.632Z",
+    "modified": "2025-11-20T07:22:32.632Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050302:FL21358520.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050302:FL21358520.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4887,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050302/canvas/FL21358520",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050302/manifest",
+              "label": {
+                "none": [
+                  "Village of McIntyre"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "35d1ce7df09565e1",
+        "index": 3.357284286888259,
+        "resource": [
+          3022,
+          3843
+        ],
+        "geo": [
+          143.6804027506414,
+          -36.696928300838856
+        ]
+      },
+      {
+        "id": "4d6d3494d02adcd9",
+        "index": 2.371708732503685,
+        "resource": [
+          1677,
+          2194
+        ],
+        "geo": [
+          143.67707137521177,
+          -36.69275387033205
+        ]
+      },
+      {
+        "id": "93b809e8ce0eb16f",
+        "index": 0.35223716331641364,
+        "resource": [
+          4677,
+          2704
+        ],
+        "geo": [
+          143.68573375401235,
+          -36.69489590192098
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        63,
+        1224
+      ],
+      [
+        1643,
+        4735
+      ],
+      [
+        6375,
+        2889
+      ],
+      [
+        6276,
+        1209
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9c93d7fad0b65248",
+      "version": "https://annotations.allmaps.org/maps/9c93d7fad0b65248@7a51545bc77a61d5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/37aa32b008b9aced",
+        "version": "https://annotations.allmaps.org/images/37aa32b008b9aced@1109fd364140d738",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/542715cbd07b3653",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/09e63c4781821df1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000326,
+      "area": 141262355233254.38
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15993569.743819198,
+          -4395988.203919293
+        ],
+        [
+          15993937.26317096,
+          -4397163.460721216
+        ],
+        [
+          15995572.991520435,
+          -4396799.8590501
+        ],
+        [
+          15995613.156931344,
+          -4396267.541432415
+        ],
+        [
+          15993569.743819198,
+          -4395988.203919293
+        ]
+      ]
+    ]
+  }
+}

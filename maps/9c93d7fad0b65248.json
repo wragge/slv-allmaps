@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9c93d7fad0b65248",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T07:22:32.632Z",
+  "modified": "2025-11-20T07:22:32.632Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050302:FL21358520.jpg",
+      "type": "ImageService2",
+      "height": 4887,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050302/canvas/FL21358520",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050302/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of McIntyre"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4887\"><polygon points=\"63,1224 1643,4735 6375,2889 6276,1209\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3022,
+            3843
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.6804027506414,
+            -36.696928300838856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1677,
+            2194
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.67707137521177,
+            -36.69275387033205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4677,
+            2704
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.68573375401235,
+            -36.69489590192098
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9c93d7fad0b65248",
+      "version": "https://annotations.allmaps.org/maps/9c93d7fad0b65248@7a51545bc77a61d5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/37aa32b008b9aced",
+        "version": "https://annotations.allmaps.org/images/37aa32b008b9aced@1109fd364140d738",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/542715cbd07b3653",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/09e63c4781821df1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000326,
+      "area": 141262355233254.38
+    }
+  }
+}

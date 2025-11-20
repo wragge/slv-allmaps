@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/585edfc08a01e80a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T08:43:52.341Z",
+  "modified": "2025-11-20T08:43:52.341Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501390:FL21378015.jpg",
+      "type": "ImageService2",
+      "height": 5203,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501390/canvas/FL21378015",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501390/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Elsternwick, Parish of Prahran"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5203\"><polygon points=\"6726,90 33,83 3602,5101 6832,5162\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6652,
+            4747
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9990165781332,
+            -37.89870670813735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4483,
+            4748
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98966868154037,
+            -37.89761347218586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1220,
+            528
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9785058427912,
+            -37.88168695881026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5624,
+            797
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9971716207403,
+            -37.88445057865653
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/585edfc08a01e80a",
+      "version": "https://annotations.allmaps.org/maps/585edfc08a01e80a@51695309751773a3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c4c53d67ba8ad62c",
+        "version": "https://annotations.allmaps.org/images/c4c53d67ba8ad62c@15bed5a4cfb2bf52",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4c4b3370bd6aacf8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e6dd55b4575305af"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.006767,
+      "area": 545207239048.86
+    }
+  }
+}

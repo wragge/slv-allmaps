@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3adb17b2b391c3da",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T08:55:46.770Z",
+  "modified": "2025-11-20T08:55:46.770Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15454356:FL21375211.jpg",
+      "type": "ImageService2",
+      "height": 5875,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15454356/canvas/FL21375211",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15454356/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Romsey, Parish of Lancefield"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5875\"><polygon points=\"2505,1734 2548,5025 6229,4995 6161,1734\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5786,
+            4374
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74787367979587,
+            -37.350620999496726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5772,
+            2286
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74783695100598,
+            -37.34531048706597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2860,
+            4409
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73865376618323,
+            -37.350632707268865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2846,
+            2325
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73860152828757,
+            -37.34537190264862
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3adb17b2b391c3da",
+      "version": "https://annotations.allmaps.org/maps/3adb17b2b391c3da@590e272f91b72b43",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1a9638f2756488e3",
+        "version": "https://annotations.allmaps.org/images/1a9638f2756488e3@cbf0b8d817bf0f12",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/22c96897f6651876",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4f17b61ba7a172d3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000274,
+      "area": 160547548304730.06
+    }
+  }
+}

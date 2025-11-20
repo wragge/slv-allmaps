@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/119f856676003ffe",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T08:39:46.422Z",
+  "modified": "2025-11-20T08:39:46.422Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15453535:FL21375725.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4790,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453535/canvas/FL21375725",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15453535/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Malmsbury no. 60"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4790\" height=\"7000\"><polygon points=\"222,745 237,6524 3535,6529 3540,765\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1255,
+            3997
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3761084724522,
+            -37.18542291121061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1205,
+            1460
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.39072618111123,
+            -37.18694399045435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2245,
+            1486
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38981245807207,
+            -37.191728484919686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1781,
+            3997
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3756828598669,
+            -37.18779720372677
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/119f856676003ffe",
+      "version": "https://annotations.allmaps.org/maps/119f856676003ffe@69ca1efedc2664f7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f8c5565344f67158",
+        "version": "https://annotations.allmaps.org/images/f8c5565344f67158@5f297baede108e33",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8bbb76acab1b32ae",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/446ace12980ee834"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00045,
+      "area": 94247515728203.42
+    }
+  }
+}

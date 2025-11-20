@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8431800941a438f2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T09:03:15.436Z",
+  "modified": "2025-11-20T09:03:15.436Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7179492:FL21501271.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5559,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179492/canvas/FL21501271",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179492/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bonnie Doon Estate in the \"home-like\" village of Greensborough"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5559\" height=\"7000\"><polygon points=\"130,2755 90,6387 2496,6407 5358,4878 5353,2791\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3289,
+            5629
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.11213925097934,
+            -37.70330157306246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4376,
+            2905
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.11466861973742,
+            -37.699969739562434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2037,
+            4135
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.11039695962353,
+            -37.7010796691995
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8431800941a438f2",
+      "version": "https://annotations.allmaps.org/maps/8431800941a438f2@091dde89d72c1db8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cef85ab1131664a1",
+        "version": "https://annotations.allmaps.org/images/cef85ab1131664a1@d192d0af6d75cf4a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8e954cb0936cdfd6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ff7a46d0d068b6c5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000536,
+      "area": 58642880612570.06
+    }
+  }
+}

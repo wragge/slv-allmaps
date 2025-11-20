@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/44f277663ea09fab",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-20T09:05:39.946Z",
+  "modified": "2025-11-20T09:05:39.946Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15467767:FL21372347.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5803,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15467767/canvas/FL21372347",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15467767/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Village of Harcourt, County of Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5803\" height=\"7000\"><polygon points=\"302,1143 294,6819 5449,6728 5299,1176\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2991,
+            5940
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26241245601608,
+            -37.000920327199495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4362,
+            5915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2649807463768,
+            -37.001220491874996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4350,
+            2088
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26605706734495,
+            -36.99530076775173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2227,
+            2071
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26206333929406,
+            -36.99482377758522
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/44f277663ea09fab",
+      "version": "https://annotations.allmaps.org/maps/44f277663ea09fab@451c8df1ebea1f7f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1b95d09ce1ff792f",
+        "version": "https://annotations.allmaps.org/images/1b95d09ce1ff792f@4927df1a2a60c2e5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/24ebb50649db8fc6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/73a6d526919aa99a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00037,
+      "area": 207980554980296.84
+    }
+  }
+}

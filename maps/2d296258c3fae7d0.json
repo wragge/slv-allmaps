@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2d296258c3fae7d0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-21T05:25:02.233Z",
+  "modified": "2025-11-21T05:25:02.233Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391772:FL21481504.jpg",
+      "type": "ImageService2",
+      "height": 5170,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391772/canvas/FL21481504",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391772/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Weimby-North (incorporating one-mile area 6/809) /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5170\"><polygon points=\"126,436 146,3480 3241,4513 6838,4508 6850,434\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3888,
+            4352
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.27408376119638,
+            -34.753308186127455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2130,
+            1674
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.13056202664166,
+            -34.57046525824553
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4814,
+            2359
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.35025883274227,
+            -34.618958034513696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2015,
+            3387
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.12158839850645,
+            -34.68830952874038
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2d296258c3fae7d0",
+      "version": "https://annotations.allmaps.org/maps/2d296258c3fae7d0@361f798fda54b4b1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ad437ac906995bb1",
+        "version": "https://annotations.allmaps.org/images/ad437ac906995bb1@76fd26b0102fb04e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bfd54fe58d7dad59",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8981796f484df7f4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002434,
+      "area": 4342641347695.5
+    }
+  }
+}

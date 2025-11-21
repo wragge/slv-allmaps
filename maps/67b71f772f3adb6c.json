@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/67b71f772f3adb6c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-21T05:34:55.642Z",
+  "modified": "2025-11-21T05:34:55.642Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386836:FL21480774.jpg",
+      "type": "ImageService2",
+      "height": 5177,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386836/canvas/FL21480774",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386836/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Wentworth-North"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5177\"><polygon points=\"104,518 97,4527 6640,4529 6655,506\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5514,
+            3712
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.92901183382662,
+            -34.207519404431736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4160,
+            587
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.81992076560698,
+            -33.991045115005875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            431,
+            2581
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.51032062178058,
+            -34.12952812998567
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/67b71f772f3adb6c",
+      "version": "https://annotations.allmaps.org/maps/67b71f772f3adb6c@586e1fca69f96c3a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bbc0d84238ece11a",
+        "version": "https://annotations.allmaps.org/images/bbc0d84238ece11a@87d14ebd79fc1de6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a756f7b3aa78a865",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d9a12dbb3d0093f7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000547,
+      "area": 88025133137738.7
+    }
+  }
+}

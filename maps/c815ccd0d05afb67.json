@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c815ccd0d05afb67",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-21T05:11:48.468Z",
+  "modified": "2025-11-21T05:11:48.468Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390766:FL21481544.jpg",
+      "type": "ImageService2",
+      "height": 5160,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390766/canvas/FL21481544",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390766/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bidura-South (incorporating one-mile area 6/799) /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5160\"><polygon points=\"98,416 127,4491 6838,4464 6786,405\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            395,
+            2377
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.98175202970754,
+            -34.36832094282809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            500,
+            538
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.99079686391957,
+            -34.24098918693579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1586,
+            2021
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.08106910344645,
+            -34.344641155310704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4337,
+            3801
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.30840790804194,
+            -34.46768302374365
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c815ccd0d05afb67",
+      "version": "https://annotations.allmaps.org/maps/c815ccd0d05afb67@d89f7daa7ec09fa1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/410c195d74894b25",
+        "version": "https://annotations.allmaps.org/images/410c195d74894b25@814ef8db80f4fd26",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d4ca795e7fdbee0f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/630aa6c200f6b8b6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000339,
+      "area": 237718129246960.38
+    }
+  }
+}

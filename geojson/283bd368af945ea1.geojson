@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/283bd368af945ea1",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-21T05:28:23.219Z",
+    "modified": "2025-11-21T05:28:23.219Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388920:FL21481330.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388920:FL21481330.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5181,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388920/canvas/FL21481330",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388920/manifest",
+              "label": {
+                "none": [
+                  "Wild Dog - South"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "5cfbeb3cbf981f4a",
+        "index": 0.547118110321642,
+        "resource": [
+          3967,
+          4121
+        ],
+        "geo": [
+          142.7955132557941,
+          -34.48414347008325
+        ]
+      },
+      {
+        "id": "c27b266c7e6563ad",
+        "index": 1.1157113222145698,
+        "resource": [
+          6380,
+          569
+        ],
+        "geo": [
+          142.9908069755782,
+          -34.24098051807399
+        ]
+      },
+      {
+        "id": "336c830f9a52a99f",
+        "index": 2.9346888760846155,
+        "resource": [
+          648,
+          3593
+        ],
+        "geo": [
+          142.51559369953776,
+          -34.44913305818698
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        174,
+        375
+      ],
+      [
+        170,
+        4637
+      ],
+      [
+        4167,
+        4664
+      ],
+      [
+        6663,
+        4661
+      ],
+      [
+        6677,
+        407
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/283bd368af945ea1",
+      "version": "https://annotations.allmaps.org/maps/283bd368af945ea1@e042633155d8386f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0badad04b3b5c13c",
+        "version": "https://annotations.allmaps.org/images/0badad04b3b5c13c@91c3915f3615e123",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1cb8ef3ffba0f55a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4bc5a79a78d2472d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000875,
+      "area": 36161391117440.66
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15859582.975618279,
+          -4059668.674351738
+        ],
+        [
+          15860535.850812953,
+          -4098899.029693032
+        ],
+        [
+          15897920.301572114,
+          -4098987.525395744
+        ],
+        [
+          15921261.093252912,
+          -4098859.97797854
+        ],
+        [
+          15920403.592448855,
+          -4059702.859419338
+        ],
+        [
+          15859582.975618279,
+          -4059668.674351738
+        ]
+      ]
+    ]
+  }
+}

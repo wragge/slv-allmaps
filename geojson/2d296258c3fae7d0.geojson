@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/2d296258c3fae7d0",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-21T05:25:02.233Z",
+    "modified": "2025-11-21T05:25:02.233Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391772:FL21481504.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391772:FL21481504.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5170,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391772/canvas/FL21481504",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391772/manifest",
+              "label": {
+                "none": [
+                  "Weimby-North (incorporating one-mile area 6/809) /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "7b208ca6a72f8646",
+        "index": 2.538232628012061,
+        "resource": [
+          3888,
+          4352
+        ],
+        "geo": [
+          143.27408376119638,
+          -34.753308186127455
+        ]
+      },
+      {
+        "id": "cdad1a07fed7bf5b",
+        "index": 0.6426693455665565,
+        "resource": [
+          2130,
+          1674
+        ],
+        "geo": [
+          143.13056202664166,
+          -34.57046525824553
+        ]
+      },
+      {
+        "id": "e9eb8c5ce854fbf5",
+        "index": 1.9220564943904885,
+        "resource": [
+          4814,
+          2359
+        ],
+        "geo": [
+          143.35025883274227,
+          -34.618958034513696
+        ]
+      },
+      {
+        "id": "05db8185a64cc342",
+        "index": 3.3894829192808325,
+        "resource": [
+          2015,
+          3387
+        ],
+        "geo": [
+          143.12158839850645,
+          -34.68830952874038
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        126,
+        436
+      ],
+      [
+        146,
+        3480
+      ],
+      [
+        3241,
+        4513
+      ],
+      [
+        6838,
+        4508
+      ],
+      [
+        6850,
+        434
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2d296258c3fae7d0",
+      "version": "https://annotations.allmaps.org/maps/2d296258c3fae7d0@361f798fda54b4b1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ad437ac906995bb1",
+        "version": "https://annotations.allmaps.org/images/ad437ac906995bb1@76fd26b0102fb04e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bfd54fe58d7dad59",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8981796f484df7f4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002434,
+      "area": 4342641347695.5
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15915022.679570975,
+          -4094241.247226366
+        ],
+        [
+          15915186.157347094,
+          -4122280.597988333
+        ],
+        [
+          15943336.445791926,
+          -4131935.438512342
+        ],
+        [
+          15976059.944399856,
+          -4132051.884119609
+        ],
+        [
+          15976193.834502202,
+          -4094526.59378358
+        ],
+        [
+          15915022.679570975,
+          -4094241.247226366
+        ]
+      ]
+    ]
+  }
+}

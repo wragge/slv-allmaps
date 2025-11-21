@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7711dfa45f437d00",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-21T06:17:23.108Z",
+  "modified": "2025-11-21T06:17:23.108Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9531848:FL21663845.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 3263,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531848/canvas/FL21663845",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531848/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "River Murray water scheme contour plan of the Upper Murray storage, Hume reservoir /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"3263\" height=\"7000\"><polygon points=\"168,309 168,6797 3262,6813 3247,324\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            589,
+            4312
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.01568613128387,
+            -36.10615994813846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2506,
+            5811
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1369278338001,
+            -36.20870138554824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2872,
+            2907
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.19562886724896,
+            -36.04624225195051
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7711dfa45f437d00",
+      "version": "https://annotations.allmaps.org/maps/7711dfa45f437d00@4fe32f9fb273d4a2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e2b0d8c2ab684414",
+        "version": "https://annotations.allmaps.org/images/e2b0d8c2ab684414@50e71aa43ed69a74",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/70ff84f132bc0539",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/371495d6dd25ed87"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000712,
+      "area": 39522680244479
+    }
+  }
+}

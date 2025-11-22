@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ed91763b633793d5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-21T23:45:57.041Z",
+  "modified": "2025-11-21T23:45:57.041Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002826:FL21478153.jpg",
+      "type": "ImageService2",
+      "height": 4722,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002826/canvas/FL21478153",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002826/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Howlong, New South Wales"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4722\"><polygon points=\"964,488 995,3724 6268,3707 6260,473\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1170,
+            3462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.51610721136944,
+            -35.97771185147621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5687,
+            721
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.94524692539414,
+            -35.767292393425016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1043,
+            588
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.50650292783706,
+            -35.75556422567631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5968,
+            3383
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.97129507013625,
+            -35.973016085483145
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ed91763b633793d5",
+      "version": "https://annotations.allmaps.org/maps/ed91763b633793d5@3323208d483dc7a9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/243250a57963e8ef",
+        "version": "https://annotations.allmaps.org/images/243250a57963e8ef@96c6df9398406833",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/48a21e5660ff22eb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1e056af144ccf8a8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.116798,
+      "area": 1253177824.39
+    }
+  }
+}

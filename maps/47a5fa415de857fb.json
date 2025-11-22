@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/47a5fa415de857fb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-21T23:35:44.170Z",
+  "modified": "2025-11-21T23:35:44.170Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23156094:FL23156599.jpg",
+      "type": "ImageService2",
+      "height": 4855,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156094/canvas/FL23156599",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200026"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156094/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "New South Wales Australia 1:50 000 topographic series. 8126-N, Oakland"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4855\"><polygon points=\"242,320 249,4310 6741,4310 6753,326\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2477,
+            1136
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1726441138739,
+            -35.549359021425225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4203,
+            2634
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3053742324455,
+            -35.6438388729512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6632,
+            460
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.49222916314102,
+            -35.506587139939036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            693,
+            4054
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0354277696885,
+            -35.7330887835013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            642,
+            364
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.03160651534296,
+            -35.501516346094625
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/47a5fa415de857fb",
+      "version": "https://annotations.allmaps.org/maps/47a5fa415de857fb@b8b8b1369cf2a69f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e8995c98abb7d8fc",
+        "version": "https://annotations.allmaps.org/images/e8995c98abb7d8fc@35f9b82236374725",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e962af803df9fc61",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/abf129b6698255ff"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.1435,
+      "area": 1258798324.76
+    }
+  }
+}

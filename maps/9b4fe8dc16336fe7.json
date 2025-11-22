@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9b4fe8dc16336fe7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-22T00:08:34.461Z",
+  "modified": "2025-11-22T00:08:34.461Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7003211:FL21478990.jpg",
+      "type": "ImageService2",
+      "height": 5216,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003211/canvas/FL21478990",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003211/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "New South Wales and Victoria, Tocumwal"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5216\"><polygon points=\"370,536 378,4290 6481,4283 6484,534\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6049,
+            866
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9629560297779,
+            -35.7702461408512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5645,
+            4232
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.93113937592744,
+            -35.99529947951824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            379,
+            1178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.49966708599692,
+            -35.79127295570154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            454,
+            4070
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.50554912836947,
+            -35.98466721709397
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9b4fe8dc16336fe7",
+      "version": "https://annotations.allmaps.org/maps/9b4fe8dc16336fe7@e87b2bc5db5556a8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/62523bb9bb2e1979",
+        "version": "https://annotations.allmaps.org/images/62523bb9bb2e1979@a054ae918bf3f7dc",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0d9a6a96e0aa50a8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1e965a11861c0a3f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.135038,
+      "area": 1256683875.39
+    }
+  }
+}

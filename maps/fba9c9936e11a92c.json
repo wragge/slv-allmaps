@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fba9c9936e11a92c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-22T01:52:03.080Z",
+  "modified": "2025-11-22T01:52:03.080Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002756:FL21480668.jpg",
+      "type": "ImageService2",
+      "height": 4910,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002756/canvas/FL21480668",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002756/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : provisional 2 inches to 1 mile series topographical map. 916 C. 915 D, Dartmoor C and part of Gambier D"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4910\"><polygon points=\"919,635 887,3698 6339,3708 6347,659\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1289,
+            3427
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9877751899602,
+            -37.98656957506773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6213,
+            3088
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.24264785515015,
+            -37.97302338538838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6266,
+            3490
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.2464340724652,
+            -37.98893993748679
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2436,
+            3654
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.0462484149798,
+            -37.99563202312961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5139,
+            1950
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.18691047082172,
+            -37.92629415199784
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fba9c9936e11a92c",
+      "version": "https://annotations.allmaps.org/maps/fba9c9936e11a92c@6911f3dab7fc2792",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3871fbabfdab803d",
+        "version": "https://annotations.allmaps.org/images/3871fbabfdab803d@e9a418a50e443579",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/df3e89bafdb82587",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e61896580d08e872"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.22002,
+      "area": 343429805.05
+    }
+  }
+}

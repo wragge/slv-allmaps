@@ -1,0 +1,202 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0743167258c6e5fb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-22T02:25:04.554Z",
+  "modified": "2025-11-22T02:25:04.554Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489125:FL21305708.jpg",
+      "type": "ImageService2",
+      "height": 4340,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489125/canvas/FL21305708",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489125/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia Felix, or, District of Port Phillip, forming the Southern Division of the Colony of New South Wales"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4340\"><polygon points=\"291,182 278,4054 4756,4070 4747,3184 5783,3008 5940,2792 6709,2823 6719,223\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "thinPlateSpline"
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1646,
+            946
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9991207981027,
+            -34.04581180200882
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3474,
+            2058
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74840268567777,
+            -36.11999668642612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1781,
+            3141
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96493354963616,
+            -38.05577574275467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2642,
+            1303
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.2166802984221,
+            -34.7318512224787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4153,
+            3696
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.40488437854674,
+            -39.12980677659911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5781,
+            2873
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.97181984324288,
+            -37.5051007808853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2929,
+            3594
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.53219458433944,
+            -38.86279799385358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5004,
+            2136
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.03400453355005,
+            -36.14528311169232
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0743167258c6e5fb",
+      "version": "https://annotations.allmaps.org/maps/0743167258c6e5fb@0c1a3ef36eb19d61",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c65e007b4de16ce2",
+        "version": "https://annotations.allmaps.org/images/c65e007b4de16ce2@f03b26688532db29",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0e873bf3ea13692c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ea0e91552caa5f8d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.004925,
+      "area": 934452019528.86
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4a1e47333bc651ff",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-22T03:18:46.653Z",
+  "modified": "2025-11-22T03:18:46.653Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291150:FL21365129.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5459,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291150/canvas/FL21365129",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291150/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Freehold land, Hotham on Saturday, 23rd May and Tuesday 26th May, building allotments, suitable for business, manufacturing & residential purposes ... /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5459\" height=\"7000\"><polygon points=\"191,3283 147,6381 5144,6497 5118,3363\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4615,
+            6024
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95588959781202,
+            -37.8058974681449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1554,
+            5946
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94319584944026,
+            -37.80450477769852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3016,
+            4113
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95122030309653,
+            -37.796543971910275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2671,
+            5959
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9477868031875,
+            -37.80494988199789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4663,
+            4759
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95725145330863,
+            -37.80126714787081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            208,
+            4598
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9387817347628,
+            -37.79544806693863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1053,
+            3473
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9424646548827,
+            -37.79099869436076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4629,
+            3464
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95803099845972,
+            -37.79580020472369
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4a1e47333bc651ff",
+      "version": "https://annotations.allmaps.org/maps/4a1e47333bc651ff@af5f29eae51b5d2f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c0e6b5d123bd7183",
+        "version": "https://annotations.allmaps.org/images/c0e6b5d123bd7183@392c25b0e42c0814",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d069e693f7a22983",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/424b4c67299f1ec0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.242728,
+      "area": 3074154.61
+    }
+  }
+}

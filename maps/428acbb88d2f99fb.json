@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/428acbb88d2f99fb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-23T05:42:48.995Z",
+  "modified": "2025-11-23T05:42:48.995Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22752459:FL22753159.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4976,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752459/canvas/FL22753159",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300461"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752459/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Apollo Bay /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4976\" height=\"7000\"><polygon points=\"463,823 436,6521 4900,6497 4910,835\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2300,
+            3650
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.66773114786918,
+            -38.75591867048713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1781,
+            2439
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.66550873467196,
+            -38.74966327787475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            983,
+            3639
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.65968460598862,
+            -38.75502909027275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2627,
+            4794
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.66873204613586,
+            -38.76154581441132
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/428acbb88d2f99fb",
+      "version": "https://annotations.allmaps.org/maps/428acbb88d2f99fb@e5b83acc2254952e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b94cb87c968687e5",
+        "version": "https://annotations.allmaps.org/images/b94cb87c968687e5@ba896fbeb4182ef0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5bfe86d734a80c49",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3d99a5f30c686f68"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.860688,
+      "area": 7309633.83
+    }
+  }
+}

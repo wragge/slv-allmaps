@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d330cf7f398b9775",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-23T03:59:42.706Z",
+  "modified": "2025-11-23T03:59:42.706Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7023600:FL21356807.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6156,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7023600/canvas/FL21356807",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7023600/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Port Campbell, Parish of Paaratte, County of Heytesbury"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6156\" height=\"7000\"><polygon points=\"338,885 351,6584 5945,6574 5952,895\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2821,
+            4998
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.99405403504437,
+            -38.62033933158348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3337,
+            5503
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.99569648857897,
+            -38.62209915048085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4026,
+            4311
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.99908271083524,
+            -38.61875254394816
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d330cf7f398b9775",
+      "version": "https://annotations.allmaps.org/maps/d330cf7f398b9775@134e1e8efda8d397",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e02a0e8038c2f154",
+        "version": "https://annotations.allmaps.org/images/e02a0e8038c2f154@bbbda1b74b4b29a1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6bf3bb23f1332fe3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fb8bd7fff2f86367"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.948664,
+      "area": 3666767.28
+    }
+  }
+}

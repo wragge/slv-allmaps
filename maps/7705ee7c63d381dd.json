@@ -1,0 +1,154 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7705ee7c63d381dd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-23T01:41:45.204Z",
+  "modified": "2025-11-23T01:41:45.204Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23156031:FL23156500.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4736,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156031/canvas/FL23156500",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200007"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156031/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of South Australia showing pastoral stations &c."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4736\" height=\"7000\"><polygon points=\"165,253 185,3145 1198,3049 1841,3363 2287,4265 2748,4351 2783,4761 3523,4797 3695,5491 4561,5962 4541,279\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "thinPlateSpline"
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            264,
+            2967
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.9730339108189,
+            -31.698630531860843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4546,
+            635
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9976643981925,
+            -25.998113949184344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3305,
+            3244
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.76905086061885,
+            -32.49024905449236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4254,
+            5563
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9629484070054,
+            -38.053385963129074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            155,
+            632
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.9996626316456,
+            -25.997663739301174
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7705ee7c63d381dd",
+      "version": "https://annotations.allmaps.org/maps/7705ee7c63d381dd@b15f30e7baa5377d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/63f330285b50a2a8",
+        "version": "https://annotations.allmaps.org/images/63f330285b50a2a8@d396a510753c5b4d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/111c910f0afa3514",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/060c9104b1931b0a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.003681,
+      "area": 1271577797654.85
+    }
+  }
+}

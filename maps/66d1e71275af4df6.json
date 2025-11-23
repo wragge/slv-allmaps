@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/66d1e71275af4df6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-22T23:41:52.795Z",
+  "modified": "2025-11-22T23:41:52.795Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7118567:FL21457399.jpg",
+      "type": "ImageService2",
+      "height": 3410,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118567/canvas/FL21457399",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118567/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Plan of district near Belfast & Warrnambool]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3410\"><polygon points=\"3877,73 3323,795 497,1536 142,1824 2221,2708 5389,2656 6718,1406 6689,646\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3601,
+            1584
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.3743901249684,
+            -38.303707972467265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4463,
+            2152
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.48350821867655,
+            -38.37960865123109
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2785,
+            2557
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.24431627996933,
+            -38.39622535950832
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/66d1e71275af4df6",
+      "version": "https://annotations.allmaps.org/maps/66d1e71275af4df6@e7ef3d3402da302c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c82ba1c84efa6b6d",
+        "version": "https://annotations.allmaps.org/images/c82ba1c84efa6b6d@4e7ec31cb6bae5d7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/233a74c837be7fed",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/45ebeb4a77123ff1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.081936,
+      "area": 1599108785.58
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/1223d44dcb5355a9",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-22T23:23:06.905Z",
+    "modified": "2025-11-22T23:23:06.905Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002088:FL21480730.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002088:FL21480730.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4844,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002088/canvas/FL21480730",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002088/manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : provisional 2 inches to 1 mile series topographical map. 916 D, Dartmoor D"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "08c37c96bb55435f",
+        "index": 0.7031561360417787,
+        "resource": [
+          1778,
+          1791
+        ],
+        "geo": [
+          141.27924705505097,
+          -37.92250395106285
+        ]
+      },
+      {
+        "id": "bb00702d6dcbb16f",
+        "index": 2.610154605915227,
+        "resource": [
+          2312,
+          1687
+        ],
+        "geo": [
+          141.30699023116443,
+          -37.91793274070137
+        ]
+      },
+      {
+        "id": "c017127988c5d4f2",
+        "index": 1.9257965565196606,
+        "resource": [
+          2507,
+          2400
+        ],
+        "geo": [
+          141.31710834643764,
+          -37.94726770614646
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1191,
+        579
+      ],
+      [
+        1186,
+        3640
+      ],
+      [
+        6016,
+        3657
+      ],
+      [
+        6031,
+        591
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1223d44dcb5355a9",
+      "version": "https://annotations.allmaps.org/maps/1223d44dcb5355a9@5f55e5644858f1e8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/12f4640cc274cd17",
+        "version": "https://annotations.allmaps.org/images/12f4640cc274cd17@e2011bf2e0dd1f8c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9a920e5571cb44f9",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/30dedc4d239487a7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.218599,
+      "area": 309971272.44
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          141.248772984,
+          -37.872747439
+        ],
+        [
+          141.248460979,
+          -37.999116979
+        ],
+        [
+          141.4993801,
+          -37.997316583
+        ],
+        [
+          141.500211692,
+          -37.87073216
+        ],
+        [
+          141.248772984,
+          -37.872747439
+        ]
+      ]
+    ]
+  }
+}

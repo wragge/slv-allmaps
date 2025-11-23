@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0082913e235eb91b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-22T23:29:21.661Z",
+  "modified": "2025-11-22T23:29:21.661Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002567:FL21480602.jpg",
+      "type": "ImageService2",
+      "height": 4846,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002567/canvas/FL21480602",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002567/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : provisional 2 inches to 1 mile series topographical map. 916 B, Dartmoor B"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4846\"><polygon points=\"938,556 933,3606 5781,3628 5783,570\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5597,
+            2202
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.49051309710393,
+            -37.81524201112243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1693,
+            3419
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.28772516427375,
+            -37.86590136697285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1148,
+            3202
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.25898144784196,
+            -37.85695072023071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1048,
+            2673
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.25364048985637,
+            -37.83490190811741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2102,
+            1242
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.30875705561562,
+            -37.77597723242255
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0082913e235eb91b",
+      "version": "https://annotations.allmaps.org/maps/0082913e235eb91b@4984a0227efde7a4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/68d09b29174210de",
+        "version": "https://annotations.allmaps.org/images/68d09b29174210de@d75cd06d64fb4f88",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3b4930a74be3abad",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/eff5847289ebe93d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.218204,
+      "area": 310866935.95
+    }
+  }
+}

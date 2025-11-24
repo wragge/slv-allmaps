@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f19325f8af1d57cb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-24T04:55:40.404Z",
+  "modified": "2025-11-24T04:55:40.404Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22723398:FL22723608.jpg",
+      "type": "ImageService2",
+      "height": 5006,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22723398/canvas/FL22723608",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300184"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22723398/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Daylesford /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5006\"><polygon points=\"2031,253 2057,4783 5325,4754 5334,240\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4610,
+            4053
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.15179008520977,
+            -37.36284587310747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4636,
+            1453
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.15591297146574,
+            -37.34101153578616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2591,
+            1446
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.13379487435412,
+            -37.33826433828549
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2433,
+            4464
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.1275132781555,
+            -37.363887334055384
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f19325f8af1d57cb",
+      "version": "https://annotations.allmaps.org/maps/f19325f8af1d57cb@803c23aaa4df4f30",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f13f1ce386a381b5",
+        "version": "https://annotations.allmaps.org/images/f13f1ce386a381b5@4cfd89e693523067",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6cd30074e6b3ed4f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/006857fa84d89c68"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.040497,
+      "area": 13723214.3
+    }
+  }
+}

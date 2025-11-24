@@ -1,0 +1,138 @@
+{
+  "id": "https://annotations.allmaps.org/maps/699200255013754f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-24T03:20:26.145Z",
+  "modified": "2025-11-24T03:20:26.145Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9105924:FL21663035.jpg",
+      "type": "ImageService2",
+      "height": 4288,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9105924/canvas/FL21663035",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9105924/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map shewing the route travelled (during the first portion) of the Honorable Thomas Elders' great South Australian exploration camel caravan under the command of Ernest Giles"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4288\"><polygon points=\"449,1329 733,3742 6943,3717 6951,1271\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "thinPlateSpline"
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6520,
+            3067
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.00114859343262,
+            -31.687271847578558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            882,
+            3248
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            115.45185992372465,
+            -32.02473359929729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1383,
+            3067
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.68050481119509,
+            -31.65395396663942
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1169,
+            2784
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.21602856454979,
+            -30.97479921026848
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/699200255013754f",
+      "version": "https://annotations.allmaps.org/maps/699200255013754f@c226f6c2f9363b21",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fe778ddc5c07c7b7",
+        "version": "https://annotations.allmaps.org/images/fe778ddc5c07c7b7@b87e29390aaa00fe",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ca3b839995bd88dd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/88db8a540fbde955"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.004086,
+      "area": 925117553763.01
+    }
+  }
+}

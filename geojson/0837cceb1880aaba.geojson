@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/0837cceb1880aaba",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-24T03:57:30.526Z",
+    "modified": "2025-11-24T03:57:30.526Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498594:FL21304804.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498594:FL21304804.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5017,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498594/canvas/FL21304804",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498594/manifest",
+              "label": {
+                "none": [
+                  "Australia 1:126,720. Sheet J55N, I & II. Victoria, Berwick"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0a646649a348d8a1",
+        "index": 0.5763396072521969,
+        "resource": [
+          1006,
+          483
+        ],
+        "geo": [
+          145.08708714164067,
+          -38.005198805116144
+        ]
+      },
+      {
+        "id": "0df242d0a72ee715",
+        "index": 1.6233382515768908,
+        "resource": [
+          6120,
+          573
+        ],
+        "geo": [
+          145.95477238268654,
+          -38.01642639223725
+        ]
+      },
+      {
+        "id": "7e268d40c9a0828a",
+        "index": 2.793255709329303,
+        "resource": [
+          6044,
+          3989
+        ],
+        "geo": [
+          145.9472140020934,
+          -38.47563973545567
+        ]
+      },
+      {
+        "id": "9542e2640bf692ce",
+        "index": 3.3653554858568446,
+        "resource": [
+          615,
+          3976
+        ],
+        "geo": [
+          145.0189220320878,
+          -38.47415548552943
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        475,
+        429
+      ],
+      [
+        488,
+        4140
+      ],
+      [
+        6389,
+        4170
+      ],
+      [
+        6372,
+        430
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0837cceb1880aaba",
+      "version": "https://annotations.allmaps.org/maps/0837cceb1880aaba@65ad6bfd7ec71f33",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3ab1b680de5234fb",
+        "version": "https://annotations.allmaps.org/images/3ab1b680de5234fb@dc76608b7aa43609",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f4e357d862a29384",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f075e53ab6ebd5ca"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.067062,
+      "area": 4886523166.97
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.994818398,
+          -37.997805855
+        ],
+        [
+          144.999049824,
+          -38.496287574
+        ],
+        [
+          146.00437216,
+          -38.49967002
+        ],
+        [
+          145.999443526,
+          -37.997303291
+        ],
+        [
+          144.994818398,
+          -37.997805855
+        ]
+      ]
+    ]
+  }
+}

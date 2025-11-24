@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/54254f48a051c4c2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-24T03:56:48.164Z",
+  "modified": "2025-11-24T03:56:48.164Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22851631:FL22852482.jpg",
+      "type": "ImageService2",
+      "height": 4517,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22851631/canvas/FL22852482",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "pv000356"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22851631/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 800 feet to 1 inch. [base map] 8F, [Glenhuntly, Caulfield, Ormond, Carnegie and Brighton East]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4517\"><polygon points=\"581,685 578,3555 6297,3550 6302,690\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            628,
+            2896
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99834645472475,
+            -37.90849642112796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            799,
+            1405
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0017707603248,
+            -37.88542928662242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4033,
+            2589
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06482156834107,
+            -37.90373720447348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6002,
+            2137
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.10315240906715,
+            -37.89662573610279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2671,
+            1460
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03814954527536,
+            -37.886238254479274
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/54254f48a051c4c2",
+      "version": "https://annotations.allmaps.org/maps/54254f48a051c4c2@b77a938f53bc9916",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5446be9a8fc11502",
+        "version": "https://annotations.allmaps.org/images/5446be9a8fc11502@a71db55d689f92e4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d1cc9e4c2aabdfb0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2502da9c46b0ba01"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.582444,
+      "area": 48307237.58
+    }
+  }
+}

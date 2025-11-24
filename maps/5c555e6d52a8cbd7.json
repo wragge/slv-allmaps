@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5c555e6d52a8cbd7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-24T04:14:27.738Z",
+  "modified": "2025-11-24T04:14:27.738Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7330739:FL21468205.jpg",
+      "type": "ImageService2",
+      "height": 4448,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7330739/canvas/FL21468205",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7330739/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2856, Municipality of Caulfield"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4448\"><polygon points=\"502,479 341,4028 6531,4088 6533,519\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            711,
+            1373
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06183729070614,
+            -37.902641911205386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            679,
+            2470
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0629068865989,
+            -37.902786771605406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3756,
+            1368
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06226743546654,
+            -37.90029024908383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3727,
+            3626
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0644877311771,
+            -37.9005708624914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6229,
+            3652
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06483227351077,
+            -37.89863227754552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3724,
+            2476
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06333654399208,
+            -37.90042385734265
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5c555e6d52a8cbd7",
+      "version": "https://annotations.allmaps.org/maps/5c555e6d52a8cbd7@3413d3f8f5ee1597",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dc9e394174a099e9",
+        "version": "https://annotations.allmaps.org/images/dc9e394174a099e9@2aa4ac6c2e3061b9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/08099580db2a6483",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/040a30869c5622b3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.500409,
+      "area": 164459.72
+    }
+  }
+}

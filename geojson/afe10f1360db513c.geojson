@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/afe10f1360db513c",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-23T23:08:20.816Z",
+    "modified": "2025-11-23T23:08:20.816Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22840584:FL22841671.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22840584:FL22841671.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4566,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22840584/canvas/FL22841671",
+          "label": {
+            "none": [
+              "pv000272"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22840584/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works, scale 2000 feet to 1 inch.. 2-4B, Municipalities or parts of Altona, Brighton, Caulfield, Collingwood, Fitzroy, Footscray, Melbourne, Melton, Port Melbourne, Prahran, Richmond, South Melbourne, St Kilda, Sunshine, Werribee and Williamstown"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "39ca7ddd582fba81",
+        "index": 2.9527669016001132,
+        "resource": [
+          2489,
+          2900
+        ],
+        "geo": [
+          144.8117583207287,
+          -37.87044338062499
+        ]
+      },
+      {
+        "id": "71ed564d8eab7724",
+        "index": 1.1320998766091606,
+        "resource": [
+          6120,
+          1289
+        ],
+        "geo": [
+          144.9855803978561,
+          -37.8092340284333
+        ]
+      },
+      {
+        "id": "87c418df3c9e4bbe",
+        "index": 0.47203019078714437,
+        "resource": [
+          6245,
+          3352
+        ],
+        "geo": [
+          144.99140154753485,
+          -37.88771077279307
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        560,
+        682
+      ],
+      [
+        554,
+        3603
+      ],
+      [
+        6396,
+        3595
+      ],
+      [
+        6411,
+        687
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/afe10f1360db513c",
+      "version": "https://annotations.allmaps.org/maps/afe10f1360db513c@4273d6ee2e5468a2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f45963ec88aacc8b",
+        "version": "https://annotations.allmaps.org/images/f45963ec88aacc8b@55bc852cc85c3530",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c75322ae8f67348c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8d6586b8625fe998"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.237159,
+      "area": 302955956.84
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.719650082,
+          -37.786008537
+        ],
+        [
+          144.719138568,
+          -37.897130129
+        ],
+        [
+          144.998606347,
+          -37.896951958
+        ],
+        [
+          144.9995474,
+          -37.786325214
+        ],
+        [
+          144.719650082,
+          -37.786008537
+        ]
+      ]
+    ]
+  }
+}

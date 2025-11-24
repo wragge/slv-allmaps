@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9a9b9c47fccdad02",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-23T22:32:40.061Z",
+  "modified": "2025-11-23T22:32:40.061Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15418015:FL21372245.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4881,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15418015/canvas/FL21372245",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15418015/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Building allotments : West St Kilda"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4881\" height=\"7000\"><polygon points=\"280,1390 276,2974 2353,5871 4643,5950 4665,1348\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3087,
+            4593
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9742781184653,
+            -37.86270405526086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            749,
+            2340
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96729019610785,
+            -37.85559896430748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3846,
+            3408
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97742863459058,
+            -37.85974760033679
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9a9b9c47fccdad02",
+      "version": "https://annotations.allmaps.org/maps/9a9b9c47fccdad02@7ad246036f851652",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f04caba13e182488",
+        "version": "https://annotations.allmaps.org/images/f04caba13e182488@6df212ca966aa999",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f7e89fcf93110880",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d4e162648a52ce76"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.264502,
+      "area": 1575406.1
+    }
+  }
+}

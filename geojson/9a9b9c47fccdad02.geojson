@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/9a9b9c47fccdad02",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-23T22:32:40.061Z",
+    "modified": "2025-11-23T22:32:40.061Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15418015:FL21372245.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15418015:FL21372245.jpg",
+      "type": "ImageService2",
+      "width": 4881,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15418015/canvas/FL21372245",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15418015/manifest",
+              "label": {
+                "none": [
+                  "Building allotments : West St Kilda"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "83ad002373c9ef44",
+        "index": 0.057086760415816395,
+        "resource": [
+          3087,
+          4593
+        ],
+        "geo": [
+          144.9742781184653,
+          -37.86270405526086
+        ]
+      },
+      {
+        "id": "97885ccdf6f48ee5",
+        "index": 1.5347713834373058,
+        "resource": [
+          749,
+          2340
+        ],
+        "geo": [
+          144.96729019610785,
+          -37.85559896430748
+        ]
+      },
+      {
+        "id": "d9c593a6f583356b",
+        "index": 2.9406448982594453,
+        "resource": [
+          3846,
+          3408
+        ],
+        "geo": [
+          144.97742863459058,
+          -37.85974760033679
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        280,
+        1390
+      ],
+      [
+        276,
+        2974
+      ],
+      [
+        2353,
+        5871
+      ],
+      [
+        4643,
+        5950
+      ],
+      [
+        4665,
+        1348
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9a9b9c47fccdad02",
+      "version": "https://annotations.allmaps.org/maps/9a9b9c47fccdad02@7ad246036f851652",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f04caba13e182488",
+        "version": "https://annotations.allmaps.org/images/f04caba13e182488@6df212ca966aa999",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f7e89fcf93110880",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d4e162648a52ce76"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.264502,
+      "area": 1575406.1
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.966117644,
+          -37.852805685
+        ],
+        [
+          144.965374915,
+          -37.85715457
+        ],
+        [
+          144.97117061,
+          -37.865925589
+        ],
+        [
+          144.978994313,
+          -37.867041179
+        ],
+        [
+          144.98118779,
+          -37.854411409
+        ],
+        [
+          144.966117644,
+          -37.852805685
+        ]
+      ]
+    ]
+  }
+}

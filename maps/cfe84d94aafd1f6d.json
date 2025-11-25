@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cfe84d94aafd1f6d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-25T05:00:12.652Z",
+  "modified": "2025-11-25T05:00:12.652Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7024814:FL21347767.jpg",
+      "type": "ImageService2",
+      "height": 5183,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024814/canvas/FL21347767",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024814/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Orbost, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5183\"><polygon points=\"379,1431 318,2433 3524,5046 6421,5014 6426,450\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6275,
+            3819
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.49158562837653,
+            -37.70417040307505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1288,
+            1981
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.3472381942401,
+            -37.63633415444202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5147,
+            4159
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.45484693072854,
+            -37.70716369404682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3974,
+            4342
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.41753508591881,
+            -37.7065043140938
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cfe84d94aafd1f6d",
+      "version": "https://annotations.allmaps.org/maps/cfe84d94aafd1f6d@402f624325aaf1aa",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/788fce835c039397",
+        "version": "https://annotations.allmaps.org/images/788fce835c039397@dedcab6fc6fb0532",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a756402cb5c5a846",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/649fa15b0621a9cd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.361155,
+      "area": 159233817.18
+    }
+  }
+}

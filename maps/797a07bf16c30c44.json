@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/797a07bf16c30c44",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-25T07:22:12.658Z",
+  "modified": "2025-11-25T07:22:12.658Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387881:FL21479592.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4846,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387881/canvas/FL21479592",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387881/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Glasgow Hill"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4846\" height=\"7000\"><polygon points=\"182,600 172,6006 4627,6019 4659,620\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            660,
+            3122
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.63735106966743,
+            -36.43352802250041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4254,
+            6000
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7411257863683,
+            -36.50354525039555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3620,
+            4726
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.72272049713393,
+            -36.47237410483536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3060,
+            1114
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7073812228483,
+            -36.386031074242304
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/797a07bf16c30c44",
+      "version": "https://annotations.allmaps.org/maps/797a07bf16c30c44@e9f450853435d6c7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9f1436f7de7b69a8",
+        "version": "https://annotations.allmaps.org/images/9f1436f7de7b69a8@082c1d862f053648",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e388b957bdca8681",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8c0d891553da0bfb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.380255,
+      "area": 166866596.96
+    }
+  }
+}

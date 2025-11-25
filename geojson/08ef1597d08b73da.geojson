@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/08ef1597d08b73da",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-25T06:59:41.468Z",
+    "modified": "2025-11-25T06:59:41.468Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7389123:FL21478547.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7389123:FL21478547.jpg",
+      "type": "ImageService2",
+      "width": 5138,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7389123/canvas/FL21478547",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7389123/manifest",
+              "label": {
+                "none": [
+                  "Llanelly"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "145765df1394829d",
+        "index": 0.11404462885573341,
+        "resource": [
+          3821,
+          5335
+        ],
+        "geo": [
+          143.8468511725116,
+          -36.73353984854073
+        ]
+      },
+      {
+        "id": "152b4672fdbd1390",
+        "index": 2.516061600429607,
+        "resource": [
+          1433,
+          1177
+        ],
+        "geo": [
+          143.7836494242482,
+          -36.643752568246974
+        ]
+      },
+      {
+        "id": "9f39ee3e599ab003",
+        "index": 1.6823397984669755,
+        "resource": [
+          4498,
+          777
+        ],
+        "geo": [
+          143.86573957910855,
+          -36.63535659860448
+        ]
+      },
+      {
+        "id": "ecf5c4ba130af712",
+        "index": 3.801266276144055,
+        "resource": [
+          1037,
+          5844
+        ],
+        "geo": [
+          143.77307723185788,
+          -36.74335475573789
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        182,
+        210
+      ],
+      [
+        202,
+        6062
+      ],
+      [
+        4977,
+        6092
+      ],
+      [
+        4943,
+        185
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/08ef1597d08b73da",
+      "version": "https://annotations.allmaps.org/maps/08ef1597d08b73da@bfc5564ba5938343",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b5ee440226d2fdb3",
+        "version": "https://annotations.allmaps.org/images/b5ee440226d2fdb3@3fb94a8020366a4d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7f1cf386824459b7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e325bfab41e26f25"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.419898,
+      "area": 158996361.04
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.750607769,
+          -36.622489368
+        ],
+        [
+          143.750594513,
+          -36.748102477
+        ],
+        [
+          143.877801699,
+          -36.749764517
+        ],
+        [
+          143.877447116,
+          -36.622969652
+        ],
+        [
+          143.750607769,
+          -36.622489368
+        ]
+      ]
+    ]
+  }
+}

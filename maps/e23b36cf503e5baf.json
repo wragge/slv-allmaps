@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e23b36cf503e5baf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T09:07:06.208Z",
+  "modified": "2025-11-26T09:07:06.208Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385421:FL21480294.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4991,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385421/canvas/FL21480294",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385421/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Widjil Tank"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4991\" height=\"7000\"><polygon points=\"307,758 301,6021 4659,6028 4647,758\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1191,
+            1082
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.90138632092322,
+            -34.50417983872933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4362,
+            1003
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.9936765648186,
+            -34.50254055567162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4149,
+            5700
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.98742675514535,
+            -34.61697503984294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2551,
+            5840
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.94022578395715,
+            -34.61980070172029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            753,
+            2877
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.88796543710572,
+            -34.54752677021319
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e23b36cf503e5baf",
+      "version": "https://annotations.allmaps.org/maps/e23b36cf503e5baf@938cc1c107c4b38d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5bb51605f3ea6356",
+        "version": "https://annotations.allmaps.org/images/5bb51605f3ea6356@bad7c090cb470d68",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/21ad87037d3f47af",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9c4b9a586ff19b16"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.371674,
+      "area": 165800758.04
+    }
+  }
+}

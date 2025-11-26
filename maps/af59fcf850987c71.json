@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/af59fcf850987c71",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T22:00:41.987Z",
+  "modified": "2025-11-26T22:00:41.987Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493300:FL21461231.jpg",
+      "type": "ImageService2",
+      "height": 3484,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493300/canvas/FL21461231",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 4"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493300/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "City of Melbourne harbour & railway accomodation / City of Melbourne harbour & railway accomodation"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3484\"><polygon points=\"134,350 76,1916 3097,2380 5344,3372 6777,3254 6749,359\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1422,
+            845
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9630160293791,
+            -37.818682519908805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5289,
+            889
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9723436676889,
+            -37.815918138344664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3198,
+            912
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96745960549703,
+            -37.81747431618641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3214,
+            1694
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96827245621284,
+            -37.81923969921195
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/af59fcf850987c71",
+      "version": "https://annotations.allmaps.org/maps/af59fcf850987c71@72cfc1a3f6d8de21",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/469cb61532f76f3a",
+        "version": "https://annotations.allmaps.org/images/469cb61532f76f3a@a8cc59d3ceae6a49",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/933f9640d675f79d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7bb5e29c82adb8f9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 4.075137,
+      "area": 917560.94
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2d87716387a4714d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T05:21:53.588Z",
+  "modified": "2025-11-26T05:21:53.588Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15474745:FL21375961.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6267,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15474745/canvas/FL21375961",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15474745/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "City of Melbourne, off Little Collins-Street West, close to King Street"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6267\" height=\"7000\"><polygon points=\"414,1217 1462,6156 4685,5565 4608,340\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3290,
+            3313
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95725550706453,
+            -37.81753756275405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1554,
+            5972
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9566035244723,
+            -37.81834619491795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            514,
+            1482
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95614758096826,
+            -37.817365707901935
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2d87716387a4714d",
+      "version": "https://annotations.allmaps.org/maps/2d87716387a4714d@3e1efc4df9b964cc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a686afd52ca42b5c",
+        "version": "https://annotations.allmaps.org/images/a686afd52ca42b5c@a87ae6db4281810c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f208b8baee820856",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a8080930b7738854"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 32.7416,
+      "area": 17965.72
+    }
+  }
+}

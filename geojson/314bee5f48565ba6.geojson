@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/314bee5f48565ba6",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-26T05:15:19.967Z",
+    "modified": "2025-11-26T05:15:19.967Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15417940:FL21375795.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15417940:FL21375795.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5118,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15417940/canvas/FL21375795",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15417940/manifest",
+              "label": {
+                "none": [
+                  "Plan of South Melbourne at Emerald Hill"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "4ee0ed6f8e7c9564",
+        "index": 2.9755325498315317,
+        "resource": [
+          4327,
+          2394
+        ],
+        "geo": [
+          144.96306766507246,
+          -37.83228397586764
+        ]
+      },
+      {
+        "id": "af3768c6fff7c1a2",
+        "index": 0.3963715849367987,
+        "resource": [
+          2119,
+          2145
+        ],
+        "geo": [
+          144.9565372245919,
+          -37.8304033854432
+        ]
+      },
+      {
+        "id": "b63de9efc204718a",
+        "index": 1.601405758543971,
+        "resource": [
+          2665,
+          2951
+        ],
+        "geo": [
+          144.95757576322364,
+          -37.832624077392396
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        2142,
+        564
+      ],
+      [
+        281,
+        4265
+      ],
+      [
+        6586,
+        4173
+      ],
+      [
+        4955,
+        1657
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/314bee5f48565ba6",
+      "version": "https://annotations.allmaps.org/maps/314bee5f48565ba6@d9d5c28502409a20",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cc05c65a13a41533",
+        "version": "https://annotations.allmaps.org/images/cc05c65a13a41533@4a455a59d14b2942",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/49f5b254448aac99",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1bd7d5fb57c71857"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.661288,
+      "area": 1061482.83
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.957831248,
+          -37.826688078
+        ],
+        [
+          144.94929936,
+          -37.834326532
+        ],
+        [
+          144.96856889,
+          -37.837802523
+        ],
+        [
+          144.965550459,
+          -37.83091369
+        ],
+        [
+          144.957831248,
+          -37.826688078
+        ]
+      ]
+    ]
+  }
+}

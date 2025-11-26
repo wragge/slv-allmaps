@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/77b58139dd94fe32",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T05:47:18.250Z",
+  "modified": "2025-11-26T05:47:18.250Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155827:FL23156435.jpg",
+      "type": "ImageService2",
+      "height": 5183,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155827/canvas/FL23156435",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000974"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155827/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the town of Geelong, 1838"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5183\"><polygon points=\"463,546 523,4484 6441,4487 6455,530\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4779,
+            3709
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.36825241244338,
+            -38.149391384443724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4778,
+            3377
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3657438116893,
+            -38.14867286526888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3742,
+            3383
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3629026140282,
+            -38.154885161524334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2349,
+            3393
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.35910156922364,
+            -38.16312925805292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2350,
+            3051
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.35664461735348,
+            -38.16240144588082
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/77b58139dd94fe32",
+      "version": "https://annotations.allmaps.org/maps/77b58139dd94fe32@03d5424caaad856d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f9fb8f771e12a57e",
+        "version": "https://annotations.allmaps.org/images/f9fb8f771e12a57e@127fdb7ce24c2c04",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f90262d4e17bc0df",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ce0ae47173d53883"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.4382,
+      "area": 11364959.72
+    }
+  }
+}

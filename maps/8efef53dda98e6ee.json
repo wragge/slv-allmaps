@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8efef53dda98e6ee",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T04:49:31.813Z",
+  "modified": "2025-11-26T04:49:31.813Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488095:FL21305030.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5048,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488095/canvas/FL21305030",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488095/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the city of Melbourne embracing Collingwood, South Melbourne and Sandridge, shewing part of Richmond, Prahran & St. Kilda Plan of the city of Melbourne embracing Collingwood, South Melbourne and Sandridge, shewing part of Richmond, Prahran & St. Kilda"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5048\" height=\"7000\"><polygon points=\"313,501 291,6451 4757,6464 4749,506\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2847,
+            2770
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9705745106159,
+            -37.812079716529816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1748,
+            2977
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9539044688019,
+            -37.81242468323196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2053,
+            3523
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9571250642744,
+            -37.81941866101402
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8efef53dda98e6ee",
+      "version": "https://annotations.allmaps.org/maps/8efef53dda98e6ee@73fdaa41fc3851a2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/325e7a0160badec8",
+        "version": "https://annotations.allmaps.org/images/325e7a0160badec8@06db71371aaf5b4b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2f3cf1cdb0b2a5c6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/79c05996c6dc9807"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.759339,
+      "area": 45961748.87
+    }
+  }
+}

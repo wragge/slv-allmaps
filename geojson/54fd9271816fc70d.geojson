@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/54fd9271816fc70d",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-26T05:11:34.392Z",
+    "modified": "2025-11-26T05:11:34.392Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291055:FL21364963.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291055:FL21364963.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5954,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291055/canvas/FL21364963",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291055/manifest",
+              "label": {
+                "none": [
+                  "Plan of the City of Melbourne and its extension northwards /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0b496bc98649f433",
+        "index": 0.4559776561922265,
+        "resource": [
+          5846,
+          4031
+        ],
+        "geo": [
+          144.97482696059973,
+          -37.81529249463135
+        ]
+      },
+      {
+        "id": "33430e22ba8d6859",
+        "index": 1.920383783050657,
+        "resource": [
+          4796,
+          3079
+        ],
+        "geo": [
+          144.96961426690052,
+          -37.81008865502659
+        ]
+      },
+      {
+        "id": "7e5a7dbaf7e6aaf1",
+        "index": 2.373575002977982,
+        "resource": [
+          2430,
+          4434
+        ],
+        "geo": [
+          144.95479870571432,
+          -37.814458605304516
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        295,
+        346
+      ],
+      [
+        547,
+        5652
+      ],
+      [
+        6751,
+        5658
+      ],
+      [
+        6586,
+        263
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/54fd9271816fc70d",
+      "version": "https://annotations.allmaps.org/maps/54fd9271816fc70d@959c28f0c32e85ab",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b97c3316a873fe8c",
+        "version": "https://annotations.allmaps.org/images/b97c3316a873fe8c@7cc8a7018f74adce",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a0aefb863a486ac6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/78d5beea34304fb4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.94025,
+      "area": 8881561.15
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.946087083,
+          -37.793977693
+        ],
+        [
+          144.942885184,
+          -37.818578254
+        ],
+        [
+          144.978612541,
+          -37.823485586
+        ],
+        [
+          144.982393578,
+          -37.798545757
+        ],
+        [
+          144.946087083,
+          -37.793977693
+        ]
+      ]
+    ]
+  }
+}

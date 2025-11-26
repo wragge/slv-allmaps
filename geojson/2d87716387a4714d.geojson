@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/2d87716387a4714d",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-26T05:21:53.588Z",
+    "modified": "2025-11-26T05:21:53.588Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15474745:FL21375961.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15474745:FL21375961.jpg",
+      "type": "ImageService2",
+      "width": 6267,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15474745/canvas/FL21375961",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15474745/manifest",
+              "label": {
+                "none": [
+                  "City of Melbourne, off Little Collins-Street West, close to King Street"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "2112c05812586fdc",
+        "index": 2.8976880263747686,
+        "resource": [
+          3290,
+          3313
+        ],
+        "geo": [
+          144.95725550706453,
+          -37.81753756275405
+        ]
+      },
+      {
+        "id": "75151abb345c83e5",
+        "index": 0.5366553112090799,
+        "resource": [
+          1554,
+          5972
+        ],
+        "geo": [
+          144.9566035244723,
+          -37.81834619491795
+        ]
+      },
+      {
+        "id": "8a00eaa2577e6066",
+        "index": 1.01831106749963,
+        "resource": [
+          514,
+          1482
+        ],
+        "geo": [
+          144.95614758096826,
+          -37.817365707901935
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        414,
+        1217
+      ],
+      [
+        1462,
+        6156
+      ],
+      [
+        4685,
+        5565
+      ],
+      [
+        4608,
+        340
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2d87716387a4714d",
+      "version": "https://annotations.allmaps.org/maps/2d87716387a4714d@3e1efc4df9b964cc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a686afd52ca42b5c",
+        "version": "https://annotations.allmaps.org/images/a686afd52ca42b5c@a87ae6db4281810c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f208b8baee820856",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a8080930b7738854"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 32.7416,
+      "area": 17965.72
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.956105532,
+          -37.817311583
+        ],
+        [
+          144.956569435,
+          -37.818399424
+        ],
+        [
+          144.957826574,
+          -37.817944673
+        ],
+        [
+          144.957740251,
+          -37.816693822
+        ],
+        [
+          144.956105532,
+          -37.817311583
+        ]
+      ]
+    ]
+  }
+}

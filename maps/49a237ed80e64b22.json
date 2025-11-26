@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/49a237ed80e64b22",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T05:52:49.760Z",
+  "modified": "2025-11-26T05:52:49.760Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1373888:FL20898935.jpg",
+      "type": "ImageService2",
+      "height": 5250,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1373888/canvas/FL20898935",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image H24513"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1373888/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan shewing the situation of buildings on the Government Reserve - Melbourne - Port Phillip (surveyed June 27th 1838)"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5250\"><polygon points=\"1222,211 1314,4821 6023,4773 5994,231\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5440,
+            4455
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95660432695428,
+            -37.81834127996936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1538,
+            618
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9532538607221,
+            -37.817088702339376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5425,
+            584
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9557081122408,
+            -37.81636982174259
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/49a237ed80e64b22",
+      "version": "https://annotations.allmaps.org/maps/49a237ed80e64b22@7f69213b4bf8223e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0299732aa9779d4c",
+        "version": "https://annotations.allmaps.org/images/0299732aa9779d4c@34d7876b98a7510a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1c84db383981411d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9318b98288f0c488"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 16.757834,
+      "area": 77248.73
+    }
+  }
+}

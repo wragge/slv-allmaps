@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/8bcbb8b5ec22c750",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-26T07:23:14.148Z",
+    "modified": "2025-11-26T07:23:14.148Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388181:FL21482158.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388181:FL21482158.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5711,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388181/canvas/FL21482158",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388181/manifest",
+              "label": {
+                "none": [
+                  "Phillip Island"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "056fe5797afdc251",
+        "index": 1.0196034880462692,
+        "resource": [
+          5809,
+          2630
+        ],
+        "geo": [
+          145.3724792809477,
+          -38.5232140782382
+        ]
+      },
+      {
+        "id": "f027797705fc0e3f",
+        "index": 0.38021506670266236,
+        "resource": [
+          1784,
+          2639
+        ],
+        "geo": [
+          145.17180414229426,
+          -38.496616050112124
+        ]
+      },
+      {
+        "id": "eb6feb8339225ced",
+        "index": 2.0072203437000455,
+        "resource": [
+          2810,
+          1240
+        ],
+        "geo": [
+          145.23445994759078,
+          -38.45024543673025
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        68,
+        617
+      ],
+      [
+        83,
+        4460
+      ],
+      [
+        6909,
+        4481
+      ],
+      [
+        6882,
+        617
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8bcbb8b5ec22c750",
+      "version": "https://annotations.allmaps.org/maps/8bcbb8b5ec22c750@850f627cc5b568bd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b3a9d022fdc0fe55",
+        "version": "https://annotations.allmaps.org/images/b3a9d022fdc0fe55@5ec8ecd7ae2093ca",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/34662b2a225e1149",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/508430fe0697851a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.230075,
+      "area": 496473899.92
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.102932674,
+          -38.408148081
+        ],
+        [
+          145.07203186,
+          -38.55448448
+        ],
+        [
+          145.412058314,
+          -38.600927649
+        ],
+        [
+          145.442534004,
+          -38.453805898
+        ],
+        [
+          145.102932674,
+          -38.408148081
+        ]
+      ]
+    ]
+  }
+}

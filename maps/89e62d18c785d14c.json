@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/89e62d18c785d14c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T05:26:45.119Z",
+  "modified": "2025-11-27T05:26:45.119Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7392078:FL21481270.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4744,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7392078/canvas/FL21481270",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7392078/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Castle Donnington"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4744\" height=\"7000\"><polygon points=\"148,632 107,6085 4582,6089 4626,660\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1051,
+            5096
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.52749467174982,
+            -35.47695024419895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4494,
+            2156
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.62542910066077,
+            -35.40693280101969
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4366,
+            5536
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.6217813640783,
+            -35.487013994519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1593,
+            800
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.54227353269272,
+            -35.37572836897474
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/89e62d18c785d14c",
+      "version": "https://annotations.allmaps.org/maps/89e62d18c785d14c@443df840822fb9ab",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2cb5935ffbaaea28",
+        "version": "https://annotations.allmaps.org/images/2cb5935ffbaaea28@33f4948218c2f4d2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0bec78941ee1762c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4b1f1f422689d3c3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.384118,
+      "area": 165082264.37
+    }
+  }
+}

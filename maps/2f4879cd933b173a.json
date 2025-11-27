@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2f4879cd933b173a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T05:51:17.294Z",
+  "modified": "2025-11-27T05:51:17.294Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15468985:FL21373899.jpg",
+      "type": "ImageService2",
+      "height": 4881,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15468985/canvas/FL21373899",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15468985/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of allotments J and N (in the) parish of Maribyrnong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4881\"><polygon points=\"726,2305 657,4472 3711,4146 5337,3221 5209,1651 2574,510\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3304,
+            3132
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.82809554591807,
+            -37.7285671895925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4426,
+            1662
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.836665353824,
+            -37.720211439319556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3993,
+            1372
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8341668948588,
+            -37.718938341800374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4753,
+            2152
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84029439930367,
+            -37.7239940145895
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2f4879cd933b173a",
+      "version": "https://annotations.allmaps.org/maps/2f4879cd933b173a@7b09385eaaa690d7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/33a89190ec46f06a",
+        "version": "https://annotations.allmaps.org/images/33a89190ec46f06a@5e95d47d8ae84358",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6161be2ccb1e7314",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5c04c087bc0cff84"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.46145,
+      "area": 6159306.77
+    }
+  }
+}

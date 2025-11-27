@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/11288d59af61a3c0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T05:56:39.534Z",
+  "modified": "2025-11-27T05:56:39.534Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15471685:FL21373773.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4752,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15471685/canvas/FL21373773",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15471685/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of three original Government sections of agricultural land adjoining the Keilor Reserve fronting the Saltwater River, near Essendonn"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4752\" height=\"7000\"><polygon points=\"337,2001 229,6650 4580,6677 4552,2032\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            852,
+            4088
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.83793440390065,
+            -37.70546788651482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1212,
+            6108
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.83868398271795,
+            -37.72471225132032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1352,
+            5307
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84188672909158,
+            -37.7170043262733
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2376,
+            5513
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.85385279368364,
+            -37.720348418997744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4249,
+            2973
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8802272275152,
+            -37.69948544150775
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/11288d59af61a3c0",
+      "version": "https://annotations.allmaps.org/maps/11288d59af61a3c0@0a80b885b29fd885",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9f0029c28764b8c1",
+        "version": "https://annotations.allmaps.org/images/9f0029c28764b8c1@91e2717486b5cf6a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4996a74cf7bf873f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8395c8087aa04a67"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.955938,
+      "area": 21781437.57
+    }
+  }
+}

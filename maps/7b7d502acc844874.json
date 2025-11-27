@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7b7d502acc844874",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T05:44:21.526Z",
+  "modified": "2025-11-27T05:44:21.526Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15479301:FL21376875.jpg",
+      "type": "ImageService2",
+      "height": 5556,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479301/canvas/FL21376875",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479301/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Village of Keilor"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5556\"><polygon points=\"872,179 796,5158 6835,5310 4398,179\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4536,
+            3888
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84183613186713,
+            -37.72892070670785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2460,
+            1094
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.83416504091707,
+            -37.71895385868995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3059,
+            1401
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.836693733397,
+            -37.720213764063054
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7b7d502acc844874",
+      "version": "https://annotations.allmaps.org/maps/7b7d502acc844874@96483d0b51f52c6f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1467a8b52ca89b80",
+        "version": "https://annotations.allmaps.org/images/1467a8b52ca89b80@0a591b0ae6881fcb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1fd20ac57ff01a76",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3b4cdd6196aeb008"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.610655,
+      "area": 3533966.23
+    }
+  }
+}

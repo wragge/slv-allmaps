@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d69454470228db3c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T07:12:35.107Z",
+  "modified": "2025-11-27T07:12:35.107Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387751:FL21481562.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4947,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387751/canvas/FL21481562",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387751/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Myrtle Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4947\" height=\"7000\"><polygon points=\"199,575 239,6084 4699,6078 4643,548\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4036,
+            5772
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4839010017007,
+            -36.99706177110844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            692,
+            1146
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38948460102756,
+            -36.8865196400292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4226,
+            1100
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.49292372409303,
+            -36.88546493340778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            518,
+            5170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38292582572655,
+            -36.98118407346866
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d69454470228db3c",
+      "version": "https://annotations.allmaps.org/maps/d69454470228db3c@c16b9625d3b01561",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dc16390b67d5aaca",
+        "version": "https://annotations.allmaps.org/images/dc16390b67d5aaca@6b1edbd052c7bc53",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dcc024f5a65554e5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3a0a14b7144e8103"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.383034,
+      "area": 167491703.97
+    }
+  }
+}

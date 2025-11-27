@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d758b4f54411fccf",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-27T06:43:29.268Z",
+    "modified": "2025-11-27T06:43:29.268Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387951:FL21481766.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387951:FL21481766.jpg",
+      "type": "ImageService2",
+      "width": 4834,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387951/canvas/FL21481766",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387951/manifest",
+              "label": {
+                "none": [
+                  "Marong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "141bb9e49afb78d2",
+        "index": 0.03983350500525129,
+        "resource": [
+          471,
+          5307
+        ],
+        "geo": [
+          144.13265925732918,
+          -36.73652304141048
+        ]
+      },
+      {
+        "id": "5a523df80f5adbae",
+        "index": 1.3597822541390667,
+        "resource": [
+          4472,
+          4484
+        ],
+        "geo": [
+          144.25249827600038,
+          -36.717910832578774
+        ]
+      },
+      {
+        "id": "6b12bcd68e294e2b",
+        "index": 3.424011548954283,
+        "resource": [
+          3260,
+          1213
+        ],
+        "geo": [
+          144.2183120962403,
+          -36.63812075571659
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        258,
+        649
+      ],
+      [
+        255,
+        6077
+      ],
+      [
+        4602,
+        6080
+      ],
+      [
+        4598,
+        646
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d758b4f54411fccf",
+      "version": "https://annotations.allmaps.org/maps/d758b4f54411fccf@523323eb1de0e4fb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c81f929ae94c0fd7",
+        "version": "https://annotations.allmaps.org/images/c81f929ae94c0fd7@9ddfe82686452668",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/eb1d230fd2e36800",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/03f1ed2e2e4944bb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.373191,
+      "area": 169378497.32
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.129105566,
+          -36.6234125
+        ],
+        [
+          144.125753446,
+          -36.755120388
+        ],
+        [
+          144.255416682,
+          -36.756656933
+        ],
+        [
+          144.258563608,
+          -36.624803608
+        ],
+        [
+          144.129105566,
+          -36.6234125
+        ]
+      ]
+    ]
+  }
+}

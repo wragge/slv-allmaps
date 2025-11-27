@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ad895e30690036fc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T08:00:38.646Z",
+  "modified": "2025-11-27T08:00:38.646Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7389080:FL21483044.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4805,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7389080/canvas/FL21483044",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7389080/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Myers Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4805\" height=\"7000\"><polygon points=\"244,723 216,6037 4575,6082 4579,4902 4589,3397 4577,745\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2661,
+            2191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.32168107796218,
+            -36.40787683357639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1996,
+            3634
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.30210887796505,
+            -36.44301545744526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1641,
+            1571
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2911203040154,
+            -36.39307929111557
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ad895e30690036fc",
+      "version": "https://annotations.allmaps.org/maps/ad895e30690036fc@626110208ce987c6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f9029ba07c655e30",
+        "version": "https://annotations.allmaps.org/images/f9029ba07c655e30@362579d1cce3bc28",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e46a11e5721a0213",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0bd5baafe5717250"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.372715,
+      "area": 166840803.44
+    }
+  }
+}

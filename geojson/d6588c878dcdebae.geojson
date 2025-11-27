@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d6588c878dcdebae",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-27T06:13:23.043Z",
+    "modified": "2025-11-27T06:13:23.043Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391225:FL21481112.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391225:FL21481112.jpg",
+      "type": "ImageService2",
+      "width": 4628,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391225/canvas/FL21481112",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391225/manifest",
+              "label": {
+                "none": [
+                  "Lake Tooim"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "6adef16c1cdef985",
+        "index": 0.5236524394890106,
+        "resource": [
+          2326,
+          4504
+        ],
+        "geo": [
+          143.68806304616123,
+          -35.33801603739941
+        ]
+      },
+      {
+        "id": "95eb8927af374972",
+        "index": 1.2207257552036024,
+        "resource": [
+          4297,
+          4573
+        ],
+        "geo": [
+          143.7462796368264,
+          -35.33973137729948
+        ]
+      },
+      {
+        "id": "1db2b08cd372b51c",
+        "index": 2.5097122836600816,
+        "resource": [
+          2909,
+          1240
+        ],
+        "geo": [
+          143.70677631505782,
+          -35.26112641534746
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        95,
+        707
+      ],
+      [
+        104,
+        6040
+      ],
+      [
+        4508,
+        6054
+      ],
+      [
+        4507,
+        662
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d6588c878dcdebae",
+      "version": "https://annotations.allmaps.org/maps/d6588c878dcdebae@966d06780e8b995c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d0c2083fd6957076",
+        "version": "https://annotations.allmaps.org/images/d0c2083fd6957076@64c7bc603b888503",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5c63cd4cad37a2b5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ff2ebb1a1c0e789d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.377274,
+      "area": 166072160.59
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.623857956,
+          -35.248430468
+        ],
+        [
+          143.621698974,
+          -35.374085067
+        ],
+        [
+          143.751841791,
+          -35.374615997
+        ],
+        [
+          143.754264021,
+          -35.247571371
+        ],
+        [
+          143.623857956,
+          -35.248430468
+        ]
+      ]
+    ]
+  }
+}

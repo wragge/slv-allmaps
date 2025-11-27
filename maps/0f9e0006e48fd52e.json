@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0f9e0006e48fd52e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T08:03:54.565Z",
+  "modified": "2025-11-27T08:03:54.565Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386306:FL21482952.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5118,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386306/canvas/FL21482952",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386306/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Winghee Swamp"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5118\" height=\"7000\"><polygon points=\"167,122 154,6051 4994,6046 4994,126\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1109,
+            505
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.27395307346842,
+            -36.255289058000905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4880,
+            5184
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3787390746113,
+            -36.356196407306165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            733,
+            5830
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26407567329892,
+            -36.37085045218953
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0f9e0006e48fd52e",
+      "version": "https://annotations.allmaps.org/maps/0f9e0006e48fd52e@7639d64187b0f06e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8b5e1c8d000f317a",
+        "version": "https://annotations.allmaps.org/images/8b5e1c8d000f317a@99539c6e638b4104",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ad4cf2710158c5d4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a91654baee220157"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.408918,
+      "area": 171253767.12
+    }
+  }
+}

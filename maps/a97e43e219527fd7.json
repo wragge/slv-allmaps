@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a97e43e219527fd7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T21:07:28.249Z",
+  "modified": "2025-11-27T21:07:28.249Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7022417:FL21347745.jpg",
+      "type": "ImageService2",
+      "height": 5232,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022417/canvas/FL21347745",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022417/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bete Bolong North, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5232\"><polygon points=\"104,1076 378,4998 4119,4930 6797,4514 6469,955 4363,246\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6214,
+            1110
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.34976463979734,
+            -37.588804436787896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4194,
+            884
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.3025471756194,
+            -37.57870486609729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3592,
+            1330
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.28565458743685,
+            -37.58517465525899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6202,
+            1894
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.3474664447935,
+            -37.60419950296573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5435,
+            2340
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.32678270729104,
+            -37.610820057382945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3932,
+            1677
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.29233411502793,
+            -37.59295901318848
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a97e43e219527fd7",
+      "version": "https://annotations.allmaps.org/maps/a97e43e219527fd7@4a238299eec82c85",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cecc4c58dccce32c",
+        "version": "https://annotations.allmaps.org/images/cecc4c58dccce32c@0e3c93db4d0d8d1e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6da9e9359b244968",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fee05d90e3e15b77"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.458073,
+      "area": 129014604.82
+    }
+  }
+}

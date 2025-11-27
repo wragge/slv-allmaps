@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cfeb1b618745e312",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T21:23:23.515Z",
+  "modified": "2025-11-27T21:23:23.515Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9651049:FL21647032.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6043,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9651049/canvas/FL21647032",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9651049/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Port Melbourne, Parish of South Melbourne, County of Bourke"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6043\" height=\"7000\"><polygon points=\"315,500 318,6670 5688,6677 5655,2021 2051,450\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5376,
+            4614
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93964228679226,
+            -37.83961628851135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5233,
+            3913
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93923378799462,
+            -37.834416614276925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3707,
+            4203
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9249740393641,
+            -37.83499249615058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4723,
+            4090
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93440309525312,
+            -37.835208638064074
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cfeb1b618745e312",
+      "version": "https://annotations.allmaps.org/maps/cfeb1b618745e312@af86b1cbb34e0971",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d783a836996b547a",
+        "version": "https://annotations.allmaps.org/images/d783a836996b547a@1d70001ab3c0c80a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/139b3c1ad06f9eeb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fef1060adcd119ce"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.23706,
+      "area": 19882548.63
+    }
+  }
+}

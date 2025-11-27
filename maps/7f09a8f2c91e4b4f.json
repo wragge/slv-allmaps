@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7f09a8f2c91e4b4f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T22:40:09.021Z",
+  "modified": "2025-11-26T22:40:09.021Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15502585:FL21376355.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5334,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15502585/canvas/FL21376355",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15502585/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of building lots in the Municipality of Emerald Hill"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5334\" height=\"7000\"><polygon points=\"104,68 115,6623 2831,6904 3523,6402 4109,5208 5311,4173 5311,3716 4389,1871 2455,106\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2835,
+            4546
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95911828885767,
+            -37.8378235302547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            805,
+            5738
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95183322193122,
+            -37.839935508783476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2253,
+            1560
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95906223457848,
+            -37.82965404122058
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7f09a8f2c91e4b4f",
+      "version": "https://annotations.allmaps.org/maps/7f09a8f2c91e4b4f@ca6c5988317358c1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d835314d56d3e8e3",
+        "version": "https://annotations.allmaps.org/images/d835314d56d3e8e3@e36649cdf104b467",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bbb114e25abbaa44",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fbd87e746df74ece"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.405021,
+      "area": 2359647.01
+    }
+  }
+}

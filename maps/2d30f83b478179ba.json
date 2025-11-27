@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2d30f83b478179ba",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T22:28:32.707Z",
+  "modified": "2025-11-26T22:28:32.707Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15473670:FL21374963.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5735,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15473670/canvas/FL21374963",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15473670/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of subdivision of that very valuable city property, corner of Bourke Street and Spring Street"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5735\" height=\"7000\"><polygon points=\"2703,3696 2730,6606 5622,6574 5610,3769\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5485,
+            3936
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97245773934287,
+            -37.81153181478099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2838,
+            6541
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97326775576744,
+            -37.81180426340751
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5524,
+            6518
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9730710675958,
+            -37.81134962598647
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2d30f83b478179ba",
+      "version": "https://annotations.allmaps.org/maps/2d30f83b478179ba@a63a1aa864ca1a3c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9bb4088dc839dcab",
+        "version": "https://annotations.allmaps.org/images/9bb4088dc839dcab@8b02b12366680e23",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/eb6c854a298b81e7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0f98ff4e0da82884"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 47.48964,
+      "area": 3673.59
+    }
+  }
+}

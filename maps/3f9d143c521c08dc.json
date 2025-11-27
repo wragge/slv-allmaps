@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3f9d143c521c08dc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T22:15:24.455Z",
+  "modified": "2025-11-26T22:15:24.455Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15464880:FL21373805.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5337,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15464880/canvas/FL21373805",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15464880/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Township of Northcote on the Merri Merri Creek, in the Parish of Jika Jika, about three miles from the city of Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5337\" height=\"7000\"><polygon points=\"182,1830 67,4996 359,6878 950,6884 5071,5034 5194,1799\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            472,
+            1920
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99305247280404,
+            -37.78063273801816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3670,
+            3979
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99877440877776,
+            -37.78459880937669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4919,
+            1934
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0019292569549,
+            -37.78166692123215
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3f9d143c521c08dc",
+      "version": "https://annotations.allmaps.org/maps/3f9d143c521c08dc@1dea85c6a397b271",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f67e2200d53ef472",
+        "version": "https://annotations.allmaps.org/images/f67e2200d53ef472@04416c81f58598a7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bcddc7941320654c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/35b84fec0d7d0dcc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 5.640874,
+      "area": 669111.66
+    }
+  }
+}

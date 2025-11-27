@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/96181764ec8a4c0b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-26T22:48:41.510Z",
+  "modified": "2025-11-26T22:48:41.510Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15496065:FL21058062.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5740,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496065/canvas/FL21058062",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496065/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bradshaw's map of Melbourne & suburbs showing the churches, public institutions, railways, &c. /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5740\" height=\"7000\"><polygon points=\"842,934 830,6448 5400,6503 5219,983\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3461,
+            1898
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97792364861039,
+            -37.8015844883262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4374,
+            5932
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98368866892991,
+            -37.853476318364706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2995,
+            3266
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96743488488107,
+            -37.81746197416998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2285,
+            5191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95185391671532,
+            -37.83991893996172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2007,
+            1934
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95507282193103,
+            -37.7996560752564
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/96181764ec8a4c0b",
+      "version": "https://annotations.allmaps.org/maps/96181764ec8a4c0b@2c9ac7923fcd955b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5d8dceff6fe81c67",
+        "version": "https://annotations.allmaps.org/images/5d8dceff6fe81c67@786b982907876f12",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fe3906aaf1ae0103",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e9810a377d9db159"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.71421,
+      "area": 48375007.17
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bbf1d3cd3aa78803",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T03:42:03.860Z",
+  "modified": "2025-11-27T03:42:03.860Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291270:FL21365321.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4709,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291270/canvas/FL21365321",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291270/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of fourteen villa sites in Erin and Muir streets, Richmond Hill, near East Melbourne /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4709\" height=\"7000\"><polygon points=\"1461,1313 867,6482 4501,6517 4173,1355\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1755,
+            5692
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.990487069003,
+            -37.81466353690312
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3007,
+            5689
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99028594571735,
+            -37.81580942299181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3651,
+            5669
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99019915981205,
+            -37.81626739320594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3663,
+            1508
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.994862162497,
+            -37.81679642362982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3651,
+            4620
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9914667237539,
+            -37.81642881547565
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bbf1d3cd3aa78803",
+      "version": "https://annotations.allmaps.org/maps/bbf1d3cd3aa78803@21e27b81c1ef8a5f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cb620d50fa141aa4",
+        "version": "https://annotations.allmaps.org/images/cb620d50fa141aa4@de5d7156697ab6d4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ea5cffef211055bd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9d34b0b2cf88d23a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 10.26491,
+      "area": 155599.35
+    }
+  }
+}

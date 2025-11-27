@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3fd9d5aec3e3da84",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-27T03:21:38.262Z",
+    "modified": "2025-11-27T03:21:38.262Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291425:FL21370031.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291425:FL21370031.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4820,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291425/canvas/FL21370031",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291425/manifest",
+              "label": {
+                "none": [
+                  "Plan of building allotments in Richmond : being part of Portion 30, Parish of Jika Jika, the property of W.B. Burnley Esqr."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "29ec4e354d690c92",
+        "index": 3.5519708933229053,
+        "resource": [
+          5795,
+          4270
+        ],
+        "geo": [
+          145.00520827726785,
+          -37.81917143465357
+        ]
+      },
+      {
+        "id": "372f174a1521c20c",
+        "index": 0.7511004113424434,
+        "resource": [
+          5751,
+          1407
+        ],
+        "geo": [
+          145.0038088235592,
+          -37.8190249227128
+        ]
+      },
+      {
+        "id": "5f946b5f6d7a220c",
+        "index": 1.28537480924922,
+        "resource": [
+          37,
+          1431
+        ],
+        "geo": [
+          145.00352218967345,
+          -37.82055662444334
+        ]
+      },
+      {
+        "id": "6fbaa8df56a2e837",
+        "index": 2.07035811094979,
+        "resource": [
+          51,
+          4392
+        ],
+        "geo": [
+          145.00498908614935,
+          -37.820689814517074
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        4820
+      ],
+      [
+        7000,
+        4820
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3fd9d5aec3e3da84",
+      "version": "https://annotations.allmaps.org/maps/3fd9d5aec3e3da84@9bfe74c371ad2543",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/eb0081ea54b02f17",
+        "version": "https://annotations.allmaps.org/images/eb0081ea54b02f17@11683cbc8eac7758",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5b942fdecf4ed48d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d55ae439f81ecc9d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 27.724597,
+      "area": 43894.95
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.002821793,
+          -37.820487581
+        ],
+        [
+          145.005191881,
+          -37.820731445
+        ],
+        [
+          145.005544728,
+          -37.818872623
+        ],
+        [
+          145.003174639,
+          -37.818628752
+        ],
+        [
+          145.002821793,
+          -37.820487581
+        ]
+      ]
+    ]
+  }
+}

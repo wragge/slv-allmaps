@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2043d7cbeb7494cf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T03:16:16.599Z",
+  "modified": "2025-11-27T03:16:16.599Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291080:FL21365003.jpg",
+      "type": "ImageService2",
+      "height": 3553,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291080/canvas/FL21365003",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291080/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "F. L. Hewlitt esq. plan of portion of allotment 4, section 53 Carlton, North Melbourne."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3553\"><polygon points=\"137,1103 145,3473 6920,3473 6939,1382\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            377,
+            2109
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9723885295146,
+            -37.80071146413909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            361,
+            3192
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97233994754328,
+            -37.80100895538658
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6747,
+            3269
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9743141988984,
+            -37.80119803899995
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2043d7cbeb7494cf",
+      "version": "https://annotations.allmaps.org/maps/2043d7cbeb7494cf@cb234ee3f2b14aa4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f03fc4e05a3d3c3f",
+        "version": "https://annotations.allmaps.org/images/f03fc4e05a3d3c3f@2a88a81db17b2ed8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5deaebb1a62ab226",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6ebd2de60ef9cd6d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 34.442858,
+      "area": 12764.38
+    }
+  }
+}

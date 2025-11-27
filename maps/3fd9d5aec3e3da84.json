@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3fd9d5aec3e3da84",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T03:21:38.262Z",
+  "modified": "2025-11-27T03:21:38.262Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291425:FL21370031.jpg",
+      "type": "ImageService2",
+      "height": 4820,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291425/canvas/FL21370031",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291425/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of building allotments in Richmond : being part of Portion 30, Parish of Jika Jika, the property of W.B. Burnley Esqr."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4820\"><polygon points=\"0,0 0,4820 7000,4820 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5795,
+            4270
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00520827726785,
+            -37.81917143465357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5751,
+            1407
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0038088235592,
+            -37.8190249227128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            37,
+            1431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00352218967345,
+            -37.82055662444334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            51,
+            4392
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00498908614935,
+            -37.820689814517074
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3fd9d5aec3e3da84",
+      "version": "https://annotations.allmaps.org/maps/3fd9d5aec3e3da84@9bfe74c371ad2543",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/eb0081ea54b02f17",
+        "version": "https://annotations.allmaps.org/images/eb0081ea54b02f17@11683cbc8eac7758",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5b942fdecf4ed48d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d55ae439f81ecc9d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 27.724597,
+      "area": 43894.95
+    }
+  }
+}

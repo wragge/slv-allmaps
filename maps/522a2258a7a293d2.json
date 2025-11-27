@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/522a2258a7a293d2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T03:11:18.746Z",
+  "modified": "2025-11-27T03:11:18.746Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15468513:FL21372377.jpg",
+      "type": "ImageService2",
+      "height": 5825,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15468513/canvas/FL21372377",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15468513/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of subdivision of allots., 6 & 7 of section a, Parish of Moorooduc, Snapper Point, the property of Robert Bryne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5825\"><polygon points=\"3125,140 3100,2670 6515,2699 6544,170\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3356,
+            229
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.032790322209,
+            -38.212354045502806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3631,
+            1405
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0355660106785,
+            -38.236667362097066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4866,
+            1347
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06582111050506,
+            -38.23895653443227
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4526,
+            2490
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.05333047746473,
+            -38.26001901545547
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/522a2258a7a293d2",
+      "version": "https://annotations.allmaps.org/maps/522a2258a7a293d2@554a1cf410526124",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6218d432dae19789",
+        "version": "https://annotations.allmaps.org/images/6218d432dae19789@a1038d4e97ba3d1e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f4fbd6c5fe647375",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e6117fa9ad1ac60b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.459226,
+      "area": 40989014.44
+    }
+  }
+}

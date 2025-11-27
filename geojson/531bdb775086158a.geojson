@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/531bdb775086158a",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-27T03:45:12.716Z",
+    "modified": "2025-11-27T03:45:12.716Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501315:FL21377529.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501315:FL21377529.jpg",
+      "type": "ImageService2",
+      "width": 6008,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501315/canvas/FL21377529",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501315/manifest",
+              "label": {
+                "none": [
+                  "Plan of 32 marine allotments at St. Kilda"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "672f9a403bc05edd",
+        "index": 0.5570121502236101,
+        "resource": [
+          5259,
+          795
+        ],
+        "geo": [
+          144.97998407826333,
+          -37.86241312534521
+        ]
+      },
+      {
+        "id": "6f8b372939c64606",
+        "index": 1.9570009304043834,
+        "resource": [
+          5266,
+          2946
+        ],
+        "geo": [
+          144.98067930225858,
+          -37.863149866209035
+        ]
+      },
+      {
+        "id": "a9dd5a146714b1a5",
+        "index": 2.1036516844216653,
+        "resource": [
+          791,
+          813
+        ],
+        "geo": [
+          144.97809920349403,
+          -37.86353075940415
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        483,
+        107
+      ],
+      [
+        502,
+        3140
+      ],
+      [
+        5564,
+        3196
+      ],
+      [
+        5531,
+        74
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/531bdb775086158a",
+      "version": "https://annotations.allmaps.org/maps/531bdb775086158a@bd51fd630d4626c5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7bd354e9e6cbfd79",
+        "version": "https://annotations.allmaps.org/images/7bd354e9e6cbfd79@f575d194019f8371",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fb50b91882c5668c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a5fb3321b0cfdc11"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 21.315983,
+      "area": 34237.35
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.977741657,
+          -37.863364995
+        ],
+        [
+          144.978725815,
+          -37.864401543
+        ],
+        [
+          144.980885861,
+          -37.863161566
+        ],
+        [
+          144.979867136,
+          -37.862097927
+        ],
+        [
+          144.977741657,
+          -37.863364995
+        ]
+      ]
+    ]
+  }
+}

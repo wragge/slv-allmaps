@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/100205a141dbe4b5",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-28T05:31:56.296Z",
+    "modified": "2025-11-28T05:31:56.296Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7044647:FL21357451.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7044647:FL21357451.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4434,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044647/canvas/FL21357451",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7044647/manifest",
+              "label": {
+                "none": [
+                  "Town of Dunolly"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "93cc36f82b009417",
+        "index": 2.208988005348725,
+        "resource": [
+          3809,
+          2846
+        ],
+        "geo": [
+          143.7296863525654,
+          -36.85744785601893
+        ]
+      },
+      {
+        "id": "b3cf109cc1976fd0",
+        "index": 0.5696008431498818,
+        "resource": [
+          5062,
+          3481
+        ],
+        "geo": [
+          143.73063878178164,
+          -36.861614078484216
+        ]
+      },
+      {
+        "id": "bbef7ee571dddd75",
+        "index": 1.498770430543036,
+        "resource": [
+          5074,
+          1849
+        ],
+        "geo": [
+          143.73542246789577,
+          -36.858635147137576
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        376,
+        735
+      ],
+      [
+        388,
+        4092
+      ],
+      [
+        6608,
+        4068
+      ],
+      [
+        6584,
+        735
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/100205a141dbe4b5",
+      "version": "https://annotations.allmaps.org/maps/100205a141dbe4b5@41b319dc5fd9c439",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/faeb01a9a5df1a88",
+        "version": "https://annotations.allmaps.org/images/faeb01a9a5df1a88@5ae65a015aa4235e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/de13e87a26646cc5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/53bfa2b02a6240be"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.018101,
+      "area": 2281940.12
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.728158845,
+          -36.845347737
+        ],
+        [
+          143.718400944,
+          -36.851564016
+        ],
+        [
+          143.732386634,
+          -36.866392135
+        ],
+        [
+          143.742047734,
+          -36.860192599
+        ],
+        [
+          143.728158845,
+          -36.845347737
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/496181f5980052af",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-28T09:01:33.059Z",
+  "modified": "2025-11-28T09:01:33.059Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386071:FL21481734.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4862,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386071/canvas/FL21481734",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386071/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Mount Scobie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4862\" height=\"7000\"><polygon points=\"215,586 193,6033 4633,6037 4666,612\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2732,
+            938
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9481439076161,
+            -36.25475959592542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            625,
+            1826
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88651326479618,
+            -36.276350438112026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3869,
+            3911
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98128264084335,
+            -36.32630455519995
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/496181f5980052af",
+      "version": "https://annotations.allmaps.org/maps/496181f5980052af@284cf27a724cdfe8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fc880494c2bb958e",
+        "version": "https://annotations.allmaps.org/images/fc880494c2bb958e@1b9a1a8abfff6e3e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2672cc30cd70f9ca",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3208a9d90a0cb3b7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.377451,
+      "area": 169623479.28
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a99045ea9821a638",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-27T22:29:12.912Z",
+  "modified": "2025-11-27T22:29:12.912Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7024597:FL21476627.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5244,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024597/canvas/FL21476627",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024597/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Boroondara, County of Bourke /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5244\" height=\"7000\"><polygon points=\"3376,933 1445,1520 226,2094 338,3231 1613,4582 4026,6519 4934,6123 5003,970\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            814,
+            1921
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0129132202369,
+            -37.78561786785527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1314,
+            3655
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.01781792149598,
+            -37.81883126180104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3106,
+            2020
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06388911347273,
+            -37.793478630481545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1705,
+            2977
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02871232641797,
+            -37.80751445148043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3726,
+            4860
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06851905846912,
+            -37.84738773162347
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a99045ea9821a638",
+      "version": "https://annotations.allmaps.org/maps/a99045ea9821a638@92665327300b330b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7cc14794955a1348",
+        "version": "https://annotations.allmaps.org/images/7cc14794955a1348@8721d50055b339f7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9a494485d44dfa9a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6d6d2e1c9f33d38f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.490856,
+      "area": 76937508.08
+    }
+  }
+}

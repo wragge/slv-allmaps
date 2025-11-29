@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8d09a9ddd6ecb7f8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T04:06:33.085Z",
+  "modified": "2025-11-29T04:06:33.085Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7004923:FL21366785.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5175,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7004923/canvas/FL21366785",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7004923/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tasmania - West Coast Entrance to Macquarie Harbour."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5175\" height=\"7000\"><polygon points=\"235,253 245,6644 4857,6644 4864,2204 2340,2193 2352,282\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3090,
+            5586
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.23570415956038,
+            -42.243984641292855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            930,
+            1106
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.20718192029761,
+            -42.20005869809254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2934,
+            5432
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2331892466919,
+            -42.24242157756378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1530,
+            2324
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2148519701168,
+            -42.211887160708955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2180,
+            4344
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2237372889117,
+            -42.23190889916715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1053,
+            1832
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.20872528860093,
+            -42.20740700888331
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            446,
+            1075
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.20060029074364,
+            -42.199613099614844
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8d09a9ddd6ecb7f8",
+      "version": "https://annotations.allmaps.org/maps/8d09a9ddd6ecb7f8@e27ed6c8bafa8029",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/73bfe865b0e0e579",
+        "version": "https://annotations.allmaps.org/images/73bfe865b0e0e579@0f4ad61ad7a72ac5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ad4505e16e1a2686",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e0e3362b68fd6938"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.917379,
+      "area": 29239051.72
+    }
+  }
+}

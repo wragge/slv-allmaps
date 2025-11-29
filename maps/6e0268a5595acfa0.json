@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6e0268a5595acfa0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T03:34:22.454Z",
+  "modified": "2025-11-29T03:34:22.454Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587749:FL21666299.jpg",
+      "type": "ImageService2",
+      "height": 4798,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587749/canvas/FL21666299",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587749/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of rivers, lakes and lagoons showing fishing and shooting, Marlo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4798\"><polygon points=\"407,469 397,4378 6698,4406 6689,496\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3173,
+            2399
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.52753539108454,
+            -37.77015055178118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4475,
+            2026
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.57496930170612,
+            -37.767493453966374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3395,
+            2781
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.53242105476437,
+            -37.78144894980525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1375,
+            3503
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.4608655826085,
+            -37.78966628718632
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6e0268a5595acfa0",
+      "version": "https://annotations.allmaps.org/maps/6e0268a5595acfa0@5f3b815c8e18a7a5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b28fe5ce7d976b09",
+        "version": "https://annotations.allmaps.org/images/b28fe5ce7d976b09@b80b15e5b7a7e0a4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/965b748cee098afa",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f3d19b4b151fa9ca"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.332908,
+      "area": 221935876.54
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/991020bc4dbc6301",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T03:30:10.508Z",
+  "modified": "2025-11-29T03:30:10.508Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7047041:FL21357131.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4786,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7047041/canvas/FL21357131",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7047041/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Marlo, Parish of Orbost East, County of Croajingolong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4786\" height=\"7000\"><polygon points=\"380,1749 266,6941 4630,5724 4585,2268\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3102,
+            5039
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.54087757342376,
+            -37.795894709108865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1605,
+            5940
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.5356777138279,
+            -37.797494926464324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            641,
+            5163
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.53319602049163,
+            -37.79499417388586
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/991020bc4dbc6301",
+      "version": "https://annotations.allmaps.org/maps/991020bc4dbc6301@8afa738a57d89e89",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ce74c5a8006d9b47",
+        "version": "https://annotations.allmaps.org/images/ce74c5a8006d9b47@986078e77fc59793",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d252a4ea73ab8ca4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4d2170f42e525ed7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.498972,
+      "area": 1512246.74
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/94e302876f800f01",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T03:37:29.039Z",
+  "modified": "2025-11-29T03:37:29.039Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22752375:FL22753047.jpg",
+      "type": "ImageService2",
+      "height": 5017,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752375/canvas/FL22753047",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300449"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752375/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Marlo /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5017\"><polygon points=\"336,206 227,4681 6636,4471 6688,241\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5386,
+            3191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.54536466605077,
+            -37.79559469266176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3295,
+            4062
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.53566171213237,
+            -37.79744094903316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3153,
+            3381
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.5355720043729,
+            -37.79495288986771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4667,
+            882
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.5441212477645,
+            -37.78738172402151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1757,
+            2786
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.53007607683588,
+            -37.79206758710617
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/94e302876f800f01",
+      "version": "https://annotations.allmaps.org/maps/94e302876f800f01@f349a0c95f93e91f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1dfe40283491ef05",
+        "version": "https://annotations.allmaps.org/images/1dfe40283491ef05@0aa64cddb8e34d33",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8c1592b6608e9009",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/07702708dfe18432"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.59874,
+      "area": 4111097.86
+    }
+  }
+}

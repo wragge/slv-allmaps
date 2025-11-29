@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/5b9fb22aed06dfbb",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-29T03:56:23.214Z",
+    "modified": "2025-11-29T03:56:23.214Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485225:FL21304698.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485225:FL21304698.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 3577,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485225/canvas/FL21304698",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485225/manifest",
+              "label": {
+                "none": [
+                  "Australia, Victoria, entrance to Port Phillip, south channel from the British chart, 1935."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "a36549ad65032006",
+        "index": 3.066225592691418,
+        "resource": [
+          3511,
+          2873
+        ],
+        "geo": [
+          144.7636904438313,
+          -38.34889946584505
+        ]
+      },
+      {
+        "id": "b848293ed4f5777d",
+        "index": 0.09461976003725148,
+        "resource": [
+          1531,
+          1805
+        ],
+        "geo": [
+          144.65083107589288,
+          -38.301324954471404
+        ]
+      },
+      {
+        "id": "cf3d11d3cf302a03",
+        "index": 1.7107557931184196,
+        "resource": [
+          918,
+          1610
+        ],
+        "geo": [
+          144.6139509410683,
+          -38.29208838871394
+        ]
+      },
+      {
+        "id": "f922dea06a5612ad",
+        "index": 2.003856355455042,
+        "resource": [
+          1779,
+          1022
+        ],
+        "geo": [
+          144.66403382007593,
+          -38.26511606985367
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        444,
+        154
+      ],
+      [
+        444,
+        3448
+      ],
+      [
+        6836,
+        3428
+      ],
+      [
+        6855,
+        184
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5b9fb22aed06dfbb",
+      "version": "https://annotations.allmaps.org/maps/5b9fb22aed06dfbb@a519462e1f2bb586",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4bc450b7b4eb79ca",
+        "version": "https://annotations.allmaps.org/images/4bc450b7b4eb79ca@8b5868cec7cccd3d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b998b4be86c26fbe",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1ee6978cda873b84"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.198016,
+      "area": 533697523.86
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.587267308,
+          -38.226010845
+        ],
+        [
+          144.58740123,
+          -38.376348911
+        ],
+        [
+          144.955253847,
+          -38.37301796
+        ],
+        [
+          144.95621539,
+          -38.22495021
+        ],
+        [
+          144.587267308,
+          -38.226010845
+        ]
+      ]
+    ]
+  }
+}

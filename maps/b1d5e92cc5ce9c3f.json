@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b1d5e92cc5ce9c3f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T08:04:03.720Z",
+  "modified": "2025-11-29T08:04:03.720Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7192641:FL21460241.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4532,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192641/canvas/FL21460241",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192641/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "A plan of the country between the Waikato and Waipa Rivers shewing the native redoubts at Piko Piko, Paterangi Orakau, Ahaupo & Maungatauteri occupied by Lt. Genl. Cameron C.B. during the months of January, February, March and April 1864"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4532\" height=\"7000\"><polygon points=\"351,734 225,2786 1683,4245 1689,4802 964,6083 3107,6357 3938,1327 1648,577\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2901,
+            3706
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.14600704365648,
+            -37.81858444856694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2804,
+            4139
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.14823784629186,
+            -37.77611156090479
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2166,
+            5591
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.18425894293546,
+            -37.61114085370273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2944,
+            4499
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.11666380811693,
+            -37.7371791694381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2485,
+            5233
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.14496082696155,
+            -37.66108213770212
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b1d5e92cc5ce9c3f",
+      "version": "https://annotations.allmaps.org/maps/b1d5e92cc5ce9c3f@61fb71df715b70e0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/26694edbb15ef227",
+        "version": "https://annotations.allmaps.org/images/26694edbb15ef227@007eff91a7feb359",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8d6934793b7ec43f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f2fcff7fc89113b7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.084253,
+      "area": 2039451389.25
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/60f047ed85aedd65",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-29T04:15:31.483Z",
+    "modified": "2025-11-29T04:15:31.483Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484635:FL21304906.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484635:FL21304906.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4968,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484635/canvas/FL21304906",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484635/manifest",
+              "label": {
+                "none": [
+                  "Wreck of the barque Sacramento on Point Lonsdale, entrance of Port Phillip Head's, 27th April 1853."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0e33a5f527cf9ae2",
+        "index": 0.1999607700345144,
+        "resource": [
+          535,
+          2998
+        ],
+        "geo": [
+          144.61415879946514,
+          -38.29187120729048
+        ]
+      },
+      {
+        "id": "f63a7db3c272b3fd",
+        "index": 1.519618815835679,
+        "resource": [
+          4360,
+          4081
+        ],
+        "geo": [
+          144.651552395765,
+          -38.302547279605506
+        ]
+      },
+      {
+        "id": "0b9cf5667ceb2466",
+        "index": 2.6685970017944225,
+        "resource": [
+          5833,
+          434
+        ],
+        "geo": [
+          144.65954673238923,
+          -38.27414163328636
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        4968
+      ],
+      [
+        7000,
+        4968
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/60f047ed85aedd65",
+      "version": "https://annotations.allmaps.org/maps/60f047ed85aedd65@a13039f0688606d7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d53725211d461f1c",
+        "version": "https://annotations.allmaps.org/images/d53725211d461f1c@1a70fa7120de760c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/994435d395095eae",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6d72b3be60ce0fba"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.181077,
+      "area": 24930068.2
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.604441833,
+          -38.267599222
+        ],
+        [
+          144.612272506,
+          -38.307349801
+        ],
+        [
+          144.67758122,
+          -38.311030919
+        ],
+        [
+          144.669750548,
+          -38.271282356
+        ],
+        [
+          144.604441833,
+          -38.267599222
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/23ae6a7987893b61",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T04:13:28.783Z",
+  "modified": "2025-11-29T04:13:28.783Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045552:FL21367527.jpg",
+      "type": "ImageService2",
+      "height": 5346,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045552/canvas/FL21367527",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045552/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia - East Coast Endeavour River Entrance - Cook Harbour."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5346\"><polygon points=\"127,100 112,5211 6883,5196 6883,129\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2759,
+            4983
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.24878934996997,
+            -15.469771616163198
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            858,
+            2962
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.23865001512644,
+            -15.459521136936031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5166,
+            3556
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.26237305941657,
+            -15.4620178659072
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2986,
+            3764
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2502003986133,
+            -15.462969669062005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3861,
+            3367
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.25496004711022,
+            -15.461024824947389
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3146,
+            4324
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.250967127636,
+            -15.466027126494922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3045,
+            4775
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2503743091146,
+            -15.468369985336977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2931,
+            4286
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2498852271666,
+            -15.465729412700725
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/23ae6a7987893b61",
+      "version": "https://annotations.allmaps.org/maps/23ae6a7987893b61@7b941b01cdb8fd41",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6ee2924369c63ef2",
+        "version": "https://annotations.allmaps.org/images/6ee2924369c63ef2@3f5f2dc2bd4718ce",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/42040b81d39cc9d0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/937b7773ecff59a8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.723246,
+      "area": 11590705.96
+    }
+  }
+}

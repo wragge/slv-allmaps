@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ae7c9d77fe67cccf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T05:31:16.252Z",
+  "modified": "2025-11-29T05:31:16.252Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385581:FL21479648.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6202,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385581/canvas/FL21479648",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385581/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Chaucer and part of surrounding areas"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6202\" height=\"7000\"><polygon points=\"175,590 184,6123 6029,6118 6007,590\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4999,
+            1343
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.64378133333764,
+            -38.39114648174396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1806,
+            2677
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.542530525313,
+            -38.41851876880907
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3075,
+            1048
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.5844639757081,
+            -38.38171498841643
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ae7c9d77fe67cccf",
+      "version": "https://annotations.allmaps.org/maps/ae7c9d77fe67cccf@acbcf7459123948a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1faf21c64a8261d5",
+        "version": "https://annotations.allmaps.org/images/1faf21c64a8261d5@3a218234cc490c13",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/abb764fb48eb9214",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a7a7013095377572"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.374787,
+      "area": 229877668.89
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3c3f64f5142afc9a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T22:32:20.196Z",
+  "modified": "2025-11-29T22:32:20.196Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1535425:FL21261737.jpg",
+      "type": "ImageService2",
+      "height": 5225,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1535425/canvas/FL21261737",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1535425/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the area of the European War : January, 1915 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5225\"><polygon points=\"1636,548 1624,2566 915,2915 260,5121 6892,5121 6842,2119 5069,2149 5053,585\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5652,
+            3972
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            28.908811285134732,
+            41.11880721670477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2463,
+            740
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.42879566403829,
+            58.546607560695406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1273,
+            4260
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.358232451954905,
+            35.92023937923271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4424,
+            1048
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.102906620751753,
+            59.28772507711373
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3c3f64f5142afc9a",
+      "version": "https://annotations.allmaps.org/maps/3c3f64f5142afc9a@75b5f476ea659d74",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0ae8bd424288ea74",
+        "version": "https://annotations.allmaps.org/images/0ae8bd424288ea74@466d988469cbf49d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f7c8f58240a39ea4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6552c2b2db2833fa"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001443,
+      "area": 11256703220416.89
+    }
+  }
+}

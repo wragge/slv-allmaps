@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7a2c32247ebc7b21",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T23:44:36.554Z",
+  "modified": "2025-11-29T23:44:36.554Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7326717:FL20709610.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4282,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7326717/canvas/FL20709610",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7326717/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 343, 540, 541, 545, 546, 547 & 550, South Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4282\" height=\"7000\"><polygon points=\"64,822 109,6829 4193,6822 4252,836\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3272,
+            1228
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9541788810427,
+            -37.83738419652396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            375,
+            1246
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9531571166193,
+            -37.835118016259536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2076,
+            4976
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9501725721455,
+            -37.83742787978078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1057,
+            2923
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9518138998701,
+            -37.836130225140046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            784,
+            3919
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95084051759005,
+            -37.836125554630925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3279,
+            3357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9521739980729,
+            -37.83793782658845
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7a2c32247ebc7b21",
+      "version": "https://annotations.allmaps.org/maps/7a2c32247ebc7b21@85cc2b6b633378bf",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3653952b7237d686",
+        "version": "https://annotations.allmaps.org/images/3653952b7237d686@7de77e1e4564358f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e5a72c95908246c1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e1e913fe04abf5a5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.122738,
+      "area": 200472.76
+    }
+  }
+}

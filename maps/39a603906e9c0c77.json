@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/39a603906e9c0c77",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T22:46:10.826Z",
+  "modified": "2025-11-29T22:46:10.826Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495244:FL21460641.jpg",
+      "type": "ImageService2",
+      "height": 5175,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495244/canvas/FL21460641",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495244/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Portland, Belfast, Warrnambool"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5175\"><polygon points=\"61,101 97,5151 6965,5158 6913,39\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            197,
+            3458
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.99036319923556,
+            -38.05962777311199
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4610,
+            4703
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.50809153095463,
+            -38.40047896485141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2988,
+            2295
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.0254218314251,
+            -37.741339627352154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3718,
+            4624
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.2293610331277,
+            -38.385131910677686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2047,
+            4765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.62467471844235,
+            -38.40449558669093
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/39a603906e9c0c77",
+      "version": "https://annotations.allmaps.org/maps/39a603906e9c0c77@7ef524ab3abcda4b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/68131bf4149358e6",
+        "version": "https://annotations.allmaps.org/images/68131bf4149358e6@e3dbadc9dfbe5f7f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/50eabb74f80650bc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/326e23f9d524866b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.032562,
+      "area": 32897905501.26
+    }
+  }
+}

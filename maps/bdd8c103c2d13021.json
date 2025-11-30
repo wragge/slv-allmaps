@@ -1,0 +1,237 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bdd8c103c2d13021",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T22:27:53.276Z",
+  "modified": "2025-11-29T22:27:53.276Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7117745:FL21454505.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4645,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7117745/canvas/FL21454505",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7117745/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the seat of war, New Zealand"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4645\" height=\"7000\"><polygon points=\"349,1273 -53,5976 4550,6041 4653,1358\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3870,
+            4676
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            177.8729882829398,
+            -39.24884147529143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4046,
+            3988
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            178.06458339168637,
+            -38.705834136841396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2987,
+            4956
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            176.91777549600545,
+            -39.477953754475884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1277,
+            5605
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.047900219396,
+            -39.93584349781432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1732,
+            2206
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.54685676867467,
+            -37.1627156836006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3981,
+            2554
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            177.98132938720914,
+            -37.548290946274875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1971,
+            1631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.7836778281411,
+            -36.69174441656531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            514,
+            1396
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.1937564776332,
+            -36.437890873361944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            368,
+            4523
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.07608585654543,
+            -39.05389031859631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4499,
+            2727
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            178.54478129764783,
+            -37.69804849364969
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bdd8c103c2d13021",
+      "version": "https://annotations.allmaps.org/maps/bdd8c103c2d13021@dbcc8e51b2dcb8c3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e20d5f7c73e09c24",
+        "version": "https://annotations.allmaps.org/images/e20d5f7c73e09c24@b7f04f5ded68fe87",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7008f50e2af18973",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/92f647b8e607443c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.010742,
+      "area": 181304227916.34
+    }
+  }
+}

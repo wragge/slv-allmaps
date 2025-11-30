@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/94e216c5b0d8d244",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-11-29T22:12:31.851Z",
+  "modified": "2025-11-29T22:12:31.851Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155535:FL23156323.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5554,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155535/canvas/FL23156323",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000946"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155535/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Brussels and the country 25 miles to the south : shewing the situation of the Battles of the 16th. & 18th. of June 1815 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5554\" height=\"7000\"><polygon points=\"520,750 539,6110 5073,6094 5043,750\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4778,
+            5267
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.691902059032458,
+            50.55995917098966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1652,
+            4958
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.323725286187852,
+            50.59732262198776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4045,
+            3275
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.610645172788509,
+            50.714845064724585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            732,
+            3029
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.238302448013712,
+            50.73230637375565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1652,
+            1714
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.344652354574151,
+            50.83324729787469
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/94e216c5b0d8d244",
+      "version": "https://annotations.allmaps.org/maps/94e216c5b0d8d244@711bd86e3ab47dd9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cd3108f839f72ee5",
+        "version": "https://annotations.allmaps.org/images/cd3108f839f72ee5@cb13a339252799dd",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bb54f90d88a0d51e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/19111b3295480681"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.122188,
+      "area": 1623362955.58
+    }
+  }
+}

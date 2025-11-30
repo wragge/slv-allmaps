@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/7a14fef585974a12",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-30T10:15:00.510Z",
+    "modified": "2025-11-30T10:15:00.510Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002198:FL21477873.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002198:FL21477873.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5021,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002198/canvas/FL21477873",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002198/manifest",
+              "label": {
+                "none": [
+                  "Victoria, Bairnsdale"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "09aaff1aab485f4b",
+        "index": 2.4996231736253134,
+        "resource": [
+          5811,
+          615
+        ],
+        "geo": [
+          147.9437034506875,
+          -37.758345249258895
+        ]
+      },
+      {
+        "id": "3858facb35c94f90",
+        "index": 0.8955014709733098,
+        "resource": [
+          874,
+          1096
+        ],
+        "geo": [
+          147.50756452866528,
+          -37.791477722493205
+        ]
+      },
+      {
+        "id": "589a2c4643e9e2aa",
+        "index": 1.1269021924126528,
+        "resource": [
+          6378,
+          2323
+        ],
+        "geo": [
+          147.99405680554645,
+          -37.87787097686302
+        ]
+      },
+      {
+        "id": "49b627dab3faade2",
+        "index": 3.3390258080978277,
+        "resource": [
+          990,
+          3484
+        ],
+        "geo": [
+          147.51809314438725,
+          -37.95847900094251
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        780,
+        475
+      ],
+      [
+        783,
+        4047
+      ],
+      [
+        6441,
+        4050
+      ],
+      [
+        6448,
+        472
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7a14fef585974a12",
+      "version": "https://annotations.allmaps.org/maps/7a14fef585974a12@e09bee39abd44966",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/48cad9b3d456803d",
+        "version": "https://annotations.allmaps.org/images/48cad9b3d456803d@403ed335ab3a72a4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bf799ec68c53bd00",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/546396b3f66001dd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.128745,
+      "area": 1221411627.27
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          147.499165434,
+          -37.748004543
+        ],
+        [
+          147.499886877,
+          -37.997751123
+        ],
+        [
+          147.999827391,
+          -37.998537782
+        ],
+        [
+          147.99998878,
+          -37.748374684
+        ],
+        [
+          147.499165434,
+          -37.748004543
+        ]
+      ]
+    ]
+  }
+}

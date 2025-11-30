@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/0b63722158d08f03",
+    "type": "GeoreferencedMap",
+    "created": "2025-11-30T09:49:40.021Z",
+    "modified": "2025-11-30T09:49:40.021Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002916:FL21477985.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002916:FL21477985.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4938,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002916/canvas/FL21477985",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002916/manifest",
+              "label": {
+                "none": [
+                  "Victoria, Ballarat"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "33e342baa8887f55",
+        "index": 0.2314391347118523,
+        "resource": [
+          6307,
+          857
+        ],
+        "geo": [
+          143.99889980536716,
+          -37.525767510900415
+        ]
+      },
+      {
+        "id": "a0b8f13e405244d7",
+        "index": 2.1318764662595746,
+        "resource": [
+          1175,
+          3554
+        ],
+        "geo": [
+          143.55933251728055,
+          -37.71524956621009
+        ]
+      },
+      {
+        "id": "e824d95cb4376cd9",
+        "index": 1.1978986503118372,
+        "resource": [
+          6127,
+          3838
+        ],
+        "geo": [
+          143.98804997900214,
+          -37.732461593991125
+        ]
+      },
+      {
+        "id": "368e3438b49e14fd",
+        "index": 3.163957741796367,
+        "resource": [
+          653,
+          634
+        ],
+        "geo": [
+          143.51357401845917,
+          -37.51268695003183
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        485,
+        421
+      ],
+      [
+        487,
+        4031
+      ],
+      [
+        6256,
+        4065
+      ],
+      [
+        6323,
+        456
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0b63722158d08f03",
+      "version": "https://annotations.allmaps.org/maps/0b63722158d08f03@316dd9eea3a04158",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/947665b5d63b434e",
+        "version": "https://annotations.allmaps.org/images/947665b5d63b434e@154b24c1fc00c00f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7bbbd422630cb5eb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2990dacf40920a0d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.130699,
+      "area": 1226360283.54
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.498009206,
+          -37.498053395
+        ],
+        [
+          143.501557616,
+          -37.748505884
+        ],
+        [
+          143.998376426,
+          -37.748226281
+        ],
+        [
+          144.000770762,
+          -37.497810727
+        ],
+        [
+          143.498009206,
+          -37.498053395
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/0743d719cfc09b70",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-01T22:06:35.037Z",
+    "modified": "2025-12-01T22:06:35.037Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819262:FL21662422.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819262:FL21662422.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5266,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819262/canvas/FL21662422",
+          "label": {
+            "none": [
+              "Map 7"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819262/manifest",
+              "label": {
+                "none": [
+                  "South Melbourne detail fire survey"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "2bc09e8c7b7e2e8f",
+        "index": 2.5188723469650522,
+        "resource": [
+          1697,
+          2176
+        ],
+        "geo": [
+          144.96215694677767,
+          -37.825953170925104
+        ]
+      },
+      {
+        "id": "7140715c5800e167",
+        "index": 0.36951659166970874,
+        "resource": [
+          4023,
+          708
+        ],
+        "geo": [
+          144.96258924862258,
+          -37.823807325813235
+        ]
+      },
+      {
+        "id": "c298f626ad87f973",
+        "index": 1.3128767863966333,
+        "resource": [
+          4043,
+          2196
+        ],
+        "geo": [
+          144.96367653548782,
+          -37.824618785100384
+        ]
+      },
+      {
+        "id": "b9a1ae48c0605f43",
+        "index": 3.8900094704097543,
+        "resource": [
+          1722,
+          729
+        ],
+        "geo": [
+          144.9610679906517,
+          -37.82514780521038
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5266
+      ],
+      [
+        7000,
+        5266
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0743d719cfc09b70",
+      "version": "https://annotations.allmaps.org/maps/0743d719cfc09b70@71915b6375007473",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/43f716d064230e8a",
+        "version": "https://annotations.allmaps.org/images/43f716d064230e8a@c71346c09b738d17",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cc4ceca2269d0276",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3bb4185fb8f29b1a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.402721,
+      "area": 283505.79
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.95941573,
+          -37.825735445
+        ],
+        [
+          144.96332469,
+          -37.828631349
+        ],
+        [
+          144.967905483,
+          -37.824603131
+        ],
+        [
+          144.963996523,
+          -37.82170707
+        ],
+        [
+          144.95941573,
+          -37.825735445
+        ]
+      ]
+    ]
+  }
+}

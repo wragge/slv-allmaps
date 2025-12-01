@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0b72d33e92aee6eb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-01T06:07:43.728Z",
+  "modified": "2025-12-01T06:07:43.728Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489250:FL21306694.jpg",
+      "type": "ImageService2",
+      "height": 5565,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489250/canvas/FL21306694",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489250/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[City of South Melbourne, showing allotment owners]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5565\"><polygon points=\"489,13 1863,3641 105,5476 6705,5506 6767,1102 4337,1103 2982,235\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1877,
+            3119
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94796105163164,
+            -37.83246405263725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4075,
+            5166
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96261452237047,
+            -37.837410052534274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1256,
+            4532
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94746138648486,
+            -37.838974879353636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5212,
+            4326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96536508833498,
+            -37.832836039905736
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0b72d33e92aee6eb",
+      "version": "https://annotations.allmaps.org/maps/0b72d33e92aee6eb@8d846657f6047093",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e91a4ed64c32e82b",
+        "version": "https://annotations.allmaps.org/images/e91a4ed64c32e82b@a4898db4387a3d87",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f49ac2871f6001b8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/187c83a95eec7315"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.213919,
+      "area": 5518220.28
+    }
+  }
+}

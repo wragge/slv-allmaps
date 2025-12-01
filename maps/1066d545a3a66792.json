@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1066d545a3a66792",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-01T06:21:06.225Z",
+  "modified": "2025-12-01T06:21:06.225Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15466431:FL21373117.jpg",
+      "type": "ImageService2",
+      "height": 5464,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466431/canvas/FL21373117",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466431/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Melbourne, Emerald Hill"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5464\"><polygon points=\"380,2213 391,5363 6527,5356 6482,3332 5550,3004 4979,295\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4243,
+            3785
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96058160099,
+            -37.833011204501055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4225,
+            1967
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95903652485924,
+            -37.82965824041637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1035,
+            3797
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95314802195696,
+            -37.83513044226884
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1066d545a3a66792",
+      "version": "https://annotations.allmaps.org/maps/1066d545a3a66792@5fe783f6e35b73ec",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/555516781aab8c24",
+        "version": "https://annotations.allmaps.org/images/555516781aab8c24@38466da37e8b7cf8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4f332356a990031f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2f5d9c2661b613b9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 4.600866,
+      "area": 1089877.6
+    }
+  }
+}

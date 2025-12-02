@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4ae8f4343ee5f289",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-02T02:35:43.253Z",
+  "modified": "2025-12-02T02:35:43.253Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15454842:FL21372175.jpg",
+      "type": "ImageService2",
+      "height": 6177,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15454842/canvas/FL21372175",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15454842/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Building allotments near the Albert Park railway station"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6177\"><polygon points=\"87,56 214,4234 1861,6114 6942,6002 6899,2386 2276,75\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2948,
+            2977
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95716762802454,
+            -37.843969824390925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5523,
+            3099
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96089830717392,
+            -37.84612854395208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2771,
+            4351
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95556709633638,
+            -37.8453852290605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5551,
+            3918
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96008030829404,
+            -37.84711537754185
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4ae8f4343ee5f289",
+      "version": "https://annotations.allmaps.org/maps/4ae8f4343ee5f289@6a4e98c986829359",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9ce1237f542c42e6",
+        "version": "https://annotations.allmaps.org/images/9ce1237f542c42e6@19e0cebb048f2fe4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/86cd2f75941876dd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0846e43a7683c274"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 6.420342,
+      "area": 814209.76
+    }
+  }
+}

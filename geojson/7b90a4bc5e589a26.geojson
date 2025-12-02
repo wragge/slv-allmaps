@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/7b90a4bc5e589a26",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-02T10:26:59.065Z",
+    "modified": "2025-12-02T10:26:59.065Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22753555:FL22754368.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22753555:FL22754368.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5070,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22753555/canvas/FL22754368",
+          "label": {
+            "none": [
+              "vc300532"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22753555/manifest",
+              "label": {
+                "none": [
+                  "Urban Yallourn North /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "33c67f6ec1bf5935",
+        "index": 1.1232111490138956,
+        "resource": [
+          2531,
+          1907
+        ],
+        "geo": [
+          146.35687565997142,
+          -38.154713307408244
+        ]
+      },
+      {
+        "id": "e9457b11ef2a8969",
+        "index": 0.13021054882140037,
+        "resource": [
+          5098,
+          3308
+        ],
+        "geo": [
+          146.36733296717534,
+          -38.160792706610756
+        ]
+      },
+      {
+        "id": "1b06818ba574717f",
+        "index": 2.7143760039693383,
+        "resource": [
+          2937,
+          3378
+        ],
+        "geo": [
+          146.35787996776548,
+          -38.15982041103858
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1156,
+        387
+      ],
+      [
+        1156,
+        4578
+      ],
+      [
+        4916,
+        4605
+      ],
+      [
+        6091,
+        3753
+      ],
+      [
+        6088,
+        390
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7b90a4bc5e589a26",
+      "version": "https://annotations.allmaps.org/maps/7b90a4bc5e589a26@46329334f3068a1c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9833fa1a779caf5b",
+        "version": "https://annotations.allmaps.org/images/9833fa1a779caf5b@4350cb4fce6d369e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ba8c4cc5a7716b2d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/67e8181d2e34e5a8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.640041,
+      "area": 2905681.55
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.351674392,
+          -38.148903041
+        ],
+        [
+          146.349495283,
+          -38.162809079
+        ],
+        [
+          146.365865524,
+          -38.164994386
+        ],
+        [
+          146.371428608,
+          -38.162822617
+        ],
+        [
+          146.373164126,
+          -38.151662482
+        ],
+        [
+          146.351674392,
+          -38.148903041
+        ]
+      ]
+    ]
+  }
+}

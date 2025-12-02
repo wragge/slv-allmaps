@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2b5b82fd24c41db8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-02T10:25:03.909Z",
+  "modified": "2025-12-02T10:25:03.909Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22756153:FL22756514.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5006,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22756153/canvas/FL22756514",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300703"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22756153/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Yallourn Works Area /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5006\" height=\"7000\"><polygon points=\"243,461 264,5751 4697,5728 4690,458\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1769,
+            1228
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3398046767852,
+            -38.16420341807963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4120,
+            579
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.38059319004503,
+            -38.16104684454038
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            329,
+            3081
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.31099738264453,
+            -38.185233195401366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            633,
+            4001
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.31278714890982,
+            -38.19796246664176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4037,
+            5472
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3649494702026,
+            -38.22494377351591
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2b5b82fd24c41db8",
+      "version": "https://annotations.allmaps.org/maps/2b5b82fd24c41db8@3fddb85868b2ebfa",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7e458b2ab91abf65",
+        "version": "https://annotations.allmaps.org/images/7e458b2ab91abf65@c8e4043769f20ec7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7a666e0be421abed",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/37246400d118055e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.679427,
+      "area": 50784960.58
+    }
+  }
+}

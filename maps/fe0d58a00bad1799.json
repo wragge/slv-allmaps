@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fe0d58a00bad1799",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-01T22:11:26.292Z",
+  "modified": "2025-12-01T22:11:26.292Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819262:FL21662425.jpg",
+      "type": "ImageService2",
+      "height": 5256,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819262/canvas/FL21662425",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 6"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819262/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Melbourne detail fire survey"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5256\"><polygon points=\"0,0 0,5256 7000,5256 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3813,
+            673
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96620581881615,
+            -37.82305138519141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5020,
+            2042
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96772467089613,
+            -37.82231169622991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            154,
+            2042
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9664810573014,
+            -37.826387787191955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3527,
+            3359
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96864973652822,
+            -37.8236747534903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5321,
+            1233
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9669763893424,
+            -37.822013105840526
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fe0d58a00bad1799",
+      "version": "https://annotations.allmaps.org/maps/fe0d58a00bad1799@d7ce336437a54a69",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/402448b737ff10ec",
+        "version": "https://annotations.allmaps.org/images/402448b737ff10ec@8d02697350cd0239",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7b1bbb7e9cf5ac03",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3bb4185fb8f29b1a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.143338,
+      "area": 296293.98
+    }
+  }
+}

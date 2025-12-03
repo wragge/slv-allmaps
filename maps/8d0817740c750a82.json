@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8d0817740c750a82",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T01:46:55.416Z",
+  "modified": "2025-12-03T01:46:55.416Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15494015:FL21305564.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5478,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494015/canvas/FL21305564",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494015/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan showing dredging areas and alluvial leads, district of Avoca, Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5478\" height=\"7000\"><polygon points=\"83,993 57,6385 5394,6373 5420,1028\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1043,
+            1741
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.11341536830668,
+            -36.89991777270021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2717,
+            2656
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.31948570043392,
+            -36.98785270925913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3920,
+            2199
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.47006827249965,
+            -36.94123378582733
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3919,
+            3619
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.47409576999183,
+            -37.088732516893586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2190,
+            4593
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.24769235497894,
+            -37.17830767856988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4258,
+            5579
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.5148811446478,
+            -37.275002669758464
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8d0817740c750a82",
+      "version": "https://annotations.allmaps.org/maps/8d0817740c750a82@8d5338121b5d07bc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a60ccec2469280f9",
+        "version": "https://annotations.allmaps.org/images/a60ccec2469280f9@767279f27e65eaf5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/db42e5f19c116131",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7c438889ce8e5f6e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.090337,
+      "area": 3510919453.05
+    }
+  }
+}

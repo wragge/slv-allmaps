@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0433fb0b931ac22f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T02:29:25.071Z",
+  "modified": "2025-12-03T02:29:25.071Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038490:FL21355281.jpg",
+      "type": "ImageService2",
+      "height": 4316,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038490/canvas/FL21355281",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038490/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Roadside building allotments, on the road from Castlemaine to Elphinstone, Parish of Chewton"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4316\"><polygon points=\"1741,695 2265,3526 3617,3504 3529,2087 5430,2045 5413,630\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5051,
+            921
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26315917988097,
+            -37.080009887175116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3767,
+            1439
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25903958679896,
+            -37.08105034478672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3012,
+            3330
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25629939491319,
+            -37.086035282431865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2397,
+            1397
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25450750605802,
+            -37.07989468358078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2726,
+            1604
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25576936880492,
+            -37.0812403877676
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0433fb0b931ac22f",
+      "version": "https://annotations.allmaps.org/maps/0433fb0b931ac22f@cc5babb44e0c11d7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e0745720b30410ad",
+        "version": "https://annotations.allmaps.org/images/e0745720b30410ad@6ab9648bfc1bf010",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/df5e2acdce6f23c4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b7c47409c4f273c4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.286487,
+      "area": 655884.63
+    }
+  }
+}

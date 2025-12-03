@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4e643e9de18c9a3c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T05:37:39.705Z",
+  "modified": "2025-12-03T05:37:39.705Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15496000:FL21304256.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4940,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496000/canvas/FL21304256",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496000/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Geological map, Beechworth district"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4940\" height=\"7000\"><polygon points=\"68,107 117,5908 4864,5923 4884,84\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3336,
+            2928
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.67039282251034,
+            -36.369675316870776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3656,
+            2406
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68813668623824,
+            -36.3470160736577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            608,
+            1538
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.522620206351,
+            -36.30892928068546
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4e643e9de18c9a3c",
+      "version": "https://annotations.allmaps.org/maps/4e643e9de18c9a3c@692a0658dfd50e33",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6297d9e4fd660bf5",
+        "version": "https://annotations.allmaps.org/images/6297d9e4fd660bf5@a9ab7b78c25608b3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/555f56383cf8540c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/14f49fcb29383a59"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.205937,
+      "area": 656171670.93
+    }
+  }
+}

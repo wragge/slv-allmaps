@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6ac498dbdb132508",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T05:34:28.373Z",
+  "modified": "2025-12-03T05:34:28.373Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9655849:FL21652008.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4950,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655849/canvas/FL21652008",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655849/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Beechworth, County of Bogong /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4950\" height=\"7000\"><polygon points=\"885,676 811,6755 4352,6768 4430,619\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2424,
+            3448
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6986325931113,
+            -36.36430564618867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1597,
+            3080
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68406617836973,
+            -36.35685476170542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2223,
+            3598
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.69451919741056,
+            -36.366123691098124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1828,
+            2375
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.69039554885643,
+            -36.34625429465248
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6ac498dbdb132508",
+      "version": "https://annotations.allmaps.org/maps/6ac498dbdb132508@ec327f77adada28d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b86b5b3e0dee7e07",
+        "version": "https://annotations.allmaps.org/images/b86b5b3e0dee7e07@1b86a5b3c4b1da8d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/25c84013fe3b887f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/79e9507c57ddc831"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.578303,
+      "area": 64766754.19
+    }
+  }
+}

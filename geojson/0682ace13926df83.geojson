@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/0682ace13926df83",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-03T05:40:25.130Z",
+    "modified": "2025-12-03T05:40:25.130Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495880:FL21307798.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495880:FL21307798.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4981,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495880/canvas/FL21307798",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495880/manifest",
+              "label": {
+                "none": [
+                  "Beechworth goldfield"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "24947d2b81063f18",
+        "index": 1.7246824095235311,
+        "resource": [
+          2607,
+          2333
+        ],
+        "geo": [
+          146.68404334886293,
+          -36.35674264534872
+        ]
+      },
+      {
+        "id": "60284d98a40b38ad",
+        "index": 0.08577271106180062,
+        "resource": [
+          2698,
+          2018
+        ],
+        "geo": [
+          146.68899144421493,
+          -36.34850156604133
+        ]
+      },
+      {
+        "id": "c92ff73a917b796e",
+        "index": 2.807514644686022,
+        "resource": [
+          2953,
+          2617
+        ],
+        "geo": [
+          146.69446198251546,
+          -36.36607084162917
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        593,
+        234
+      ],
+      [
+        582,
+        4319
+      ],
+      [
+        4118,
+        4284
+      ],
+      [
+        4079,
+        249
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0682ace13926df83",
+      "version": "https://annotations.allmaps.org/maps/0682ace13926df83@355705162e36af80",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bf890a0a5da71042",
+        "version": "https://annotations.allmaps.org/images/bf890a0a5da71042@f076d4edf6c34bbd",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/884e0519c5d2fde9",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/df7e20442e982b3e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.320218,
+      "area": 139017666.26
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.625924804,
+          -36.290176976
+        ],
+        [
+          146.60239754,
+          -36.402245822
+        ],
+        [
+          146.725515041,
+          -36.416963427
+        ],
+        [
+          146.747020903,
+          -36.306066829
+        ],
+        [
+          146.625924804,
+          -36.290176976
+        ]
+      ]
+    ]
+  }
+}

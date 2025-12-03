@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3f7a81cc481e7a9d",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-03T05:24:49.382Z",
+    "modified": "2025-12-03T05:24:49.382Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9655864:FL21651162.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9655864:FL21651162.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5278,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655864/canvas/FL21651162",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655864/manifest",
+              "label": {
+                "none": [
+                  "Township of Beechworth"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "505fd5f4192dec94",
+        "index": 2.8550776261787445,
+        "resource": [
+          4528,
+          1233
+        ],
+        "geo": [
+          146.68405247031563,
+          -36.353739771557954
+        ]
+      },
+      {
+        "id": "816fc407c72583aa",
+        "index": 1.4092039765942557,
+        "resource": [
+          4503,
+          4186
+        ],
+        "geo": [
+          146.68987808529232,
+          -36.35887980002269
+        ]
+      },
+      {
+        "id": "b0f59b45e289a4dc",
+        "index": 0.9661656727180994,
+        "resource": [
+          1882,
+          4215
+        ],
+        "geo": [
+          146.68424875687532,
+          -36.36320740302389
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1924,
+        142
+      ],
+      [
+        302,
+        3989
+      ],
+      [
+        285,
+        5101
+      ],
+      [
+        6567,
+        5130
+      ],
+      [
+        6601,
+        270
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3f7a81cc481e7a9d",
+      "version": "https://annotations.allmaps.org/maps/3f7a81cc481e7a9d@f504ccc774149d2c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/076394a7d3d1adc9",
+        "version": "https://annotations.allmaps.org/images/076394a7d3d1adc9@31f5115997ae1383",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a580c30c9912b2d6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b2a45411ab8e22c1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.788228,
+      "area": 1939728.3
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.676229943,
+          -36.356105924
+        ],
+        [
+          146.680370458,
+          -36.365395674
+        ],
+        [
+          146.682547728,
+          -36.367343364
+        ],
+        [
+          146.696236217,
+          -36.357141235
+        ],
+        [
+          146.686633011,
+          -36.348693151
+        ],
+        [
+          146.676229943,
+          -36.356105924
+        ]
+      ]
+    ]
+  }
+}

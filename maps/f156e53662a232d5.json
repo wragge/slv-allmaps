@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f156e53662a232d5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T06:09:04.884Z",
+  "modified": "2025-12-03T06:09:04.884Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7040169:FL21356903.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5680,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7040169/canvas/FL21356903",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7040169/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Special allotments, Dunolly"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5680\" height=\"7000\"><polygon points=\"610,709 595,6377 4374,6433 4424,709\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1604,
+            5689
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.73206236637049,
+            -36.85483415256694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3431,
+            1353
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7438518808167,
+            -36.83909373877807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2441,
+            5718
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.73609888942678,
+            -36.85530861353444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1939,
+            5768
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.73358198513478,
+            -36.85520720078366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1637,
+            4477
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.73322420177135,
+            -36.85000680602105
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f156e53662a232d5",
+      "version": "https://annotations.allmaps.org/maps/f156e53662a232d5@5befa51f3955117a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/eb67a073f971f1b5",
+        "version": "https://annotations.allmaps.org/images/eb67a073f971f1b5@d87e3a7b5292ff2a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e4f86a91aabaebcf",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/99c3ecba5344288d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.331491,
+      "area": 3978360.25
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f5e2f9dafa51b090",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T05:59:18.742Z",
+  "modified": "2025-12-03T05:59:18.742Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493260:FL21307358.jpg",
+      "type": "ImageService2",
+      "height": 4190,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493260/canvas/FL21307358",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493260/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Dunolly water supply locality plan existing storages and proposed new works."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4190\"><polygon points=\"79,444 106,4119 6870,4015 6904,454\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5735,
+            3584
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.83148078906396,
+            -36.87848611728486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6426,
+            2539
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8471831536956,
+            -36.86206348957126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            561,
+            700
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.73498838914787,
+            -36.82051886042955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1675,
+            3429
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7475269873848,
+            -36.86827879915189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            565,
+            2725
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.728809533866,
+            -36.85381526400091
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f5e2f9dafa51b090",
+      "version": "https://annotations.allmaps.org/maps/f5e2f9dafa51b090@f57b3a0a7c591fbe",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bf120a05659fbe39",
+        "version": "https://annotations.allmaps.org/images/bf120a05659fbe39@fcb990269ae91d9b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8cf8b74f6b7c2635",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fa6be004dcaf8592"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.541044,
+      "area": 83976598.41
+    }
+  }
+}

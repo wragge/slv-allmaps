@@ -1,0 +1,221 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b8f90d501b159261",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T21:46:37.987Z",
+  "modified": "2025-12-03T21:46:37.987Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9586121:FL21664176.jpg",
+      "type": "ImageService2",
+      "height": 5088,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9586121/canvas/FL21664176",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9586121/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Clunes, Mt. Greenock and Talbot gold fields"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5088\"><polygon points=\"645,462 632,4039 6465,4044 6479,492\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4448,
+            2454
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.76750566425233,
+            -37.30340001390238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4526,
+            1954
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.76998055264693,
+            -37.290522618578116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4939,
+            2345
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78261466523287,
+            -37.300583479768655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5013,
+            2201
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78509309811335,
+            -37.29701847110214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            856,
+            1751
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.6550916101495,
+            -37.28667559022853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4489,
+            2235
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.76856476531458,
+            -37.29781411857057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1882,
+            2729
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.68793460228937,
+            -37.31150965756354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1785,
+            2446
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.6842449844102,
+            -37.30352430369079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4859,
+            2059
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78023724077707,
+            -37.29333568490498
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b8f90d501b159261",
+      "version": "https://annotations.allmaps.org/maps/b8f90d501b159261@df4408aa27ad9119",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a65072322ada2273",
+        "version": "https://annotations.allmaps.org/images/a65072322ada2273@8cd82af30788608a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7a57140c8df4dd13",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/caf77bfef3a1d573"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.357275,
+      "area": 162902075.8
+    }
+  }
+}

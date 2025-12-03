@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/557756a25a841e83",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T21:53:27.215Z",
+  "modified": "2025-12-03T21:53:27.215Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038176:FL21353043.jpg",
+      "type": "ImageService2",
+      "height": 5180,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038176/canvas/FL21353043",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038176/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Tarnagulla, County unnamed"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5180\"><polygon points=\"1349,926 1385,4152 5484,4108 5470,925\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3610,
+            3738
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82970188804222,
+            -36.767847934846266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3190,
+            3221
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82816863248718,
+            -36.76583798101911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2962,
+            3855
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82675133846016,
+            -36.76802154466757
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3512,
+            3170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8296268960131,
+            -36.76583798101911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3291,
+            2040
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82940015792042,
+            -36.76173989621347
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/557756a25a841e83",
+      "version": "https://annotations.allmaps.org/maps/557756a25a841e83@f98d6f05180c538d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/66c9bddbf604b187",
+        "version": "https://annotations.allmaps.org/images/66c9bddbf604b187@f9b1c25483108c07",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5cecdec4f09a02f3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2b2d071a37bcd839"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.519801,
+      "area": 2074378.92
+    }
+  }
+}

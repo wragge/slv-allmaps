@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/94296a2264a1b0ce",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T21:58:33.631Z",
+  "modified": "2025-12-03T21:58:33.631Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22723020:FL22723464.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5048,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22723020/canvas/FL22723464",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300118"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22723020/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Tarnagulla /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5048\" height=\"7000\"><polygon points=\"635,220 659,6805 4398,6805 4409,192\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2255,
+            3881
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82993303619276,
+            -36.769188133488214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3044,
+            4602
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.83251293179796,
+            -36.771830800988766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2563,
+            4781
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8305905493488,
+            -36.77203078467968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1997,
+            2800
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.829588050437,
+            -36.76578608734736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2184,
+            4915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82896678012315,
+            -36.77222371812591
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/94296a2264a1b0ce",
+      "version": "https://annotations.allmaps.org/maps/94296a2264a1b0ce@6b53302c56d83fab",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6f781980810c91d0",
+        "version": "https://annotations.allmaps.org/images/6f781980810c91d0@1388218ba7effc60",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9802028c0867a299",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/302fdead1bf136a0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.902229,
+      "area": 2943065.14
+    }
+  }
+}

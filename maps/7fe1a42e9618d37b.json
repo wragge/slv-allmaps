@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7fe1a42e9618d37b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T21:25:40.240Z",
+  "modified": "2025-12-03T21:25:40.240Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7030621:FL21353265.jpg",
+      "type": "ImageService2",
+      "height": 5546,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030621/canvas/FL21353265",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030621/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Clunes, Parish of Clunes, County of Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5546\"><polygon points=\"83,176 67,5362 6862,5392 6841,172\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            263,
+            2854
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7759696858824,
+            -37.297030310049486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1708,
+            2813
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78147675867473,
+            -37.29762727804745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4922,
+            3235
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.79331598251872,
+            -37.3002638206729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4770,
+            1092
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.79394810229917,
+            -37.293840438266045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5283,
+            2254
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.79518145181237,
+            -37.29749788846842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1246,
+            1919
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7802478518443,
+            -37.29464555925424
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7fe1a42e9618d37b",
+      "version": "https://annotations.allmaps.org/maps/7fe1a42e9618d37b@676252744167714d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/20e7c6119e115a84",
+        "version": "https://annotations.allmaps.org/images/20e7c6119e115a84@76a8b87ebd9ccf07",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/724c209c5f0167e0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/76417bf5a8ddf9e9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.976109,
+      "area": 3980716.6
+    }
+  }
+}

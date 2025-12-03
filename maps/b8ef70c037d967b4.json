@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b8ef70c037d967b4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T07:52:29.302Z",
+  "modified": "2025-12-03T07:52:29.302Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7025964:FL21350477.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5393,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7025964/canvas/FL21350477",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7025964/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Kyneton, Carlsrhue and Woodend, shewing the line of roads connecting them"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5393\" height=\"7000\"><polygon points=\"179,304 184,3723 2342,3743 2281,6620 5062,6635 5082,420\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4459,
+            6198
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.52738161518153,
+            -37.356824506929634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            419,
+            2816
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4464977246888,
+            -37.286393429406445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2039,
+            1525
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4875637962437,
+            -37.26716755306408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            447,
+            756
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.45328069174485,
+            -37.24905176815704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3258,
+            447
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.51817011496178,
+            -37.249971871284465
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b8ef70c037d967b4",
+      "version": "https://annotations.allmaps.org/maps/b8ef70c037d967b4@680e152e1b4380c8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2fc8d67d8b26e833",
+        "version": "https://annotations.allmaps.org/images/2fc8d67d8b26e833@484b24113102c0e7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cd2096d3e3fbe9b5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3a4aa8652fa593a4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.493426,
+      "area": 100532557.79
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/747449e01af51c96",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T06:39:08.032Z",
+  "modified": "2025-12-03T06:39:08.032Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7034680:FL21354116.jpg",
+      "type": "ImageService2",
+      "height": 4585,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7034680/canvas/FL21354116",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7034680/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village allotments on the Burnt Creek, Parish of Dunolly"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4585\"><polygon points=\"229,1662 208,4329 6718,4415 6641,1838\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5147,
+            2054
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7557637444648,
+            -36.87726089763833
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4932,
+            2974
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.75387988674555,
+            -36.87818358164012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2731,
+            2120
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.75118027446132,
+            -36.873817030166535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            971,
+            1976
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.74894602998393,
+            -36.87163405756239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5673,
+            3671
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7539301530024,
+            -36.8799614754542
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/747449e01af51c96",
+      "version": "https://annotations.allmaps.org/maps/747449e01af51c96@0eed7646b36fd221",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/470a3b5a0d42a6bd",
+        "version": "https://annotations.allmaps.org/images/470a3b5a0d42a6bd@28fd9d5c0c4d8b6b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/867ee48a46c3c441",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ef4e0e52125947dd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 4.827305,
+      "area": 726823.47
+    }
+  }
+}

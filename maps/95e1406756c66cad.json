@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/95e1406756c66cad",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T06:27:45.715Z",
+  "modified": "2025-12-03T06:27:45.715Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493175:FL21306942.jpg",
+      "type": "ImageService2",
+      "height": 5873,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493175/canvas/FL21306942",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493175/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tarnagulla water supply locality plan proposed pumping scheme."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5873\"><polygon points=\"1065,884 1022,5529 6590,5439 6530,884\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2330,
+            3196
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.83413669239724,
+            -36.790839195496424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5718,
+            1916
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.90781308892326,
+            -36.77821432039523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5097,
+            4638
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.88726761191805,
+            -36.821890781458556
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/95e1406756c66cad",
+      "version": "https://annotations.allmaps.org/maps/95e1406756c66cad@f6f7097c1ffdb2d8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8c74f8c5b2bba676",
+        "version": "https://annotations.allmaps.org/images/8c74f8c5b2bba676@b9c4db4adaa2a398",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bfae77de4b85d136",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/29df3e37d96d223d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.536251,
+      "area": 88245461.21
+    }
+  }
+}

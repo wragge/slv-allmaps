@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/857c8777b24bae9a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T07:23:34.307Z",
+  "modified": "2025-12-03T07:23:34.307Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7032188:FL21352767.jpg",
+      "type": "ImageService2",
+      "height": 4876,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7032188/canvas/FL21352767",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7032188/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Country lands, at Burnt Creek in the Parish of Dunolly"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4876\"><polygon points=\"1599,1218 1600,4389 4886,3100 4881,1262\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3265,
+            2228
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7979116767583,
+            -36.90011501096656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2368,
+            3209
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7856392333611,
+            -36.908054428079865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3234,
+            3206
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.79595567226693,
+            -36.909150749315586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1743,
+            2220
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78006835758566,
+            -36.89794777515028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1743,
+            1479
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.78141687501414,
+            -36.890861972050914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4765,
+            1472
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.81682840341006,
+            -36.89506506615285
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/857c8777b24bae9a",
+      "version": "https://annotations.allmaps.org/maps/857c8777b24bae9a@f46d355d6ed1232c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/428b0eb46f760cb6",
+        "version": "https://annotations.allmaps.org/images/428b0eb46f760cb6@783cc025e33cbc5e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d40a770837a6bac6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7b63e4d928db45e8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.947722,
+      "area": 9159264.85
+    }
+  }
+}

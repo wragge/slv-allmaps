@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/95e1406756c66cad",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-03T06:27:45.715Z",
+    "modified": "2025-12-03T06:27:45.715Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493175:FL21306942.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493175:FL21306942.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5873,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493175/canvas/FL21306942",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493175/manifest",
+              "label": {
+                "none": [
+                  "Tarnagulla water supply locality plan proposed pumping scheme."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "5cc5822fe1b3212a",
+        "index": 0.580809795581446,
+        "resource": [
+          2330,
+          3196
+        ],
+        "geo": [
+          143.83413669239724,
+          -36.790839195496424
+        ]
+      },
+      {
+        "id": "9e6d1feb6071dd86",
+        "index": 1.1377320515858484,
+        "resource": [
+          5718,
+          1916
+        ],
+        "geo": [
+          143.90781308892326,
+          -36.77821432039523
+        ]
+      },
+      {
+        "id": "ae358038553215c5",
+        "index": 2.2010799674518973,
+        "resource": [
+          5097,
+          4638
+        ],
+        "geo": [
+          143.88726761191805,
+          -36.821890781458556
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1065,
+        884
+      ],
+      [
+        1022,
+        5529
+      ],
+      [
+        6590,
+        5439
+      ],
+      [
+        6530,
+        884
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/95e1406756c66cad",
+      "version": "https://annotations.allmaps.org/maps/95e1406756c66cad@f6f7097c1ffdb2d8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8c74f8c5b2bba676",
+        "version": "https://annotations.allmaps.org/images/8c74f8c5b2bba676@b9c4db4adaa2a398",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bfae77de4b85d136",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/29df3e37d96d223d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.536251,
+      "area": 88245461.21
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.814525081,
+          -36.749141922
+        ],
+        [
+          143.800487375,
+          -36.826286398
+        ],
+        [
+          143.915870729,
+          -36.839021359
+        ],
+        [
+          143.927523957,
+          -36.763123568
+        ],
+        [
+          143.814525081,
+          -36.749141922
+        ]
+      ]
+    ]
+  }
+}

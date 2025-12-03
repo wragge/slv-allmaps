@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d74b85ea37cf4b31",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T07:49:17.161Z",
+  "modified": "2025-12-03T07:49:17.161Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488176:FL21305630.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5246,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488176/canvas/FL21305630",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488176/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Electoral district of the Kyneton Boroughs"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5246\" height=\"7000\"><polygon points=\"439,1784 421,6208 4831,6308 4831,1784\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            764,
+            2284
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3504065871312,
+            -37.142180606709836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1931,
+            4528
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4036947964869,
+            -37.266205079733645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4089,
+            5915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53034655804117,
+            -37.35403924902117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2287,
+            3120
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.43838834576144,
+            -37.195977202946494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2644,
+            2829
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.46522896014756,
+            -37.183914250486886
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d74b85ea37cf4b31",
+      "version": "https://annotations.allmaps.org/maps/d74b85ea37cf4b31@c43fa972a7145ff6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b1f1ce8245caf455",
+        "version": "https://annotations.allmaps.org/images/b1f1ce8245caf455@a89903cb429faa35",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ba50302dd422e4eb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/df154dff333f8263"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.173646,
+      "area": 653024596.64
+    }
+  }
+}

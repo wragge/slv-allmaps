@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3da9025ad1f4f87e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T07:33:16.835Z",
+  "modified": "2025-12-03T07:33:16.835Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9655807:FL21650060.jpg",
+      "type": "ImageService2",
+      "height": 5038,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655807/canvas/FL21650060",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655807/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Special Lands in the Parish of Dunolly"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5038\"><polygon points=\"999,1602 775,2899 2128,4563 3423,4551 3281,3561 4806,3461 6342,2379 5837,842 3887,1587\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1790,
+            2978
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7215959677655,
+            -36.86147326065118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2224,
+            2258
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7186639974862,
+            -36.85935251688485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1764,
+            2202
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7181454700285,
+            -36.86111647963752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4877,
+            1756
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.71798262365837,
+            -36.849459503512186
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3da9025ad1f4f87e",
+      "version": "https://annotations.allmaps.org/maps/3da9025ad1f4f87e@c8a55ce3626545be",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a2833b5a41f34e0c",
+        "version": "https://annotations.allmaps.org/images/a2833b5a41f34e0c@17bfb40118d33637",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/44efe699bfbbed17",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/511cb43c034b3161"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.476014,
+      "area": 1944689.09
+    }
+  }
+}

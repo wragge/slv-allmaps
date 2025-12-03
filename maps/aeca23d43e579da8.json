@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/aeca23d43e579da8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T07:39:00.354Z",
+  "modified": "2025-12-03T07:39:00.354Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588424:FL21664207.jpg",
+      "type": "ImageService2",
+      "height": 5521,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588424/canvas/FL21664207",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588424/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tourist map of the Castlemaine and Kyneton districts"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5521\"><polygon points=\"605,117 595,4796 4746,4718 4744,5408 6379,5432 6373,114\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            770,
+            826
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.06309629445758,
+            -36.98570384279483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6133,
+            4890
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.52712877137895,
+            -37.35983649728753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5936,
+            210
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.570813915972,
+            -37.00036497034154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1753,
+            3915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.1131162272746,
+            -37.23559421188503
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/aeca23d43e579da8",
+      "version": "https://annotations.allmaps.org/maps/aeca23d43e579da8@1468f2b397e61b95",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0838309a175fd542",
+        "version": "https://annotations.allmaps.org/images/0838309a175fd542@8ed9b06aae216d72",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/444d7a8b66726df0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0f30d4572ba98a32"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.115606,
+      "area": 2086882519.03
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b9ba0490c3aea700",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T06:22:54.084Z",
+  "modified": "2025-12-03T06:22:54.084Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036057:FL21352857.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 3680,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036057/canvas/FL21352857",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036057/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Dunolly, County of Gladstone"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"3680\" height=\"7000\"><polygon points=\"3082,530 178,539 181,4768 3039,4657\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2203,
+            2434
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7814468967212,
+            -36.8906849254762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2338,
+            1140
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.76010154761684,
+            -36.88606651026912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2907,
+            645
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.75373121264784,
+            -36.87784736935343
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1579,
+            2420
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.77959527498456,
+            -36.89914209572311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            905,
+            3851
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.80150419802845,
+            -36.91093215984551
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b9ba0490c3aea700",
+      "version": "https://annotations.allmaps.org/maps/b9ba0490c3aea700@57b855d7609a93d3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e8541701a6a74362",
+        "version": "https://annotations.allmaps.org/images/e8541701a6a74362@f2dd66ba582be7ae",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8eaa1eec42c75934",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7021f1493832e873"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.666137,
+      "area": 27123244.32
+    }
+  }
+}

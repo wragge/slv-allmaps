@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5078fec30554af95",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T02:43:11.066Z",
+  "modified": "2025-12-03T02:43:11.066Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029538:FL21353419.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5840,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029538/canvas/FL21353419",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029538/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Bealiba"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5840\" height=\"7000\"><polygon points=\"463,1630 339,5912 4829,6028 4813,1719\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            998,
+            4376
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.54320176727896,
+            -36.790049623662945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2718,
+            4112
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.5512575600108,
+            -36.78980315846337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2907,
+            3763
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.55230484272914,
+            -36.788606598199415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1021,
+            3414
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.54387013274038,
+            -36.786459986640416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2645,
+            3618
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.55121566858412,
+            -36.78796917035935
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5078fec30554af95",
+      "version": "https://annotations.allmaps.org/maps/5078fec30554af95@2ab5961517e610e8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7632a77fa2f44cb7",
+        "version": "https://annotations.allmaps.org/images/7632a77fa2f44cb7@e8859be763f649ef",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d1c22bf25a3fcdd5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7fb0d7dec06eaae1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.412978,
+      "area": 3261787.88
+    }
+  }
+}

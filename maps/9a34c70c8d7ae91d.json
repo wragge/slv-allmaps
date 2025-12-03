@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9a34c70c8d7ae91d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T09:37:11.817Z",
+  "modified": "2025-12-03T09:37:11.817Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002791:FL21481492.jpg",
+      "type": "ImageService2",
+      "height": 4822,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002791/canvas/FL21481492",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002791/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : standard 40 chain series topographical map. 806 A, Dunolly A"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4822\"><polygon points=\"1116,556 1130,3605 6036,3596 6030,548\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1401,
+            996
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.5138101553011,
+            -36.76608882244769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5711,
+            901
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7334066695161,
+            -36.762754553660564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5851,
+            3455
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.74017250105044,
+            -36.86764752791166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1550,
+            3532
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.52052946461265,
+            -36.87064366143669
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9a34c70c8d7ae91d",
+      "version": "https://annotations.allmaps.org/maps/9a34c70c8d7ae91d@21e23bb4aae63e3a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b14de98f3d117126",
+        "version": "https://annotations.allmaps.org/images/b14de98f3d117126@626d9f768ae95646",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b8d791179f12d089",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7d4663fb48a08ac2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.21936,
+      "area": 311069283.52
+    }
+  }
+}

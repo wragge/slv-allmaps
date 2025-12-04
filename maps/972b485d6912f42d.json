@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/972b485d6912f42d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-04T04:53:09.824Z",
+  "modified": "2025-12-04T04:53:09.824Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9589721:FL21664380.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6036,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589721/canvas/FL21664380",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589721/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Bendigo city and Eaglehawk borough"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6036\" height=\"7000\"><polygon points=\"5340,76 3878,1410 1970,438 338,771 277,2107 1739,2639 2313,3661 2128,4871 2319,6595 4022,6744 5647,5211 6007,40\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3046,
+            5875
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25192752015232,
+            -36.77809119976782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4722,
+            3940
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.28749353436098,
+            -36.7583549022901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3884,
+            3921
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.27409168451834,
+            -36.75531634947161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4465,
+            4315
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2818288340414,
+            -36.762555544448965
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/972b485d6912f42d",
+      "version": "https://annotations.allmaps.org/maps/972b485d6912f42d@4c1f92ab2ebfc50b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/510e4ccf36fecb83",
+        "version": "https://annotations.allmaps.org/images/510e4ccf36fecb83@fe7f5ce23834da98",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f8157d85e1426d34",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b0fb551211f570c7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.665819,
+      "area": 53320393.06
+    }
+  }
+}

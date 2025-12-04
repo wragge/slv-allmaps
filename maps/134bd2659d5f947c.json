@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/134bd2659d5f947c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-04T00:41:41.628Z",
+  "modified": "2025-12-04T00:41:41.628Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15470020:FL21374633.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5355,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15470020/canvas/FL21374633",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15470020/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan shewing route of proposed Portland & Northern Tramway"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5355\" height=\"7000\"><polygon points=\"178,100 191,6962 5249,6937 5062,79\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2727,
+            4394
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.63037232056752,
+            -38.12955495803445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2879,
+            6290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.61346967274739,
+            -38.36065597427226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4749,
+            1060
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.01456551330642,
+            -37.758129795300356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            344,
+            3061
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.28607164051283,
+            -37.92719438026809
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/134bd2659d5f947c",
+      "version": "https://annotations.allmaps.org/maps/134bd2659d5f947c@efe2b52e71673ef0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b3b2f0e7de6780cb",
+        "version": "https://annotations.allmaps.org/images/b3b2f0e7de6780cb@747835e0a1268ceb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/07f175b0d4a50b6b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9bda1f8b68ebcc57"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.072988,
+      "area": 6401678079.01
+    }
+  }
+}

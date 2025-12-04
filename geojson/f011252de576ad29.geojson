@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/f011252de576ad29",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-04T01:30:56.800Z",
+    "modified": "2025-12-04T01:30:56.800Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7328244:FL21468379.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7328244:FL21468379.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4428,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7328244/canvas/FL21468379",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7328244/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 4041, Blackburn & Mitcham"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "63c67606e7b805e1",
+        "index": 1.0262772325496297,
+        "resource": [
+          3978,
+          1294
+        ],
+        "geo": [
+          145.155874555063,
+          -37.82291557278804
+        ]
+      },
+      {
+        "id": "80b5008819127ce9",
+        "index": 0.49553345068493704,
+        "resource": [
+          565,
+          3419
+        ],
+        "geo": [
+          145.15223028921184,
+          -37.82415642808373
+        ]
+      },
+      {
+        "id": "7ae96f587a2d650a",
+        "index": 2.0698264048588175,
+        "resource": [
+          5926,
+          2145
+        ],
+        "geo": [
+          145.1576252836589,
+          -37.82375116786478
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        212,
+        766
+      ],
+      [
+        212,
+        3801
+      ],
+      [
+        6712,
+        3909
+      ],
+      [
+        6636,
+        728
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f011252de576ad29",
+      "version": "https://annotations.allmaps.org/maps/f011252de576ad29@fd8da5ab6e5ec085",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/55522dac7908be7f",
+        "version": "https://annotations.allmaps.org/images/55522dac7908be7f@21436bb590805edc",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1a7162467b7e5b59",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cda26342717a5bb7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.753913,
+      "area": 145363.13
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.152311694,
+          -37.82213584
+        ],
+        [
+          145.15182749,
+          -37.824406106
+        ],
+        [
+          145.158105039,
+          -37.825150972
+        ],
+        [
+          145.158538935,
+          -37.822763751
+        ],
+        [
+          145.152311694,
+          -37.82213584
+        ]
+      ]
+    ]
+  }
+}

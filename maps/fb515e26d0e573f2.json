@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fb515e26d0e573f2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-04T00:49:59.178Z",
+  "modified": "2025-12-04T00:49:59.178Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7327072:FL20708241.jpg",
+      "type": "ImageService2",
+      "height": 4279,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7327072/canvas/FL20708241",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7327072/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1066, City of Richmond"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4279\"><polygon points=\"925,459 1000,4129 6103,4123 6060,453\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5855,
+            3851
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99823919697894,
+            -37.82386300761635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1297,
+            3868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99371694924332,
+            -37.8233441230383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2437,
+            2144
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99510829384928,
+            -37.82213422955927
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fb515e26d0e573f2",
+      "version": "https://annotations.allmaps.org/maps/fb515e26d0e573f2@2cfa165da68ddac3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cfdafe54fdbfd79a",
+        "version": "https://annotations.allmaps.org/images/cfdafe54fdbfd79a@ef5631142cac0ab1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/57547016773d6fa8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e2ad3b55873befd7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.380374,
+      "area": 145059.54
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/fb515e26d0e573f2",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-04T00:49:59.178Z",
+    "modified": "2025-12-04T00:49:59.178Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7327072:FL20708241.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7327072:FL20708241.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4279,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7327072/canvas/FL20708241",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7327072/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1066, City of Richmond"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "3d3288b05c71478f",
+        "index": 0.6538089161092021,
+        "resource": [
+          5855,
+          3851
+        ],
+        "geo": [
+          144.99823919697894,
+          -37.82386300761635
+        ]
+      },
+      {
+        "id": "ac16a7d8ec25e01f",
+        "index": 2.0417927838735865,
+        "resource": [
+          1297,
+          3868
+        ],
+        "geo": [
+          144.99371694924332,
+          -37.8233441230383
+        ]
+      },
+      {
+        "id": "6fd36afa39ba689d",
+        "index": 3.0378256710669027,
+        "resource": [
+          2437,
+          2144
+        ],
+        "geo": [
+          144.99510829384928,
+          -37.82213422955927
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        925,
+        459
+      ],
+      [
+        1000,
+        4129
+      ],
+      [
+        6103,
+        4123
+      ],
+      [
+        6060,
+        453
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fb515e26d0e573f2",
+      "version": "https://annotations.allmaps.org/maps/fb515e26d0e573f2@2cfa165da68ddac3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cfdafe54fdbfd79a",
+        "version": "https://annotations.allmaps.org/images/cfdafe54fdbfd79a@ef5631142cac0ab1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/57547016773d6fa8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e2ad3b55873befd7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.380374,
+      "area": 145059.54
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.993864035,
+          -37.820645076
+        ],
+        [
+          144.993382944,
+          -37.823512765
+        ],
+        [
+          144.998443944,
+          -37.824103843
+        ],
+        [
+          144.998956766,
+          -37.821239913
+        ],
+        [
+          144.993864035,
+          -37.820645076
+        ]
+      ]
+    ]
+  }
+}

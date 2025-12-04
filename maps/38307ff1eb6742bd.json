@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/38307ff1eb6742bd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-04T00:08:45.416Z",
+  "modified": "2025-12-04T00:08:45.416Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7318801:FL21468427.jpg",
+      "type": "ImageService2",
+      "height": 4639,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7318801/canvas/FL21468427",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7318801/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 4042, Blackburn & Mitcham"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4639\"><polygon points=\"480,664 1230,4420 6712,4267 6626,657\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3316,
+            1482
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1525529310336,
+            -37.826249540732384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6078,
+            1085
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15221971079058,
+            -37.82415642808373
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1260,
+            1883
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15285889847348,
+            -37.82774610091747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1714,
+            1744
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15277998707228,
+            -37.82748496957955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5800,
+            3746
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1543973792534,
+            -37.824451464679754
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/38307ff1eb6742bd",
+      "version": "https://annotations.allmaps.org/maps/38307ff1eb6742bd@27b738f4f53fb5d1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a6bf0bf9ae23d83b",
+        "version": "https://annotations.allmaps.org/images/a6bf0bf9ae23d83b@58b12c95196c9f23",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/339ee76f8b5adbc7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/94951a1a55adea15"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 12.951092,
+      "area": 127862.04
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9de394b1742e3b7c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T23:06:39.609Z",
+  "modified": "2025-12-03T23:06:39.609Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489015:FL21304740.jpg",
+      "type": "ImageService2",
+      "height": 5620,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489015/canvas/FL21304740",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489015/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map showing proposed subdivision of the Mallee country : also the manner of allotment in the adjoining Colonies of New South Wales & South Australia."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5620\"><polygon points=\"245,365 138,5294 5137,5266 5141,4658 5530,4295 6136,4101 6603,3998 6598,385\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            439,
+            3535
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.12691703824623,
+            -35.81360854106288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            865,
+            2286
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.74309526150364,
+            -34.598536147676676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4939,
+            2246
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.60685193271297,
+            -34.72125627828011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1846,
+            4831
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.74884228258583,
+            -37.168374787275944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5931,
+            3645
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74082288541348,
+            -36.1076863519566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2697,
+            1576
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96365179253246,
+            -33.98137687252197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3825,
+            4305
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.20305978073333,
+            -36.71921107616544
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9de394b1742e3b7c",
+      "version": "https://annotations.allmaps.org/maps/9de394b1742e3b7c@ef7c608c808a4264",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/df07442646d97248",
+        "version": "https://annotations.allmaps.org/images/df07442646d97248@569ae8ca3143e567",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/be3ff8f0206e17be",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e4c4f1cbf4321f26"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.009111,
+      "area": 360127840332.66
+    }
+  }
+}

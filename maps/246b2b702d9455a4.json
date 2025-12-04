@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/246b2b702d9455a4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T22:32:48.710Z",
+  "modified": "2025-12-03T22:32:48.710Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7049495:FL21358603.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5303,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049495/canvas/FL21358603",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049495/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Harcourt, Parish of Harcourt, County of Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5303\" height=\"7000\"><polygon points=\"616,400 585,6671 1604,6687 4740,6211 4775,417\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2692,
+            4738
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25815961430123,
+            -37.00419284524079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3566,
+            4745
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26374467020338,
+            -37.00497928225765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3228,
+            4038
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26223956160243,
+            -37.00096012661187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3233,
+            3248
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2630085405009,
+            -36.99696471708208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3465,
+            4038
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26365112066662,
+            -37.0011743141875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2649,
+            4033
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.25853789213102,
+            -37.00063672903313
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/246b2b702d9455a4",
+      "version": "https://annotations.allmaps.org/maps/246b2b702d9455a4@1806ebbd2ddd5831",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/01d80b5dc799dccd",
+        "version": "https://annotations.allmaps.org/images/01d80b5dc799dccd@f0bd37bf0f9ff5f3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/976bffea9a200752",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/16fea048a549c492"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.739402,
+      "area": 8374563.05
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/11eea1353a47b1bf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T22:21:03.076Z",
+  "modified": "2025-12-03T22:21:03.076Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7029486:FL21353175.jpg",
+      "type": "ImageService2",
+      "height": 4972,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029486/canvas/FL21353175",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7029486/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Redesdale, Parish of Redesdale, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4972\"><polygon points=\"247,1426 179,4469 6280,4537 6280,1441\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3170,
+            2291
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53265504608936,
+            -37.01530771747495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2946,
+            1601
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53216554580126,
+            -37.01343186280287
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4437,
+            2527
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53669908683344,
+            -37.01641298451786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5574,
+            2098
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.54096594108233,
+            -37.015880650530455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3235,
+            4371
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53188999488214,
+            -37.02134153931047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2591,
+            4053
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.52986484594413,
+            -37.0202727348849
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/11eea1353a47b1bf",
+      "version": "https://annotations.allmaps.org/maps/11eea1353a47b1bf@2d81042154d4313b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e194fd665d83bd90",
+        "version": "https://annotations.allmaps.org/images/e194fd665d83bd90@a27368960374dc8a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a8b56e82c569faa6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/63f57f7df1c07f56"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.20255,
+      "area": 1815861.08
+    }
+  }
+}

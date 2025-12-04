@@ -1,0 +1,221 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8d564bd03bc89bb6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-03T22:17:33.974Z",
+  "modified": "2025-12-03T22:17:33.974Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7040365:FL21354479.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4699,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7040365/canvas/FL21354479",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7040365/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Redesdale, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4699\" height=\"7000\"><polygon points=\"119,87 189,6968 4501,6962 4523,49\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            841,
+            5782
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.46065929283486,
+            -37.03807859330626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2924,
+            3279
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5253982452773,
+            -36.99190827406747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4086,
+            5955
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.54477890628652,
+            -37.052774962280495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1457,
+            2540
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.489219827843,
+            -36.971420368809284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3304,
+            2279
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53962075972657,
+            -36.971951981123716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3107,
+            3803
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5279266912408,
+            -37.0038748711385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2561,
+            2006
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.52070697917668,
+            -36.9633375241444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3690,
+            4253
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5405813927036,
+            -37.01480174617575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3244,
+            4578
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5284591755451,
+            -37.02091532894707
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8d564bd03bc89bb6",
+      "version": "https://annotations.allmaps.org/maps/8d564bd03bc89bb6@951df270385d194b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e3e5dfe484306470",
+        "version": "https://annotations.allmaps.org/images/e3e5dfe484306470@cd482aaaa6c31419",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/329fc8396d549a3e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a3dcf758de72f078"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.420924,
+      "area": 169647191.43
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a5e40dc587e8628c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-05T04:12:20.665Z",
+  "modified": "2025-12-05T04:12:20.665Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15499484:FL21308144.jpg",
+      "type": "ImageService2",
+      "height": 4702,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499484/canvas/FL21308144",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499484/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tourist map, Warburton, Mt. Baw Baw, Walhalla Tourist map, Warburton, Mt. Baw Baw, Walhalla"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4702\"><polygon points=\"1850,361 6949,1184 6949,4554 3324,4543 3329,3631 2951,3626 2919,2669 1678,2676 1678,1903 1838,1924\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6486,
+            3554
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.45107181614725,
+            -37.9419463559418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3832,
+            3645
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.95426827032446,
+            -37.958765068368365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3659,
+            4402
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.89913845603485,
+            -38.02720361982476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2372,
+            2347
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.68849616899183,
+            -37.75351979514215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6066,
+            3982
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.36497613204017,
+            -38.02260616799197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2617,
+            731
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.74730731099208,
+            -37.51038929652582
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a5e40dc587e8628c",
+      "version": "https://annotations.allmaps.org/maps/a5e40dc587e8628c@09660fbca4d16b97",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/978eb70d2c23c847",
+        "version": "https://annotations.allmaps.org/images/978eb70d2c23c847@df7b3f9cb4c893da",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8d686916ef5f998e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/184af166832c12c8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.061651,
+      "area": 4472144559.68
+    }
+  }
+}

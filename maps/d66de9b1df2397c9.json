@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d66de9b1df2397c9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-05T03:46:46.428Z",
+  "modified": "2025-12-05T03:46:46.428Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9532609:FL21664499.jpg",
+      "type": "ImageService2",
+      "height": 4944,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532609/canvas/FL21664499",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532609/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tourist map of the western coastal districts from Lorne to Port Fairy, Victoria /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4944\"><polygon points=\"102,162 142,4747 2233,4775 2245,2919 5206,3866 6885,2452 6907,178\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3956,
+            3114
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.2568813169342,
+            -38.7705294608773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2986,
+            2418
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.99195928925064,
+            -38.62281102446663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            216,
+            1258
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.24225710561302,
+            -38.39118910192641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5020,
+            3579
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.51289207343018,
+            -38.8585089453903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3657,
+            475
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.14909603240665,
+            -38.234062093527086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6839,
+            2040
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.9853720760501,
+            -38.54816729833418
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d66de9b1df2397c9",
+      "version": "https://annotations.allmaps.org/maps/d66de9b1df2397c9@7b37198bd96dd3ef",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ef84730f9a9843fe",
+        "version": "https://annotations.allmaps.org/images/ef84730f9a9843fe@1dcf3af20fd57cd6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c958405f118e1e4f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/95857ec08b3f49e5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.044279,
+      "area": 12404688380.98
+    }
+  }
+}

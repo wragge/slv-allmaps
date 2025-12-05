@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b3778bbe92c481cc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-05T01:29:29.007Z",
+  "modified": "2025-12-05T01:29:29.007Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291235:FL21365275.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5082,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291235/canvas/FL21365275",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291235/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Subdivision of the Fish Market Reserve Sandridge."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5082\" height=\"7000\"><polygon points=\"146,3348 35,6846 3907,6888 4706,1127\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1748,
+            3489
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94133551495685,
+            -37.84157153859976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3507,
+            6180
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9412482199051,
+            -37.843138210767464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1705,
+            6157
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94037903483894,
+            -37.842640250596155
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b3778bbe92c481cc",
+      "version": "https://annotations.allmaps.org/maps/b3778bbe92c481cc@024241ee881329f7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/41451d3ff1333065",
+        "version": "https://annotations.allmaps.org/images/41451d3ff1333065@0601fc43f7018eae",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bd23ed35909b384d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8a496f819ffb3a2c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 18.71565,
+      "area": 54306.53
+    }
+  }
+}

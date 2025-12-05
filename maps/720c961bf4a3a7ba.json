@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/720c961bf4a3a7ba",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-05T04:23:48.225Z",
+  "modified": "2025-12-05T04:23:48.225Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8769526:FL21647209.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5355,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8769526/canvas/FL21647209",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8769526/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia East Coast Botany Bay and Port Hacking ."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5355\" height=\"7000\"><polygon points=\"269,247 207,6741 5038,6824 5100,281\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2666,
+            4696
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.16841460895984,
+            -34.07528785062985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1943,
+            4661
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.14061684849304,
+            -34.07256296476012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4038,
+            3560
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.22048627365064,
+            -34.03942861299435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3999,
+            2258
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.22163874819347,
+            -34.001457941669436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4801,
+            2258
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.24885599284147,
+            -34.00171813444958
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1654,
+            6544
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.12164731412247,
+            -34.13981021217128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4812,
+            1122
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.2522676039543,
+            -33.96420482056647
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/720c961bf4a3a7ba",
+      "version": "https://annotations.allmaps.org/maps/720c961bf4a3a7ba@5b1ec0a9b71cbf9b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/84b5f810595fc358",
+        "version": "https://annotations.allmaps.org/images/84b5f810595fc358@e01dcc191ec13eec",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0618882e4a885eeb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/be78bfce29542909"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.286259,
+      "area": 384341514.07
+    }
+  }
+}

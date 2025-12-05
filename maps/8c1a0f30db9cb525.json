@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8c1a0f30db9cb525",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-05T10:18:31.002Z",
+  "modified": "2025-12-05T10:18:31.002Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22969008:FL22969392.jpg",
+      "type": "ImageService2",
+      "height": 4949,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22969008/canvas/FL22969392",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6460"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22969008/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map] 15-08, Parish of Nunawading 3337, Municipality of Nunawading 240"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4949\"><polygon points=\"783,777 789,4169 6229,4154 6213,771\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            927,
+            1046
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13798520810622,
+            -37.84196132011545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5994,
+            2156
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15810670889834,
+            -37.84588182274227
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5736,
+            4089
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15784694103445,
+            -37.852457148211194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1302,
+            3545
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13929142144696,
+            -37.85030831618114
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8c1a0f30db9cb525",
+      "version": "https://annotations.allmaps.org/maps/8c1a0f30db9cb525@9418b4c088d5bb55",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c07475fe9641a59b",
+        "version": "https://annotations.allmaps.org/images/c07475fe9641a59b@5d12cb0199d87462",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/68fc546193795b51",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e0e8f05cc7fb652d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.744097,
+      "area": 2445020.74
+    }
+  }
+}

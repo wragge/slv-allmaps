@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/72e6c731407c9ab6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-06T01:59:22.896Z",
+  "modified": "2025-12-06T01:59:22.896Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9589796:FL21666138.jpg",
+      "type": "ImageService2",
+      "height": 5339,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589796/canvas/FL21666138",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589796/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan and section of the branch line to Williams Town for the Melbourne Mount Alexander & Murray River Railway Company"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5339\"><polygon points=\"1999,137 80,1628 504,3993 2258,4022 4672,2380 4707,1684\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1963,
+            848
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90681057538598,
+            -37.81984241249496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1136,
+            1516
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.89496419529803,
+            -37.8269404087048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1683,
+            3357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.89975894314102,
+            -37.86129559549517
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2183,
+            3480
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90922124008546,
+            -37.86686710955509
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3715,
+            2052
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95498481208097,
+            -37.82113115390911
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/72e6c731407c9ab6",
+      "version": "https://annotations.allmaps.org/maps/72e6c731407c9ab6@05b05e791a955b11",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/83082d3ecc01e6d1",
+        "version": "https://annotations.allmaps.org/images/83082d3ecc01e6d1@cbb5db03e750c887",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/71831c4d1ab069c8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/57272b9f379c5c69"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.477172,
+      "area": 52087509.5
+    }
+  }
+}

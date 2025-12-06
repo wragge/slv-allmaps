@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3caf0edb1e3e45fe",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-06T02:06:54.041Z",
+    "modified": "2025-12-06T02:06:54.041Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9647426:FL21667490.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9647426:FL21667490.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5222,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9647426/canvas/FL21667490",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9647426/manifest",
+              "label": {
+                "none": [
+                  "Geological sketch of the country in the vicinity of Mnt. Alexander"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "1722977e737a8abe",
+        "index": 0.1710344699858346,
+        "resource": [
+          970,
+          2813
+        ],
+        "geo": [
+          143.96151104012108,
+          -36.94540603176655
+        ]
+      },
+      {
+        "id": "50e99290bd65bcfd",
+        "index": 1.0420536972170282,
+        "resource": [
+          3253,
+          3780
+        ],
+        "geo": [
+          144.2191262380851,
+          -37.0669549214113
+        ]
+      },
+      {
+        "id": "be230695656a828e",
+        "index": 2.400195303446265,
+        "resource": [
+          3748,
+          3752
+        ],
+        "geo": [
+          144.26545564502612,
+          -37.07802154981608
+        ]
+      },
+      {
+        "id": "561aa6402d0d599f",
+        "index": 3.9563130537636217,
+        "resource": [
+          2460,
+          1450
+        ],
+        "geo": [
+          144.1589622951858,
+          -36.809384236384446
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5222
+      ],
+      [
+        7000,
+        5222
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3caf0edb1e3e45fe",
+      "version": "https://annotations.allmaps.org/maps/3caf0edb1e3e45fe@7dc07bd91fca2ebd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/037644b19032e09d",
+        "version": "https://annotations.allmaps.org/images/037644b19032e09d@1fc92a02af64007f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7aca9511df12ae16",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7ebfa4c61f1f5b92"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.088716,
+      "area": 4644459948.62
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.895562684,
+          -36.627193071
+        ],
+        [
+          143.811122039,
+          -37.197328188
+        ],
+        [
+          144.625494749,
+          -37.265159911
+        ],
+        [
+          144.709935394,
+          -36.695534115
+        ],
+        [
+          143.895562684,
+          -36.627193071
+        ]
+      ]
+    ]
+  }
+}

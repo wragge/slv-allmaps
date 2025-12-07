@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6fae645474261041",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-07T09:15:52.218Z",
+  "modified": "2025-12-07T09:15:52.218Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488402:FL21307380.jpg",
+      "type": "ImageService2",
+      "height": 4859,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488402/canvas/FL21307380",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488402/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Piangil irrigation project"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4859\"><polygon points=\"333,832 318,4271 1883,4274 1876,4059 2994,4042 2989,3331 4213,3320 4199,3051 5361,3055 5378,1696 6636,1708 6635,101 5052,83 5056,361 2542,361 2544,820\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2700,
+            3331
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.28605560130148,
+            -35.04174970848132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4937,
+            2187
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.31473449160075,
+            -35.08591617718883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5777,
+            324
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.36103093596302,
+            -35.10308450153467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2002,
+            1307
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3368056569526,
+            -35.02771617063441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6305,
+            1554
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3306946862117,
+            -35.11356088311982
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6fae645474261041",
+      "version": "https://annotations.allmaps.org/maps/6fae645474261041@9a8d5dbc58ae69e6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2013393519f5d815",
+        "version": "https://annotations.allmaps.org/images/2013393519f5d815@7e114573aaf8b452",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/90df67b7671ec87c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7ca6a86f4a18b9a2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.445756,
+      "area": 90618062.48
+    }
+  }
+}

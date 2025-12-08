@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/77940ed8056a76b7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-08T10:08:46.720Z",
+  "modified": "2025-12-08T10:08:46.720Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7017306:FL21350417.jpg",
+      "type": "ImageService2",
+      "height": 4405,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7017306/canvas/FL21350417",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7017306/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Malmsbury on the Coliban River, Parish of Edgecombe, Counties of Dalhousie and Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4405\"><polygon points=\"322,753 376,3843 6511,4029 6301,807\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4124,
+            3514
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38960847239446,
+            -37.192933742515955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3040,
+            1096
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38589723401032,
+            -37.182096346347656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1312,
+            2130
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.37610159926186,
+            -37.18541994677666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4384,
+            2789
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.39147371282468,
+            -37.190021621338374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1822,
+            3127
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3779183998302,
+            -37.189881567902795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5553,
+            3328
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.39713573318073,
+            -37.1930052105454
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/77940ed8056a76b7",
+      "version": "https://annotations.allmaps.org/maps/77940ed8056a76b7@d239caa8afc9e291",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d273ee362882ef69",
+        "version": "https://annotations.allmaps.org/images/d273ee362882ef69@a6cf42ab8c5411ef",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ba4098cc8157d73f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/acd40198ce4e6fce"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.133287,
+      "area": 4196972.65
+    }
+  }
+}

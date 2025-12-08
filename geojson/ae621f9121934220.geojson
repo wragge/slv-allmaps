@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/ae621f9121934220",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-08T09:11:13.681Z",
+    "modified": "2025-12-08T09:11:13.681Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501010:FL21375981.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15501010:FL21375981.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6213,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501010/canvas/FL21375981",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15501010/manifest",
+              "label": {
+                "none": [
+                  "Victorian water supply"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "a170c8fd4605b160",
+        "index": 0.01444680748541105,
+        "resource": [
+          2614,
+          1984
+        ],
+        "geo": [
+          144.36737695622247,
+          -37.1948221112354
+        ]
+      },
+      {
+        "id": "f9d134296e04a21f",
+        "index": 2.0770413243204198,
+        "resource": [
+          1242,
+          4808
+        ],
+        "geo": [
+          144.34891765451482,
+          -37.21522514803957
+        ]
+      },
+      {
+        "id": "6b71d7cb85c0ae3b",
+        "index": 1.8795140062964382,
+        "resource": [
+          4772,
+          4587
+        ],
+        "geo": [
+          144.38468871043165,
+          -37.21749770027498
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        2553,
+        1934
+      ],
+      [
+        2546,
+        1954
+      ],
+      [
+        890,
+        5333
+      ],
+      [
+        5350,
+        5357
+      ],
+      [
+        5262,
+        1930
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ae621f9121934220",
+      "version": "https://annotations.allmaps.org/maps/ae621f9121934220@f27955cd3a1178b6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e7e6130397c08832",
+        "version": "https://annotations.allmaps.org/images/e7e6130397c08832@3ea40bb81a6f7e14",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e47b518ca9628af8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/98e6f77f21cf7406"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.127504,
+      "area": 9625874.73
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.366848371,
+          -37.194364374
+        ],
+        [
+          144.366744886,
+          -37.194511964
+        ],
+        [
+          144.344513751,
+          -37.218908023
+        ],
+        [
+          144.389204343,
+          -37.224135889
+        ],
+        [
+          144.39402431,
+          -37.197396412
+        ],
+        [
+          144.366848371,
+          -37.194364374
+        ]
+      ]
+    ]
+  }
+}

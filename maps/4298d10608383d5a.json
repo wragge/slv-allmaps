@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4298d10608383d5a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-08T09:02:44.269Z",
+  "modified": "2025-12-08T09:02:44.269Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038716:FL21354051.jpg",
+      "type": "ImageService2",
+      "height": 4989,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038716/canvas/FL21354051",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038716/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Heathcote in the Parish of Heathcote, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4989\"><polygon points=\"978,1035 965,3636 2274,3639 4287,4601 6798,4579 6835,1064\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3650,
+            2891
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70667098020533,
+            -36.91810261137421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5774,
+            2136
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.69462815905746,
+            -36.912793137242275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5891,
+            3889
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7020662257408,
+            -36.90670857524108
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2192,
+            2826
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71240088195214,
+            -36.92360098289317
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4298d10608383d5a",
+      "version": "https://annotations.allmaps.org/maps/4298d10608383d5a@fb82016988e30a76",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f296d21a6bd0e00b",
+        "version": "https://annotations.allmaps.org/images/f296d21a6bd0e00b@2f54c24e3e9dd1f0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/034e3c0650198111",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/753f84c6b9bb2d2e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.847282,
+      "area": 5423562.91
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/efb559d5e809dcde",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-08T08:58:23.954Z",
+  "modified": "2025-12-08T08:58:23.954Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155778:FL23156529.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4954,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155778/canvas/FL23156529",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image 3"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155778/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Dalhousie, Grant, Grenville, Bourke. Divisions S and K. GEO DV 6148"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4954\" height=\"7000\"><polygon points=\"67,1295 77,5848 4135,5825 4129,1269\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3147,
+            1730
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.798962258794,
+            -37.04708593115076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3845,
+            4969
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.89437740269318,
+            -37.40363688805041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1071,
+            1444
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.51688560211528,
+            -37.015265729614505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1050,
+            5753
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50928342201405,
+            -37.49028583322231
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/efb559d5e809dcde",
+      "version": "https://annotations.allmaps.org/maps/efb559d5e809dcde@2041005858a9b226",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4d913023b2c32e2c",
+        "version": "https://annotations.allmaps.org/images/4d913023b2c32e2c@224d8617f69397ae",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/aecfaf82ddfa02d0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/be8294ff7409a6db"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.08202,
+      "area": 2748749277.75
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c3b3c5e70400ca0e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-08T06:13:25.932Z",
+  "modified": "2025-12-08T06:13:25.932Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587631:FL20703733.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5371,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587631/canvas/FL20703733",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587631/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Port Phillip area approximate scale 1:50,000 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5371\" height=\"7000\"><polygon points=\"-4,59 -3,63 -1,6437 5373,6442 5371,42\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5100,
+            6108
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13897164073325,
+            -38.17377951743238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5302,
+            83
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.16281478748226,
+            -37.79909039824619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            351,
+            2326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.75454427153795,
+            -37.931066375887
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c3b3c5e70400ca0e",
+      "version": "https://annotations.allmaps.org/maps/c3b3c5e70400ca0e@d0d1984641ab839c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/306f7ba9423a029e",
+        "version": "https://annotations.allmaps.org/images/306f7ba9423a029e@d5dd4c52e8643910",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5ba1e85ef707f3e7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/307ea41c1e3a93c1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.14181,
+      "area": 1707321163.49
+    }
+  }
+}

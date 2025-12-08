@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/80a72dc141196df8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-08T05:30:02.517Z",
+  "modified": "2025-12-08T05:30:02.517Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9531041:FL20704300.jpg",
+      "type": "ImageService2",
+      "height": 4641,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531041/canvas/FL20704300",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531041/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne 1970 Project (project no. 848)"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4641\"><polygon points=\"202,270 213,4377 6839,4372 6801,241\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6358,
+            4279
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.47703170184138,
+            -37.88524648202453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6742,
+            771
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.5493565474024,
+            -37.368380011088576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            261,
+            315
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.35448881837686,
+            -37.29467412733752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            287,
+            4214
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.34997939722484,
+            -37.87016389669301
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/80a72dc141196df8",
+      "version": "https://annotations.allmaps.org/maps/80a72dc141196df8@b83b3646937c8c97",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0dd5c7f19b1a860a",
+        "version": "https://annotations.allmaps.org/images/0dd5c7f19b1a860a@effc01eb9126f4cb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0e433b7646322468",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3f1266925403fe47"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.06113,
+      "area": 7288821265.62
+    }
+  }
+}

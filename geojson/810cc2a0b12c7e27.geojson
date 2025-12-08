@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/810cc2a0b12c7e27",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-08T05:00:11.427Z",
+    "modified": "2025-12-08T05:00:11.427Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1535276:FL21261731.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE1535276:FL21261731.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 2610,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1535276/canvas/FL21261731",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1535276/manifest",
+              "label": {
+                "none": [
+                  "Anzac Cove and Gaba Tepe 5th October, 1915."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "aa11c0b78f681b94",
+        "index": 1.153719870822829,
+        "resource": [
+          2628,
+          1468
+        ],
+        "geo": [
+          26.276564350347655,
+          40.23919589488207
+        ]
+      },
+      {
+        "id": "f20efe1e73ebc0fe",
+        "index": 0.8508162190617339,
+        "resource": [
+          5911,
+          1714
+        ],
+        "geo": [
+          26.26791203430321,
+          40.20665012906076
+        ]
+      },
+      {
+        "id": "9c89244e18790b23",
+        "index": 2.3310056020374903,
+        "resource": [
+          5945,
+          1566
+        ],
+        "geo": [
+          26.281722432831916,
+          40.207198845425324
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2610
+      ],
+      [
+        7000,
+        2610
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/810cc2a0b12c7e27",
+      "version": "https://annotations.allmaps.org/maps/810cc2a0b12c7e27@17e39f179cc51b6e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/52171edb8e87a7be",
+        "version": "https://annotations.allmaps.org/images/52171edb8e87a7be@7d4e353a87c8868c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/033b5acd84130d3d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8372f6426e8c1bc6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.342959,
+      "area": 155329288.75
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.40084873,
+          40.272709537
+        ],
+        [
+          26.15986849,
+          40.257364954
+        ],
+        [
+          26.189848797,
+          40.191057918
+        ],
+        [
+          26.430829037,
+          40.20641753
+        ],
+        [
+          26.40084873,
+          40.272709537
+        ]
+      ]
+    ]
+  }
+}

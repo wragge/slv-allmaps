@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8aefe5b468088f27",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-09T06:10:46.920Z",
+  "modified": "2025-12-09T06:10:46.920Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387863:FL21479708.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5251,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387863/canvas/FL21479708",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387863/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Portland and part of surrounding areas"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5251\" height=\"7000\"><polygon points=\"225,621 235,6087 5010,6081 5006,5616 4539,5613 4531,615\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            406,
+            1177
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.51080515163738,
+            -38.256775086851434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            688,
+            5140
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.5112477104817,
+            -38.35065131155326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4589,
+            5808
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.63133803823462,
+            -38.37220164149796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4313,
+            862
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.62630767939095,
+            -38.25261148428179
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8aefe5b468088f27",
+      "version": "https://annotations.allmaps.org/maps/8aefe5b468088f27@1ce3337de0987343",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/70e61f88e1539bce",
+        "version": "https://annotations.allmaps.org/images/70e61f88e1539bce@02dca0c9383fe13a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/261f1545f1ca3393",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e325c37f89398ed0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.377146,
+      "area": 166995162.24
+    }
+  }
+}

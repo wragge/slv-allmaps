@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d919011ec9f3b794",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-09T06:07:19.785Z",
+  "modified": "2025-12-09T06:07:19.785Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386301:FL21478843.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5393,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386301/canvas/FL21478843",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386301/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Dryden and part of surrounding areas"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5393\" height=\"7000\"><polygon points=\"183,195 180,6164 5189,6174 5190,4475 5194,3005 5192,183 3329,184\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4580,
+            192
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.49018256567143,
+            -38.247317262340665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1659,
+            5442
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.3977626442159,
+            -38.38015121179984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4735,
+            4198
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.49673107822468,
+            -38.348260496435834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1948,
+            2007
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.40708531945847,
+            -38.29317305511702
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d919011ec9f3b794",
+      "version": "https://annotations.allmaps.org/maps/d919011ec9f3b794@a491c528404736f0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b29790d7b9704f45",
+        "version": "https://annotations.allmaps.org/images/b29790d7b9704f45@20bbda635fdc4e8d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c3f55905c558a198",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/168ea634a79ccd4a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.356877,
+      "area": 235315405.46
+    }
+  }
+}

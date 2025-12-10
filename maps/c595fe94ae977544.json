@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c595fe94ae977544",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-10T08:58:48.242Z",
+  "modified": "2025-12-10T08:58:48.242Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386171:FL21481312.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4742,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386171/canvas/FL21481312",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386171/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bannockburn"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4742\" height=\"7000\"><polygon points=\"201,610 207,6089 4557,6095 4548,597\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1022,
+            805
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.15021697758897,
+            -38.004487312284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3851,
+            3928
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.23145836862955,
+            -38.074543660478135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            468,
+            4199
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.13460306089706,
+            -38.08103769192487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4208,
+            743
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.24204047856767,
+            -38.001754570035494
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c595fe94ae977544",
+      "version": "https://annotations.allmaps.org/maps/c595fe94ae977544@a8facbebb3d069d1",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1026a8e03a2485cc",
+        "version": "https://annotations.allmaps.org/images/1026a8e03a2485cc@e080c3ce273e6687",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9855963ff1607fff",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a5e9623df5723f94"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.397227,
+      "area": 151256871.95
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/67900135938ab434",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-10T06:27:16.663Z",
+  "modified": "2025-12-10T06:27:16.663Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388048:FL21482596.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5008,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388048/canvas/FL21482596",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388048/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Lake Brockie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5008\" height=\"7000\"><polygon points=\"239,673 273,6051 4733,5977 4688,651\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4069,
+            2444
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.48808792756017,
+            -34.78849167799859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1108,
+            1780
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.40080938533924,
+            -34.77047340531763
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3621,
+            5623
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.4743029390537,
+            -34.86429630190821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            441,
+            5622
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.38140018472114,
+            -34.8646567074402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4670,
+            852
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.50620074987455,
+            -34.749939064314034
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/67900135938ab434",
+      "version": "https://annotations.allmaps.org/maps/67900135938ab434@a08718f28ce06aab",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/988439d21ce93ba8",
+        "version": "https://annotations.allmaps.org/images/988439d21ce93ba8@ed289441fa4d1b94",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7f0aed907b02ef0f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a0d071530d9254dd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.371894,
+      "area": 172389591.39
+    }
+  }
+}

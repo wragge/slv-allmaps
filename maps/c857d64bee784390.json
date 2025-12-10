@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c857d64bee784390",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-10T10:13:41.726Z",
+  "modified": "2025-12-10T10:13:41.726Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390932:FL21479781.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4589,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390932/canvas/FL21479781",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390932/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Cape Schanck"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4589\" height=\"7000\"><polygon points=\"225,592 227,5799 457,5793 464,6053 2461,6023 2450,5741 4375,5714 4388,604\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            889,
+            4769
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8947337233522,
+            -38.474071544784074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3930,
+            5050
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9888449255193,
+            -38.4798330963031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1343,
+            665
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90846450708375,
+            -38.37337813754624
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c857d64bee784390",
+      "version": "https://annotations.allmaps.org/maps/c857d64bee784390@e04552f55b20fa54",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d0e25b731e6b3d77",
+        "version": "https://annotations.allmaps.org/images/d0e25b731e6b3d77@31ba077e9204a3df",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/78e918ca060d0822",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7966a71d2f6354b2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.369014,
+      "area": 161202163.5
+    }
+  }
+}

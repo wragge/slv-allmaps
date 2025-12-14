@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/ed3b70f9156b4751",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-14T07:35:48.558Z",
+    "modified": "2025-12-14T07:35:48.558Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386621:FL21482514.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7386621:FL21482514.jpg",
+      "type": "ImageService2",
+      "width": 4826,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386621/canvas/FL21482514",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7386621/manifest",
+              "label": {
+                "none": [
+                  "Harrys Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "1e550cf847fbd877",
+        "index": 1.8735026118891296,
+        "resource": [
+          822,
+          673
+        ],
+        "geo": [
+          145.64213395595164,
+          -36.62293314511404
+        ]
+      },
+      {
+        "id": "71f784916b903f25",
+        "index": 0.7198878575831738,
+        "resource": [
+          4133,
+          1001
+        ],
+        "geo": [
+          145.74044221805917,
+          -36.63022083319607
+        ]
+      },
+      {
+        "id": "c5411fa5aeffdd05",
+        "index": 2.195735459430158,
+        "resource": [
+          1379,
+          4507
+        ],
+        "geo": [
+          145.65886165748498,
+          -36.713831140265185
+        ]
+      },
+      {
+        "id": "8be352f55772d7ec",
+        "index": 3.184571567801395,
+        "resource": [
+          4336,
+          5988
+        ],
+        "geo": [
+          145.74338382397485,
+          -36.74639349001673
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        194,
+        623
+      ],
+      [
+        186,
+        6096
+      ],
+      [
+        4679,
+        6107
+      ],
+      [
+        4670,
+        636
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ed3b70f9156b4751",
+      "version": "https://annotations.allmaps.org/maps/ed3b70f9156b4751@e5cc1ee05c807e6b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0643c6e475edd013",
+        "version": "https://annotations.allmaps.org/images/0643c6e475edd013@a26a16efcbf218ed",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b13440f320338bb6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1f47572cdb9ad6b7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.382876,
+      "area": 167395456.81
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.624556048,
+          -36.622516616
+        ],
+        [
+          145.622434382,
+          -36.750997526
+        ],
+        [
+          145.75409372,
+          -36.749492306
+        ],
+        [
+          145.755716527,
+          -36.621062551
+        ],
+        [
+          145.624556048,
+          -36.622516616
+        ]
+      ]
+    ]
+  }
+}

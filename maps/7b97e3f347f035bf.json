@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7b97e3f347f035bf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-14T07:07:26.114Z",
+  "modified": "2025-12-14T07:07:26.114Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7391987:FL21482428.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4875,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391987/canvas/FL21482428",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7391987/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tamleugh East"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4875\" height=\"7000\"><polygon points=\"188,618 189,6068 4693,6058 4686,606\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            872,
+            5885
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.64435622229973,
+            -36.62310094714401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4295,
+            5360
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.74462009125511,
+            -36.61016350180687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            448,
+            673
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6316488463637,
+            -36.49894817364549
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            458,
+            2298
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.63124566006888,
+            -36.53791564863389
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4421,
+            679
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.74639837113682,
+            -36.4991522628675
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7b97e3f347f035bf",
+      "version": "https://annotations.allmaps.org/maps/7b97e3f347f035bf@0a1af42de3c7f187",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/17ecd455355bb5f4",
+        "version": "https://annotations.allmaps.org/images/17ecd455355bb5f4@02ff387ff66288e2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f548376b6892d2c6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5c2e7537189b54a0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.381242,
+      "area": 168804766.83
+    }
+  }
+}

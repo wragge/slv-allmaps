@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4fba87274e6edaa5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-14T09:05:47.556Z",
+  "modified": "2025-12-14T09:05:47.556Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390095:FL21482564.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4894,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390095/canvas/FL21482564",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390095/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Riggs Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4894\" height=\"7000\"><polygon points=\"201,611 171,6104 4695,6127 4720,633\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3093,
+            6074
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.58422835329395,
+            -36.751123982908425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            740,
+            809
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.51350678926218,
+            -36.62722114790772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2433,
+            5643
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.56470276259483,
+            -36.740803244443256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4533,
+            1458
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62589040774213,
+            -36.64170720485493
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4fba87274e6edaa5",
+      "version": "https://annotations.allmaps.org/maps/4fba87274e6edaa5@f75e8be7dac30400",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/66c3c6d07fb7ea9d",
+        "version": "https://annotations.allmaps.org/images/66c3c6d07fb7ea9d@0df94c712508e64c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b77daf6dc4bcae9a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/01413ddfebe0cdaf"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.379927,
+      "area": 172084426.52
+    }
+  }
+}

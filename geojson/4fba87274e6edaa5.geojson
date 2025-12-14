@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/4fba87274e6edaa5",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-14T09:05:47.556Z",
+    "modified": "2025-12-14T09:05:47.556Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390095:FL21482564.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390095:FL21482564.jpg",
+      "type": "ImageService2",
+      "width": 4894,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390095/canvas/FL21482564",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390095/manifest",
+              "label": {
+                "none": [
+                  "Riggs Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "9ea908796257bda0",
+        "index": 1.0842654721059624,
+        "resource": [
+          3093,
+          6074
+        ],
+        "geo": [
+          145.58422835329395,
+          -36.751123982908425
+        ]
+      },
+      {
+        "id": "b3b501c4f723c4b3",
+        "index": 3.948543726140527,
+        "resource": [
+          740,
+          809
+        ],
+        "geo": [
+          145.51350678926218,
+          -36.62722114790772
+        ]
+      },
+      {
+        "id": "ba12be7913ab1de0",
+        "index": 0.27948623854949217,
+        "resource": [
+          2433,
+          5643
+        ],
+        "geo": [
+          145.56470276259483,
+          -36.740803244443256
+        ]
+      },
+      {
+        "id": "f68918774a64b02d",
+        "index": 2.645526685449939,
+        "resource": [
+          4533,
+          1458
+        ],
+        "geo": [
+          145.62589040774213,
+          -36.64170720485493
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        201,
+        611
+      ],
+      [
+        171,
+        6104
+      ],
+      [
+        4695,
+        6127
+      ],
+      [
+        4720,
+        633
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4fba87274e6edaa5",
+      "version": "https://annotations.allmaps.org/maps/4fba87274e6edaa5@f75e8be7dac30400",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/66c3c6d07fb7ea9d",
+        "version": "https://annotations.allmaps.org/images/66c3c6d07fb7ea9d@0df94c712508e64c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b77daf6dc4bcae9a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/01413ddfebe0cdaf"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.379927,
+      "area": 172084426.52
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.497525942,
+          -36.622626165
+        ],
+        [
+          145.49782509,
+          -36.752301681
+        ],
+        [
+          145.631685818,
+          -36.751897758
+        ],
+        [
+          145.631238514,
+          -36.622198981
+        ],
+        [
+          145.497525942,
+          -36.622626165
+        ]
+      ]
+    ]
+  }
+}

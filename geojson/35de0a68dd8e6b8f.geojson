@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/35de0a68dd8e6b8f",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-13T23:48:57.177Z",
+    "modified": "2025-12-13T23:48:57.177Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385506:FL21481674.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385506:FL21481674.jpg",
+      "type": "ImageService2",
+      "width": 4869,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385506/canvas/FL21481674",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385506/manifest",
+              "label": {
+                "none": [
+                  "[Strathmerton]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "01173a15b805cfcc",
+        "index": 1.6784936130824974,
+        "resource": [
+          478,
+          5883
+        ],
+        "geo": [
+          145.38360972446668,
+          -35.869773860385386
+        ]
+      },
+      {
+        "id": "40bdc197da59e3cd",
+        "index": 2.965640661684759,
+        "resource": [
+          4132,
+          783
+        ],
+        "geo": [
+          145.4886060232651,
+          -35.753671020877135
+        ]
+      },
+      {
+        "id": "7b1c1feda3abd887",
+        "index": 0.8856126886811123,
+        "resource": [
+          4396,
+          5303
+        ],
+        "geo": [
+          145.49431243241844,
+          -35.85704629410033
+        ]
+      },
+      {
+        "id": "f232d47d52ffa88f",
+        "index": 3.1134225204679495,
+        "resource": [
+          366,
+          1000
+        ],
+        "geo": [
+          145.38083271336768,
+          -35.757006735699726
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        223,
+        575
+      ],
+      [
+        207,
+        6083
+      ],
+      [
+        4664,
+        6107
+      ],
+      [
+        4667,
+        569
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/35de0a68dd8e6b8f",
+      "version": "https://annotations.allmaps.org/maps/35de0a68dd8e6b8f@028c0e843b7dc196",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6c9c439d954da590",
+        "version": "https://annotations.allmaps.org/images/6c9c439d954da590@6824d98daac06b14",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5a89ac77b0e663de",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8b421a6732a3d102"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.390853,
+      "area": 160900599.78
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.377229796,
+          -35.747464425
+        ],
+        [
+          145.375520188,
+          -35.874027866
+        ],
+        [
+          145.502115015,
+          -35.875866118
+        ],
+        [
+          145.503462197,
+          -35.748611944
+        ],
+        [
+          145.377229796,
+          -35.747464425
+        ]
+      ]
+    ]
+  }
+}

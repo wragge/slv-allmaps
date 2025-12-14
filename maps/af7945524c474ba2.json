@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/af7945524c474ba2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-14T01:29:19.358Z",
+  "modified": "2025-12-14T01:29:19.358Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390263:FL21482038.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4765,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390263/canvas/FL21482038",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390263/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tullah Creek"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4765\" height=\"7000\"><polygon points=\"193,657 195,6116 4559,6114 4575,698\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1216,
+            6007
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03188367433654,
+            -35.99911963423537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4140,
+            3555
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.11503948408074,
+            -35.9400865996018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3890,
+            6065
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.10892466500115,
+            -35.999011802540984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            808,
+            4653
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.01902544690034,
+            -35.96729280076868
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/af7945524c474ba2",
+      "version": "https://annotations.allmaps.org/maps/af7945524c474ba2@9cd76a8ed7330b73",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/174fcb513ab6c134",
+        "version": "https://annotations.allmaps.org/images/174fcb513ab6c134@738582a815279462",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dc63390c0abca61a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0ef44d3ee86f0b24"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.383383,
+      "area": 161776952.76
+    }
+  }
+}

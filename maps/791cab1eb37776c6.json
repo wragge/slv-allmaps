@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/791cab1eb37776c6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-14T10:14:44.727Z",
+  "modified": "2025-12-14T10:14:44.727Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7390583:FL21483678.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4792,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390583/canvas/FL21483678",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7390583/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Kilmarnock"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4792\" height=\"7000\"><polygon points=\"135,598 162,6070 4658,6047 4623,564\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            256,
+            2022
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.87756435317056,
+            -36.156671142521525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            243,
+            5590
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.87579135646985,
+            -36.24078715123992
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            244,
+            1077
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8775154938627,
+            -36.13369002459936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3378,
+            1028
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9673025460441,
+            -36.13403571487321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3389,
+            5586
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.96713603246258,
+            -36.24086006577114
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/791cab1eb37776c6",
+      "version": "https://annotations.allmaps.org/maps/791cab1eb37776c6@a98894314d3428c0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/53bfef9f92b32440",
+        "version": "https://annotations.allmaps.org/images/53bfef9f92b32440@54adb2598c8807d6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ed78b89a1c45a7db",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f9b354c1019ade9d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.384066,
+      "area": 166811840.7
+    }
+  }
+}

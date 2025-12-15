@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fa4730fc46ee30fd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-15T06:59:38.034Z",
+  "modified": "2025-12-15T06:59:38.034Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387286:FL21479511.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4940,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387286/canvas/FL21479511",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387286/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Mount Gwynne / Berrigan]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4940\" height=\"7000\"><polygon points=\"222,561 214,6045 4688,6048 4705,4939 2743,5036 2692,4021 3018,4007 3137,2410 4729,2369 4707,583\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3263,
+            5417
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.70948300784943,
+            -35.85969557272171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1147,
+            5252
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.64925902174463,
+            -35.85692713300189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2892,
+            710
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.69752838361097,
+            -35.749671375613765
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fa4730fc46ee30fd",
+      "version": "https://annotations.allmaps.org/maps/fa4730fc46ee30fd@aa117849582f7dab",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/855022f4bee41bcb",
+        "version": "https://annotations.allmaps.org/images/855022f4bee41bcb@d7e0245d99ab573d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c5b3f9761728286f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d9046b63ccf29c63"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.386944,
+      "area": 133571948.25
+    }
+  }
+}

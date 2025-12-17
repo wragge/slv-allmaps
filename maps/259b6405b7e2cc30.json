@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/259b6405b7e2cc30",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-17T03:45:25.472Z",
+  "modified": "2025-12-17T03:45:25.472Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7179531:FL21455747.jpg",
+      "type": "ImageService2",
+      "height": 5950,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179531/canvas/FL21455747",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "The Digger's road guide to the Gold Mines of Victoria"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179531/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "The digger's road guide to the gold mines of Victoria and the country extending 210 miles round Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5950\"><polygon points=\"2490,2235 540,2217 527,5195 5226,5187 5256,3099 6419,3096 6443,818 2484,847\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5198,
+            2105
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.91468970614346,
+            -36.081090122504385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1015,
+            2690
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.20335571733625,
+            -36.71418224218059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1282,
+            4634
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.49835283733222,
+            -38.377819974145716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3525,
+            1520
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95709444100993,
+            -35.526299855735765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3179,
+            4531
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.67343654965498,
+            -38.30741967228267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3647,
+            3135
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.12302961350582,
+            -37.019229963678434
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/259b6405b7e2cc30",
+      "version": "https://annotations.allmaps.org/maps/259b6405b7e2cc30@3c329aa08571c286",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ee53b3f42b5971aa",
+        "version": "https://annotations.allmaps.org/images/ee53b3f42b5971aa@25ba2892f17f0854",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1faaf2fecdccabe7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c71f83fefd0a6db1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.009953,
+      "area": 206826184138.79
+    }
+  }
+}

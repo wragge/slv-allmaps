@@ -1,0 +1,221 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2f203c4cf8536dc0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-17T22:50:38.536Z",
+  "modified": "2025-12-17T22:50:38.536Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489430:FL21304070.jpg",
+      "type": "ImageService2",
+      "height": 4539,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489430/canvas/FL21304070",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489430/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Sandhurst gold field lands held under leases for gold mining /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4539\"><polygon points=\"710,346 602,4376 6847,4395 6808,369\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3486,
+            1076
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26807049191262,
+            -36.758417413852214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2628,
+            3765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.24398573580794,
+            -36.796817333505835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1556,
+            2743
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.22717974361854,
+            -36.77857692876809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5944,
+            1898
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3108553621152,
+            -36.7767577549141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2377,
+            3767
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.23936029826467,
+            -36.796193080448376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2270,
+            3631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2378791192317,
+            -36.79380006297384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3712,
+            597
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.27376041058648,
+            -36.75167981886654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4680,
+            3795
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.28211468522215,
+            -36.80169387871924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4940,
+            3528
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.28730931060556,
+            -36.798758611526296
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2f203c4cf8536dc0",
+      "version": "https://annotations.allmaps.org/maps/2f203c4cf8536dc0@a5f2c437508fb4ca",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a641662efb6ae1c7",
+        "version": "https://annotations.allmaps.org/images/a641662efb6ae1c7@10285fba24bafb9c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/75bb596b0347a65e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e108d4723249f2c1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.595611,
+      "area": 70075751.76
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0e6ec5f471e060c9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-23T10:14:49.029Z",
+  "modified": "2025-12-23T10:14:49.029Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7096973:FL21477541.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5493,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7096973/canvas/FL21477541",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7096973/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Grassy Rises, Tynong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5493\" height=\"7000\"><polygon points=\"1004,1636 1303,5106 4099,5506 4600,1869\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1613,
+            4932
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62452065549058,
+            -38.079567447560215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2191,
+            3777
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62706890651873,
+            -38.07571427701174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2004,
+            4966
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.62627003818284,
+            -38.07966168595202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2630,
+            2926
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6289582863082,
+            -38.07285872216126
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0e6ec5f471e060c9",
+      "version": "https://annotations.allmaps.org/maps/0e6ec5f471e060c9@8b8d60f841fde287",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/307d1ed98ecd5f7b",
+        "version": "https://annotations.allmaps.org/images/307d1ed98ecd5f7b@46a0e824163ba1a1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b0240beadad519da",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b46aedc21703b292"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.637587,
+      "area": 1637080.97
+    }
+  }
+}

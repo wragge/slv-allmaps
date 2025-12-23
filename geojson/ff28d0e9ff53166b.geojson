@@ -4,8 +4,8 @@
     "@context": "https://schemas.allmaps.org/map/2/context.json",
     "id": "https://annotations.allmaps.org/maps/ff28d0e9ff53166b",
     "type": "GeoreferencedMap",
-    "created": "2025-12-23T02:43:07.506Z",
-    "modified": "2025-12-23T02:43:07.506Z",
+    "created": "2025-12-23T02:48:13.930Z",
+    "modified": "2025-12-23T02:48:13.930Z",
     "resource": {
       "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497425:FL21461179.jpg",
       "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497425:FL21461179.jpg",
@@ -36,6 +36,30 @@
       ]
     },
     "gcps": [
+      {
+        "id": "3409c2906e6d222e",
+        "index": 5.101706582002314,
+        "resource": [
+          4358,
+          1455
+        ],
+        "geo": [
+          150.1512653888467,
+          -35.90666972329864
+        ]
+      },
+      {
+        "id": "75a915c5aa684729",
+        "index": 6.154876968971295,
+        "resource": [
+          1193,
+          3079
+        ],
+        "geo": [
+          146.19735847300245,
+          -36.042080297487686
+        ]
+      },
       {
         "id": "817bcde5e93f01e6",
         "index": 3.261269980838879,
@@ -95,24 +119,48 @@
           148.1015803693702,
           -35.063028202907454
         ]
+      },
+      {
+        "id": "5e1526720764d024",
+        "index": 7.999905972164171,
+        "resource": [
+          1679,
+          2993
+        ],
+        "geo": [
+          146.9058312929667,
+          -36.091048052196356
+        ]
       }
     ],
     "resourceMask": [
       [
-        0,
-        0
+        651,
+        713
       ],
       [
-        0,
-        7000
+        644,
+        6302
       ],
       [
-        5662,
-        7000
+        3228,
+        6293
       ],
       [
-        5662,
-        0
+        3782,
+        4305
+      ],
+      [
+        5107,
+        3224
+      ],
+      [
+        5088,
+        2670
+      ],
+      [
+        4501,
+        789
       ]
     ],
     "transformation": {
@@ -123,10 +171,10 @@
     },
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/ff28d0e9ff53166b",
-      "version": "https://annotations.allmaps.org/maps/ff28d0e9ff53166b@8de518a296e4bde1",
+      "version": "https://annotations.allmaps.org/maps/ff28d0e9ff53166b@5c7276c618ca7c26",
       "image": {
         "id": "https://annotations.allmaps.org/images/2babcf7d6797a0c0",
-        "version": "https://annotations.allmaps.org/images/2babcf7d6797a0c0@5ac4bd3e40706d91",
+        "version": "https://annotations.allmaps.org/images/2babcf7d6797a0c0@56947a93da3f8034",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/5a723fbd176f4c17",
@@ -138,8 +186,8 @@
           }
         ]
       },
-      "scale": 0.009842,
-      "area": 409204647617.38
+      "scale": 0.010074,
+      "area": 199129482271.85
     }
   },
   "geometry": {
@@ -147,24 +195,36 @@
     "coordinates": [
       [
         [
-          146.82420502,
-          -32.749512752
+          147.118241138,
+          -33.77770607
         ],
         [
-          142.83570769,
-          -38.571057162
+          143.878955988,
+          -38.364914648
         ],
         [
-          148.27122247,
-          -41.057040953
+          146.309502635,
+          -39.371516669
         ],
         [
-          152.2597198,
-          -35.429828969
+          147.979359219,
+          -38.012009249
         ],
         [
-          146.82420502,
-          -32.749512752
+          149.848261119,
+          -37.671393434
+        ],
+        [
+          150.150865032,
+          -37.216637314
+        ],
+        [
+          150.687890124,
+          -35.437883288
+        ],
+        [
+          147.118241138,
+          -33.77770607
         ]
       ]
     ]

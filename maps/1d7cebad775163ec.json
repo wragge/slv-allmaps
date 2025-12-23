@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1d7cebad775163ec",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-23T03:05:30.925Z",
+  "modified": "2025-12-23T03:05:30.925Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23156100:FL23156445.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5216,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156100/canvas/FL23156445",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200009"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156100/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Chart of Terra Australis. Sheet V, South coast /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5216\" height=\"7000\"><polygon points=\"341,597 343,4350 4884,5734 4913,4613 2756,3847 1450,2924 1356,1626\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2447,
+            4401
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.40950995544307,
+            -38.39221172781794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1823,
+            3736
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.76601392763007,
+            -37.84834596379954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            782,
+            2553
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.67085367553676,
+            -36.951326145350215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4702,
+            5042
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.51144678455853,
+            -38.85802898124205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            849,
+            2844
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.74546086092028,
+            -37.156360281478854
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1d7cebad775163ec",
+      "version": "https://annotations.allmaps.org/maps/1d7cebad775163ec@e52b336825d11ffa",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4d392cf2ab2c7930",
+        "version": "https://annotations.allmaps.org/images/4d392cf2ab2c7930@cabf625092cdaeb1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b1b819793c4c0e46",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/773850d1de6e0c97"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.012025,
+      "area": 56455667381.12
+    }
+  }
+}

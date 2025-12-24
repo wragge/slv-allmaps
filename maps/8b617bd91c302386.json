@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8b617bd91c302386",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-24T07:27:53.129Z",
+  "modified": "2025-12-24T07:27:53.129Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7114791:FL21457363.jpg",
+      "type": "ImageService2",
+      "height": 3273,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114791/canvas/FL21457363",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114791/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Gipps Land Lakes showing the routes of steamers Tanjil and Bairnsdale."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3273\"><polygon points=\"199,178 208,3067 6768,3060 6768,187\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5979,
+            2549
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.97021967288418,
+            -37.88273640728284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2291,
+            1956
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.4305182228636,
+            -38.109154617522925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            474,
+            568
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.05823560923147,
+            -38.11217925531379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1283,
+            1275
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.23691230054197,
+            -38.11816758449698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4682,
+            955
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.64131468080575,
+            -37.826275239030046
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8b617bd91c302386",
+      "version": "https://annotations.allmaps.org/maps/8b617bd91c302386@9eb8d4543fbd5c47",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/189dc514e727f0e9",
+        "version": "https://annotations.allmaps.org/images/189dc514e727f0e9@b1aa11a02a0ac6fd",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3af545eb5f8e9516",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ebdb7ff7f1f69fbb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.070886,
+      "area": 3763764610.95
+    }
+  }
+}

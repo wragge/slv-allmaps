@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6f7e8597c69faf2c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-24T08:54:04.387Z",
+  "modified": "2025-12-24T08:54:04.387Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE12455427:FL21260233.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4633,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE12455427/canvas/FL21260233",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE12455427/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Sketch map from Gipps Land expedition of 1840]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4633\" height=\"7000\"><polygon points=\"164,213 169,6792 4540,6838 4606,243\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1329,
+            6128
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2328943651981,
+            -38.41071910944304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3160,
+            5784
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.43883226319167,
+            -38.78119819989701
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3483,
+            717
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.26361193997627,
+            -36.455602847429006
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6f7e8597c69faf2c",
+      "version": "https://annotations.allmaps.org/maps/6f7e8597c69faf2c@6e2e0070bbb24168",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0882afa9c6e0ae4e",
+        "version": "https://annotations.allmaps.org/images/0882afa9c6e0ae4e@c001a6919437c25a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1934a2917f726f97",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/addd4aa32cff6d69"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.01634,
+      "area": 108715093950.61
+    }
+  }
+}

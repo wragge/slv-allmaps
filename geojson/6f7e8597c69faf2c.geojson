@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/6f7e8597c69faf2c",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-24T08:54:04.387Z",
+    "modified": "2025-12-24T08:54:04.387Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE12455427:FL21260233.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE12455427:FL21260233.jpg",
+      "type": "ImageService2",
+      "width": 4633,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE12455427/canvas/FL21260233",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE12455427/manifest",
+              "label": {
+                "none": [
+                  "[Sketch map from Gipps Land expedition of 1840]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "39bacbbec4dd4598",
+        "index": 0.45166518176656534,
+        "resource": [
+          1329,
+          6128
+        ],
+        "geo": [
+          145.2328943651981,
+          -38.41071910944304
+        ]
+      },
+      {
+        "id": "f4c4fd30b3d17e58",
+        "index": 1.5973004569283016,
+        "resource": [
+          3160,
+          5784
+        ],
+        "geo": [
+          146.43883226319167,
+          -38.78119819989701
+        ]
+      },
+      {
+        "id": "41595b48fd440f11",
+        "index": 2.290294052104131,
+        "resource": [
+          3483,
+          717
+        ],
+        "geo": [
+          148.26361193997627,
+          -36.455602847429006
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        164,
+        213
+      ],
+      [
+        169,
+        6792
+      ],
+      [
+        4540,
+        6838
+      ],
+      [
+        4606,
+        243
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6f7e8597c69faf2c",
+      "version": "https://annotations.allmaps.org/maps/6f7e8597c69faf2c@6e2e0070bbb24168",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0882afa9c6e0ae4e",
+        "version": "https://annotations.allmaps.org/images/0882afa9c6e0ae4e@c001a6919437c25a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1934a2917f726f97",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/addd4aa32cff6d69"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.01634,
+      "area": 108715093950.61
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.440720011,
+          -35.20755554
+        ],
+        [
+          144.325258491,
+          -38.386251021
+        ],
+        [
+          146.924856217,
+          -39.671639313
+        ],
+        [
+          149.087936735,
+          -36.561753484
+        ],
+        [
+          146.440720011,
+          -35.20755554
+        ]
+      ]
+    ]
+  }
+}

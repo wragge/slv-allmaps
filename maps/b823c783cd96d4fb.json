@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b823c783cd96d4fb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-25T10:06:06.505Z",
+  "modified": "2025-12-25T10:06:06.505Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7022971:FL21347773.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4233,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022971/canvas/FL21347773",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022971/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Puckapunyal, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4233\" height=\"7000\"><polygon points=\"475,1221 288,6914 4021,6939 4092,1175\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3759,
+            1394
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03131912424737,
+            -36.89802865476159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2693,
+            3613
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99601936713594,
+            -36.957024384839244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2676,
+            2029
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9952967710347,
+            -36.914995860051796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2594,
+            6174
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9931095394801,
+            -37.024447173611186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            778,
+            5573
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93370918071474,
+            -37.009500220780076
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b823c783cd96d4fb",
+      "version": "https://annotations.allmaps.org/maps/b823c783cd96d4fb@6f4c820a56736923",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ba17d1de6294f27b",
+        "version": "https://annotations.allmaps.org/images/ba17d1de6294f27b@e4ccda7b174601c8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f91cfcb8e2c6a99b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6ee13a229d1e14b5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.342042,
+      "area": 179933457.21
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/80bad356c489df5e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-25T09:40:07.263Z",
+  "modified": "2025-12-25T09:40:07.263Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7041338:FL21356037.jpg",
+      "type": "ImageService2",
+      "height": 3932,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041338/canvas/FL21356037",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041338/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Spring Plains, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3932\"><polygon points=\"274,674 342,3426 6923,3383 6928,1329 5389,1127 5335,458\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6860,
+            2260
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.72591958182335,
+            -37.019043733860876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6611,
+            1837
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71795690781568,
+            -37.007763139833756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2191,
+            1437
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.57253960027816,
+            -36.99548277737292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6795,
+            3102
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.72369065555267,
+            -37.04141174239607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1027,
+            1152
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.53427379795676,
+            -36.987156929549776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6034,
+            3039
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.69454173528834,
+            -37.03937893753169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1842,
+            3118
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.56016430113385,
+            -37.039763026873544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4774,
+            848
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.65765501001323,
+            -36.980387369098835
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/80bad356c489df5e",
+      "version": "https://annotations.allmaps.org/maps/80bad356c489df5e@d62121b79d4bff12",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c5a0fa01391ad263",
+        "version": "https://annotations.allmaps.org/images/c5a0fa01391ad263@9a6f1af294899765",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9479fa7bc0388fb2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/dcada2ea1ecd83a5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.339989,
+      "area": 153634774.32
+    }
+  }
+}

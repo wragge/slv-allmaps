@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ff33a7fbbf5d2825",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-25T10:54:59.627Z",
+  "modified": "2025-12-25T10:54:59.627Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038773:FL21354322.jpg",
+      "type": "ImageService2",
+      "height": 5444,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038773/canvas/FL21354322",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038773/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Suburban & Country allotments in the Parish of Tooborac, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5444\"><polygon points=\"2909,595 392,5227 5265,5275 6884,3147\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2617,
+            3713
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.78495757198624,
+            -37.0535489113673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5228,
+            3110
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.81901332510023,
+            -37.04949492797737
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3731,
+            2965
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7985511125595,
+            -37.04692741537337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3373,
+            2527
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7942393411704,
+            -37.04262066623255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3020,
+            928
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.79033120082272,
+            -37.027413992275896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1393,
+            3809
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.76345003025727,
+            -37.05670909888116
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ff33a7fbbf5d2825",
+      "version": "https://annotations.allmaps.org/maps/ff33a7fbbf5d2825@71f46d0dd38a7d7c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/51385944d7d53f85",
+        "version": "https://annotations.allmaps.org/images/51385944d7d53f85@067323da9b7a3888",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c99f0c5d133dce18",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3cc65efa0799ddef"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.853805,
+      "area": 24200175.05
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0c34933d618d1ef9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-25T10:10:32.750Z",
+  "modified": "2025-12-25T10:10:32.750Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038275:FL21353739.jpg",
+      "type": "ImageService2",
+      "height": 4054,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038275/canvas/FL21353739",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038275/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Edgecombe, counties of Talbot and Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4054\"><polygon points=\"772,94 839,3685 2671,3671 3735,2099 6821,2120 6766,113\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2107,
+            2271
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3672343437151,
+            -37.194863364780176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5047,
+            1845
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.43835786386364,
+            -37.19588052646572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5900,
+            276
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.46409697395347,
+            -37.16844889252743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1236,
+            356
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.35429930647052,
+            -37.15565944929789
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0c34933d618d1ef9",
+      "version": "https://annotations.allmaps.org/maps/0c34933d618d1ef9@b6b084f141dbe67b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c3fdd436c71b1c34",
+        "version": "https://annotations.allmaps.org/images/c3fdd436c71b1c34@7ab8ca1a1b4d7f01",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/058cd29a066ffe77",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/33fd10ce4cb01d5e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.469168,
+      "area": 71609049.1
+    }
+  }
+}

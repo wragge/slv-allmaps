@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/90d8684b52783804",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-26T10:21:26.936Z",
+  "modified": "2025-12-26T10:21:26.936Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9532411:FL20702487.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5095,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532411/canvas/FL20702487",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532411/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and environs 1:25 000 series. Sheet 7822-III-SE. Werribee, Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5095\" height=\"7000\"><polygon points=\"405,580 404,6007 4697,6018 4701,582\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            684,
+            5951
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.63439676952686,
+            -37.99743167753323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            504,
+            1173
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.62909936934443,
+            -37.887158820833015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3524,
+            1560
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71674892082848,
+            -37.89615753497477
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/90d8684b52783804",
+      "version": "https://annotations.allmaps.org/maps/90d8684b52783804@71806878546d8ee8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e184880777dfffc4",
+        "version": "https://annotations.allmaps.org/images/e184880777dfffc4@d58d73ae4cba116d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/39131a30f403ec37",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/11d4fd16b41ca6db"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.391159,
+      "area": 152449149.73
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f8bd98b1bf95d1f6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-26T10:08:18.154Z",
+  "modified": "2025-12-26T10:08:18.154Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486484:FL21307266.jpg",
+      "type": "ImageService2",
+      "height": 4863,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486484/canvas/FL21307266",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486484/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne Tullamarine Airport gate numbers /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4863\"><polygon points=\"299,68 312,4812 5196,4790 5195,4388 6937,4387 6928,62\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4433,
+            3492
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.85535285054453,
+            -37.6900066838684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1236,
+            1704
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.79380769851372,
+            -37.66197558776584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3346,
+            1065
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.83469377966316,
+            -37.6526797383282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6615,
+            2754
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.89748587782748,
+            -37.679033642213675
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f8bd98b1bf95d1f6",
+      "version": "https://annotations.allmaps.org/maps/f8bd98b1bf95d1f6@390daab4bea1bf33",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dd4720fb8d7a236a",
+        "version": "https://annotations.allmaps.org/images/dd4720fb8d7a236a@0a81f1a355baa71e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/54ead3166a944418",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/86fa2f630ac7dc0b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.588124,
+      "area": 88662088.46
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0a845b51d3c7d9db",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-26T10:04:59.592Z",
+  "modified": "2025-12-26T10:04:59.592Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497583:FL21058146.jpg",
+      "type": "ImageService2",
+      "height": 5008,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497583/canvas/FL21058146",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497583/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Part of the Municipality of Broadmeadows, part of the parishes of Tullamarine and Will Will Rook / Part of the Municipality of Broadmeadows, part of the parishes of Tullamarine and Will Will Rook"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5008\"><polygon points=\"933,637 935,4067 6077,4069 6075,641\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5912,
+            3826
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94176759177793,
+            -37.69809254676846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1079,
+            3891
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9222952298461,
+            -37.69831000562729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1039,
+            658
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9221591641853,
+            -37.68792990034216
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0a845b51d3c7d9db",
+      "version": "https://annotations.allmaps.org/maps/0a845b51d3c7d9db@ea4275b8ffcba373",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3bb21db17aa38da7",
+        "version": "https://annotations.allmaps.org/images/3bb21db17aa38da7@db9effa44f713da1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/949adea8ed8e80ba",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/40cda62c8e29af43"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.810193,
+      "area": 2232683
+    }
+  }
+}

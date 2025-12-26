@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/f8bd98b1bf95d1f6",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-26T10:08:18.154Z",
+    "modified": "2025-12-26T10:08:18.154Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486484:FL21307266.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486484:FL21307266.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4863,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486484/canvas/FL21307266",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486484/manifest",
+              "label": {
+                "none": [
+                  "Melbourne Tullamarine Airport gate numbers /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "2038f97be0de0158",
+        "index": 1.0877108496703674,
+        "resource": [
+          4433,
+          3492
+        ],
+        "geo": [
+          144.85535285054453,
+          -37.6900066838684
+        ]
+      },
+      {
+        "id": "8292b5a30338a009",
+        "index": 0.20387784261188946,
+        "resource": [
+          1236,
+          1704
+        ],
+        "geo": [
+          144.79380769851372,
+          -37.66197558776584
+        ]
+      },
+      {
+        "id": "ef8b91322131e057",
+        "index": 2.791439443301221,
+        "resource": [
+          3346,
+          1065
+        ],
+        "geo": [
+          144.83469377966316,
+          -37.6526797383282
+        ]
+      },
+      {
+        "id": "268052ed26a2f0c3",
+        "index": 3.834327946092844,
+        "resource": [
+          6615,
+          2754
+        ],
+        "geo": [
+          144.89748587782748,
+          -37.679033642213675
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        299,
+        68
+      ],
+      [
+        312,
+        4812
+      ],
+      [
+        5196,
+        4790
+      ],
+      [
+        5195,
+        4388
+      ],
+      [
+        6937,
+        4387
+      ],
+      [
+        6928,
+        62
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f8bd98b1bf95d1f6",
+      "version": "https://annotations.allmaps.org/maps/f8bd98b1bf95d1f6@390daab4bea1bf33",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dd4720fb8d7a236a",
+        "version": "https://annotations.allmaps.org/images/dd4720fb8d7a236a@0a81f1a355baa71e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/54ead3166a944418",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/86fa2f630ac7dc0b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.588124,
+      "area": 88662088.46
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.775976515,
+          -37.636811886
+        ],
+        [
+          144.775610319,
+          -37.709391939
+        ],
+        [
+          144.869872763,
+          -37.709955394
+        ],
+        [
+          144.869905755,
+          -37.703807879
+        ],
+        [
+          144.903525909,
+          -37.70411357
+        ],
+        [
+          144.903914801,
+          -37.637942614
+        ],
+        [
+          144.775976515,
+          -37.636811886
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ceb5f691fc397b72",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-26T09:59:20.014Z",
+  "modified": "2025-12-26T09:59:20.014Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE5733374:FL21058140.jpg",
+      "type": "ImageService2",
+      "height": 5073,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE5733374/canvas/FL21058140",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 3"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE5733374/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Part of the Municipality of Broadmeadows, part of the parishes of Tullamarine and Will Will Rook / Part of the Municipality of Broadmeadows, part of the parishes of Tullamarine and Will Will Rook"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5073\"><polygon points=\"884,696 901,4171 6107,4169 6107,687\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1910,
+            3343
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94647495701543,
+            -37.69624469046932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5040,
+            1239
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95878092824762,
+            -37.689430534402995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5358,
+            1360
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96021328309553,
+            -37.689978637751075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5455,
+            4075
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96060484144044,
+            -37.69857134011525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2260,
+            939
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94790828841195,
+            -37.68863781715625
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ceb5f691fc397b72",
+      "version": "https://annotations.allmaps.org/maps/ceb5f691fc397b72@2c8af94d8749ba4b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/11bedfaa0f8f64ea",
+        "version": "https://annotations.allmaps.org/images/11bedfaa0f8f64ea@96f635a24be5893e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/40bc72904f548d46",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0965ba1be298eb10"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.844059,
+      "area": 2242480.56
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/e7173122dd367498",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-27T09:58:27.231Z",
+    "modified": "2025-12-27T09:58:27.231Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7325845:FL21466905.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7325845:FL21466905.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4294,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7325845/canvas/FL21466905",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7325845/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 160 feet to 1 inch. no. 8, Footscray & Williamstown"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "c475e781d23f213e",
+        "index": 0.8919049502391848,
+        "resource": [
+          5118,
+          532
+        ],
+        "geo": [
+          144.89596539386702,
+          -37.821904798387365
+        ]
+      },
+      {
+        "id": "fd89a1b03f3c446e",
+        "index": 1.5811959938118902,
+        "resource": [
+          4738,
+          3819
+        ],
+        "geo": [
+          144.89262099204086,
+          -37.832279669931964
+        ]
+      },
+      {
+        "id": "049ed68d6555bc2b",
+        "index": 2.7799230663227483,
+        "resource": [
+          3108,
+          3812
+        ],
+        "geo": [
+          144.8859929559357,
+          -37.831540089797535
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        290,
+        305
+      ],
+      [
+        325,
+        4095
+      ],
+      [
+        6862,
+        4083
+      ],
+      [
+        6751,
+        281
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e7173122dd367498",
+      "version": "https://annotations.allmaps.org/maps/e7173122dd367498@c99ce5270e204829",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cbf6a0f82d2b2398",
+        "version": "https://annotations.allmaps.org/images/cbf6a0f82d2b2398@64847d0e25307656",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4b068a582964e366",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/42493bd11cac25da"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.774957,
+      "area": 3203933.15
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.876446243,
+          -37.819052253
+        ],
+        [
+          144.874515131,
+          -37.831223263
+        ],
+        [
+          144.901118326,
+          -37.834060755
+        ],
+        [
+          144.902746788,
+          -37.821818283
+        ],
+        [
+          144.876446243,
+          -37.819052253
+        ]
+      ]
+    ]
+  }
+}

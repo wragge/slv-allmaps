@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b014dc1ef1501578",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-27T21:35:30.303Z",
+  "modified": "2025-12-27T21:35:30.303Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489190:FL21306210.jpg",
+      "type": "ImageService2",
+      "height": 4546,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489190/canvas/FL21306210",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489190/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Ham's squatting map of Victoria (Port Phillip District, New South Wales) carefully corrected to this date from the Colonial government surveys. Crown Lands Commissioners & explorers maps, private surveys, &c."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4546\"><polygon points=\"607,306 578,4213 6480,4233 6495,351\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            838,
+            3553
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9695847510427,
+            -38.05650568614738
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3077,
+            3666
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6919221531785,
+            -38.28625088380835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            635,
+            570
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96776171308318,
+            -33.98499297210485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6362,
+            3082
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.97059429385558,
+            -37.50941039395113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2354,
+            1403
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.56272078652552,
+            -35.33962885258599
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b014dc1ef1501578",
+      "version": "https://annotations.allmaps.org/maps/b014dc1ef1501578@b71328ac75c85ae3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/81261ae2c18defb7",
+        "version": "https://annotations.allmaps.org/images/81261ae2c18defb7@3c1ec5b40721a244",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3dd36825d385efb4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a83bed3c29eab1b6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00681,
+      "area": 495103816763.82
+    }
+  }
+}

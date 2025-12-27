@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/03e292d9eb3eae8a",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-27T05:51:13.877Z",
+    "modified": "2025-12-27T05:51:13.877Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7320216:FL21468306.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7320216:FL21468306.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4302,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7320216/canvas/FL21468306",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7320216/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2716, Municipalities of Camberwell and Malvern"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "1336649915be0b7e",
+        "index": 1.7139012368829092,
+        "resource": [
+          4254,
+          683
+        ],
+        "geo": [
+          145.07905974531303,
+          -37.872361946009406
+        ]
+      },
+      {
+        "id": "859ffebcbb9f5bb4",
+        "index": 0.57443359107137,
+        "resource": [
+          3110,
+          3746
+        ],
+        "geo": [
+          145.07748488533701,
+          -37.874585189892784
+        ]
+      },
+      {
+        "id": "9f01cc9dcb5e6cff",
+        "index": 2.3938134836762153,
+        "resource": [
+          1828,
+          2294
+        ],
+        "geo": [
+          145.07646312291132,
+          -37.873328590012285
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        154,
+        461
+      ],
+      [
+        183,
+        4084
+      ],
+      [
+        6552,
+        4074
+      ],
+      [
+        6535,
+        536
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/03e292d9eb3eae8a",
+      "version": "https://annotations.allmaps.org/maps/03e292d9eb3eae8a@8a49d15f6fbf688d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0dc9e5ce9c62fa82",
+        "version": "https://annotations.allmaps.org/images/0dc9e5ce9c62fa82@41f0b3658670b47a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7a737a5b97081275",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/994c7eaf3c49f909"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.602388,
+      "area": 169556.66
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.075119353,
+          -37.871736053
+        ],
+        [
+          145.074596299,
+          -37.874519345
+        ],
+        [
+          145.080771347,
+          -37.875219288
+        ],
+        [
+          145.081293101,
+          -37.872502581
+        ],
+        [
+          145.075119353,
+          -37.871736053
+        ]
+      ]
+    ]
+  }
+}

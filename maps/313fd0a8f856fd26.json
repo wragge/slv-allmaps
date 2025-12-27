@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/313fd0a8f856fd26",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-27T05:57:56.113Z",
+  "modified": "2025-12-27T05:57:56.113Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7318311:FL21468157.jpg",
+      "type": "ImageService2",
+      "height": 4158,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7318311/canvas/FL21468157",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7318311/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 160 feet to 1 inch. no. 50, Melbourne, Fitzroy,Collingwood, Brunswick & Northcote"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4158\"><polygon points=\"295,803 278,3667 6833,3661 6799,829\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6698,
+            3297
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99579256720637,
+            -37.78856315864339
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6667,
+            978
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99700858293193,
+            -37.781160020940845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            472,
+            3326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97079998182198,
+            -37.78595397815614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            842,
+            1023
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97347785935455,
+            -37.77871050258904
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/313fd0a8f856fd26",
+      "version": "https://annotations.allmaps.org/maps/313fd0a8f856fd26@7e6a35057c9e76e6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/be95de815d6a09de",
+        "version": "https://annotations.allmaps.org/images/be95de815d6a09de@c082a3ae79e56d85",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1ba6529a374bf207",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f6508d0e70682381"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.792324,
+      "area": 2384988.08
+    }
+  }
+}

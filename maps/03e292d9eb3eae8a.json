@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/03e292d9eb3eae8a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-27T05:51:13.877Z",
+  "modified": "2025-12-27T05:51:13.877Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7320216:FL21468306.jpg",
+      "type": "ImageService2",
+      "height": 4302,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7320216/canvas/FL21468306",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7320216/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2716, Municipalities of Camberwell and Malvern"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4302\"><polygon points=\"154,461 183,4084 6552,4074 6535,536\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4254,
+            683
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.07905974531303,
+            -37.872361946009406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3110,
+            3746
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.07748488533701,
+            -37.874585189892784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1828,
+            2294
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.07646312291132,
+            -37.873328590012285
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/03e292d9eb3eae8a",
+      "version": "https://annotations.allmaps.org/maps/03e292d9eb3eae8a@8a49d15f6fbf688d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0dc9e5ce9c62fa82",
+        "version": "https://annotations.allmaps.org/images/0dc9e5ce9c62fa82@41f0b3658670b47a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7a737a5b97081275",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/994c7eaf3c49f909"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.602388,
+      "area": 169556.66
+    }
+  }
+}

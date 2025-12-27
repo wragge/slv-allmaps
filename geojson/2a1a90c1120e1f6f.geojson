@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/2a1a90c1120e1f6f",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-27T05:43:30.829Z",
+    "modified": "2025-12-27T05:43:30.829Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7321416:FL20709067.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7321416:FL20709067.jpg",
+      "type": "ImageService2",
+      "width": 4270,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7321416/canvas/FL20709067",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7321416/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. Parts of 890 & 891, City of Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "c3f88cbbc97825e1",
+        "index": 1.6519769630248673,
+        "resource": [
+          416,
+          6289
+        ],
+        "geo": [
+          144.98452877926866,
+          -37.830617127182066
+        ]
+      },
+      {
+        "id": "ea03d2c9b44f2785",
+        "index": 0.004854360398178437,
+        "resource": [
+          3096,
+          6332
+        ],
+        "geo": [
+          144.98722980618112,
+          -37.830952043640934
+        ]
+      },
+      {
+        "id": "800329c64b2a4e42",
+        "index": 2.9917165469940583,
+        "resource": [
+          3702,
+          2443
+        ],
+        "geo": [
+          144.9883946623895,
+          -37.8279187914415
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        16,
+        623
+      ],
+      [
+        92,
+        6563
+      ],
+      [
+        4083,
+        6585
+      ],
+      [
+        4128,
+        712
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2a1a90c1120e1f6f",
+      "version": "https://annotations.allmaps.org/maps/2a1a90c1120e1f6f@5bb43e33c613fcf3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d7599d63e8a5dc6d",
+        "version": "https://annotations.allmaps.org/images/d7599d63e8a5dc6d@4b2c94c71ea7d320",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5791f26e9ea2a10c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/24c8ee6c042da9dd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.161602,
+      "area": 192077.89
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.984930003,
+          -37.826053913
+        ],
+        [
+          144.984162556,
+          -37.830799277
+        ],
+        [
+          144.988190843,
+          -37.831264506
+        ],
+        [
+          144.989070993,
+          -37.826586176
+        ],
+        [
+          144.984930003,
+          -37.826053913
+        ]
+      ]
+    ]
+  }
+}

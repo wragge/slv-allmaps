@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f9a81ef34b22fd51",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-27T22:32:47.056Z",
+  "modified": "2025-12-27T22:32:47.056Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486956:FL21307304.jpg",
+      "type": "ImageService2",
+      "height": 4524,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486956/canvas/FL21307304",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486956/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "A map of Australia Felix compiled & carefully revised from the Colonial government surveys, Crown Lands Commissioners & explorers maps, private surveys &c."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4524\"><polygon points=\"132,97 115,4426 6868,4418 6902,89\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2956,
+            3810
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6753489097523,
+            -38.289367224954205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            905,
+            3960
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6459198829695,
+            -38.38982213709871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2257,
+            1431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.64693025564287,
+            -35.449669332501855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6805,
+            2989
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.03968687681225,
+            -37.251768711529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4180,
+            4212
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.43369370303924,
+            -38.776276200019225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5415,
+            1078
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.10145917617433,
+            -35.067365542667375
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f9a81ef34b22fd51",
+      "version": "https://annotations.allmaps.org/maps/f9a81ef34b22fd51@34c66e8ba2c4b7c2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6d1718a4625b4790",
+        "version": "https://annotations.allmaps.org/images/6d1718a4625b4790@5f3792a338e0dd4c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/478838707a13a592",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2843034052ee8fbd"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007729,
+      "area": 489957737213.03
+    }
+  }
+}

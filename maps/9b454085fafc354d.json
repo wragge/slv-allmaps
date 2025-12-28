@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9b454085fafc354d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-27T23:35:34.960Z",
+  "modified": "2025-12-27T23:35:34.960Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488090:FL21304984.jpg",
+      "type": "ImageService2",
+      "height": 6107,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488090/canvas/FL21304984",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488090/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Stephen's map of Melbourne and suburbs carefully compiled from the Government maps, showing lines of railways, streets, public buildings, churches and chapels, and other places of interest with their distance from the Post Office."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6107\"><polygon points=\"0,0 0,6107 7000,6107 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4308,
+            1844
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9786457893561,
+            -37.80835641196504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            719,
+            1597
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90061290718364,
+            -37.794399904488166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6524,
+            2259
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0264233825015,
+            -37.821427630622786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4651,
+            4700
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9773878063857,
+            -37.859742580756176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3429,
+            2354
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95820740648662,
+            -37.81563139840024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1330,
+            5347
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9029880166271,
+            -37.862728397263965
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9b454085fafc354d",
+      "version": "https://annotations.allmaps.org/maps/9b454085fafc354d@4c51e5cb5acd1d74",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9d8d373743c0f312",
+        "version": "https://annotations.allmaps.org/images/9d8d373743c0f312@eb69ca151b392c9b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/02027e8f0d873700",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/66e9f89f0c609c93"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.507662,
+      "area": 165873184.85
+    }
+  }
+}

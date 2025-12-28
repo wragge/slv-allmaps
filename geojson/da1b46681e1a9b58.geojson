@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/da1b46681e1a9b58",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-27T22:53:24.675Z",
+    "modified": "2025-12-27T22:53:24.675Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15491683:FL21305406.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15491683:FL21305406.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4605,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491683/canvas/FL21305406",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491683/manifest",
+              "label": {
+                "none": [
+                  "Postal route map of Victoria compiled to accompany the Official post office directory for 1868 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0e1825a928533a87",
+        "index": 3.6976324503241775,
+        "resource": [
+          1091,
+          195
+        ],
+        "geo": [
+          141.91362181789202,
+          -34.10514742015031
+        ]
+      },
+      {
+        "id": "65a4f121a012cede",
+        "index": 0.6588720041771551,
+        "resource": [
+          811,
+          3772
+        ],
+        "geo": [
+          141.41545221712522,
+          -38.39266216467303
+        ]
+      },
+      {
+        "id": "ab75fa2033376a58",
+        "index": 1.544785258200815,
+        "resource": [
+          3784,
+          4221
+        ],
+        "geo": [
+          145.91121001775844,
+          -38.894781921005354
+        ]
+      },
+      {
+        "id": "e247527f245f3ad4",
+        "index": 2.7720688974923373,
+        "resource": [
+          6497,
+          2825
+        ],
+        "geo": [
+          150.0372418069092,
+          -37.26361799886765
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        306,
+        60
+      ],
+      [
+        357,
+        4513
+      ],
+      [
+        6778,
+        4468
+      ],
+      [
+        6736,
+        121
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/da1b46681e1a9b58",
+      "version": "https://annotations.allmaps.org/maps/da1b46681e1a9b58@4d098f26487ab4fc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5733177eea4b600d",
+        "version": "https://annotations.allmaps.org/images/5733177eea4b600d@f98c43d51f8bb3f9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5b96fe38d8f1db83",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/bb9db74b7f33d295"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007477,
+      "area": 505683095815.21
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.727616829,
+          -33.943111496
+        ],
+        [
+          140.716831324,
+          -39.247173869
+        ],
+        [
+          150.432018998,
+          -39.176109315
+        ],
+        [
+          150.454327143,
+          -33.997540089
+        ],
+        [
+          140.727616829,
+          -33.943111496
+        ]
+      ]
+    ]
+  }
+}

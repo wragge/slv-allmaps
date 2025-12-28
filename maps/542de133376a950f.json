@@ -1,0 +1,253 @@
+{
+  "id": "https://annotations.allmaps.org/maps/542de133376a950f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-27T22:18:19.685Z",
+  "modified": "2025-12-27T22:18:19.685Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484860:FL21306628.jpg",
+      "type": "ImageService2",
+      "height": 4937,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484860/canvas/FL21306628",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484860/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Sketch showing the projected lines of road in the Port Phillip District"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4937\"><polygon points=\"133,99 85,4860 6913,4846 6891,133\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5230,
+            2504
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0375373543897,
+            -37.99926598131043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5177,
+            3691
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98273064399876,
+            -38.29636111237819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4868,
+            1649
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96298570644927,
+            -37.81396836075188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3305,
+            3208
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.41980939687232,
+            -38.12712256486486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2273,
+            3204
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.06424197328624,
+            -38.1076277757192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1417,
+            4381
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.74096805246683,
+            -38.423074578885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2970,
+            3294
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.31295611914777,
+            -38.14510726058137
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4102,
+            3849
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6606597199676,
+            -38.30048014010552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4710,
+            1916
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90698662734093,
+            -37.87621309290693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3536,
+            2944
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5041897969844,
+            -38.08703474536001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            632,
+            4296
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.55345057069508,
+            -38.30573766754911
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/542de133376a950f",
+      "version": "https://annotations.allmaps.org/maps/542de133376a950f@ac7818ba8a839de9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5fb61328b6d4b20a",
+        "version": "https://annotations.allmaps.org/images/5fb61328b6d4b20a@b61a2e0be76c856c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/760a845df834cab9",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c2a2d8a4f6b59448"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.036781,
+      "area": 23785455822.43
+    }
+  }
+}

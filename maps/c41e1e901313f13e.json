@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c41e1e901313f13e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T07:17:02.962Z",
+  "modified": "2025-12-29T07:17:02.962Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22946495:FL22947104.jpg",
+      "type": "ImageService2",
+      "height": 4976,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22946495/canvas/FL22947104",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5849"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22946495/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Darley 2500 [base map]. 28-29, Parish of Holden 2761, Municipality of Bulla 244"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4976\"><polygon points=\"850,801 836,4157 6203,4183 6225,834\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5166,
+            2511
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7312463801997,
+            -37.60290150558989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2006,
+            3239
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71789666655485,
+            -37.60531154834139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2992,
+            2080
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.72203453548332,
+            -37.60136021694722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1961,
+            1862
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71772063665804,
+            -37.60066187892778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4275,
+            954
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.72758140532432,
+            -37.59774768749196
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c41e1e901313f13e",
+      "version": "https://annotations.allmaps.org/maps/c41e1e901313f13e@ae7a70c59472cdb8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1f746acd8d2227e3",
+        "version": "https://annotations.allmaps.org/images/1f746acd8d2227e3@69e3414d33ec1ff8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2511c3f7be8dcb33",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b281c035e41cb34f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.69063,
+      "area": 2487303.83
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4c176abed0efc6ff",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T06:58:58.841Z",
+  "modified": "2025-12-29T06:58:58.841Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22946201:FL22946987.jpg",
+      "type": "ImageService2",
+      "height": 5021,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22946201/canvas/FL22946987",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5880"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22946201/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Darley 2500 [base map]. 29-27, Parishes of Holden 2761 and Bulla Bulla 2258 Municipality of Bulla 244"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5021\"><polygon points=\"744,774 750,4225 6263,4211 6266,758\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1613,
+            1144
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73863803146287,
+            -37.621296679882676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3548,
+            1333
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74652661422869,
+            -37.62207309709665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1295,
+            3764
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73700391985847,
+            -37.62982814403192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3449,
+            2630
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7459845751162,
+            -37.62629797692527
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4c176abed0efc6ff",
+      "version": "https://annotations.allmaps.org/maps/4c176abed0efc6ff@ba028b3ecf20d146",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c653bdcc9ccac035",
+        "version": "https://annotations.allmaps.org/images/c653bdcc9ccac035@a91490c7f6fa3433",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cdf2297f713085f7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/96e6686d582c44ae"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.760807,
+      "area": 2498856.97
+    }
+  }
+}

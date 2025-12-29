@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/2b249731bfead3c3",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-29T03:57:13.753Z",
+    "modified": "2025-12-29T03:57:13.753Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22950055:FL22950527.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22950055:FL22950527.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5107,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950055/canvas/FL22950527",
+          "label": {
+            "none": [
+              "bw6168"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950055/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map]. 05-27, Municipality of Bulla 244"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "35691434d1a8b534",
+        "index": 0.6702156845071867,
+        "resource": [
+          5592,
+          2243
+        ],
+        "geo": [
+          144.9354769381676,
+          -37.62829163751432
+        ]
+      },
+      {
+        "id": "871d74bcc4f643c0",
+        "index": 3.819391178012786,
+        "resource": [
+          1097,
+          2261
+        ],
+        "geo": [
+          144.9174569411186,
+          -37.62795999957413
+        ]
+      },
+      {
+        "id": "96bcce868797ab00",
+        "index": 1.842804500471427,
+        "resource": [
+          1676,
+          1773
+        ],
+        "geo": [
+          144.9198052373439,
+          -37.62648594567905
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        764,
+        811
+      ],
+      [
+        766,
+        4323
+      ],
+      [
+        6413,
+        4316
+      ],
+      [
+        6410,
+        797
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2b249731bfead3c3",
+      "version": "https://annotations.allmaps.org/maps/2b249731bfead3c3@6897c2f3e0603dbd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5c17a7fc3beeabba",
+        "version": "https://annotations.allmaps.org/images/5c17a7fc3beeabba@3becc7b19c422b52",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/946fea97f07b0dbd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fc35623b49a39831"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.854843,
+      "area": 2435580.44
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.916203092,
+          -37.623402853
+        ],
+        [
+          144.916014827,
+          -37.63437068
+        ],
+        [
+          144.938652202,
+          -37.63483603
+        ],
+        [
+          144.938836849,
+          -37.623846324
+        ],
+        [
+          144.916203092,
+          -37.623402853
+        ]
+      ]
+    ]
+  }
+}

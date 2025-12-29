@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/840c7dc73c6425e5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T04:17:24.966Z",
+  "modified": "2025-12-29T04:17:24.966Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23543725:FL23543902.jpg",
+      "type": "ImageService2",
+      "height": 5071,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543725/canvas/FL23543902",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200054"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543725/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tylden 2500. Parish of Bollinda 2174, Municipality of Bulla 244."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5071\"><polygon points=\"791,769 802,4268 6396,4273 6391,763\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1475,
+            2064
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7627101014557,
+            -37.54588872360224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2694,
+            2279
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.76770463926977,
+            -37.54659028710119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4953,
+            1686
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77691379439,
+            -37.544896750730025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3590,
+            4085
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77105158647834,
+            -37.552446618599234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5644,
+            2647
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7795138829431,
+            -37.5480358694982
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/840c7dc73c6425e5",
+      "version": "https://annotations.allmaps.org/maps/840c7dc73c6425e5@a58b93ecd511edd8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/97e9153c7ea343d3",
+        "version": "https://annotations.allmaps.org/images/97e9153c7ea343d3@902228894d702f22",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/60a7e62d5c2c4fce",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/54b50f7770525733"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.810042,
+      "area": 2484024.54
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b01b5095e0efbadf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T04:01:46.384Z",
+  "modified": "2025-12-29T04:01:46.384Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22950798:FL22951998.jpg",
+      "type": "ImageService2",
+      "height": 4951,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950798/canvas/FL22951998",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6192"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22950798/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map] 06-28, Municipalities of Bulla 237 and Whittlesea 239"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4951\"><polygon points=\"735,769 745,4209 6262,4192 6261,764\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            740,
+            3340
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.939007441311,
+            -37.620924834839066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1040,
+            1121
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9404736979476,
+            -37.6136232831852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4306,
+            3776
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9535145103568,
+            -37.62256680086951
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4497,
+            1546
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.954632557877,
+            -37.61528176008674
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b01b5095e0efbadf",
+      "version": "https://annotations.allmaps.org/maps/b01b5095e0efbadf@b025aaa3c6d905d7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/12bd5ec21e83eb9e",
+        "version": "https://annotations.allmaps.org/images/12bd5ec21e83eb9e@44e4ade435599a4f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6ebb1beddc170133",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4dac57a93ef40b0b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.752281,
+      "area": 2503071.79
+    }
+  }
+}

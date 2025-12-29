@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5a841c7c80cd067f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T04:13:45.978Z",
+  "modified": "2025-12-29T04:13:45.978Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23543760:FL23543956.jpg",
+      "type": "ImageService2",
+      "height": 5046,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543760/canvas/FL23543956",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200055"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543760/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tylden 2500. Parishes of Bollinda 2174 and Bulla Bulla 2258, Municipality of Bulla 244."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5046\"><polygon points=\"803,765 796,4265 6379,4271 6385,779 2408,745\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3613,
+            1178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77119649802057,
+            -37.554392596414445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3888,
+            3868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77200210074307,
+            -37.563089601286606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3469,
+            3802
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77028619571854,
+            -37.56285459886037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5303,
+            1434
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77799334299806,
+            -37.555274613304164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1050,
+            3468
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.760488884371,
+            -37.56159315907264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1627,
+            1181
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7631625937526,
+            -37.55425862248752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4188,
+            3170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77329802920167,
+            -37.56074156704342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3469,
+            2321
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7704379840261,
+            -37.55773250852338
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5a841c7c80cd067f",
+      "version": "https://annotations.allmaps.org/maps/5a841c7c80cd067f@2bf3552674f7abad",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/35820f105cdb8524",
+        "version": "https://annotations.allmaps.org/images/35820f105cdb8524@6b91d948a19dfbbf",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/de9b8eaac63f34b7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6e40f40136e468a3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.787975,
+      "area": 2519495.22
+    }
+  }
+}

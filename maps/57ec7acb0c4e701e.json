@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/57ec7acb0c4e701e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T00:58:59.096Z",
+  "modified": "2025-12-29T00:58:59.096Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22851596:FL22852438.jpg",
+      "type": "ImageService2",
+      "height": 4526,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22851596/canvas/FL22852438",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "pv000324"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22851596/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 800 feet to 1 inch. [base map] 14D, [Diggers Rest and Bulla]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4526\"><polygon points=\"531,767 535,3616 6251,3617 6255,768\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5837,
+            3225
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8796289961452,
+            -37.64912139631266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2263,
+            1788
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8104159146951,
+            -37.62674666631181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5941,
+            2323
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8814612738168,
+            -37.634745774293215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3247,
+            2865
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.82888313946586,
+            -37.6432622564706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1309,
+            3071
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.79119345803588,
+            -37.646480007110284
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/57ec7acb0c4e701e",
+      "version": "https://annotations.allmaps.org/maps/57ec7acb0c4e701e@fc527c719716338d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/16b109936312efc9",
+        "version": "https://annotations.allmaps.org/images/16b109936312efc9@76a9a65d2d8548d8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9e50244898129272",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cb0c6c6cd8110326"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.580801,
+      "area": 48309560.63
+    }
+  }
+}

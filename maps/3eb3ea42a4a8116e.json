@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3eb3ea42a4a8116e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T05:00:09.134Z",
+  "modified": "2025-12-29T05:00:09.134Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23543755:FL23543954.jpg",
+      "type": "ImageService2",
+      "height": 5021,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543755/canvas/FL23543954",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200048"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543755/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tylden 2500. Parish of Buttlejorrk 2311, Municipality of Bulla 244."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5021\"><polygon points=\"746,730 775,4243 6399,4269 6377,738\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1944,
+            1214
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.69658293804548,
+            -37.5531595750851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1439,
+            2607
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6944179194947,
+            -37.55762646353866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3937,
+            2588
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70448801052947,
+            -37.55782591942188
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3eb3ea42a4a8116e",
+      "version": "https://annotations.allmaps.org/maps/3eb3ea42a4a8116e@f3dc91cab6954397",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4cbdacbb3a1b6ba8",
+        "version": "https://annotations.allmaps.org/images/4cbdacbb3a1b6ba8@f95d10b2409a4d5c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c1befe9297e7c83f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1c13a475dcf8dd22"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.791413,
+      "area": 2543590.38
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3eb3ea42a4a8116e",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-29T05:00:09.134Z",
+    "modified": "2025-12-29T05:00:09.134Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23543755:FL23543954.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE23543755:FL23543954.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5021,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543755/canvas/FL23543954",
+          "label": {
+            "none": [
+              "ma200048"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23543755/manifest",
+              "label": {
+                "none": [
+                  "Tylden 2500. Parish of Buttlejorrk 2311, Municipality of Bulla 244."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "09de690671d7a65d",
+        "index": 0.9666167508661407,
+        "resource": [
+          1944,
+          1214
+        ],
+        "geo": [
+          144.69658293804548,
+          -37.5531595750851
+        ]
+      },
+      {
+        "id": "53d8c4372f9f312a",
+        "index": 1.683210046918253,
+        "resource": [
+          1439,
+          2607
+        ],
+        "geo": [
+          144.6944179194947,
+          -37.55762646353866
+        ]
+      },
+      {
+        "id": "f23534e3cd4bf933",
+        "index": 2.960372587502088,
+        "resource": [
+          3937,
+          2588
+        ],
+        "geo": [
+          144.70448801052947,
+          -37.55782591942188
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        746,
+        730
+      ],
+      [
+        775,
+        4243
+      ],
+      [
+        6399,
+        4269
+      ],
+      [
+        6377,
+        738
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3eb3ea42a4a8116e",
+      "version": "https://annotations.allmaps.org/maps/3eb3ea42a4a8116e@f3dc91cab6954397",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4cbdacbb3a1b6ba8",
+        "version": "https://annotations.allmaps.org/images/4cbdacbb3a1b6ba8@f95d10b2409a4d5c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c1befe9297e7c83f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1c13a475dcf8dd22"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.791413,
+      "area": 2543590.38
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.69179936,
+          -37.551463914
+        ],
+        [
+          144.691589437,
+          -37.56286482
+        ],
+        [
+          144.714254853,
+          -37.563536968
+        ],
+        [
+          144.714494665,
+          -37.552078492
+        ],
+        [
+          144.69179936,
+          -37.551463914
+        ]
+      ]
+    ]
+  }
+}

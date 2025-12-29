@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b80ae4083fc5bd63",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T09:37:57.262Z",
+  "modified": "2025-12-29T09:37:57.262Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22934324:FL22935073.jpg",
+      "type": "ImageService2",
+      "height": 5296,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22934324/canvas/FL22935073",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5402"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22934324/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Clonbinane 2500 [base map] 06-04, Township of Kalkallo 5402, Parish of Kalkallo 2819, Municipalities of Bulla 244 and Whittlesea 239"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5296\"><polygon points=\"761,880 756,4410 6420,4408 6431,878\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2228,
+            3466
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9473779016525,
+            -37.53073920375579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2399,
+            1849
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9481515206329,
+            -37.52561042974976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4439,
+            3531
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95617484223726,
+            -37.53111836112701
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4592,
+            2107
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95690230665582,
+            -37.526602923290234
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b80ae4083fc5bd63",
+      "version": "https://annotations.allmaps.org/maps/b80ae4083fc5bd63@990fd632ea5da977",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e8d3f2c6ce905c43",
+        "version": "https://annotations.allmaps.org/images/e8d3f2c6ce905c43@4560dfee77ce7cfb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/12fdca435e15046b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/86fd0aeb282bd3d7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.834068,
+      "area": 2490618.18
+    }
+  }
+}

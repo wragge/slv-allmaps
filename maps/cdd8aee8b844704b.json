@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cdd8aee8b844704b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-29T09:07:15.807Z",
+  "modified": "2025-12-29T09:07:15.807Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22946736:FL22947224.jpg",
+      "type": "ImageService2",
+      "height": 5016,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22946736/canvas/FL22947224",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5831"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22946736/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Darley 2500 [base map]. 27-29, Parish of Holden 2761, Municipalities of Bulla 244 and Melton 248"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5016\"><polygon points=\"746,736 749,4237 6377,4245 6380,744\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6263,
+            2755
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71229444857352,
+            -37.60348060030714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6192,
+            3330
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.71198329328166,
+            -37.60527181275857
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4516,
+            3145
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70544416345814,
+            -37.60460013069532
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1864,
+            913
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.69507025823015,
+            -37.59721401704875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4684,
+            1470
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7063307415778,
+            -37.59925169122611
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cdd8aee8b844704b",
+      "version": "https://annotations.allmaps.org/maps/cdd8aee8b844704b@605485e7f99ea59b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bfe848da6514ce86",
+        "version": "https://annotations.allmaps.org/images/bfe848da6514ce86@0051569245f4caf8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9b8b1ad7cae099a4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1b26d5bd7bfc3884"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.836342,
+      "area": 2450532.12
+    }
+  }
+}

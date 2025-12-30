@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ed8f99489c196af3",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-30T10:26:12.930Z",
+  "modified": "2025-12-30T10:26:12.930Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22933981:FL22934845.jpg",
+      "type": "ImageService2",
+      "height": 5242,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22933981/canvas/FL22934845",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5354"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22933981/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Carrum 2500 [base map] 29-29, Municipality of Pakenham 262"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5242\"><polygon points=\"777,868 779,4348 6370,4350 6360,858\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6113,
+            3856
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4744964044712,
+            -37.97956312199329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5293,
+            1357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.47127658388024,
+            -37.97143588485686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1213,
+            3728
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.45452730868732,
+            -37.97878148568287
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ed8f99489c196af3",
+      "version": "https://annotations.allmaps.org/maps/ed8f99489c196af3@1e870e1133484c8e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/644b769fe130354c",
+        "version": "https://annotations.allmaps.org/images/644b769fe130354c@cf5d62807851ef2f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dcf300a412ceb0e3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/284c5fc42b54913f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.791263,
+      "area": 2499799.59
+    }
+  }
+}

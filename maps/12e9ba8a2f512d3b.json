@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/12e9ba8a2f512d3b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-30T10:45:09.926Z",
+  "modified": "2025-12-30T10:45:09.926Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22921878:FL22922522.jpg",
+      "type": "ImageService2",
+      "height": 4988,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22921878/canvas/FL22922522",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5193"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22921878/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Carrum 2500 [base map]. 17-21, Parishes of Eumemmerring 2603 and Lyndhurst 3025, Municipalities of Springvale 252 and Cranbourne 253"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4988\"><polygon points=\"744,804 761,4217 6221,4218 6220,808\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3547,
+            956
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.18924107174354,
+            -38.0564026750783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2703,
+            2376
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1856141273944,
+            -38.06104871872882
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3349,
+            2463
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.18825664051673,
+            -38.06137460530473
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/12e9ba8a2f512d3b",
+      "version": "https://annotations.allmaps.org/maps/12e9ba8a2f512d3b@d6a4594667d25722",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a145c43063039aa8",
+        "version": "https://annotations.allmaps.org/images/a145c43063039aa8@93eb3343456af61f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6b3e49ca75d048a3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8f8e22899fa57266"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.749014,
+      "area": 2468422.36
+    }
+  }
+}

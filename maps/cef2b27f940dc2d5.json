@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cef2b27f940dc2d5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-30T10:00:07.589Z",
+  "modified": "2025-12-30T10:00:07.589Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22993471:FL22994350.jpg",
+      "type": "ImageService2",
+      "height": 5070,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22993471/canvas/FL22994350",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6728"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22993471/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map]. 23-24, Parishes of Burgoyne 2292 Sutton 3513 and Yering 3988, municipalities of Healesville 261 and Lillydale 260"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5070\"><polygon points=\"884,1027 897,4332 6201,4332 6202,1025\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5997,
+            1842
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.34500094317764,
+            -37.666723812735235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5292,
+            2186
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.34199697979477,
+            -37.6678583657716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3937,
+            3766
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.33606450086512,
+            -37.673149937115156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2599,
+            3435
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.33036655418152,
+            -37.67193489496125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3414,
+            1876
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.33396956325709,
+            -37.666690357727106
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cef2b27f940dc2d5",
+      "version": "https://annotations.allmaps.org/maps/cef2b27f940dc2d5@bc2283005e511cca",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/259e42b4edd6920e",
+        "version": "https://annotations.allmaps.org/images/259e42b4edd6920e@6ae3afdcbc3b4b37",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/617c37211089021e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/51238097dc92d5d4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.649804,
+      "area": 2500643.42
+    }
+  }
+}

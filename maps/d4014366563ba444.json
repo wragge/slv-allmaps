@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d4014366563ba444",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-30T10:02:50.988Z",
+  "modified": "2025-12-30T10:02:50.988Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22995900:FL22996515.jpg",
+      "type": "ImageService2",
+      "height": 4971,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22995900/canvas/FL22996515",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6840"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22995900/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map]. 27-09, Parish of Wandin Yallock 3721, Municipality of Lillydale 260"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4971\"><polygon points=\"772,771 767,4173 6221,4170 6216,776\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5427,
+            785
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.42973347383008,
+            -37.83412710389768
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4628,
+            2635
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.42628573279984,
+            -37.840202078639365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4079,
+            4085
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4239214591385,
+            -37.84495387013267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5373,
+            3338
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.42936447253498,
+            -37.842566465143946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6139,
+            814
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4327010678985,
+            -37.83422143787104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            869,
+            2222
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4109690020136,
+            -37.838695849135874
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d4014366563ba444",
+      "version": "https://annotations.allmaps.org/maps/d4014366563ba444@59ee5e4abcfbb462",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/462be079c9be4280",
+        "version": "https://annotations.allmaps.org/images/462be079c9be4280@7862efd04384a477",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/68bcf17c94612d15",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b101b49ff06841cf"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.748818,
+      "area": 2450464.13
+    }
+  }
+}

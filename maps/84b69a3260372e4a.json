@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/84b69a3260372e4a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-31T09:28:31.069Z",
+  "modified": "2025-12-31T09:28:31.069Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22918148:FL22918667.jpg",
+      "type": "ImageService2",
+      "height": 4945,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22918148/canvas/FL22918667",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw5168"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22918148/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Carrum 2500 [base map] 15-26, Parishes of Mordialloc 3186 and Dandenong 248, Municipality of Springvale 252"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4945\"><polygon points=\"807,775 808,4182 6272,4186 6277,778\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3046,
+            908
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.14276587563717,
+            -37.99932701111478
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2482,
+            1112
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1403819568568,
+            -37.999959113111885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3009,
+            1188
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.14258011573145,
+            -38.000234131227565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5044,
+            3045
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15094764562554,
+            -38.00648407112599
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2519,
+            841
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1405508294988,
+            -37.999045335838225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1624,
+            3374
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13660049733653,
+            -38.007385588279206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6174,
+            942
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1558248003834,
+            -37.99962576715405
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/84b69a3260372e4a",
+      "version": "https://annotations.allmaps.org/maps/84b69a3260372e4a@75c41bc6b3b861aa",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cfbe75f54491255c",
+        "version": "https://annotations.allmaps.org/images/cfbe75f54491255c@ef520a202dfd097f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2e752bd43f38487e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3c2301fdb98633ad"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.724425,
+      "area": 2509778.83
+    }
+  }
+}

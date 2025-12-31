@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/b2e872db1ad9fb6a",
+    "type": "GeoreferencedMap",
+    "created": "2025-12-31T09:38:36.656Z",
+    "modified": "2025-12-31T09:38:36.656Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22917985:FL22918499.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22917985:FL22918499.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5036,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22917985/canvas/FL22918499",
+          "label": {
+            "none": [
+              "bw5153"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22917985/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Carrum 2500 [base map] 14-27, Parish of Mordialloc 3186, Municipality of Springvale 252"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "663d2a23ef82deee",
+        "index": 1.817311506386603,
+        "resource": [
+          2154,
+          1531
+        ],
+        "geo": [
+          145.11652877880977,
+          -37.98961734068488
+        ]
+      },
+      {
+        "id": "695646640b8010bd",
+        "index": 0.9345171458083433,
+        "resource": [
+          5984,
+          934
+        ],
+        "geo": [
+          145.13229022601047,
+          -37.98797370520314
+        ]
+      },
+      {
+        "id": "38c79b8ab26c8538",
+        "index": 2.0080369743286752,
+        "resource": [
+          2026,
+          3000
+        ],
+        "geo": [
+          145.11584648351538,
+          -37.99441988339383
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        791,
+        778
+      ],
+      [
+        788,
+        4242
+      ],
+      [
+        6339,
+        4223
+      ],
+      [
+        6339,
+        776
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b2e872db1ad9fb6a",
+      "version": "https://annotations.allmaps.org/maps/b2e872db1ad9fb6a@7011303efad5f60b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/596d1591f9620e59",
+        "version": "https://annotations.allmaps.org/images/596d1591f9620e59@ddabc24953a9d593",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f66060e6157456b4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/53020a70a60bafa4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.762791,
+      "area": 2512281.06
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.111023312,
+          -37.987038921
+        ],
+        [
+          145.110639188,
+          -37.998387906
+        ],
+        [
+          145.13339216,
+          -37.998778437
+        ],
+        [
+          145.133762164,
+          -37.987484969
+        ],
+        [
+          145.111023312,
+          -37.987038921
+        ]
+      ]
+    ]
+  }
+}

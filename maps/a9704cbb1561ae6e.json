@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a9704cbb1561ae6e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-12-31T06:30:05.272Z",
+  "modified": "2025-12-31T06:30:05.272Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498464:FL21308342.jpg",
+      "type": "ImageService2",
+      "height": 5136,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498464/canvas/FL21308342",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498464/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Geelong and its suburbs showing the division of the wards, and boundaries of the suburbs / Map of Geelong and its suburbs"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5136\"><polygon points=\"0,0 0,5136 7000,5136 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1593,
+            694
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.34162038015387,
+            -38.13110767069117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3697,
+            2952
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.35546216952645,
+            -38.15270920122651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4783,
+            2944
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.36542190892982,
+            -38.1555943535923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4786,
+            2038
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.36824857508867,
+            -38.14938074192898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3410,
+            3399
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.35129679046634,
+            -38.15459744675967
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a9704cbb1561ae6e",
+      "version": "https://annotations.allmaps.org/maps/a9704cbb1561ae6e@814e69648cf3bbdb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b8fb76f2b1fc353c",
+        "version": "https://annotations.allmaps.org/images/b8fb76f2b1fc353c@78aa830b577a221a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/849de2c95c46d822",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/bc6c76268b4658ef"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.191216,
+      "area": 25336243.02
+    }
+  }
+}

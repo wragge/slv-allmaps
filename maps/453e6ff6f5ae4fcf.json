@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/453e6ff6f5ae4fcf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T10:42:12.615Z",
+  "modified": "2026-01-01T10:42:12.615Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045170:FL21356741.jpg",
+      "type": "ImageService2",
+      "height": 4863,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045170/canvas/FL21356741",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045170/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4863\"><polygon points=\"653,1119 1494,2453 3708,4578 6241,4589 6442,862\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5476,
+            2786
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9101701469885,
+            -38.10043684399059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4483,
+            3088
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.90937741114703,
+            -38.10011950193493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4459,
+            1454
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.91027637172527,
+            -38.099080174883284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5032,
+            1596
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.91069922238182,
+            -38.09959345589766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2310,
+            1651
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.90866030308558,
+            -38.09827824406416
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/453e6ff6f5ae4fcf",
+      "version": "https://annotations.allmaps.org/maps/453e6ff6f5ae4fcf@2fd32eb02aa84d9d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a737c0cbe4847842",
+        "version": "https://annotations.allmaps.org/images/a737c0cbe4847842@2d195f7d72d7dfc6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4b5154837df2e651",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d22eef52d3a053de"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 12.057671,
+      "area": 108050.4
+    }
+  }
+}

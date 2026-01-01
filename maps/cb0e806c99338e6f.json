@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/cb0e806c99338e6f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T03:23:49.636Z",
+  "modified": "2026-01-01T03:23:49.636Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15290995:FL21364855.jpg",
+      "type": "ImageService2",
+      "height": 3589,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15290995/canvas/FL21364855",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15290995/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of land at corner of Collins & Elizabeth St.ts being original allotments 10 & 11 block 4 City of Melbourne/"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3589\"><polygon points=\"0,0 0,3589 7000,3589 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6682,
+            3274
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96418135127976,
+            -37.81621792940524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            365,
+            3224
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96459325505765,
+            -37.81714152310522
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6661,
+            646
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9647222351237,
+            -37.816060161179806
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/cb0e806c99338e6f",
+      "version": "https://annotations.allmaps.org/maps/cb0e806c99338e6f@0cf629a8c9382b1c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/86865a773ccfb658",
+        "version": "https://annotations.allmaps.org/images/86865a773ccfb658@4ba764ccf49d16d6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ed0fbf270411253e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6afcf998247e1abb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 54.851907,
+      "area": 8350.03
+    }
+  }
+}

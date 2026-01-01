@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/2c9aaf023d5ce541",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-01T03:28:33.031Z",
+    "modified": "2026-01-01T03:28:33.031Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8771776:FL21661808.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE8771776:FL21661808.jpg",
+      "type": "ImageService2",
+      "width": 5783,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8771776/canvas/FL21661808",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8771776/manifest",
+              "label": {
+                "none": [
+                  "Plan of subdivision of allot., 18, block 22, City of Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "9e8d69513fb215fd",
+        "index": 3.851194703333717,
+        "resource": [
+          2115,
+          3536
+        ],
+        "geo": [
+          144.96525561456656,
+          -37.811722938554304
+        ]
+      },
+      {
+        "id": "dc85d86237e39628",
+        "index": 1.951524836145448,
+        "resource": [
+          3592,
+          5517
+        ],
+        "geo": [
+          144.96558043940001,
+          -37.81189130968444
+        ]
+      },
+      {
+        "id": "df0dcdcc95d55d7c",
+        "index": 2.35070523123237,
+        "resource": [
+          3624,
+          3548
+        ],
+        "geo": [
+          144.96546432559427,
+          -37.81165907352283
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        517,
+        2156
+      ],
+      [
+        483,
+        5985
+      ],
+      [
+        5127,
+        6000
+      ],
+      [
+        5131,
+        2179
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2c9aaf023d5ce541",
+      "version": "https://annotations.allmaps.org/maps/2c9aaf023d5ce541@7f3ee58df468507a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9ff9b40bede79c76",
+        "version": "https://annotations.allmaps.org/images/9ff9b40bede79c76@c1310b4269064b25",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0a91b9d551cefd88",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0c6640b4152ab18d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 73.759198,
+      "area": 3254.58
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.964950901,
+          -37.811630264
+        ],
+        [
+          144.965180591,
+          -37.812080659
+        ],
+        [
+          144.965821564,
+          -37.811881542
+        ],
+        [
+          144.965588229,
+          -37.811433381
+        ],
+        [
+          144.964950901,
+          -37.811630264
+        ]
+      ]
+    ]
+  }
+}

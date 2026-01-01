@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/9faa8cf8f37f0393",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-01T03:36:18.838Z",
+    "modified": "2026-01-01T03:36:18.838Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484410:FL21306636.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484410:FL21306636.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5084,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484410/canvas/FL21306636",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484410/manifest",
+              "label": {
+                "none": [
+                  "The Commercial Exchange map of the city Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "73637ba29787981d",
+        "index": 0.06244581684865913,
+        "resource": [
+          1742,
+          3606
+        ],
+        "geo": [
+          144.95416118112593,
+          -37.81906864798623
+        ]
+      },
+      {
+        "id": "8a83d81fb0c0a251",
+        "index": 2.001905439037852,
+        "resource": [
+          4667,
+          2169
+        ],
+        "geo": [
+          144.96630852890058,
+          -37.80887672121613
+        ]
+      },
+      {
+        "id": "c3353f18bd56ccbf",
+        "index": 1.9695585240176294,
+        "resource": [
+          1753,
+          2153
+        ],
+        "geo": [
+          144.95146198350932,
+          -37.81319705354698
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1247,
+        705
+      ],
+      [
+        1218,
+        4315
+      ],
+      [
+        5757,
+        4328
+      ],
+      [
+        5799,
+        744
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9faa8cf8f37f0393",
+      "version": "https://annotations.allmaps.org/maps/9faa8cf8f37f0393@9db1810447b050ec",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/913e47260bac0b64",
+        "version": "https://annotations.allmaps.org/images/913e47260bac0b64@e19c663b96304727",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c435e0ee11cade21",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/08a5ab5c8b1c98e9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.093606,
+      "area": 3730410.26
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.946143585,
+          -37.808123128
+        ],
+        [
+          144.952841288,
+          -37.822713845
+        ],
+        [
+          144.975944443,
+          -37.815936983
+        ],
+        [
+          144.969362138,
+          -37.801430153
+        ],
+        [
+          144.946143585,
+          -37.808123128
+        ]
+      ]
+    ]
+  }
+}

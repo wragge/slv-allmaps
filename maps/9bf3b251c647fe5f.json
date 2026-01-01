@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9bf3b251c647fe5f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T06:19:42.513Z",
+  "modified": "2026-01-01T06:19:42.513Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22753548:FL22754128.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5026,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22753548/canvas/FL22754128",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300531"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22753548/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Yarragon /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5026\" height=\"7000\"><polygon points=\"350,1596 370,4932 618,4938 608,6452 4823,6446 4811,1558\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3897,
+            3492
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.06803225348688,
+            -38.201558177139354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1984,
+            5135
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.05834453102443,
+            -38.2069511560967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3940,
+            4908
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0669290838806,
+            -38.20706963717649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3897,
+            3492
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.06289304663608,
+            -38.19549618489515
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9bf3b251c647fe5f",
+      "version": "https://annotations.allmaps.org/maps/9bf3b251c647fe5f@4d20aacb72a8db11",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b2a422b77129b4e2",
+        "version": "https://annotations.allmaps.org/images/b2a422b77129b4e2@ca346923d0941a06",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7577d67bdbe0a013",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/42ba67ed4ea23011"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.976719,
+      "area": 5459287.45
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0b007c0e46480db6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T06:07:18.661Z",
+  "modified": "2026-01-01T06:07:18.661Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7003276:FL21480010.jpg",
+      "type": "ImageService2",
+      "height": 5341,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003276/canvas/FL21480010",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003276/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Victoria 1:63 360 cadastral maps]. Mirboo North"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5341\"><polygon points=\"655,482 670,4079 6336,4081 6344,478\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5580,
+            4076
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.48982532428067,
+            -38.25540677376903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6262,
+            593
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.01107158688296,
+            -38.49490386513918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            835,
+            4028
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.02158035949435,
+            -38.492686926593166
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0b007c0e46480db6",
+      "version": "https://annotations.allmaps.org/maps/0b007c0e46480db6@ecd0a579bfd5dc4f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2f2d72b6b0786c84",
+        "version": "https://annotations.allmaps.org/images/2f2d72b6b0786c84@c3ed2767bf3bad03",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1f456144a433db2a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5b93d6616a039b77"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.085513,
+      "area": 17345624.95
+    }
+  }
+}

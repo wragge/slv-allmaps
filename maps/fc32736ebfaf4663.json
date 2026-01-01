@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fc32736ebfaf4663",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T05:49:51.009Z",
+  "modified": "2026-01-01T05:49:51.009Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7118634:FL21503191.jpg",
+      "type": "ImageService2",
+      "height": 4817,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118634/canvas/FL21503191",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118634/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Selections in the parishes of Warragul, Moe, Narracan & Yarragon, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4817\"><polygon points=\"189,150 210,4688 6923,4740 6881,178\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6146,
+            3405
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.32199113319967,
+            -38.26937066547242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5205,
+            1775
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.26887217217768,
+            -38.162825947959504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            776,
+            2825
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9160092408331,
+            -38.18620523809838
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fc32736ebfaf4663",
+      "version": "https://annotations.allmaps.org/maps/fc32736ebfaf4663@a4f993d14a4dfe17",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9af8a2ca95f5732a",
+        "version": "https://annotations.allmaps.org/images/9af8a2ca95f5732a@42c708853ccc6cd7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/af34af586366e464",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9044381c8eaf451e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.147388,
+      "area": 1403810074.67
+    }
+  }
+}

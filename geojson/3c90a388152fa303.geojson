@@ -1,0 +1,164 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3c90a388152fa303",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-01T04:47:10.786Z",
+    "modified": "2026-01-01T04:47:10.786Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9594639:FL20705192.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9594639:FL20705192.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4969,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9594639/canvas/FL20705192",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9594639/manifest",
+              "label": {
+                "none": [
+                  "Parish of Narracan, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "ac7792635849c68e",
+        "index": 0.4091325269114616,
+        "resource": [
+          4157,
+          4689
+        ],
+        "geo": [
+          146.36501281988018,
+          -38.224893293291444
+        ]
+      },
+      {
+        "id": "d4ed57896a5b026d",
+        "index": 1.089189475355715,
+        "resource": [
+          933,
+          2027
+        ],
+        "geo": [
+          146.2712889185255,
+          -38.16274028175388
+        ]
+      },
+      {
+        "id": "296f38603f9d15cc",
+        "index": 2.3257117067848747,
+        "resource": [
+          3082,
+          2527
+        ],
+        "geo": [
+          146.33341348287894,
+          -38.174415185975136
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        935,
+        943
+      ],
+      [
+        414,
+        1791
+      ],
+      [
+        809,
+        4663
+      ],
+      [
+        4354,
+        4893
+      ],
+      [
+        4865,
+        2070
+      ],
+      [
+        3528,
+        2057
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3c90a388152fa303",
+      "version": "https://annotations.allmaps.org/maps/3c90a388152fa303@ea558e2f99d90382",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/63b68d62e480e2ca",
+        "version": "https://annotations.allmaps.org/images/63b68d62e480e2ca@ed12ee4f1c3a62da",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e5c5582e45cfa483",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/66c9205e31c323d8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.390709,
+      "area": 82743501.02
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.271050304,
+          -38.137412816
+        ],
+        [
+          146.256253857,
+          -38.157228031
+        ],
+        [
+          146.268432672,
+          -38.224293498
+        ],
+        [
+          146.370751046,
+          -38.229654251
+        ],
+        [
+          146.38471919,
+          -38.163736479
+        ],
+        [
+          146.346149879,
+          -38.163435618
+        ],
+        [
+          146.271050304,
+          -38.137412816
+        ]
+      ]
+    ]
+  }
+}

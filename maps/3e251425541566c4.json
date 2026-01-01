@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3e251425541566c4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T05:23:20.588Z",
+  "modified": "2026-01-01T05:23:20.588Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7179433:FL21500907.jpg",
+      "type": "ImageService2",
+      "height": 5511,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179433/canvas/FL21500907",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179433/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Narracan Railway Township"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5511\"><polygon points=\"625,1208 406,2672 1466,2708 1717,4957 4070,4650 4457,3086 6359,1180\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2634,
+            4672
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2161189100372,
+            -38.26802046061296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4146,
+            2349
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.22699163280282,
+            -38.259128649739544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1628,
+            2513
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.21266972384728,
+            -38.25770536585481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5713,
+            1242
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.23700548344277,
+            -38.25554313378886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            764,
+            1287
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.20924065348208,
+            -38.25173070013918
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3e251425541566c4",
+      "version": "https://annotations.allmaps.org/maps/3e251425541566c4@d86a3570e3d15249",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d8b89d1099ef4b76",
+        "version": "https://annotations.allmaps.org/images/d8b89d1099ef4b76@c01cb000ce31aab8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/be346c844238eeed",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ece811f36c7c3c6b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.015575,
+      "area": 3298087.91
+    }
+  }
+}

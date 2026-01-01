@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ddd04602c6b0ba52",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T05:38:27.673Z",
+  "modified": "2026-01-01T05:38:27.673Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7039310:FL21356647.jpg",
+      "type": "ImageService2",
+      "height": 5310,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039310/canvas/FL21356647",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039310/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Coalville, Parish of Narracan, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5310\"><polygon points=\"4141,1185 2327,2458 1410,4315 6387,4772 6797,1693\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6010,
+            4607
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27397150812345,
+            -38.24328393410398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6149,
+            3516
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27442998398396,
+            -38.239580577647786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4712,
+            1789
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2678808578388,
+            -38.23365234440096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2457,
+            3915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.25804653832387,
+            -38.24132874188121
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ddd04602c6b0ba52",
+      "version": "https://annotations.allmaps.org/maps/ddd04602c6b0ba52@35e70492be9b0f16",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/837ef0bf0dc383ed",
+        "version": "https://annotations.allmaps.org/images/837ef0bf0dc383ed@9dd97b427e1c44d9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fb70075c6cce54d8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/14ad10c45f8efa27"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.577033,
+      "area": 2063923.46
+    }
+  }
+}

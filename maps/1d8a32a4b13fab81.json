@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1d8a32a4b13fab81",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T05:32:51.380Z",
+  "modified": "2026-01-01T05:32:51.380Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050091:FL21356191.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5382,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050091/canvas/FL21356191",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050091/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Gould, Parish of Tanjil East, County of Tanjil"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5382\" height=\"7000\"><polygon points=\"2257,3128 1068,4723 1214,5637 2407,6179 2740,5913 5057,5526 4727,2850\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3558,
+            5087
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3648102662931,
+            -38.06985079739139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4327,
+            4514
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.36764705171367,
+            -38.06883803826105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3142,
+            3661
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.36418824228713,
+            -38.06584682127342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2549,
+            5278
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.36140517329318,
+            -38.069769161020695
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1d8a32a4b13fab81",
+      "version": "https://annotations.allmaps.org/maps/1d8a32a4b13fab81@61e9b65ab73dd7d4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b1fecca7ff80472e",
+        "version": "https://annotations.allmaps.org/images/b1fecca7ff80472e@127bd4609f556177",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/459f63a9cadf4431",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b163df466ed69ba9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.377858,
+      "area": 844670.94
+    }
+  }
+}

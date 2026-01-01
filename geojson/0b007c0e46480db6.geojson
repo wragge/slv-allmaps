@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/0b007c0e46480db6",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-01T06:07:18.661Z",
+    "modified": "2026-01-01T06:07:18.661Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7003276:FL21480010.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7003276:FL21480010.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5341,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003276/canvas/FL21480010",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003276/manifest",
+              "label": {
+                "none": [
+                  "[Victoria 1:63 360 cadastral maps]. Mirboo North"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "051dfca43b8ac79c",
+        "index": 2.2447771512009815,
+        "resource": [
+          5580,
+          4076
+        ],
+        "geo": [
+          146.48982532428067,
+          -38.25540677376903
+        ]
+      },
+      {
+        "id": "41ff20ed87b51415",
+        "index": 1.618615695036299,
+        "resource": [
+          6262,
+          593
+        ],
+        "geo": [
+          146.01107158688296,
+          -38.49490386513918
+        ]
+      },
+      {
+        "id": "ed08b20dc9e663b5",
+        "index": 0.3402863135641475,
+        "resource": [
+          835,
+          4028
+        ],
+        "geo": [
+          146.02158035949435,
+          -38.492686926593166
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        655,
+        482
+      ],
+      [
+        670,
+        4079
+      ],
+      [
+        6336,
+        4081
+      ],
+      [
+        6344,
+        478
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0b007c0e46480db6",
+      "version": "https://annotations.allmaps.org/maps/0b007c0e46480db6@ecd0a579bfd5dc4f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2f2d72b6b0786c84",
+        "version": "https://annotations.allmaps.org/images/2f2d72b6b0786c84@c3ed2767bf3bad03",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1f456144a433db2a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5b93d6616a039b77"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.085513,
+      "area": 17345624.95
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.44926989,
+          -38.778508551
+        ],
+        [
+          146.013538859,
+          -38.496801883
+        ],
+        [
+          146.56401447,
+          -38.217738158
+        ],
+        [
+          146.001039974,
+          -38.499875785
+        ],
+        [
+          145.44926989,
+          -38.778508551
+        ]
+      ]
+    ]
+  }
+}

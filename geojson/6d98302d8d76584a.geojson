@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/6d98302d8d76584a",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-01T04:54:16.367Z",
+    "modified": "2026-01-01T04:54:16.367Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22753537:FL22753547.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22753537:FL22753547.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5016,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22753537/canvas/FL22753547",
+          "label": {
+            "none": [
+              "vc300528"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22753537/manifest",
+              "label": {
+                "none": [
+                  "Shire of Narracan /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "4e82e54311104109",
+        "index": 0.7624655168052902,
+        "resource": [
+          882,
+          1359
+        ],
+        "geo": [
+          146.27350793221302,
+          -38.135167519203456
+        ]
+      },
+      {
+        "id": "ddd6d9331d2a8db8",
+        "index": 1.805958183380763,
+        "resource": [
+          4257,
+          1379
+        ],
+        "geo": [
+          146.37941788711697,
+          -38.13392553988963
+        ]
+      },
+      {
+        "id": "dfda0a8f3213abc3",
+        "index": 2.343116579714766,
+        "resource": [
+          2430,
+          3388
+        ],
+        "geo": [
+          146.3235385413202,
+          -38.18539112616444
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        714,
+        1133
+      ],
+      [
+        718,
+        3654
+      ],
+      [
+        5541,
+        3643
+      ],
+      [
+        5532,
+        1117
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6d98302d8d76584a",
+      "version": "https://annotations.allmaps.org/maps/6d98302d8d76584a@8e7eacfed0555103",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d2089d0e40bfd8b3",
+        "version": "https://annotations.allmaps.org/images/d2089d0e40bfd8b3@283d548352751693",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/959370e2d186beb3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/71ce00b79cebce70"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.360856,
+      "area": 93418062.93
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.268074082,
+          -38.129568938
+        ],
+        [
+          146.270013419,
+          -38.192962196
+        ],
+        [
+          146.42133419,
+          -38.19019383
+        ],
+        [
+          146.419234372,
+          -38.126674956
+        ],
+        [
+          146.268074082,
+          -38.129568938
+        ]
+      ]
+    ]
+  }
+}

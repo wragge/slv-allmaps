@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3c90a388152fa303",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T04:47:10.786Z",
+  "modified": "2026-01-01T04:47:10.786Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9594639:FL20705192.jpg",
+      "type": "ImageService2",
+      "height": 4969,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9594639/canvas/FL20705192",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9594639/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Parish of Narracan, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4969\"><polygon points=\"935,943 414,1791 809,4663 4354,4893 4865,2070 3528,2057\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4157,
+            4689
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.36501281988018,
+            -38.224893293291444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            933,
+            2027
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2712889185255,
+            -38.16274028175388
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3082,
+            2527
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.33341348287894,
+            -38.174415185975136
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3c90a388152fa303",
+      "version": "https://annotations.allmaps.org/maps/3c90a388152fa303@ea558e2f99d90382",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/63b68d62e480e2ca",
+        "version": "https://annotations.allmaps.org/images/63b68d62e480e2ca@ed12ee4f1c3a62da",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e5c5582e45cfa483",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/66c9205e31c323d8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.390709,
+      "area": 82743501.02
+    }
+  }
+}

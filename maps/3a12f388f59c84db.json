@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3a12f388f59c84db",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T05:01:23.902Z",
+  "modified": "2026-01-01T05:01:23.902Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7031626:FL21477783.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4916,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031626/canvas/FL21477783",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7031626/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Narracan, County of Buln Buln /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4916\" height=\"7000\"><polygon points=\"787,1331 832,6229 3744,6061 4512,5352 4654,1371\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1438,
+            2549
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2711306371702,
+            -38.17978538082443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1023,
+            6007
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.23796202588363,
+            -38.27302947206363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2175,
+            2525
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.29692572322068,
+            -38.18208037155432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1517,
+            4661
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.26247260603174,
+            -38.23834667616936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4297,
+            3731
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3648855751115,
+            -38.224919214743224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4084,
+            5493
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3355594822965,
+            -38.283312293637614
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3a12f388f59c84db",
+      "version": "https://annotations.allmaps.org/maps/3a12f388f59c84db@b584b6f49ea796f2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a43681d75aebe4be",
+        "version": "https://annotations.allmaps.org/images/a43681d75aebe4be@c4f0cf7e6e3c6135",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/176006a07b51fe4b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e48bcd5702e90ee7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.321654,
+      "area": 171078070.87
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/46dcd29cf0f088e2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-01T05:44:31.347Z",
+  "modified": "2026-01-01T05:44:31.347Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7041554:FL21356919.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4889,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041554/canvas/FL21356919",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041554/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tonwship of Boolarra, parishes of Mirboo and Narracan South, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4889\" height=\"7000\"><polygon points=\"787,1543 777,6563 4074,6533 4013,2864 4757,1531\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3902,
+            6353
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27402690251137,
+            -38.38506652136098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            955,
+            6381
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.26373265213903,
+            -38.38377237917188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            943,
+            4013
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2650636982802,
+            -38.37729103094575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2914,
+            1621
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27333736385896,
+            -38.37168575148358
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/46dcd29cf0f088e2",
+      "version": "https://annotations.allmaps.org/maps/46dcd29cf0f088e2@6cb2017dc1bcd0b5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2fc6c53715d9604a",
+        "version": "https://annotations.allmaps.org/images/2fc6c53715d9604a@16aa050bae4a9913",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/019edf4e5372756b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/244514fe4543e302"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.243484,
+      "area": 1596422.96
+    }
+  }
+}

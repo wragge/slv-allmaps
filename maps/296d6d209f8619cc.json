@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/296d6d209f8619cc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-02T07:23:49.957Z",
+  "modified": "2026-01-02T07:23:49.957Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7329679:FL21467437.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4424,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329679/canvas/FL21467437",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7329679/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works plan, scale 400 feet to 1 inch. no. [no.13 ], Portion of Richmond, Hawthorn & Prahran"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4424\" height=\"7000\"><polygon points=\"189,780 230,6694 4241,6660 4132,781\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4085,
+            930
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02789731532505,
+            -37.813643907414466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            229,
+            995
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9914112760705,
+            -37.809585476767545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            314,
+            6552
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98420931654425,
+            -37.850653841799385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4200,
+            6603
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02067564811557,
+            -37.85550421072082
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/296d6d209f8619cc",
+      "version": "https://annotations.allmaps.org/maps/296d6d209f8619cc@0968c834a5e7a219",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fa55aeda362e1ff6",
+        "version": "https://annotations.allmaps.org/images/fa55aeda362e1ff6@70aa5623258edb56",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ecdc5773904060c4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/449e636bdfffb5f7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.200109,
+      "area": 16282884.88
+    }
+  }
+}

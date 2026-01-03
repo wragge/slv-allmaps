@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f2774ba1ccaf2dc4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-03T05:11:23.623Z",
+  "modified": "2026-01-03T05:11:23.623Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9535348:FL21661555.jpg",
+      "type": "ImageService2",
+      "height": 5074,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535348/canvas/FL21661555",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535348/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Broadbent's Phillip Island and Gippsland south and central including Wilson's Promontory, Lakes Entrance, Buchan caves."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5074\"><polygon points=\"789,110 792,1178 1030,1181 1042,4157 3462,4154 3473,3202 6872,3187 6864,1413 5533,1425 5518,916 1509,943 1509,110\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            845,
+            494
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.9593551901092,
+            -36.727813234865145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4780,
+            2981
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.96782357444243,
+            -37.75916771460808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1467,
+            820
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.28226887105217,
+            -36.86325839493199
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6637,
+            1721
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.91327001932484,
+            -37.249885272275264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2899,
+            3292
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.98521529137963,
+            -37.8813012130342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1154,
+            3993
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.08603044507578,
+            -38.16279656662405
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f2774ba1ccaf2dc4",
+      "version": "https://annotations.allmaps.org/maps/f2774ba1ccaf2dc4@4ab71c18ab204708",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/14577106039f199b",
+        "version": "https://annotations.allmaps.org/images/14577106039f199b@2e3647fb793f5077",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/be572f5327d6e649",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/043e4941c82878eb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.022027,
+      "area": 32028826704.11
+    }
+  }
+}

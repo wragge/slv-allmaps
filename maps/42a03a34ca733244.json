@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/42a03a34ca733244",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-06T01:10:45.701Z",
+  "modified": "2026-01-06T01:10:45.701Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9533457:FL21666754.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5633,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9533457/canvas/FL21666754",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 3"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9533457/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and its suburbs"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5633\" height=\"7000\"><polygon points=\"677,366 618,3431 3194,3467 5255,4321 5204,378\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3362,
+            2283
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95111272950277,
+            -37.84015022281524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3855,
+            1187
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9595700806725,
+            -37.83081871759731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4100,
+            1657
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96158945701245,
+            -37.83525741735014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2383,
+            2509
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94080735620662,
+            -37.840288886974456
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/42a03a34ca733244",
+      "version": "https://annotations.allmaps.org/maps/42a03a34ca733244@983cb427fcc908fa",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6be9782e22a901d3",
+        "version": "https://annotations.allmaps.org/images/6be9782e22a901d3@0b87718140977d04",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/db8e370b42482e67",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c2f155f0b8160bd9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.001662,
+      "area": 14944554.02
+    }
+  }
+}

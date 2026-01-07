@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d1c8210997635d54",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-07T05:56:00.133Z",
+  "modified": "2026-01-07T05:56:00.133Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15478932:FL21377861.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4418,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15478932/canvas/FL21377861",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15478932/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Corner of Queen Street and Collins Street West, Melbourne]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4418\" height=\"7000\"><polygon points=\"406,920 401,6145 4094,6177 4095,889\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            938,
+            5634
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96164244697076,
+            -37.816825551858145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1016,
+            1283
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9613319881368,
+            -37.81613646562856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3921,
+            1251
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9618338629802,
+            -37.81599944934075
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d1c8210997635d54",
+      "version": "https://annotations.allmaps.org/maps/d1c8210997635d54@62136a7938650e7f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/509a9e30beb72c62",
+        "version": "https://annotations.allmaps.org/images/509a9e30beb72c62@e723e90023e8387b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/edbb16f887fc9507",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/54c4be221503ad49"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 57.701275,
+      "area": 5827.33
+    }
+  }
+}

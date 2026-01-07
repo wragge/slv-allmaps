@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2f79b7949ec2010a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-07T06:30:22.429Z",
+  "modified": "2026-01-07T06:30:22.429Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1329055:FL20895705.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5960,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1329055/canvas/FL20895705",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image H24499"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1329055/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the settled district of 25 miles round Melbourne carefully compiled from maps in the Office of the Survey Department, Victoria /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5960\" height=\"7000\"><polygon points=\"0,0 0,7000 5960,7000 5960,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            716,
+            5531
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5072352929185,
+            -38.09110125921037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2997,
+            3158
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96322822808736,
+            -37.81423619462776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3601,
+            4412
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03763680228604,
+            -37.99653269090666
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2f79b7949ec2010a",
+      "version": "https://annotations.allmaps.org/maps/2f79b7949ec2010a@b436250712d89f8a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/874a8aed79764378",
+        "version": "https://annotations.allmaps.org/images/874a8aed79764378@c9670d80341d7412",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0d3c37197a5e4b98",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2af30eb5c2d78d50"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.065076,
+      "area": 9851557510.86
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/f3787ede0d4d5bdc",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-07T06:27:54.326Z",
+    "modified": "2026-01-07T06:27:54.326Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493165:FL21461207.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493165:FL21461207.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6797,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493165/canvas/FL21461207",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493165/manifest",
+              "label": {
+                "none": [
+                  "A map of Australia Felix compiled & carefully revised from the Colonial government surveys, Crown Lands Commissioners & explorers maps, private surveys &c. /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "6389fb7347b1ef53",
+        "index": 1.7599160816841943,
+        "resource": [
+          2997,
+          6089
+        ],
+        "geo": [
+          146.4402700477973,
+          -38.778496911820376
+        ]
+      },
+      {
+        "id": "eaa70f5763c91817",
+        "index": 0.806009234339919,
+        "resource": [
+          1304,
+          5521
+        ],
+        "geo": [
+          144.6770951443678,
+          -38.32555448023945
+        ]
+      },
+      {
+        "id": "f8f88846e06fc1b4",
+        "index": 2.762303375646141,
+        "resource": [
+          6484,
+          4601
+        ],
+        "geo": [
+          149.97361486750782,
+          -37.50308332441878
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        6797
+      ],
+      [
+        7000,
+        6797
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f3787ede0d4d5bdc",
+      "version": "https://annotations.allmaps.org/maps/f3787ede0d4d5bdc@1668e94178230134",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/650e1cd133ecb5b1",
+        "version": "https://annotations.allmaps.org/images/650e1cd133ecb5b1@d0eb009c2984bf90",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/12d92587415a3637",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/bf55467aac03fae7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.010716,
+      "area": 414357166922.83
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.131241968,
+          -33.610279831
+        ],
+        [
+          143.382346556,
+          -39.391122332
+        ],
+        [
+          150.585735328,
+          -39.319779297
+        ],
+        [
+          150.334630741,
+          -33.533403913
+        ],
+        [
+          143.131241968,
+          -33.610279831
+        ]
+      ]
+    ]
+  }
+}

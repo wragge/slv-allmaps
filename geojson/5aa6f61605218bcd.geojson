@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/5aa6f61605218bcd",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-07T06:26:38.919Z",
+    "modified": "2026-01-07T06:26:38.919Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486598:FL21304073.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486598:FL21304073.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4556,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486598/canvas/FL21304073",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486598/manifest",
+              "label": {
+                "none": [
+                  "Ham's squatting map of Victoria (Port Phillip District, New South Wales)"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "7f4157377abdfa69",
+        "index": 1.758488246356157,
+        "resource": [
+          2154,
+          1270
+        ],
+        "geo": [
+          143.5521744879414,
+          -35.345703417697784
+        ]
+      },
+      {
+        "id": "cda7cd77d8e12d4e",
+        "index": 0.7764132610002685,
+        "resource": [
+          801,
+          3944
+        ],
+        "geo": [
+          141.6056629428807,
+          -38.33723834873314
+        ]
+      },
+      {
+        "id": "cf35109c46864eed",
+        "index": 2.7696083826006443,
+        "resource": [
+          4630,
+          2047
+        ],
+        "geo": [
+          146.92148301048115,
+          -36.079320497397454
+        ]
+      },
+      {
+        "id": "817007b6c17638ac",
+        "index": 3.6557704355835523,
+        "resource": [
+          2948,
+          3851
+        ],
+        "geo": [
+          144.67174312708022,
+          -38.31330591539106
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        4556
+      ],
+      [
+        7000,
+        4556
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5aa6f61605218bcd",
+      "version": "https://annotations.allmaps.org/maps/5aa6f61605218bcd@7a3cf4bab78008ea",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/32fe2278fdb96475",
+        "version": "https://annotations.allmaps.org/images/32fe2278fdb96475@af385494c3100012",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a9c257b1b08f71ed",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5f583b18ea9ce747"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007945,
+      "area": 505186489585.79
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.54460481,
+          -33.874191865
+        ],
+        [
+          140.531354001,
+          -39.098613878
+        ],
+        [
+          150.237490871,
+          -38.914111805
+        ],
+        [
+          150.250741679,
+          -33.676833815
+        ],
+        [
+          140.54460481,
+          -33.874191865
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2a134006e42bc12f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-07T06:19:03.240Z",
+  "modified": "2026-01-07T06:19:03.240Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291200:FL21365221.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5495,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291200/canvas/FL21365221",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291200/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Allotments on and near Elizabeth, Queen & William Streets, Sydney Road &c. Melbourne /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5495\" height=\"7000\"><polygon points=\"322,471 296,5515 930,6460 2767,6417 5231,5601 5254,454\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1899,
+            998
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95289702304063,
+            -37.797961603597834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4460,
+            2309
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96065601975653,
+            -37.8021747798247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1422,
+            5480
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.949390486575,
+            -37.80925145011481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4692,
+            4606
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96035443838042,
+            -37.80818713042424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1351,
+            1689
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9509378261098,
+            -37.7995303144192
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2a134006e42bc12f",
+      "version": "https://annotations.allmaps.org/maps/2a134006e42bc12f@5484547e529a39a6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5c4552c10a1864c1",
+        "version": "https://annotations.allmaps.org/images/5c4552c10a1864c1@7ec8c9e0f2915168",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/475224a7ea77bcf2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2c47afb25436a81b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.483598,
+      "area": 2318870.24
+    }
+  }
+}

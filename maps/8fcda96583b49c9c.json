@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8fcda96583b49c9c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-08T02:24:33.422Z",
+  "modified": "2026-01-08T02:24:33.422Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291025:FL21364911.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5090,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291025/canvas/FL21364911",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291025/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the township of Castlemaine in the Parish of Castlemaine, County of Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5090\" height=\"7000\"><polygon points=\"4550,801 840,747 755,6129 4572,6152\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2764,
+            5095
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2167704198091,
+            -37.065627350085364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3850,
+            5096
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.22196126115796,
+            -37.066201220917634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2780,
+            2058
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.21884188121203,
+            -37.053884706577946
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8fcda96583b49c9c",
+      "version": "https://annotations.allmaps.org/maps/8fcda96583b49c9c@74e8ffe687089a71",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/258a2a32b4979066",
+        "version": "https://annotations.allmaps.org/images/258a2a32b4979066@9ba1c634eced309b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a2a30aa9de313914",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8e8897378cfbee66"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.318815,
+      "area": 3756443.82
+    }
+  }
+}

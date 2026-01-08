@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/8fcda96583b49c9c",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-08T02:24:33.422Z",
+    "modified": "2026-01-08T02:24:33.422Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291025:FL21364911.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291025:FL21364911.jpg",
+      "type": "ImageService2",
+      "width": 5090,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291025/canvas/FL21364911",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291025/manifest",
+              "label": {
+                "none": [
+                  "Plan of the township of Castlemaine in the Parish of Castlemaine, County of Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "4e88bdad0d91d6fd",
+        "index": 0.61805826352267,
+        "resource": [
+          2764,
+          5095
+        ],
+        "geo": [
+          144.2167704198091,
+          -37.065627350085364
+        ]
+      },
+      {
+        "id": "6a2e7beb2fbff70c",
+        "index": 1.3194083535545453,
+        "resource": [
+          3850,
+          5096
+        ],
+        "geo": [
+          144.22196126115796,
+          -37.066201220917634
+        ]
+      },
+      {
+        "id": "df0fae5d884ffb74",
+        "index": 2.698178393110469,
+        "resource": [
+          2780,
+          2058
+        ],
+        "geo": [
+          144.21884188121203,
+          -37.053884706577946
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        4550,
+        801
+      ],
+      [
+        840,
+        747
+      ],
+      [
+        755,
+        6129
+      ],
+      [
+        4572,
+        6152
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8fcda96583b49c9c",
+      "version": "https://annotations.allmaps.org/maps/8fcda96583b49c9c@74e8ffe687089a71",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/258a2a32b4979066",
+        "version": "https://annotations.allmaps.org/images/258a2a32b4979066@9ba1c634eced309b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a2a30aa9de313914",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8e8897378cfbee66"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.318815,
+      "area": 3756443.82
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.228128874,
+          -37.049949683
+        ],
+        [
+          144.210429117,
+          -37.04779303
+        ],
+        [
+          144.206487402,
+          -37.068573377
+        ],
+        [
+          144.224719023,
+          -37.070665666
+        ],
+        [
+          144.228128874,
+          -37.049949683
+        ]
+      ]
+    ]
+  }
+}

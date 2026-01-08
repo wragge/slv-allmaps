@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8eb5fa158bd94533",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-08T02:21:50.098Z",
+  "modified": "2026-01-08T02:21:50.098Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7049137:FL21357603.jpg",
+      "type": "ImageService2",
+      "height": 4532,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049137/canvas/FL21357603",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049137/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Country lands at the junction of the Loddon River & Campbell's Creek, Parish of Guildford"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4532\"><polygon points=\"473,658 495,2916 4833,4289 6483,4241 6450,680\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5638,
+            2936
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.1920661353784,
+            -37.15500946961563
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3347,
+            2361
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.16482986574204,
+            -37.146632713260125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6067,
+            2678
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.1976118509188,
+            -37.153147542955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1851,
+            2788
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.14546442286274,
+            -37.148622964850084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4190,
+            2293
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.17531895448872,
+            -37.147323261247436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4617,
+            2300
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.18035960369826,
+            -37.14791158659859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3174,
+            1646
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.16350305908117,
+            -37.139431170864285
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8eb5fa158bd94533",
+      "version": "https://annotations.allmaps.org/maps/8eb5fa158bd94533@14f777a31121b02a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/11a533b3fc9892ea",
+        "version": "https://annotations.allmaps.org/images/11a533b3fc9892ea@8a716c9d9b9f3efb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cc74cbf5bbf9cfbb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cedd4a8a65b16801"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.924323,
+      "area": 21798917.46
+    }
+  }
+}

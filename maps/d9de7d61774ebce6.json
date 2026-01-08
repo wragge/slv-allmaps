@@ -1,0 +1,285 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d9de7d61774ebce6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-07T23:41:12.510Z",
+  "modified": "2026-01-07T23:41:12.510Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498224:FL21306520.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4323,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498224/canvas/FL21306520",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498224/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Trigonometrical survey of the gold bearing region near Mount Alexander in the Province of Victoria, Australia"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4323\" height=\"7000\"><polygon points=\"679,1503 878,3513 1506,6839 4170,6846 4154,3733 2678,3626 2651,1497\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3666,
+            6671
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.37933739,
+            -37.18807272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1997,
+            5581
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.21750762,
+            -37.0661763
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3126,
+            5845
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.33250285,
+            -37.10327212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3126,
+            5845
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.33250379,
+            -37.10327659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1699,
+            6458
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.16352162,
+            -37.13950961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3658,
+            6531
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38011839,
+            -37.17467172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1802,
+            3658
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.21478316,
+            -36.88630127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            974,
+            2484
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.13985647,
+            -36.7652467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            889,
+            2314
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.13225784,
+            -36.74828836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1110,
+            2738
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.1500866,
+            -36.79045263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1139,
+            2879
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.1520569,
+            -36.80395822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2496,
+            5629
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.26305804,
+            -37.0804671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2213,
+            2148
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.28768099,
+            -36.74963176
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d9de7d61774ebce6",
+      "version": "https://annotations.allmaps.org/maps/d9de7d61774ebce6@61c75b0df5dbed95",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/08bc2abacc8b1d1f",
+        "version": "https://annotations.allmaps.org/images/08bc2abacc8b1d1f@3dfadc23066b26f4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cbf2e5ad260d83fa",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/00e80b7c040811e1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.098085,
+      "area": 1396513808.43
+    }
+  }
+}

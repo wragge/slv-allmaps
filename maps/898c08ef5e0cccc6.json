@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/898c08ef5e0cccc6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-08T00:03:24.332Z",
+  "modified": "2026-01-08T00:03:24.332Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485170:FL21304186.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4806,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485170/canvas/FL21304186",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485170/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Brighton, parish of Moorabbin in the county of south Bourke, Victoria, MDCCCLXII /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4806\" height=\"7000\"><polygon points=\"2917,1846 395,1874 352,6430 1191,6479 4474,5940 4514,246\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4424,
+            1441
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02570392527878,
+            -37.93187633224395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1482,
+            5116
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9951075435706,
+            -37.90626891664647
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2101,
+            5056
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99478300849557,
+            -37.91098767802511
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3079,
+            4577
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99809109701926,
+            -37.91885792768694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1456,
+            4506
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.000902846136,
+            -37.906707883566895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4377,
+            3766
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0039663991182,
+            -37.929271999538265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1452,
+            2676
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.01785575738086,
+            -37.90863803570568
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/898c08ef5e0cccc6",
+      "version": "https://annotations.allmaps.org/maps/898c08ef5e0cccc6@241a83cde64f6e06",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c7979355d4703fb9",
+        "version": "https://annotations.allmaps.org/images/c7979355d4703fb9@aafb44f527e82f7f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7f7ae2d7bfad35be",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/238eb148a7479f63"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.202183,
+      "area": 13412909.99
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/51e0fe66d1f416f1",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-10T02:51:55.862Z",
+  "modified": "2026-01-10T02:51:55.862Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038016:FL21366157.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4646,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038016/canvas/FL21366157",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038016/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Australia - Spencer's Gulf Port Augusta"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4646\" height=\"7000\"><polygon points=\"65,85 -7,6902 4187,6893 3566,6052 3408,3709 1875,72\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1824,
+            5359
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.78870169365723,
+            -32.91464233659066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1237,
+            6154
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.72007020399974,
+            -32.99102481733624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1793,
+            6258
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.7844411241049,
+            -33.000095417750096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            101,
+            6639
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.59629012172837,
+            -33.03909143106133
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2292,
+            3039
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.83796517628173,
+            -32.69590844083234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2794,
+            3811
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.90276596126387,
+            -32.77377886731233
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1970,
+            2086
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.80358113612147,
+            -32.60571648005793
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/51e0fe66d1f416f1",
+      "version": "https://annotations.allmaps.org/maps/51e0fe66d1f416f1@df91becffbd5c0e6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/053e4bf7a18063da",
+        "version": "https://annotations.allmaps.org/images/053e4bf7a18063da@9f36dc03651db69b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/975f017bfbc9539f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c88679bd9ecbc908"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.094524,
+      "area": 2333116775.82
+    }
+  }
+}

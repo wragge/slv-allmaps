@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/754b787137e43478",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-10T02:26:09.785Z",
+  "modified": "2026-01-10T02:26:09.785Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7049341:FL21369569.jpg",
+      "type": "ImageService2",
+      "height": 4709,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049341/canvas/FL21369569",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7049341/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Australia - St. Vincent Gulf Port Adelaide and Holdfast Bay."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4709\"><polygon points=\"1852,505 1872,4245 5265,4225 5272,472\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3570,
+            1025
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.5150686952196,
+            -34.808046286961186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4070,
+            2164
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.5881277200299,
+            -34.935534916529356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3437,
+            1351
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.49605095859073,
+            -34.84291223972363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3579,
+            2633
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.51093383569037,
+            -34.976293706987036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3559,
+            631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.51120883095314,
+            -34.76588707140005
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/754b787137e43478",
+      "version": "https://annotations.allmaps.org/maps/754b787137e43478@d7102ea7a75bd444",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4a97834f317164a1",
+        "version": "https://annotations.allmaps.org/images/4a97834f317164a1@011ae9ac7a664319",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b1623014a8888cc8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a926001fd7afb539"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.07889,
+      "area": 2050666409.39
+    }
+  }
+}

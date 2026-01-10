@@ -1,0 +1,253 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6762dc35ff05c3b7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-10T01:56:27.704Z",
+  "modified": "2026-01-10T01:56:27.704Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484405:FL21306600.jpg",
+      "type": "ImageService2",
+      "height": 4975,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484405/canvas/FL21306600",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484405/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Port Phillip for Lieut. Colonel Gibbes, collector of H. M. Customs, Sydney New South Wales, 1837."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4975\"><polygon points=\"327,237 299,4708 6298,4722 6311,279\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4098,
+            4170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88347543032745,
+            -38.49592004517285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4497,
+            2494
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.05382388511077,
+            -37.98694955887377
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3357,
+            3533
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.6650980889774,
+            -38.31055774941438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5355,
+            3534
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2914051670353,
+            -38.28772443778744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2720,
+            2961
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4247000206846,
+            -38.12909552328344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2910,
+            2845
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50798678515156,
+            -38.088930036949776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6044,
+            3735
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4990442428993,
+            -38.35094198591628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3346,
+            2876
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.63262547093672,
+            -38.106184185108525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2785,
+            3498
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.49805139490581,
+            -38.28856919408699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5694,
+            4410
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.36991542987118,
+            -38.5305670033649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4023,
+            1943
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.897034534147,
+            -37.82911700007497
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6762dc35ff05c3b7",
+      "version": "https://annotations.allmaps.org/maps/6762dc35ff05c3b7@3f011b555ec0ca4d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ed9ac236ed660a6d",
+        "version": "https://annotations.allmaps.org/images/ed9ac236ed660a6d@edae4cda0cfd982e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1a61ce77b0aa697b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a9efe8587a260ecf"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.032923,
+      "area": 24636777133.03
+    }
+  }
+}

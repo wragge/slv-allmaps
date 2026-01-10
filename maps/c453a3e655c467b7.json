@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c453a3e655c467b7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-10T02:38:44.805Z",
+  "modified": "2026-01-10T02:38:44.805Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8769574:FL21369191.jpg",
+      "type": "ImageService2",
+      "height": 5451,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8769574/canvas/FL21369191",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8769574/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Australia. Port Elliot."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5451\"><polygon points=\"395,392 385,5129 6533,5094 6501,376\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2460,
+            3503
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.68621465207002,
+            -35.53661928226873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1835,
+            3931
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.6843963776987,
+            -35.53812880662101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1480,
+            2522
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.68412810832535,
+            -35.53510852737133
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4588,
+            4211
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.6916153567854,
+            -35.5380617107843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4231,
+            1984
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.6901236079176,
+            -35.53361190429319
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c453a3e655c467b7",
+      "version": "https://annotations.allmaps.org/maps/c453a3e655c467b7@9713cdcf2c6de010",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7f5397c75402892c",
+        "version": "https://annotations.allmaps.org/images/7f5397c75402892c@18dc999e5914eadd",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/40829b92f9f6863b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4baec5f411bfeb4c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 4.498493,
+      "area": 1431362.02
+    }
+  }
+}

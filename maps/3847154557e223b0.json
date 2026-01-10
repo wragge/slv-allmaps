@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3847154557e223b0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-10T02:14:43.020Z",
+  "modified": "2026-01-10T02:14:43.020Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7034810:FL21354831.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6587,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7034810/canvas/FL21354831",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7034810/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the town of Navarre at Wattle Creek on the road from Avoca towards Adelaide"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6587\" height=\"7000\"><polygon points=\"1445,4042 1411,5634 3058,5522 5283,4247 5274,3190 4817,2557 2993,3739\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2174,
+            4064
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.11093711874787,
+            -36.89850867059633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2235,
+            4568
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.11101278781308,
+            -36.90031855675838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2689,
+            3981
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.1134569039528,
+            -36.89845026773479
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3289,
+            4326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.1161004088188,
+            -36.900014181696044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4182,
+            3753
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.12066460455912,
+            -36.89833050110522
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3750,
+            4070
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.11837445547178,
+            -36.899330816044426
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3847154557e223b0",
+      "version": "https://annotations.allmaps.org/maps/3847154557e223b0@5093ac4efc079bff",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dca3604fdac269e2",
+        "version": "https://annotations.allmaps.org/images/dca3604fdac269e2@20a9185c62403737",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1fed0794c67545b7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e5bac01bef3a2fa6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.410291,
+      "area": 1166947.32
+    }
+  }
+}

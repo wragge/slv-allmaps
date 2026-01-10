@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/df55b329af07bc5b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-10T02:29:13.880Z",
+  "modified": "2026-01-10T02:29:13.880Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7041201:FL21367029.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6902,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041201/canvas/FL21367029",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041201/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Australia - St. Vincent Gulf Port Adelaide and Holdfast Bay."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6902\" height=\"7000\"><polygon points=\"845,876 941,6354 5897,6238 5839,798\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3156,
+            2087
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.49731724536025,
+            -34.84358351192534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3399,
+            3917
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.51184001471762,
+            -34.975169561907414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3356,
+            1630
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.51464186372306,
+            -34.80763680828181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4085,
+            3248
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.58858216172132,
+            -34.93618057529841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4083,
+            2864
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.58543261286695,
+            -34.903612837495075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3345,
+            1067
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.511924240964,
+            -34.76679395190716
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/df55b329af07bc5b",
+      "version": "https://annotations.allmaps.org/maps/df55b329af07bc5b@8914b2622f79facb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5e4942cae7522cca",
+        "version": "https://annotations.allmaps.org/images/5e4942cae7522cca@4e691a4e6af8be4e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/40fae7f80fa02aa4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1624c80b297f9431"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.114539,
+      "area": 2070714637.46
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/71ce1a2cd3de289b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-11T07:03:33.698Z",
+  "modified": "2026-01-11T07:03:33.698Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15499328:FL21307078.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5268,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499328/canvas/FL21307078",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499328/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Bendigo district water supply"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5268\" height=\"7000\"><polygon points=\"4802,68 87,93 105,6873 2945,6906 4823,6270\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3635,
+            5185
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.28742758485868,
+            -36.79874460167341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2248,
+            5962
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.22869611534668,
+            -36.81650403952296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2204,
+            2527
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.2466894550593,
+            -36.70832657864081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1189,
+            3297
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.20264310850376,
+            -36.72765528426177
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/71ce1a2cd3de289b",
+      "version": "https://annotations.allmaps.org/maps/71ce1a2cd3de289b@ad07ce73175423f8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/50aa27e24b3cd80c",
+        "version": "https://annotations.allmaps.org/images/50aa27e24b3cd80c@e8ee78d57a672609",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7f5100561996bf3a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6288906a86fe5f3f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.28334,
+      "area": 393054265.92
+    }
+  }
+}

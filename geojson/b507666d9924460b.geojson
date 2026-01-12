@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/b507666d9924460b",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-12T09:22:28.394Z",
+    "modified": "2026-01-12T09:22:28.394Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9650673:FL20704962.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9650673:FL20704962.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5018,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9650673/canvas/FL20704962",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9650673/manifest",
+              "label": {
+                "none": [
+                  "Parish of Harcourt, County of Talbot"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "7e0e2e49b3e77b8e",
+        "index": 1.730111127812542,
+        "resource": [
+          5493,
+          4208
+        ],
+        "geo": [
+          144.25078338727906,
+          -37.02033398445683
+        ]
+      },
+      {
+        "id": "d20205e8b1a98428",
+        "index": 0.33124047995838257,
+        "resource": [
+          4789,
+          3797
+        ],
+        "geo": [
+          144.24325561856477,
+          -37.016318934154505
+        ]
+      },
+      {
+        "id": "d74e6f50a1cf7369",
+        "index": 2.285496038182337,
+        "resource": [
+          5504,
+          3123
+        ],
+        "geo": [
+          144.25155250535994,
+          -37.01044690008418
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        4964,
+        2109
+      ],
+      [
+        3999,
+        4630
+      ],
+      [
+        5856,
+        4645
+      ],
+      [
+        6061,
+        2293
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b507666d9924460b",
+      "version": "https://annotations.allmaps.org/maps/b507666d9924460b@e3321faf8e559a65",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cc9b28cc4b86872f",
+        "version": "https://annotations.allmaps.org/images/cc9b28cc4b86872f@07b76411b0a0d459",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/95da9d96db562ee8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/26594164a1064791"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.001802,
+      "area": 3643775.13
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.246195462,
+          -37.000995831
+        ],
+        [
+          144.23403572,
+          -37.023611289
+        ],
+        [
+          144.254530538,
+          -37.024455844
+        ],
+        [
+          144.25819798,
+          -37.0030918
+        ],
+        [
+          144.246195462,
+          -37.000995831
+        ]
+      ]
+    ]
+  }
+}

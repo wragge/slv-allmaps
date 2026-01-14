@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6c9f10ec219f28e2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-14T00:42:27.629Z",
+  "modified": "2026-01-14T00:42:27.629Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7032446:FL21369607.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4348,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7032446/canvas/FL21369607",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7032446/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia - New South Wales Jervis Bay"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4348\" height=\"7000\"><polygon points=\"0,0 0,7000 4348,7000 4348,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3777,
+            3756
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.77742922955548,
+            -35.08036608095776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2127,
+            715
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.72563639820237,
+            -35.00230630205817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3724,
+            1640
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.77563390193893,
+            -35.02649164842991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1221,
+            3400
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.69696008787201,
+            -35.07100437792125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3374,
+            5462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.76435765044232,
+            -35.12367444289855
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6c9f10ec219f28e2",
+      "version": "https://annotations.allmaps.org/maps/6c9f10ec219f28e2@2eef80a7932b6702",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e30acdbda936c9b0",
+        "version": "https://annotations.allmaps.org/images/e30acdbda936c9b0@bb36962d4ba38bc8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/639113e699cbbf2a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d6c98a366ae1fda3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.351112,
+      "area": 246885433.44
+    }
+  }
+}

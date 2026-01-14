@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fe071cfa608febb9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-14T01:09:29.284Z",
+  "modified": "2026-01-14T01:09:29.284Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7027387:FL21368525.jpg",
+      "type": "ImageService2",
+      "height": 5266,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7027387/canvas/FL21368525",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7027387/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia - South Coast Backstairs Passage."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5266\"><polygon points=\"338,242 327,4861 6694,4876 6713,272\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1116,
+            1195
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.62340475181276,
+            -35.593354960306925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4157,
+            3004
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.13463980690727,
+            -35.84198148701902
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4355,
+            631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.16500896651104,
+            -35.51774917500617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3600,
+            3472
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.04128701500844,
+            -35.90430604050848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2024,
+            2582
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.77796799804162,
+            -35.784589942913286
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fe071cfa608febb9",
+      "version": "https://annotations.allmaps.org/maps/fe071cfa608febb9@e2b2b14832b44785",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d6c565d7d1f79386",
+        "version": "https://annotations.allmaps.org/images/d6c565d7d1f79386@d2a363aeef126728",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fc3b088072cbb924",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7f925bd198b9ce3b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.066111,
+      "area": 6722143687.33
+    }
+  }
+}

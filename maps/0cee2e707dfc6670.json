@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0cee2e707dfc6670",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-14T00:48:43.060Z",
+  "modified": "2026-01-14T00:48:43.060Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7046504:FL21369431.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5188,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7046504/canvas/FL21369431",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7046504/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia East Coast Sheet II Barriga Point to Jervis Bay."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5188\" height=\"7000\"><polygon points=\"114,250 151,6698 4988,6646 5036,244\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1950,
+            5426
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.22657259709638,
+            -36.255285073635854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3881,
+            775
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.80352221366275,
+            -35.094194195610235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1834,
+            3840
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.18820704767955,
+            -35.85784133984792
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3756,
+            892
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.7642310264161,
+            -35.123736921683935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2830,
+            1815
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.48455883526788,
+            -35.35273241507279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3527,
+            1218
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.69603494375735,
+            -35.199624184537676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3443,
+            525
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.6724722886434,
+            -35.031003938284854
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0cee2e707dfc6670",
+      "version": "https://annotations.allmaps.org/maps/0cee2e707dfc6670@19bee7ff55a99137",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9ac896070557cf40",
+        "version": "https://annotations.allmaps.org/images/9ac896070557cf40@e1a8b5f33039b5ee",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c4b4ff4a1a8cb6dd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/dc221d7022fbfd3d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.036248,
+      "area": 23859818892.76
+    }
+  }
+}

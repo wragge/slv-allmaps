@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c0a2034a1d8a28a1",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-14T00:52:42.797Z",
+  "modified": "2026-01-14T00:52:42.797Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7046357:FL21369379.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4777,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7046357/canvas/FL21369379",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7046357/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Coast of Australia (Colony of South Australia) Cape Jervis to Rivoli Bay."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4777\" height=\"7000\"><polygon points=\"245,180 201,6725 4622,6745 4615,199\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1196,
+            763
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.52655970245604,
+            -35.645221627257534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            484,
+            444
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.16806769786035,
+            -35.51711648683145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4407,
+            5642
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.10811614114692,
+            -37.56442653914177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            403,
+            1266
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.12793973504733,
+            -35.849175227796806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3521,
+            4045
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.67462421310722,
+            -36.94196725456112
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c0a2034a1d8a28a1",
+      "version": "https://annotations.allmaps.org/maps/c0a2034a1d8a28a1@552fae65876e1add",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7a22a25ef1757b66",
+        "version": "https://annotations.allmaps.org/images/7a22a25ef1757b66@a1797c7e47e8b948",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c6743e1fa9106be7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/de7caafeb5adbf1d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.022591,
+      "area": 56374492682.65
+    }
+  }
+}

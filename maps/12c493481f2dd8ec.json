@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/12c493481f2dd8ec",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-15T08:59:18.307Z",
+  "modified": "2026-01-15T08:59:18.307Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22740749:FL22740993.jpg",
+      "type": "ImageService2",
+      "height": 4987,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22740749/canvas/FL22740993",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300418"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22740749/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Morwell /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4987\"><polygon points=\"982,328 1005,1595 594,1597 607,4213 6684,4123 6642,265\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6001,
+            364
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.44373742898097,
+            -38.22014317847294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1285,
+            2523
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.38779345329783,
+            -38.23052027136586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5910,
+            3977
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.4360824142213,
+            -38.2485676563973
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/12c493481f2dd8ec",
+      "version": "https://annotations.allmaps.org/maps/12c493481f2dd8ec@a270d5bf2200ad56",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6efe78fe82029b7c",
+        "version": "https://annotations.allmaps.org/images/6efe78fe82029b7c@43e2be2a8976d1be",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3daceca5c7dc6ebd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e902f8c3c5e8b779"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.071,
+      "area": 20018916.59
+    }
+  }
+}

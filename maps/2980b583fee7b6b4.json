@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2980b583fee7b6b4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-15T09:24:48.084Z",
+  "modified": "2026-01-15T09:24:48.084Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15499364:FL21307278.jpg",
+      "type": "ImageService2",
+      "height": 5007,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499364/canvas/FL21307278",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499364/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Geological map and sections of portion of valley of Little Morwell River scale of plan, 4 inches to 1 mile. Geological map and sections of portion of valley of Little Morwell River"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5007\"><polygon points=\"506,1957 464,3260 2274,3265 3530,4036 6455,3290 6200,103 3891,1545 3546,1970\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5528,
+            3215
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.27413803124477,
+            -38.38516579799586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2579,
+            3032
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.22664357167002,
+            -38.37501671134792
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3902,
+            3502
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.24693006312611,
+            -38.38509041843991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1116,
+            2855
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.20723958978425,
+            -38.36995295999889
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2980b583fee7b6b4",
+      "version": "https://annotations.allmaps.org/maps/2980b583fee7b6b4@2bbd00d354df61f7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/63423ed559e18714",
+        "version": "https://annotations.allmaps.org/images/63423ed559e18714@ea80753edf0b4c9a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9baeacdf0d913936",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/08b618be322ee077"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.678253,
+      "area": 26485972.37
+    }
+  }
+}

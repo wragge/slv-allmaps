@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e27bc67dbb9bf355",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-16T08:01:55.137Z",
+  "modified": "2026-01-16T08:01:55.137Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495079:FL21305456.jpg",
+      "type": "ImageService2",
+      "height": 4788,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495079/canvas/FL21305456",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495079/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Richmond Vale estate acquired under Closer Settlement Act 1904 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4788\"><polygon points=\"3251,1022 223,2752 1057,4490 2589,4629 2728,3197 4101,2801 6212,2868 6312,1252 4171,849\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3714,
+            2130
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.70216056385232,
+            -38.366135545508016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3856,
+            1421
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.70553824158804,
+            -38.35932449000313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1294,
+            2774
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.66997501883804,
+            -38.3687319964528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2144,
+            2963
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68062352310454,
+            -38.37202824916974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2147,
+            1735
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6825046413785,
+            -38.362546396300736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5845,
+            1462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7309889641432,
+            -38.36267278016324
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e27bc67dbb9bf355",
+      "version": "https://annotations.allmaps.org/maps/e27bc67dbb9bf355@a512bbabce4c89ca",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fba721fd989de7da",
+        "version": "https://annotations.allmaps.org/images/fba721fd989de7da@8bee0487e217f10e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/06c2caa6a683b0f9",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/988b1a7c813e43eb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.97594,
+      "area": 12633202.32
+    }
+  }
+}

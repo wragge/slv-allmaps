@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/54509ab7dc1f485e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-16T07:49:54.973Z",
+  "modified": "2026-01-16T07:49:54.973Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493230:FL21307200.jpg",
+      "type": "ImageService2",
+      "height": 3832,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493230/canvas/FL21307200",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493230/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Latrobe Valley, Moe Traralgon district brown coal deposits and planned developments, as at 1st July 1961 / Latrobe Valley, Moe Traralgon district"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3832\"><polygon points=\"425,112 428,3729 2802,3724 4127,3736 6893,3717 6779,2842 6780,106\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            671,
+            3632
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2741402805808,
+            -38.38527873703883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5810,
+            738
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.78907737256282,
+            -38.15419721131894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            544,
+            991
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2609205938337,
+            -38.17632478181105
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/54509ab7dc1f485e",
+      "version": "https://annotations.allmaps.org/maps/54509ab7dc1f485e@ee63f3370d78976e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ce001260449ee4cf",
+        "version": "https://annotations.allmaps.org/images/ce001260449ee4cf@3c1bcdce5e0392a2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fae146f0ce31c127",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/dc08ca24595792a7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.113889,
+      "area": 1776088920
+    }
+  }
+}

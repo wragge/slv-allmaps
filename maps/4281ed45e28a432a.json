@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4281ed45e28a432a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-16T07:44:50.974Z",
+  "modified": "2026-01-16T07:44:50.974Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7116557:FL21456899.jpg",
+      "type": "ImageService2",
+      "height": 6762,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7116557/canvas/FL21456899",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7116557/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tourist map, Traralgon & district"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6762\"><polygon points=\"6,15 2,6757 4709,6742 4709,5788 6989,5783 6984,10\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6083,
+            2802
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.8606100920752,
+            -38.11946372576769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            649,
+            3671
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.15264243186067,
+            -38.207881365214845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3776,
+            5813
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.56497055442503,
+            -38.429256337571694
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4281ed45e28a432a",
+      "version": "https://annotations.allmaps.org/maps/4281ed45e28a432a@ba0e74b53256d338",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/100dabd2bf3050a2",
+        "version": "https://annotations.allmaps.org/images/100dabd2bf3050a2@b6f3bb2a86812544",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/52f5acb7be3b8bdb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7d8bc4a82287e1cb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.087357,
+      "area": 5876632189.34
+    }
+  }
+}

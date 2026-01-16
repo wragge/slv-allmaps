@@ -1,0 +1,164 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/4281ed45e28a432a",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-16T07:44:50.974Z",
+    "modified": "2026-01-16T07:44:50.974Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7116557:FL21456899.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7116557:FL21456899.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6762,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7116557/canvas/FL21456899",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7116557/manifest",
+              "label": {
+                "none": [
+                  "Tourist map, Traralgon & district"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "8def64c62f55fa1f",
+        "index": 1.3581751687608645,
+        "resource": [
+          6083,
+          2802
+        ],
+        "geo": [
+          146.8606100920752,
+          -38.11946372576769
+        ]
+      },
+      {
+        "id": "b27b545d49c361fd",
+        "index": 0.5076460559231134,
+        "resource": [
+          649,
+          3671
+        ],
+        "geo": [
+          146.15264243186067,
+          -38.207881365214845
+        ]
+      },
+      {
+        "id": "e9576e9c255da8e6",
+        "index": 2.556572290802981,
+        "resource": [
+          3776,
+          5813
+        ],
+        "geo": [
+          146.56497055442503,
+          -38.429256337571694
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        6,
+        15
+      ],
+      [
+        2,
+        6757
+      ],
+      [
+        4709,
+        6742
+      ],
+      [
+        4709,
+        5788
+      ],
+      [
+        6989,
+        5783
+      ],
+      [
+        6984,
+        10
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4281ed45e28a432a",
+      "version": "https://annotations.allmaps.org/maps/4281ed45e28a432a@ba0e74b53256d338",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/100dabd2bf3050a2",
+        "version": "https://annotations.allmaps.org/images/100dabd2bf3050a2@b6f3bb2a86812544",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/52f5acb7be3b8bdb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7d8bc4a82287e1cb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.087357,
+      "area": 5876632189.34
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.061858991,
+          -37.829590747
+        ],
+        [
+          146.073910656,
+          -38.525391536
+        ],
+        [
+          146.688537161,
+          -38.524958326
+        ],
+        [
+          146.686757927,
+          -38.426904909
+        ],
+        [
+          146.984477986,
+          -38.42692782
+        ],
+        [
+          146.973058283,
+          -37.830729779
+        ],
+        [
+          146.061858991,
+          -37.829590747
+        ]
+      ]
+    ]
+  }
+}

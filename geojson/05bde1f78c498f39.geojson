@@ -1,0 +1,188 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/05bde1f78c498f39",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-17T02:55:42.629Z",
+    "modified": "2026-01-17T02:55:42.629Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489425:FL21304046.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489425:FL21304046.jpg",
+      "type": "ImageService2",
+      "width": 4846,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489425/canvas/FL21304046",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489425/manifest",
+              "label": {
+                "none": [
+                  "Niven's mining map of Ballaarat compiled from government plans and the most recent surveys of the district mining surveyors, 1870."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "203c738b592662a9",
+        "index": 2.277497011019855,
+        "resource": [
+          969,
+          1915
+        ],
+        "geo": [
+          143.82222840120863,
+          -37.539141205471836
+        ]
+      },
+      {
+        "id": "2c0559fb35d601c4",
+        "index": 0.7493266557289628,
+        "resource": [
+          1952,
+          2227
+        ],
+        "geo": [
+          143.84939187631687,
+          -37.54990847979228
+        ]
+      },
+      {
+        "id": "a9972df05be2331c",
+        "index": 1.4930007408729216,
+        "resource": [
+          1954,
+          2608
+        ],
+        "geo": [
+          143.84742925927566,
+          -37.56076351862074
+        ]
+      },
+      {
+        "id": "caabda26d943acbd",
+        "index": 3.466612673215757,
+        "resource": [
+          1412,
+          4658
+        ],
+        "geo": [
+          143.82310279600927,
+          -37.60366651886552
+        ]
+      },
+      {
+        "id": "f9de22a73a13a2fc",
+        "index": 4.375394854959306,
+        "resource": [
+          3188,
+          2225
+        ],
+        "geo": [
+          143.88561014431644,
+          -37.554015800696945
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        489,
+        661
+      ],
+      [
+        531,
+        6573
+      ],
+      [
+        2108,
+        6560
+      ],
+      [
+        2258,
+        5459
+      ],
+      [
+        4370,
+        5459
+      ],
+      [
+        4304,
+        710
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/05bde1f78c498f39",
+      "version": "https://annotations.allmaps.org/maps/05bde1f78c498f39@961bbe728590ad3a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/571c0f2c509d2e7b",
+        "version": "https://annotations.allmaps.org/images/571c0f2c509d2e7b@924fe97a92162e3e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f9e78c9722ce89dc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5abb61f8b9d93aa4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.386409,
+      "area": 134747225.76
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.813558697,
+          -37.509233411
+        ],
+        [
+          143.788963641,
+          -37.644716001
+        ],
+        [
+          143.835023915,
+          -37.649971209
+        ],
+        [
+          143.844208188,
+          -37.625316409
+        ],
+        [
+          143.905818453,
+          -37.632754459
+        ],
+        [
+          143.924634068,
+          -37.523812
+        ],
+        [
+          143.813558697,
+          -37.509233411
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/05bde1f78c498f39",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-17T02:55:42.629Z",
+  "modified": "2026-01-17T02:55:42.629Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489425:FL21304046.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4846,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489425/canvas/FL21304046",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489425/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Niven's mining map of Ballaarat compiled from government plans and the most recent surveys of the district mining surveyors, 1870."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4846\" height=\"7000\"><polygon points=\"489,661 531,6573 2108,6560 2258,5459 4370,5459 4304,710\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            969,
+            1915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82222840120863,
+            -37.539141205471836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1952,
+            2227
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.84939187631687,
+            -37.54990847979228
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1954,
+            2608
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.84742925927566,
+            -37.56076351862074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1412,
+            4658
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.82310279600927,
+            -37.60366651886552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3188,
+            2225
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.88561014431644,
+            -37.554015800696945
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/05bde1f78c498f39",
+      "version": "https://annotations.allmaps.org/maps/05bde1f78c498f39@961bbe728590ad3a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/571c0f2c509d2e7b",
+        "version": "https://annotations.allmaps.org/images/571c0f2c509d2e7b@924fe97a92162e3e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f9e78c9722ce89dc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5abb61f8b9d93aa4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.386409,
+      "area": 134747225.76
+    }
+  }
+}

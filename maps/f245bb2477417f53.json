@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f245bb2477417f53",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-19T22:01:35.830Z",
+  "modified": "2026-01-19T22:01:35.830Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9585190:FL20704124.jpg",
+      "type": "ImageService2",
+      "height": 4017,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585190/canvas/FL20704124",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585190/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Location of present, future and potential refuse disposal sites in the Greater Melbourne Area"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4017\"><polygon points=\"242,541 222,3991 6753,4010 6742,531\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5937,
+            2595
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.3549251533601,
+            -37.757437090061835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2448,
+            3641
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.91526903146422,
+            -37.86482306154774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1557,
+            1287
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.800380465903,
+            -37.630734743732376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2916,
+            3808
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97570250563393,
+            -37.88229283012748
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f245bb2477417f53",
+      "version": "https://annotations.allmaps.org/maps/f245bb2477417f53@1f3b31782e630ea9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/adb58c8adce34d0a",
+        "version": "https://annotations.allmaps.org/images/adb58c8adce34d0a@48e8a24b08280767",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6cd91380a8f0cf6c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0fa524b63c877e85"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.089911,
+      "area": 2792320662.03
+    }
+  }
+}

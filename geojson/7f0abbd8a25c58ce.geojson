@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/7f0abbd8a25c58ce",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-20T02:47:29.931Z",
+    "modified": "2026-01-20T02:47:29.931Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486285:FL21305726.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486285:FL21305726.jpg",
+      "type": "ImageService2",
+      "width": 5166,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486285/canvas/FL21305726",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486285/manifest",
+              "label": {
+                "none": [
+                  "Proposed method of diverting Wills St. (old exchange) cables to central exchange"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "031306b4d2a36e3c",
+        "index": 1.2845673908187454,
+        "resource": [
+          1234,
+          2878
+        ],
+        "geo": [
+          144.95641484203418,
+          -37.81173324506892
+        ]
+      },
+      {
+        "id": "630f3ceefe8987bc",
+        "index": 2.994945124860229,
+        "resource": [
+          1304,
+          6586
+        ],
+        "geo": [
+          144.95776384530672,
+          -37.81469051641571
+        ]
+      },
+      {
+        "id": "652db4b10382064c",
+        "index": 0.2982086215592551,
+        "resource": [
+          2386,
+          1591
+        ],
+        "geo": [
+          144.95707306065162,
+          -37.81037265503821
+        ]
+      },
+      {
+        "id": "76fdd0f90145e4fa",
+        "index": 3.0392660476780566,
+        "resource": [
+          3760,
+          6577
+        ],
+        "geo": [
+          144.96024308139715,
+          -37.813961605718525
+        ]
+      },
+      {
+        "id": "766a40485bf826aa",
+        "index": 4.203337762960867,
+        "resource": [
+          3742,
+          4124
+        ],
+        "geo": [
+          144.95936619234885,
+          -37.81199601372441
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        5166,
+        7000
+      ],
+      [
+        5166,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7f0abbd8a25c58ce",
+      "version": "https://annotations.allmaps.org/maps/7f0abbd8a25c58ce@85ddfff0c2f7fe78",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a845c920f7612520",
+        "version": "https://annotations.allmaps.org/images/a845c920f7612520@aa9fa2d8b3b6b2a9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c3391d99e0187dea",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/00498aaf5d6d2e9b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 10.601918,
+      "area": 321724.05
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.954131448,
+          -37.809793264
+        ],
+        [
+          144.956609986,
+          -37.815403603
+        ],
+        [
+          144.961806952,
+          -37.813886439
+        ],
+        [
+          144.959328414,
+          -37.808275984
+        ],
+        [
+          144.954131448,
+          -37.809793264
+        ]
+      ]
+    ]
+  }
+}

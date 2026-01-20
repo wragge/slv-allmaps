@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e92c511d46de2afe",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-20T01:13:16.567Z",
+  "modified": "2026-01-20T01:13:16.567Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22851566:FL22852410.jpg",
+      "type": "ImageService2",
+      "height": 5141,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22851566/canvas/FL22852410",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "pv000370"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22851566/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne Metropolitan Region [Map of part of parishes of Werribee, Melton, Coburg, Whittlesea and Bulla]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5141\"><polygon points=\"2644,485 1145,1510 561,5017 6628,4998 6629,837\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4935,
+            4082
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8527863915154,
+            -37.72357774839608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6499,
+            4957
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98811680199861,
+            -37.784332617913435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5919,
+            2268
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93799198379435,
+            -37.598604538934985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1671,
+            3354
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.57037883278184,
+            -37.67292271139187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3525,
+            1953
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73140746294064,
+            -37.57681594016458
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e92c511d46de2afe",
+      "version": "https://annotations.allmaps.org/maps/e92c511d46de2afe@790d8ba78449416c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/17afe876f0de9dfd",
+        "version": "https://annotations.allmaps.org/images/17afe876f0de9dfd@0366d18247f06811",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4e3e16cd8a277e93",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/101b00f58ee765ec"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.130755,
+      "area": 1424129549.72
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d646fb6a6f48bca6",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-20T00:17:16.339Z",
+    "modified": "2026-01-20T00:17:16.339Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9531467:FL20704537.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9531467:FL20704537.jpg",
+      "type": "ImageService2",
+      "width": 4209,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531467/canvas/FL20704537",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531467/manifest",
+              "label": {
+                "none": [
+                  "Sewerage record plan"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "04edfe872e1c049b",
+        "index": 1.4289986685264688,
+        "resource": [
+          3926,
+          4115
+        ],
+        "geo": [
+          144.76067092294494,
+          -37.872045512132985
+        ]
+      },
+      {
+        "id": "77c726dc62d59e98",
+        "index": 2.1198298495405026,
+        "resource": [
+          1024,
+          6800
+        ],
+        "geo": [
+          144.4705626390732,
+          -38.08415095775405
+        ]
+      },
+      {
+        "id": "82cb0afa7479932d",
+        "index": 0.3160592333822978,
+        "resource": [
+          3930,
+          4851
+        ],
+        "geo": [
+          144.76165518822836,
+          -37.930385728893505
+        ]
+      },
+      {
+        "id": "562ee7dc708e4318",
+        "index": 3.898299784528381,
+        "resource": [
+          1770,
+          1936
+        ],
+        "geo": [
+          144.54674037560915,
+          -37.699645817700464
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        4209,
+        7000
+      ],
+      [
+        4209,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d646fb6a6f48bca6",
+      "version": "https://annotations.allmaps.org/maps/d646fb6a6f48bca6@8a3254fddf8a6d19",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c05d9f6f3302c04f",
+        "version": "https://annotations.allmaps.org/images/c05d9f6f3302c04f@775ca716de23e481",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/99511a496b27a5b0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/105666bd865bf077"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.11384,
+      "area": 2273470289.21
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.370681008,
+          -37.546032959
+        ],
+        [
+          144.368364182,
+          -38.099935424
+        ],
+        [
+          144.788380496,
+          -38.099910399
+        ],
+        [
+          144.790697322,
+          -37.546007746
+        ],
+        [
+          144.370681008,
+          -37.546032959
+        ]
+      ]
+    ]
+  }
+}

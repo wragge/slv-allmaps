@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1fbbc58e35355d50",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-19T22:19:49.377Z",
+  "modified": "2026-01-19T22:19:49.377Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1259613:FL20895617.jpg",
+      "type": "ImageService2",
+      "height": 5668,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1259613/canvas/FL20895617",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image H24530"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1259613/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "A complete map of the Southern Continent surveyed by Capt. Abel Tasman & depicted by the East India Company in Halland in the Stadt House at Amsterdam"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5668\"><polygon points=\"433,505 277,4173 2643,4157 3035,5145 6515,5333 6468,3797 3082,3828 2706,2982 3741,2543 4650,490\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3060,
+            1697
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.87771641240448,
+            -11.870161402093032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3787,
+            4685
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.81704480393745,
+            -43.19631042889409
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            737,
+            4001
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.84355099973828,
+            -34.05006644657487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2304,
+            1909
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.51104775005194,
+            -14.940581924557305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3189,
+            1939
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            136.59000136931763,
+            -14.059185909094694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2533,
+            3735
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            133.7529219491625,
+            -32.32734221588585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            626,
+            2748
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.96842087881936,
+            -21.95560780972359
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1fbbc58e35355d50",
+      "version": "https://annotations.allmaps.org/maps/1fbbc58e35355d50@ab5ca80d6eea5b7b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c7b81391dbfab80f",
+        "version": "https://annotations.allmaps.org/images/c7b81391dbfab80f@a5ad9df8c927e4f4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8d58acf821c87931",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/70476b4686b2ca58"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000943,
+      "area": 19435342219631.47
+    }
+  }
+}

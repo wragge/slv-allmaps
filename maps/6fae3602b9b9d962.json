@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6fae3602b9b9d962",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-20T03:11:43.283Z",
+  "modified": "2026-01-20T03:11:43.283Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7118955:FL21456499.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6636,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118955/canvas/FL21456499",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118955/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Telstra MobileNet Australia's own analogue South Australia coverage maps."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6636\" height=\"7000\"><polygon points=\"384,986 381,1886 2516,4485 5263,6359 6223,6391 6251,2399 4668,2399 4660,1009\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2067,
+            3257
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.85753889232672,
+            -34.71469270625322
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2759,
+            4494
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            136.69788619530362,
+            -36.06375053021081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3568,
+            1137
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.75629321772084,
+            -32.488844876347336
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6fae3602b9b9d962",
+      "version": "https://annotations.allmaps.org/maps/6fae3602b9b9d962@212f90cdaf91446e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c3433efe7795a844",
+        "version": "https://annotations.allmaps.org/images/c3433efe7795a844@d8cd2af0ef90c883",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a0cca17deaf50874",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4cd7526320acf2fb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00861,
+      "area": 267849234414.74
+    }
+  }
+}

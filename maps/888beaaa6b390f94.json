@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/888beaaa6b390f94",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-20T03:25:37.183Z",
+  "modified": "2026-01-20T03:25:37.183Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15470745:FL21373549.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4792,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15470745/canvas/FL21373549",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15470745/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "10 choice & valuable 10 allotments, abuting on the Middle Brighton Station"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4792\" height=\"7000\"><polygon points=\"2256,42 2176,5160 4474,6500 4479,86\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2641,
+            5191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99220666795378,
+            -37.91592530679965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4195,
+            241
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9941055490587,
+            -37.91530247261483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2744,
+            265
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9936725745511,
+            -37.91491528431358
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/888beaaa6b390f94",
+      "version": "https://annotations.allmaps.org/maps/888beaaa6b390f94@ff96065c4230cada",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/78a04098991ee7e2",
+        "version": "https://annotations.allmaps.org/images/78a04098991ee7e2@d7d22bdfb2210f2e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/197153f733997f9f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fd8356a4330427b7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 26.990984,
+      "area": 17931.66
+    }
+  }
+}

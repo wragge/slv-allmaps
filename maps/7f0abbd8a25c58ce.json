@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2026-01-20T02:47:25.453Z",
-  "modified": "2026-01-20T02:47:25.453Z",
+  "created": "2026-01-20T02:48:24.938Z",
+  "modified": "2026-01-20T02:48:24.938Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -40,7 +40,7 @@
     },
     "selector": {
       "type": "SvgSelector",
-      "value": "<svg width=\"5166\" height=\"7000\"><polygon points=\"0,0 0,7000 5166,7000 5166,0\" /></svg>"
+      "value": "<svg width=\"5166\" height=\"7000\"><polygon points=\"874,889 901,6805 4222,6805 4202,882\" /></svg>"
     }
   },
   "body": {
@@ -104,6 +104,22 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
+            3742,
+            4124
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95936619234885,
+            -37.81199601372441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
             3760,
             6577
           ]
@@ -119,10 +135,10 @@
     ],
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/7f0abbd8a25c58ce",
-      "version": "https://annotations.allmaps.org/maps/7f0abbd8a25c58ce@9c329d5d8391d8ea",
+      "version": "https://annotations.allmaps.org/maps/7f0abbd8a25c58ce@a5d8889ecabea250",
       "image": {
         "id": "https://annotations.allmaps.org/images/a845c920f7612520",
-        "version": "https://annotations.allmaps.org/images/a845c920f7612520@dcb5b2f34481400d",
+        "version": "https://annotations.allmaps.org/images/a845c920f7612520@35be17331636c0ff",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/c3391d99e0187dea",
@@ -134,8 +150,8 @@
           }
         ]
       },
-      "scale": 10.624629,
-      "area": 320350.11
+      "scale": 10.601959,
+      "area": 175081.77
     }
   }
 }

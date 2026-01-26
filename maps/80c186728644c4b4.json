@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/80c186728644c4b4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T07:27:19.730Z",
+  "modified": "2026-01-26T07:27:19.730Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7041467:FL21356683.jpg",
+      "type": "ImageService2",
+      "height": 4852,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041467/canvas/FL21356683",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7041467/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of East Cunninghame, Parish of Colquhoun, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4852\"><polygon points=\"586,2289 238,2359 684,4834 6460,1745 6435,449\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4650,
+            1311
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.08297588011197,
+            -37.85570589554169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3829,
+            2536
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0758249760073,
+            -37.861878498684334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            857,
+            2399
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.05521040339295,
+            -37.85858804069488
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4664,
+            1752
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0826080444159,
+            -37.85827798920238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            868,
+            3027
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.05459486505987,
+            -37.86154135548304
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/80c186728644c4b4",
+      "version": "https://annotations.allmaps.org/maps/80c186728644c4b4@be89b7bb59ecc2d9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bc8db2ac21b36095",
+        "version": "https://annotations.allmaps.org/images/bc8db2ac21b36095@c3b740bc1b28fb92",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/12caf525fd51484e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/883348d5a2135265"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.624707,
+      "area": 4455374.99
+    }
+  }
+}

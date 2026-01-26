@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b4dc66decb3c0c29",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T06:54:57.923Z",
+  "modified": "2026-01-26T06:54:57.923Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7023541:FL21347535.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4945,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7023541/canvas/FL21347535",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7023541/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Mitchellstown, Parish of Mitchell, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4945\" height=\"7000\"><polygon points=\"1986,2284 259,4873 4083,5480 3491,2300\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3382,
+            5021
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.10211760280527,
+            -36.86057145331121
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2310,
+            3473
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0982481419527,
+            -36.856245124299306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2625,
+            3516
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09937367118584,
+            -36.85636913240182
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2930,
+            2760
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.10038934169916,
+            -36.85420938273883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            840,
+            4640
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09312204962686,
+            -36.85959465809324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2424,
+            2751
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09855294598765,
+            -36.8541964704515
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b4dc66decb3c0c29",
+      "version": "https://annotations.allmaps.org/maps/b4dc66decb3c0c29@8250143ffab4e9a7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9e7532d35ef99862",
+        "version": "https://annotations.allmaps.org/images/9e7532d35ef99862@5f438336a36e9479",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9d388be9cb826935",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/18fd83fa47f8ea7b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.182975,
+      "area": 776060.81
+    }
+  }
+}

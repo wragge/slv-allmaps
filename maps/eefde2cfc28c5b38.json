@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/eefde2cfc28c5b38",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T07:46:35.396Z",
+  "modified": "2026-01-26T07:46:35.396Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7037572:FL21353851.jpg",
+      "type": "ImageService2",
+      "height": 4937,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037572/canvas/FL21353851",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037572/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Newmerella, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4937\"><polygon points=\"883,1836 1385,4535 6239,3573 6010,2232 4688,1032 2800,321\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5363,
+            3283
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.5160300437002,
+            -37.79265155511615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1929,
+            1327
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.40897299792113,
+            -37.72115340678504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2939,
+            660
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.44878825195792,
+            -37.708219599152024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1811,
+            2099
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.3997337554988,
+            -37.741852930276536
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/eefde2cfc28c5b38",
+      "version": "https://annotations.allmaps.org/maps/eefde2cfc28c5b38@9b74b712680e509f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/873e27c3383f49a5",
+        "version": "https://annotations.allmaps.org/images/873e27c3383f49a5@b0cc9ad6a5370464",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dcf47d661e6894a2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8720061a347b9e9d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.320806,
+      "area": 146821207.45
+    }
+  }
+}

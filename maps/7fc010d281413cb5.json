@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7fc010d281413cb5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T07:41:00.946Z",
+  "modified": "2026-01-26T07:41:00.946Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7024348:FL21349199.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5427,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024348/canvas/FL21349199",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7024348/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tildesley West, County of Tambo Colquhoun East, County of Tambo /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5427\" height=\"7000\"><polygon points=\"49,329 150,6666 2597,6590 5337,4700 5276,309\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4188,
+            4512
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.15644205446455,
+            -37.82082877422607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3447,
+            5409
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.1268834266711,
+            -37.84113378312147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            561,
+            5486
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0323862693508,
+            -37.829286335454526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1664,
+            1376
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0916526900475,
+            -37.72941445912952
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7fc010d281413cb5",
+      "version": "https://annotations.allmaps.org/maps/7fc010d281413cb5@125893f0e900ed33",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e161f6c0c254585f",
+        "version": "https://annotations.allmaps.org/images/e161f6c0c254585f@6ddb07b8d4014d48",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d6970b20898d97ed",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/491cb58ecd44fb09"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.344538,
+      "area": 254570059.91
+    }
+  }
+}

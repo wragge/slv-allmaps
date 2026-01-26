@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bd1f7f5c97b9535d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T07:24:01.647Z",
+  "modified": "2026-01-26T07:24:01.647Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9648703:FL21645760.jpg",
+      "type": "ImageService2",
+      "height": 4962,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9648703/canvas/FL21645760",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9648703/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Colquhoun, Counties of Tambo and Tanjil /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4962\"><polygon points=\"136,241 757,4348 6717,980 6735,165\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1333,
+            3288
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.9708294893041,
+            -37.8810363643969
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5579,
+            1350
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.0825799882134,
+            -37.85826730215447
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5047,
+            537
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.07286464776166,
+            -37.84078473758899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            908,
+            288
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.9730189645084,
+            -37.82235172664132
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bd1f7f5c97b9535d",
+      "version": "https://annotations.allmaps.org/maps/bd1f7f5c97b9535d@5e5ae4244568e8e9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/43ba3d9fab42e1b6",
+        "version": "https://annotations.allmaps.org/images/43ba3d9fab42e1b6@437677dce1ff42a0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c47914446b1bf38c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/72dd672d2fee768c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.461807,
+      "area": 74897375.12
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/79596f1aa303bdb1",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T10:19:41.389Z",
+  "modified": "2026-01-26T10:19:41.389Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7019673:FL21350000.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4684,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7019673/canvas/FL21350000",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7019673/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Suburban lots, Parish of Numbiemunjie, County of Tambo"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4684\" height=\"7000\"><polygon points=\"382,1864 817,6757 3877,6093 3755,1920\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1414,
+            5394
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.84069406855076,
+            -37.327191306195985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1609,
+            4077
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.84118786212343,
+            -37.32597996044518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1400,
+            4537
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.8408457567714,
+            -37.326267400186666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1089,
+            4466
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.84040211735908,
+            -37.326218286220076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1326,
+            3868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.84093095656704,
+            -37.32577714034253
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/79596f1aa303bdb1",
+      "version": "https://annotations.allmaps.org/maps/79596f1aa303bdb1@c40c1006244a8ec4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2f4c1d094cd9969c",
+        "version": "https://annotations.allmaps.org/images/2f4c1d094cd9969c@6730245124354c97",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/960e8f70b619506b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6751289e6af1efd1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 8.873118,
+      "area": 186265.01
+    }
+  }
+}

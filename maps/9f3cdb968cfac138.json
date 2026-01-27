@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9f3cdb968cfac138",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-26T23:59:57.378Z",
+  "modified": "2026-01-26T23:59:57.378Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9589169:FL20704878.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5089,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589169/canvas/FL20704878",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589169/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Geelong pocket size public transport map complete guide on city bus services /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5089\" height=\"7000\"><polygon points=\"0,0 0,7000 5089,7000 5089,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1267,
+            4913
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.32960388770204,
+            -38.168140613863905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1882,
+            4933
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.34687723784032,
+            -38.17118549619702
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4237,
+            2641
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4239937856595,
+            -38.1273810518326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1921,
+            2065
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.36126677751923,
+            -38.10607144457689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            395,
+            4321
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.30718557731188,
+            -38.15070173627214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1755,
+            5152
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.34235921672484,
+            -38.175374823524365
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9f3cdb968cfac138",
+      "version": "https://annotations.allmaps.org/maps/9f3cdb968cfac138@c6649d80b1462037",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c34e4e234870c5b3",
+        "version": "https://annotations.allmaps.org/images/c34e4e234870c5b3@b65196f977411a26",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e2e7f2a4a2941721",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ca387cfccbf67955"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.39364,
+      "area": 229896512.27
+    }
+  }
+}

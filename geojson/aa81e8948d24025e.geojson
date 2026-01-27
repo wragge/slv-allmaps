@@ -1,0 +1,160 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/aa81e8948d24025e",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-27T00:04:11.129Z",
+    "modified": "2026-01-27T00:04:11.129Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9532574:FL20703019.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9532574:FL20703019.jpg",
+      "type": "ImageService2",
+      "width": 5052,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532574/canvas/FL20703019",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9532574/manifest",
+              "label": {
+                "none": [
+                  "Bendigo pocket size public transport map complete guide on city bus services /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "3c89430aea492316",
+        "index": 0.13402378483938104,
+        "resource": [
+          4767,
+          3229
+        ],
+        "geo": [
+          144.317469227475,
+          -36.7595181882628
+        ]
+      },
+      {
+        "id": "7d911272fbaf9c8f",
+        "index": 1.8856635520821818,
+        "resource": [
+          3546,
+          5898
+        ],
+        "geo": [
+          144.28731347716615,
+          -36.79877435582328
+        ]
+      },
+      {
+        "id": "b33e99ac3d7fbf4e",
+        "index": 2.106003153316844,
+        "resource": [
+          1174,
+          6020
+        ],
+        "geo": [
+          144.2393913604231,
+          -36.796200597637274
+        ]
+      },
+      {
+        "id": "05f684f89aa3e003",
+        "index": 3.331742266776344,
+        "resource": [
+          1228,
+          1178
+        ],
+        "geo": [
+          144.2548468935641,
+          -36.71937949805694
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        5052,
+        7000
+      ],
+      [
+        5052,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/aa81e8948d24025e",
+      "version": "https://annotations.allmaps.org/maps/aa81e8948d24025e@7a2b22f5d4e93585",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ed896ffee8771e46",
+        "version": "https://annotations.allmaps.org/images/ed896ffee8771e46@90aaf60c2ffb1839",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b96f32c1adf599e1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1b9b8ff3f4e72555"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.565847,
+      "area": 110449587.99
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.233909873,
+          -36.698246842
+        ],
+        [
+          144.214200041,
+          -36.809074638
+        ],
+        [
+          144.312905046,
+          -36.819614389
+        ],
+        [
+          144.332614878,
+          -36.708801831
+        ],
+        [
+          144.233909873,
+          -36.698246842
+        ]
+      ]
+    ]
+  }
+}

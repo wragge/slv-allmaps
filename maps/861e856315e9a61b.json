@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/861e856315e9a61b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-27T00:26:43.395Z",
+  "modified": "2026-01-27T00:26:43.395Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15494170:FL21306427.jpg",
+      "type": "ImageService2",
+      "height": 4959,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494170/canvas/FL21306427",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494170/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Gilwell Park Scout Camp scale 1:2500 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4959\"><polygon points=\"422,371 438,4267 6579,4263 6590,378\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            819,
+            418
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.5163976695834,
+            -37.87423385457138
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1302,
+            2660
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.53599020705303,
+            -37.9470723906167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2802,
+            817
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.59750488022462,
+            -37.88729338869708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1765,
+            2816
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.5547703998966,
+            -37.95216013320835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            489,
+            753
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.50329075856035,
+            -37.8852583963817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1046,
+            1144
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.5252787736896,
+            -37.89761719699539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2861,
+            2257
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.59947598758214,
+            -37.93374683022989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1588,
+            3312
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.54754490316134,
+            -37.96858315408469
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/861e856315e9a61b",
+      "version": "https://annotations.allmaps.org/maps/861e856315e9a61b@a76f8a9ffef530e7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5ad9e759fad4dff8",
+        "version": "https://annotations.allmaps.org/images/5ad9e759fad4dff8@ea97408069ed2379",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fcf8c60d445d7aa8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f801667150613d1a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.27789,
+      "area": 310065642.41
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4fa8ff8e6aa7b0bc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-27T00:17:27.755Z",
+  "modified": "2026-01-27T00:17:27.755Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9535295:FL21664918.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4821,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535295/canvas/FL21664918",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535295/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australian jamboree hike map"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4821\" height=\"7000\"><polygon points=\"220,148 215,6818 4718,6795 4699,131\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1897,
+            2714
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.71333461056355,
+            -37.85529488641943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2262,
+            2841
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7529860721486,
+            -37.86306158402113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            888,
+            1770
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.61422062216627,
+            -37.78178585960386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4460,
+            6715
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9677970696074,
+            -38.17132994639055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2146,
+            5829
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.73847766649078,
+            -38.101001168621266
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4fa8ff8e6aa7b0bc",
+      "version": "https://annotations.allmaps.org/maps/4fa8ff8e6aa7b0bc@d1a4ac421ecfaa50",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2e87798a6034e448",
+        "version": "https://annotations.allmaps.org/images/2e87798a6034e448@ddad01bd1dcc0eb2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/17c2b2e4e8d577c8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/82d1ebcb8a68195d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.113874,
+      "area": 2308996946.54
+    }
+  }
+}

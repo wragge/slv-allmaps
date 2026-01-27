@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fbe43b93ed222e0e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-27T06:22:53.828Z",
+  "modified": "2026-01-27T06:22:53.828Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485580:FL21307632.jpg",
+      "type": "ImageService2",
+      "height": 4511,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485580/canvas/FL21307632",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485580/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan shewing the streets and buildings in existence in East Collingwood on January 1st 1858 with schedule of heights of bench-marks above low water datum at Queen's wharf /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4511\"><polygon points=\"344,250 346,4320 6425,4294 5780,2161 4153,178\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4028,
+            2018
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00102899122805,
+            -37.80199440141794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4026,
+            1840
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00112415792364,
+            -37.80132338696747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            848,
+            4055
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9849570986969,
+            -37.80803443543918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2283,
+            1664
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9929947458167,
+            -37.79983357388599
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fbe43b93ed222e0e",
+      "version": "https://annotations.allmaps.org/maps/fbe43b93ed222e0e@ca6c9f9050a80054",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/58e21157c6d46541",
+        "version": "https://annotations.allmaps.org/images/58e21157c6d46541@2267d7c4c0888852",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f30dd47b36f81324",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a572f2d86eea4c81"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.397884,
+      "area": 3719607.16
+    }
+  }
+}

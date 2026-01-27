@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4c6b4c64e0b07f5f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-27T01:16:47.486Z",
+  "modified": "2026-01-27T01:16:47.486Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22724234:FL22724784.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5064,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22724234/canvas/FL22724784",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300223"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22724234/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Safety Beach /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5064\" height=\"7000\"><polygon points=\"1581,170 2417,1262 122,4568 57,5128 4932,5286 4945,111\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2730,
+            681
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99485006616464,
+            -38.30238016333817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2200,
+            4202
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99070615849536,
+            -38.32366139944995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            900,
+            4940
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98082558485413,
+            -38.32806269640048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2188,
+            2756
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99054938890646,
+            -38.31487229437201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3165,
+            3100
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9979906173163,
+            -38.31691524626615
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4c6b4c64e0b07f5f",
+      "version": "https://annotations.allmaps.org/maps/4c6b4c64e0b07f5f@804d9d02fc05abe5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cdb7b4f539ade5ee",
+        "version": "https://annotations.allmaps.org/images/cdb7b4f539ade5ee@9cf5c732170b3e45",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0e002705e39677f7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/696d711b1de7e686"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.503885,
+      "area": 8197526.58
+    }
+  }
+}

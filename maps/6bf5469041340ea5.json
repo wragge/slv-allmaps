@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6bf5469041340ea5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-27T01:10:17.619Z",
+  "modified": "2026-01-27T01:10:17.619Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22752599:FL22753171.jpg",
+      "type": "ImageService2",
+      "height": 4994,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752599/canvas/FL22753171",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300486"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752599/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Surf Beach Estate /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4994\"><polygon points=\"218,1119 256,3334 1621,3552 3744,2776 6750,2572 6733,1278\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1194,
+            2943
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.27389385838217,
+            -38.50585933206796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1983,
+            1703
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.28166802124468,
+            -38.502948908376766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2321,
+            2659
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.28046704837857,
+            -38.50758161383171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5933,
+            1663
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.30174449966148,
+            -38.51271660330417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4778,
+            2374
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.29371865986525,
+            -38.51265005246093
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6bf5469041340ea5",
+      "version": "https://annotations.allmaps.org/maps/6bf5469041340ea5@8c556696d7d40b9d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/856dfec1c89f3199",
+        "version": "https://annotations.allmaps.org/images/856dfec1c89f3199@7ed7db277fa6614c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5b36034467751ad4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0dbd6961c4a4bd17"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.931282,
+      "area": 3136469.87
+    }
+  }
+}

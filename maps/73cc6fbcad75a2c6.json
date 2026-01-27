@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/73cc6fbcad75a2c6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-27T00:41:34.577Z",
+  "modified": "2026-01-27T00:41:34.577Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7114389:FL21460945.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5747,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114389/canvas/FL21460945",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7114389/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Boy Scouts Association of Victoria Pan-Pacific Jamboree, Dec., 1955 - Jan., 1956 sketch of camp site at Clifford Park ."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5747\" height=\"7000\"><polygon points=\"191,365 137,6985 5689,6797 5712,4670 4025,3268 4017,1579 3332,388\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            804,
+            1191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.27774520202934,
+            -37.713678168521454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2316,
+            778
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2807904712456,
+            -37.714006673674504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3356,
+            1637
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.28227471959934,
+            -37.715978687671644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2310,
+            1817
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.28035221406736,
+            -37.71569524438228
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            836,
+            2546
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.27695133187194,
+            -37.715892876523405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2699,
+            4157
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.2789019580295,
+            -37.719548404128574
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/73cc6fbcad75a2c6",
+      "version": "https://annotations.allmaps.org/maps/73cc6fbcad75a2c6@0b8e1386604ea9b2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8ba9ce4bb401f243",
+        "version": "https://annotations.allmaps.org/images/8ba9ce4bb401f243@697ec79f68cbf7df",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c45e9f3981666343",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c89d6a957cfb3351"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 5.485711,
+      "area": 984310.5
+    }
+  }
+}

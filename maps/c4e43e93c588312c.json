@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c4e43e93c588312c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T22:10:27.849Z",
+  "modified": "2026-01-28T22:10:27.849Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489245:FL21306640.jpg",
+      "type": "ImageService2",
+      "height": 2319,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489245/canvas/FL21306640",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489245/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "V.R. Melbourne yard proposed alterations & additions to trackwork etc., consequent on the removal of North Melbourne Loco Depot to South Kensington."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"2319\"><polygon points=\"0,0 0,2319 7000,2319 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2308,
+            2223
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9419991751252,
+            -37.80010756746368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1874,
+            1900
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94358086523312,
+            -37.80238012332012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2185,
+            1808
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94162390602196,
+            -37.802157556352455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1692,
+            1294
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9430325432417,
+            -37.8054531733417
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c4e43e93c588312c",
+      "version": "https://annotations.allmaps.org/maps/c4e43e93c588312c@4eaad820e218eccb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0bdead6ca2338e9b",
+        "version": "https://annotations.allmaps.org/images/0bdead6ca2338e9b@ddcfd21c7e419984",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dad330db357b08d6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8fa1d851b7f7d1e0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.856957,
+      "area": 4707552
+    }
+  }
+}

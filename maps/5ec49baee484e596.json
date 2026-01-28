@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5ec49baee484e596",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T05:17:28.446Z",
+  "modified": "2026-01-28T05:17:28.446Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155113:FL23156190.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5893,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155113/canvas/FL23156190",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155113/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Location map of Melbourne Goods & Dynon Terminal & supervised sidings"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5893\" height=\"7000\"><polygon points=\"1202,110 402,2209 184,3512 2530,6749 3276,6869 5838,4806 5817,3919 3302,121\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3911,
+            3368
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9430185488156,
+            -37.81271409146486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4481,
+            3090
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.949953219208,
+            -37.81010508981626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1584,
+            2184
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.91490351638737,
+            -37.80158102916279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2109,
+            736
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.92138430551046,
+            -37.78742621571946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4904,
+            4215
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95508331994472,
+            -37.82104427632853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4364,
+            5172
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94918868223294,
+            -37.82979045821462
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5ec49baee484e596",
+      "version": "https://annotations.allmaps.org/maps/5ec49baee484e596@3c0a25547a1fc67f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0563f79ceb6d2f10",
+        "version": "https://annotations.allmaps.org/images/0563f79ceb6d2f10@27db063a952b2a0b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6b6b93ad308e4b5e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/809186b48dba0d84"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.944965,
+      "area": 28115177.63
+    }
+  }
+}

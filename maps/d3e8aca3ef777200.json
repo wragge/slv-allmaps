@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d3e8aca3ef777200",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T05:01:34.359Z",
+  "modified": "2026-01-28T05:01:34.359Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489895:FL21304364.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5976,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489895/canvas/FL21304364",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489895/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Portland Harbour proposed breakwater, wharves & grain elevators /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5976\" height=\"7000\"><polygon points=\"265,420 344,6614 4688,6607 5267,3332 1913,488\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1729,
+            4004
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6063626291907,
+            -38.34640870468628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1328,
+            4761
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6034952889932,
+            -38.35049151785354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1643,
+            6431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.60540209801718,
+            -38.359803499508715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            641,
+            1700
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59902152630383,
+            -38.3336326770365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            626,
+            2842
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.59869355323588,
+            -38.339932751215116
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d3e8aca3ef777200",
+      "version": "https://annotations.allmaps.org/maps/d3e8aca3ef777200@8b2e09695344fc37",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e02b1b5d271dc1bb",
+        "version": "https://annotations.allmaps.org/images/e02b1b5d271dc1bb@a3f1a5bcbd0c37b8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bc36160a2e764c42",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8a5299eec2ea5214"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.623672,
+      "area": 9375554.45
+    }
+  }
+}

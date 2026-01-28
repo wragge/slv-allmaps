@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1225b2fb12a46ee2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T04:53:05.903Z",
+  "modified": "2026-01-28T04:53:05.903Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15471140:FL21372649.jpg",
+      "type": "ImageService2",
+      "height": 3120,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15471140/canvas/FL21372649",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15471140/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Parish of Poowong"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3120\"><polygon points=\"195,908 141,2461 2690,2325 5595,3021 6970,1361 4012,99\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6011,
+            1627
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.87581676290188,
+            -38.343801200685355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6325,
+            1334
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8884719729499,
+            -38.33689945847291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2206,
+            2140
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7415929477673,
+            -38.344011501642626
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1225b2fb12a46ee2",
+      "version": "https://annotations.allmaps.org/maps/1225b2fb12a46ee2@1d57d897ce0ad156",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c4af998ea3d96096",
+        "version": "https://annotations.allmaps.org/images/c4af998ea3d96096@da1a24bf6486d191",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a8a51bb40601432b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/450413e629518d56"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.326169,
+      "area": 119426272.25
+    }
+  }
+}

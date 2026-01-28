@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/874662032d33a863",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T04:10:13.455Z",
+  "modified": "2026-01-28T04:10:13.455Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15492495:FL21307712.jpg",
+      "type": "ImageService2",
+      "height": 4850,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15492495/canvas/FL21307712",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15492495/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Snowy River survey"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4850\"><polygon points=\"962,628 965,3880 6455,3887 6467,635\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5532,
+            2023
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.46337795638112,
+            -37.70719854312485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2030,
+            2083
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.40766974385446,
+            -37.69986211957953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4422,
+            3571
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.44106620237403,
+            -37.72408507820493
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/874662032d33a863",
+      "version": "https://annotations.allmaps.org/maps/874662032d33a863@7580d6eb014578ef",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/65229e4e12b05b08",
+        "version": "https://annotations.allmaps.org/images/65229e4e12b05b08@68c84934a91f441c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ba67eef203f5e076",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/76dbbb9b9c487d8c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.703782,
+      "area": 36094470.36
+    }
+  }
+}

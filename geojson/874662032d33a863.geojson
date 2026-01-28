@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/874662032d33a863",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-28T04:10:13.455Z",
+    "modified": "2026-01-28T04:10:13.455Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15492495:FL21307712.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15492495:FL21307712.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4850,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15492495/canvas/FL21307712",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15492495/manifest",
+              "label": {
+                "none": [
+                  "Snowy River survey"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "6c83fb472dc6850e",
+        "index": 1.7588242567152932,
+        "resource": [
+          5532,
+          2023
+        ],
+        "geo": [
+          148.46337795638112,
+          -37.70719854312485
+        ]
+      },
+      {
+        "id": "def086bc375601d9",
+        "index": 0.40440155045443005,
+        "resource": [
+          2030,
+          2083
+        ],
+        "geo": [
+          148.40766974385446,
+          -37.69986211957953
+        ]
+      },
+      {
+        "id": "9b9700f05451edc9",
+        "index": 2.809170376831574,
+        "resource": [
+          4422,
+          3571
+        ],
+        "geo": [
+          148.44106620237403,
+          -37.72408507820493
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        962,
+        628
+      ],
+      [
+        965,
+        3880
+      ],
+      [
+        6455,
+        3887
+      ],
+      [
+        6467,
+        635
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/874662032d33a863",
+      "version": "https://annotations.allmaps.org/maps/874662032d33a863@7580d6eb014578ef",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/65229e4e12b05b08",
+        "version": "https://annotations.allmaps.org/images/65229e4e12b05b08@68c84934a91f441c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ba67eef203f5e076",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/76dbbb9b9c487d8c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.703782,
+      "area": 36094470.36
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          148.395165363,
+          -37.679105929
+        ],
+        [
+          148.3853135,
+          -37.719982813
+        ],
+        [
+          148.472338268,
+          -37.732750033
+        ],
+        [
+          148.482427961,
+          -37.691914851
+        ],
+        [
+          148.395165363,
+          -37.679105929
+        ]
+      ]
+    ]
+  }
+}

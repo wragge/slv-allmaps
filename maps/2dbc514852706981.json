@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2dbc514852706981",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T08:54:59.203Z",
+  "modified": "2026-01-28T08:54:59.203Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9649072:FL20703252.jpg",
+      "type": "ImageService2",
+      "height": 4999,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9649072/canvas/FL20703252",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9649072/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Poowong East, counties of Mornington and Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4999\"><polygon points=\"2245,98 1601,4670 5041,4930 5782,232\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2866,
+            4453
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.8427846356085,
+            -38.368298904227466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2001,
+            4326
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.85092352775894,
+            -38.367577405949284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4906,
+            2772
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.90266529338749,
+            -38.33075921675982
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2dbc514852706981",
+      "version": "https://annotations.allmaps.org/maps/2dbc514852706981@5421061229a0860a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/26149ff3ef9a312b",
+        "version": "https://annotations.allmaps.org/images/26149ff3ef9a312b@b35e5b429d484435",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a363277ac86ba961",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0076070ebcd5cfd3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.820232,
+      "area": 24236170.39
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3b1e5d38efa2225c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-29T03:53:08.721Z",
+  "modified": "2026-01-29T03:53:08.721Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15467592:FL21372079.jpg",
+      "type": "ImageService2",
+      "height": 5441,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15467592/canvas/FL21372079",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15467592/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Victoria Hotel, Wangaratta"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5441\"><polygon points=\"518,3127 540,4578 2818,4528 3188,3828 2813,3122\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2271,
+            4006
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3249600021784,
+            -36.353675157372926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            704,
+            4327
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.31481512357436,
+            -36.3533637093742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            707,
+            3708
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.31582443403158,
+            -36.35020720269024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2833,
+            3933
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.32862940367164,
+            -36.35395710478213
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1940,
+            3701
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.32334072868235,
+            -36.35173078736371
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3b1e5d38efa2225c",
+      "version": "https://annotations.allmaps.org/maps/3b1e5d38efa2225c@efd7095983866e94",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fb3a0c4838015665",
+        "version": "https://annotations.allmaps.org/images/fb3a0c4838015665@88211224910fb8f2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ad164493b62f6bc9",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b596b8c3fa4f81ae"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.738819,
+      "area": 1167026.82
+    }
+  }
+}

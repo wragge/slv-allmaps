@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a4303fd2f39bd6d8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-29T03:49:53.469Z",
+  "modified": "2026-01-29T03:49:53.469Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7042717:FL21369603.jpg",
+      "type": "ImageService2",
+      "height": 3843,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7042717/canvas/FL21369603",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7042717/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia - North West Coast Cape Ford to Buccaneer Archipelago ."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3843\"><polygon points=\"134,199 111,3556 6859,3575 6844,215\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2473,
+            2633
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.56944030300338,
+            -15.364081696852168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5535,
+            2176
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.37410043980668,
+            -14.818350438859028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6475,
+            1560
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.50574145095646,
+            -14.071416349880934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2409,
+            3153
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.49122244649698,
+            -15.996190209108988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6772,
+            1072
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.89175055777918,
+            -13.442062252106778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2960,
+            2115
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            125.14345483098604,
+            -14.750260376586597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4077,
+            1458
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            126.55086782103109,
+            -13.936214786222832
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a4303fd2f39bd6d8",
+      "version": "https://annotations.allmaps.org/maps/a4303fd2f39bd6d8@d5812669dddd84ed",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f337778318d7e9a9",
+        "version": "https://annotations.allmaps.org/images/f337778318d7e9a9@ca8470bc80e2d04d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3c3b495691c2d732",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5e844b24d7683108"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00742,
+      "area": 410509399474.53
+    }
+  }
+}

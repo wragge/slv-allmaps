@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/ab2bad092366b4d7",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-29T02:38:35.398Z",
+    "modified": "2026-01-29T02:38:35.398Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497470:FL21303946.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497470:FL21303946.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6895,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497470/canvas/FL21303946",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497470/manifest",
+              "label": {
+                "none": [
+                  "Melbourne Harbor Trust general plan shewing river and harbor improvements"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "6f3dcc4af2d1584e",
+        "index": 2.95661114162722,
+        "resource": [
+          5356,
+          5176
+        ],
+        "geo": [
+          144.9546953032832,
+          -37.85080714296296
+        ]
+      },
+      {
+        "id": "7323f1af60713491",
+        "index": 0.5144230428982969,
+        "resource": [
+          1629,
+          6594
+        ],
+        "geo": [
+          144.90688951518268,
+          -37.86610810588057
+        ]
+      },
+      {
+        "id": "fc6347271324911b",
+        "index": 1.10954022672126,
+        "resource": [
+          4792,
+          952
+        ],
+        "geo": [
+          144.94695367293025,
+          -37.807075189651485
+        ]
+      },
+      {
+        "id": "021514c0eaa71519",
+        "index": 3.5083663743006737,
+        "resource": [
+          615,
+          382
+        ],
+        "geo": [
+          144.89271971238588,
+          -37.80141637758328
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        151,
+        157
+      ],
+      [
+        284,
+        6773
+      ],
+      [
+        6862,
+        6716
+      ],
+      [
+        6862,
+        1668
+      ],
+      [
+        5302,
+        1679
+      ],
+      [
+        5280,
+        183
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ab2bad092366b4d7",
+      "version": "https://annotations.allmaps.org/maps/ab2bad092366b4d7@fafd1480c3c1052b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dd7c1b525fb875b5",
+        "version": "https://annotations.allmaps.org/images/dd7c1b525fb875b5@428e6615246fb020",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/fb5f4cfbd79cc919",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fc6ee20e2610f49f"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.872018,
+      "area": 54342844.49
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.88674925,
+          -37.799182666
+        ],
+        [
+          144.889465586,
+          -37.868044811
+        ],
+        [
+          144.974489416,
+          -37.866773198
+        ],
+        [
+          144.97372865,
+          -37.814225895
+        ],
+        [
+          144.953564516,
+          -37.814501462
+        ],
+        [
+          144.95305467,
+          -37.798923946
+        ],
+        [
+          144.88674925,
+          -37.799182666
+        ]
+      ]
+    ]
+  }
+}

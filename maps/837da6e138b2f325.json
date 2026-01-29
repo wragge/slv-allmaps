@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/837da6e138b2f325",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-29T03:01:03.611Z",
+  "modified": "2026-01-29T03:01:03.611Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9589739:FL21664115.jpg",
+      "type": "ImageService2",
+      "height": 4987,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589739/canvas/FL21664115",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9589739/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of lagoon near Princes Bridge"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4987\"><polygon points=\"885,403 880,4362 6028,4334 6007,2647 4774,1272 2947,589\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5177,
+            4199
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97503964036503,
+            -37.822194017742156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1274,
+            746
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96828165734098,
+            -37.819335406446086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5093,
+            2155
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97399701484653,
+            -37.819958595287495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4124,
+            1521
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97185090060657,
+            -37.819162952142214
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/837da6e138b2f325",
+      "version": "https://annotations.allmaps.org/maps/837da6e138b2f325@3149117e2d5755f4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f15d7a93dcf456dd",
+        "version": "https://annotations.allmaps.org/images/f15d7a93dcf456dd@b03e11e8dddf0f62",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d9f881cc188cae91",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1036fa83f744ebc6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 7.88359,
+      "area": 276093
+    }
+  }
+}

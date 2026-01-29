@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/05b277c252eeb70b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-29T02:10:22.004Z",
+  "modified": "2026-01-29T02:10:22.004Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588577:FL21666838.jpg",
+      "type": "ImageService2",
+      "height": 4981,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588577/canvas/FL21666838",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588577/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne Harbor Trust general plan shewing river and harbor improvements"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4981\"><polygon points=\"-21,320 0,4981 6742,5003 6755,2083 4827,2083 4786,334\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6095,
+            2376
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96699056386046,
+            -37.81646202510078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4496,
+            1637
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94997953225675,
+            -37.810145086688244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4942,
+            2781
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95464469875344,
+            -37.8201066733438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            347,
+            806
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90512461294225,
+            -37.80316339325058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4211,
+            1290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94701369771633,
+            -37.807109858649625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5590,
+            4512
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96157708541148,
+            -37.83520719000093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3535,
+            4468
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93926025878727,
+            -37.83442092970663
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/05b277c252eeb70b",
+      "version": "https://annotations.allmaps.org/maps/05b277c252eeb70b@472cfc9ebc111ffc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/01827b12b975d9a0",
+        "version": "https://annotations.allmaps.org/images/01827b12b975d9a0@f391b3065c5b8f71",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/673d469540decd68",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b0d3432831f983b2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.047004,
+      "area": 25652150.83
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ec50d4423f97a82d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-28T22:51:24.376Z",
+  "modified": "2026-01-28T22:51:24.376Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038977:FL21369367.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4683,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038977/canvas/FL21369367",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038977/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia - East Coast Double Point to Cape Grafton ."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4683\" height=\"7000\"><polygon points=\"248,455 262,5634 1035,5751 1176,6776 4480,6852 4461,465\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1471,
+            2581
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.99427388073372,
+            -16.93146410878991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1105,
+            2271
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.91681356622593,
+            -16.86264195302688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1553,
+            3757
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0100079563312,
+            -17.15562281556595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            762,
+            2289
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.84972747975678,
+            -16.87323159050152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2101,
+            5980
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.1317397495655,
+            -17.601336945906823
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ec50d4423f97a82d",
+      "version": "https://annotations.allmaps.org/maps/ec50d4423f97a82d@c120b9c6c39fda0a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f170c9a81a929197",
+        "version": "https://annotations.allmaps.org/images/f170c9a81a929197@d94e3eb369a4617b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7019e5ab8d725218",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/84bca668b013a691"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.046099,
+      "area": 12155606860.32
+    }
+  }
+}

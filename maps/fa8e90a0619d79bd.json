@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fa8e90a0619d79bd",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-29T23:56:18.243Z",
+  "modified": "2026-01-29T23:56:18.243Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7385971:FL21479351.jpg",
+      "type": "ImageService2",
+      "height": 4854,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385971/canvas/FL21479351",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7385971/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Photo-map of Victoria]. 791 C2, Wangaratta"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4854\"><polygon points=\"263,233 297,4255 6671,4268 6659,218\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4084,
+            4034
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.19972772656178,
+            -36.43535968175191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6377,
+            2578
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.24635092439388,
+            -36.409514912128245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5730,
+            3007
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.2323948979573,
+            -36.41715458123398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3497,
+            3016
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.18697559012628,
+            -36.4181610016211
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2742,
+            3398
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.17098155694566,
+            -36.42488434526594
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fa8e90a0619d79bd",
+      "version": "https://annotations.allmaps.org/maps/fa8e90a0619d79bd@7c6b610e8420760b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c9843685e7f329c6",
+        "version": "https://annotations.allmaps.org/images/c9843685e7f329c6@05950017e0d0f999",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/08b70cee7f4f6f11",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6013ea47ad6af03e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.53144,
+      "area": 91243838.32
+    }
+  }
+}

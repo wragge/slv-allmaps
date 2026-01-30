@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b1610d32bfdae75f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-30T00:27:31.433Z",
+  "modified": "2026-01-30T00:27:31.433Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15490252:FL21307332.jpg",
+      "type": "ImageService2",
+      "height": 4567,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490252/canvas/FL21307332",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490252/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "City of Williamstown"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4567\"><polygon points=\"246,723 587,3072 1976,4373 6889,4398 6851,3261 5816,142 3542,104\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4221,
+            889
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88333658646025,
+            -37.82948514370564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6131,
+            3630
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90685384482612,
+            -37.86611034666058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4846,
+            3930
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.886427481839,
+            -37.86752823490861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4841,
+            3221
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88793618868726,
+            -37.85890486667819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2117,
+            2462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84701662558427,
+            -37.84499861621533
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b1610d32bfdae75f",
+      "version": "https://annotations.allmaps.org/maps/b1610d32bfdae75f@66d36cc450f721cc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/53c9155b35c69976",
+        "version": "https://annotations.allmaps.org/images/53c9155b35c69976@11334db718b43889",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/dd1e1fc0cea1a2f4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/39797e6aae8d0ea4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.728141,
+      "area": 44916723
+    }
+  }
+}

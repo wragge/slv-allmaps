@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/79a6a6f67fabbd79",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-30T00:18:55.967Z",
+  "modified": "2026-01-30T00:18:55.967Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15491070:FL21306746.jpg",
+      "type": "ImageService2",
+      "height": 6098,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491070/canvas/FL21306746",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491070/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "City of Melbourne block plan 1941"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6098\"><polygon points=\"408,316 521,4793 4859,4184 6106,5903 6686,5898 6593,2370 5319,2379 5316,331\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6290,
+            2712
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9887801125072,
+            -37.81095838287508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6245,
+            4579
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98372866543343,
+            -37.83427521397931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3611,
+            2791
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9470006700995,
+            -37.8071039214016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5250,
+            604
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97767192630374,
+            -37.782667421892654
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/79a6a6f67fabbd79",
+      "version": "https://annotations.allmaps.org/maps/79a6a6f67fabbd79@ee78250a73f194ec",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/29d9ee5d41d644bc",
+        "version": "https://annotations.allmaps.org/images/29d9ee5d41d644bc@615bd8cdf515d890",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b601044dfcbb8788",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ff53b7da7861250b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.717084,
+      "area": 47587459.41
+    }
+  }
+}

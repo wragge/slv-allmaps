@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/fe75e1972374ba0a",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-29T23:40:16.929Z",
+    "modified": "2026-01-29T23:40:16.929Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7192368:FL21460911.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7192368:FL21460911.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5012,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192368/canvas/FL21460911",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192368/manifest",
+              "label": {
+                "none": [
+                  "Township of Wangaratta, Ovens River, Sydney Road"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "1ed4da818be78d3b",
+        "index": 0.511165007374464,
+        "resource": [
+          3894,
+          2718
+        ],
+        "geo": [
+          146.32804561532532,
+          -36.35662290735246
+        ]
+      },
+      {
+        "id": "ae58e7ed5c926ac7",
+        "index": 2.0455747792609507,
+        "resource": [
+          1984,
+          4105
+        ],
+        "geo": [
+          146.3181334890528,
+          -36.36050759896418
+        ]
+      },
+      {
+        "id": "cf2269ec9fd8f4e8",
+        "index": 1.1715329163213035,
+        "resource": [
+          882,
+          1838
+        ],
+        "geo": [
+          146.31550454291556,
+          -36.35132033251148
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        211,
+        207
+      ],
+      [
+        120,
+        4760
+      ],
+      [
+        6865,
+        4786
+      ],
+      [
+        6767,
+        207
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fe75e1972374ba0a",
+      "version": "https://annotations.allmaps.org/maps/fe75e1972374ba0a@e51db48f69a83c2c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/172bb830835a7621",
+        "version": "https://annotations.allmaps.org/images/172bb830835a7621@d1142565f2ab7451",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f42e98dbe3db64fe",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7da45175aa9951cc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.409919,
+      "area": 5228592.93
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.314156294,
+          -36.34479172
+        ],
+        [
+          146.309163859,
+          -36.361695792
+        ],
+        [
+          146.339207101,
+          -36.366323639
+        ],
+        [
+          146.34338316,
+          -36.349196702
+        ],
+        [
+          146.314156294,
+          -36.34479172
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/2cb9d39e35f57399",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-30T00:32:18.214Z",
+    "modified": "2026-01-30T00:32:18.214Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498134:FL21058142.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498134:FL21058142.jpg",
+      "type": "ImageService2",
+      "width": 5336,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498134/canvas/FL21058142",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498134/manifest",
+              "label": {
+                "none": [
+                  "Plan shewing conduit & cable scheme for financial years 1911-1912"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "a79407b81db0ba0d",
+        "index": 1.3573668166107007,
+        "resource": [
+          2583,
+          4002
+        ],
+        "geo": [
+          144.97748093068515,
+          -37.85990165540757
+        ]
+      },
+      {
+        "id": "e30b0dfbdd62d4ab",
+        "index": 0.14116071181750556,
+        "resource": [
+          981,
+          4396
+        ],
+        "geo": [
+          144.90686332933382,
+          -37.86609894060591
+        ]
+      },
+      {
+        "id": "842eef5c8233d6c1",
+        "index": 2.2973072085269988,
+        "resource": [
+          1640,
+          2680
+        ],
+        "geo": [
+          144.94697775238296,
+          -37.80710327243954
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        7000
+      ],
+      [
+        5336,
+        7000
+      ],
+      [
+        5336,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2cb9d39e35f57399",
+      "version": "https://annotations.allmaps.org/maps/2cb9d39e35f57399@1c68435d2f5eedce",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a80d9ec0ad5aa7e2",
+        "version": "https://annotations.allmaps.org/images/a80d9ec0ad5aa7e2@520d76a8ebfd628f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7358fa32b2be5088",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/adbf9ce2c2a46a90"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.255047,
+      "area": 574213148.54
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.896640825,
+          -37.701331115
+        ],
+        [
+          144.846795544,
+          -37.955629846
+        ],
+        [
+          145.072666306,
+          -37.982602084
+        ],
+        [
+          145.122511587,
+          -37.728396495
+        ],
+        [
+          144.896640825,
+          -37.701331115
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fe75e1972374ba0a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-29T23:40:16.929Z",
+  "modified": "2026-01-29T23:40:16.929Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7192368:FL21460911.jpg",
+      "type": "ImageService2",
+      "height": 5012,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192368/canvas/FL21460911",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192368/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Wangaratta, Ovens River, Sydney Road"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5012\"><polygon points=\"211,207 120,4760 6865,4786 6767,207\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3894,
+            2718
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.32804561532532,
+            -36.35662290735246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1984,
+            4105
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3181334890528,
+            -36.36050759896418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            882,
+            1838
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.31550454291556,
+            -36.35132033251148
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fe75e1972374ba0a",
+      "version": "https://annotations.allmaps.org/maps/fe75e1972374ba0a@e51db48f69a83c2c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/172bb830835a7621",
+        "version": "https://annotations.allmaps.org/images/172bb830835a7621@d1142565f2ab7451",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f42e98dbe3db64fe",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7da45175aa9951cc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.409919,
+      "area": 5228592.93
+    }
+  }
+}

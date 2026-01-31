@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6921fc17f8eaa003",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-30T23:51:16.802Z",
+  "modified": "2026-01-30T23:51:16.802Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15503530:FL21376877.jpg",
+      "type": "ImageService2",
+      "height": 6390,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15503530/canvas/FL21376877",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15503530/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Richmond, plan of land held from the Trustees of the Church of England"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6390\"><polygon points=\"1136,1292 1015,6136 5574,6207 5617,1331\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2285,
+            4785
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99929591628018,
+            -37.81844334467827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1547,
+            5748
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99903540711836,
+            -37.818678020673694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2269,
+            1730
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99951069002117,
+            -37.817274613330305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2275,
+            5780
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9992667332724,
+            -37.81865310197175
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6921fc17f8eaa003",
+      "version": "https://annotations.allmaps.org/maps/6921fc17f8eaa003@900c531538678741",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a7745e1ef03bd575",
+        "version": "https://annotations.allmaps.org/images/a7745e1ef03bd575@79e2fe46db41d5c9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e39e79c38b8d8463",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2ac5a30431719fb0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 30.972222,
+      "area": 22904.41
+    }
+  }
+}

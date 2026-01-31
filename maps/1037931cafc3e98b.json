@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1037931cafc3e98b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T00:02:47.742Z",
+  "modified": "2026-01-31T00:02:47.742Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15455202:FL21375252.jpg",
+      "type": "ImageService2",
+      "height": 3854,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15455202/canvas/FL21375252",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15455202/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Town & municipality of Richmond"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3854\"><polygon points=\"306,674 285,2347 829,3029 2662,3584 5720,3168 6285,2390 4548,738\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3737,
+            1165
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00824798039645,
+            -37.81949855645143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1786,
+            1158
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98999108252968,
+            -37.81749575647486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3740,
+            2141
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0070024126594,
+            -37.82670649870207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1784,
+            2145
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98878883383503,
+            -37.824601851477546
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1037931cafc3e98b",
+      "version": "https://annotations.allmaps.org/maps/1037931cafc3e98b@337c93116d877790",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/59b3abbeb42da78f",
+        "version": "https://annotations.allmaps.org/images/59b3abbeb42da78f@b8293fedd4f41fa8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/588a368af2482108",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2f125a4a43536a77"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.214594,
+      "area": 9268866.66
+    }
+  }
+}

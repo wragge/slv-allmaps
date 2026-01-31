@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/958910a261c17828",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-30T23:58:52.761Z",
+    "modified": "2026-01-30T23:58:52.761Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15476530:FL21376735.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15476530:FL21376735.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4653,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15476530/canvas/FL21376735",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15476530/manifest",
+              "label": {
+                "none": [
+                  "For sale, Middle Brighton, 1 acre"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "01e4a36873d52a61",
+        "index": 1.726304379400979,
+        "resource": [
+          1785,
+          2545
+        ],
+        "geo": [
+          144.99911269869153,
+          -37.91808796160704
+        ]
+      },
+      {
+        "id": "115565574ec98e0d",
+        "index": 0.7080126103324906,
+        "resource": [
+          423,
+          4322
+        ],
+        "geo": [
+          144.99680943888575,
+          -37.91988955950843
+        ]
+      },
+      {
+        "id": "41993fc1061099ae",
+        "index": 2.1215822204752866,
+        "resource": [
+          4653,
+          4406
+        ],
+        "geo": [
+          145.00168922677568,
+          -37.92039769469282
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        3466,
+        106
+      ],
+      [
+        545,
+        1779
+      ],
+      [
+        0,
+        4653
+      ],
+      [
+        6696,
+        4635
+      ],
+      [
+        6618,
+        2203
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/958910a261c17828",
+      "version": "https://annotations.allmaps.org/maps/958910a261c17828@2a7ed3a47ec281a4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5ab1221603c86d38",
+        "version": "https://annotations.allmaps.org/images/5ab1221603c86d38@5ae11236bf8e800c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/505bb513d6242261",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/066213c1f8a2da53"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 8.859381,
+      "area": 289020.14
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.002055155,
+          -37.915596571
+        ],
+        [
+          144.997983049,
+          -37.917131377
+        ],
+        [
+          144.99618374,
+          -37.920208461
+        ],
+        [
+          145.0039696,
+          -37.92084837
+        ],
+        [
+          145.004865835,
+          -37.918191442
+        ],
+        [
+          145.002055155,
+          -37.915596571
+        ]
+      ]
+    ]
+  }
+}

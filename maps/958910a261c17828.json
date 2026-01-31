@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/958910a261c17828",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-30T23:58:52.761Z",
+  "modified": "2026-01-30T23:58:52.761Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15476530:FL21376735.jpg",
+      "type": "ImageService2",
+      "height": 4653,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15476530/canvas/FL21376735",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15476530/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "For sale, Middle Brighton, 1 acre"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4653\"><polygon points=\"3466,106 545,1779 0,4653 6696,4635 6618,2203\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1785,
+            2545
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99911269869153,
+            -37.91808796160704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            423,
+            4322
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99680943888575,
+            -37.91988955950843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4653,
+            4406
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00168922677568,
+            -37.92039769469282
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/958910a261c17828",
+      "version": "https://annotations.allmaps.org/maps/958910a261c17828@2a7ed3a47ec281a4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5ab1221603c86d38",
+        "version": "https://annotations.allmaps.org/images/5ab1221603c86d38@5ae11236bf8e800c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/505bb513d6242261",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/066213c1f8a2da53"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 8.859381,
+      "area": 289020.14
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/138f247716a3ce42",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-30T23:43:50.672Z",
+  "modified": "2026-01-30T23:43:50.672Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15466577:FL21374343.jpg",
+      "type": "ImageService2",
+      "height": 5607,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466577/canvas/FL21374343",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466577/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of sub-division of the paddock know as Richard Jack, Esq's and an adjacent property, situate in Church and Halifax Streets, Middle Brighton"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5607\"><polygon points=\"701,1323 688,2381 1633,3726 4208,4944 6195,3408 6210,1528\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4419,
+            4546
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99671281246947,
+            -37.91987461737101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4405,
+            2923
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99912226007405,
+            -37.91812761563123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2599,
+            2916
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99668265793758,
+            -37.91594287678485
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/138f247716a3ce42",
+      "version": "https://annotations.allmaps.org/maps/138f247716a3ce42@5d593a93322efec8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a1b327e2cf3e4e79",
+        "version": "https://annotations.allmaps.org/images/a1b327e2cf3e4e79@0ee9ab3abc88dca6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/130bf670125f5bf9",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1e1016f31195c32c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 5.614767,
+      "area": 460126.19
+    }
+  }
+}

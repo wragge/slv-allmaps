@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/de276bf2d4bef8df",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-30T23:56:09.381Z",
+  "modified": "2026-01-30T23:56:09.381Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15479266:FL21376635.jpg",
+      "type": "ImageService2",
+      "height": 5685,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479266/canvas/FL21376635",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479266/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Bowling Green Hotel, and allotments of land at Hawthorne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5685\"><polygon points=\"141,2142 103,5408 6961,5449 6913,2220\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1208,
+            4078
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.01780732164116,
+            -37.81883652616131
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3682,
+            4158
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0187730635841,
+            -37.81892592761443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2276,
+            2343
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.01827717200905,
+            -37.81834224657758
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/de276bf2d4bef8df",
+      "version": "https://annotations.allmaps.org/maps/de276bf2d4bef8df@d3f787c3352ae11b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/1dc72f1fd2b932b1",
+        "version": "https://annotations.allmaps.org/images/1dc72f1fd2b932b1@0b3e6076e7a46043",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6f7279be4706d720",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d3467150126703df"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 29.369141,
+      "area": 25658.23
+    }
+  }
+}

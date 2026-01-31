@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b0c6b175f2f2bf5b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T01:21:24.259Z",
+  "modified": "2026-01-31T01:21:24.259Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497485:FL21304102.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5530,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497485/canvas/FL21304102",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497485/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Cave country Buchan and Snowy River district /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5530\" height=\"7000\"><polygon points=\"703,2184 685,6328 4030,6335 4398,3760 4940,1689\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1077,
+            3707
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.16841061652423,
+            -37.43632185305864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1901,
+            5424
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.1921743013679,
+            -37.502016938105676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3551,
+            5549
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.26581322076555,
+            -37.51666807702567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1422,
+            5438
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.17265582475176,
+            -37.4987886233499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2047,
+            3800
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.2115009607885,
+            -37.44606848743517
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b0c6b175f2f2bf5b",
+      "version": "https://annotations.allmaps.org/maps/b0c6b175f2f2bf5b@b3d145040bdb93cd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/619fc66f4ae142b3",
+        "version": "https://annotations.allmaps.org/images/619fc66f4ae142b3@ae37b457d9cd6916",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d25cc18e05c6f906",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7cbec0f72a4fc7a3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.252443,
+      "area": 254702233.76
+    }
+  }
+}

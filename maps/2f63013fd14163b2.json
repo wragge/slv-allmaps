@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2f63013fd14163b2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T01:03:08.426Z",
+  "modified": "2026-01-31T01:03:08.426Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15494897:FL21304302.jpg",
+      "type": "ImageService2",
+      "height": 4947,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494897/canvas/FL21304302",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494897/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Lower Glenelg National Park"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4947\"><polygon points=\"605,44 613,1879 4876,4410 6931,4389 6952,113\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1011,
+            712
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.99000142380703,
+            -37.9914690532782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4416,
+            1366
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.2443957999455,
+            -38.03761495410476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1281,
+            1688
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.00873454758266,
+            -38.04782355100353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3376,
+            2068
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.164395968181,
+            -38.07478327386646
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2f63013fd14163b2",
+      "version": "https://annotations.allmaps.org/maps/2f63013fd14163b2@c19c732d587f8fff",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/aee9c9cd3adbf8cb",
+        "version": "https://annotations.allmaps.org/images/aee9c9cd3adbf8cb@67d8c160777964c5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ccd6ce9eff5d0651",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/10a6b4b307a7c7b2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.155047,
+      "area": 915264799.94
+    }
+  }
+}

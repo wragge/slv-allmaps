@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/84fa5247bc34a6aa",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T01:16:41.377Z",
+  "modified": "2026-01-31T01:16:41.377Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9542163:FL21650722.jpg",
+      "type": "ImageService2",
+      "height": 5635,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9542163/canvas/FL21650722",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9542163/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Agricultural Reserve at Violet Town, Parish of Shadford"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5635\"><polygon points=\"2242,736 2311,4546 6149,4529 6183,793\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3470,
+            3093
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.70200329005382,
+            -36.631840238187856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4425,
+            3323
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7156254769239,
+            -36.636517878433445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4859,
+            3740
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.72115095078402,
+            -36.64237881496033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4395,
+            2941
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7163632325395,
+            -36.631702086779434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4606,
+            2808
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.71979483922775,
+            -36.630628832273466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3324,
+            3679
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.698218956029,
+            -36.639012094288105
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/84fa5247bc34a6aa",
+      "version": "https://annotations.allmaps.org/maps/84fa5247bc34a6aa@ed772d0bd9231930",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7ead664d46e64d30",
+        "version": "https://annotations.allmaps.org/images/7ead664d46e64d30@e3e9f8ac571e7b03",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c1e7144a89d4181f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/04121b7267783850"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.728656,
+      "area": 27639161.99
+    }
+  }
+}

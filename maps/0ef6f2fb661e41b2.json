@@ -1,0 +1,205 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0ef6f2fb661e41b2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T01:11:08.866Z",
+  "modified": "2026-01-31T01:11:08.866Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588370:FL20704363.jpg",
+      "type": "ImageService2",
+      "height": 4215,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588370/canvas/FL20704363",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588370/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Terrain patterns, Albury-Wodonga, New South Wales and Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4215\"><polygon points=\"0,0 0,4215 7000,4215 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4376,
+            401
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.07621384252695,
+            -36.16873610894789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4439,
+            551
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.08463270432782,
+            -36.185325600695684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4850,
+            779
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1420310861435,
+            -36.21217929619495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4446,
+            1176
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.08924856719437,
+            -36.258481343027015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4285,
+            209
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.06333791790536,
+            -36.1457448873703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1866,
+            3793
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.71992060114053,
+            -36.5583410216404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3981,
+            193
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.0214911472986,
+            -36.145344980654464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1578,
+            2141
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68101953460405,
+            -36.36737473807495
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0ef6f2fb661e41b2",
+      "version": "https://annotations.allmaps.org/maps/0ef6f2fb661e41b2@305e13a1c2d03283",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b9de56f1339bcd65",
+        "version": "https://annotations.allmaps.org/images/b9de56f1339bcd65@485fe82362f08112",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5aba1a15ef42ba68",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/faacee6ddfeaa8c6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.078521,
+      "area": 4785484675.73
+    }
+  }
+}

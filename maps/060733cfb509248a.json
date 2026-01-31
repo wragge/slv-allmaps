@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/060733cfb509248a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T01:07:48.272Z",
+  "modified": "2026-01-31T01:07:48.272Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588370:FL20704364.jpg",
+      "type": "ImageService2",
+      "height": 4235,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588370/canvas/FL20704364",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588370/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Terrain patterns, Albury-Wodonga, New South Wales and Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4235\"><polygon points=\"0,0 0,4235 7000,4235 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4145,
+            189
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.03716290567888,
+            -35.66783436675127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1849,
+            410
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.72111970032375,
+            -35.69013880728531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3144,
+            1064
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.90104984850547,
+            -35.76520606148905
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/060733cfb509248a",
+      "version": "https://annotations.allmaps.org/maps/060733cfb509248a@62e041d1724248c6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5704c903379f55b2",
+        "version": "https://annotations.allmaps.org/images/5704c903379f55b2@3ac8b0e22e558f68",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5fd4260f7adb3e0a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/faacee6ddfeaa8c6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.080289,
+      "area": 4598703252.39
+    }
+  }
+}

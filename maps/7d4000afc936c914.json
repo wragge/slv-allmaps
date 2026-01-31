@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/7d4000afc936c914",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T05:19:01.687Z",
+  "modified": "2026-01-31T05:19:01.687Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7118072:FL21456871.jpg",
+      "type": "ImageService2",
+      "height": 5668,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118072/canvas/FL21456871",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118072/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Government House reserve Botanic Garden and its Domain indicating the principal plantations /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5668\"><polygon points=\"966,1164 997,5239 5086,5209 6342,1571 6154,458\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3119,
+            4028
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98063760229132,
+            -37.82985397914693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4001,
+            5105
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98497467532792,
+            -37.82772211370262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6108,
+            1249
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9727373845892,
+            -37.81892983983294
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/7d4000afc936c914",
+      "version": "https://annotations.allmaps.org/maps/7d4000afc936c914@2df9bd1003748fac",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/059a88ed803407e4",
+        "version": "https://annotations.allmaps.org/images/059a88ed803407e4@13aa178483005ebb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/10132a7c7c102dae",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/076a303bb1ff0c5b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.00599,
+      "area": 2359438.01
+    }
+  }
+}

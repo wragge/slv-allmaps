@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/58f0d8e5d281cbb6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T05:52:50.232Z",
+  "modified": "2026-01-31T05:52:50.232Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15494992:FL21304968.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5031,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494992/canvas/FL21304968",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494992/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Toolangi-Black Range Management Area vegetation types /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5031\" height=\"7000\"><polygon points=\"2071,145 1125,1306 206,3073 162,5248 4865,5231 4867,139\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            505,
+            3534
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.12665978627126,
+            -37.51242457578575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2266,
+            4722
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.3757896545896,
+            -37.652248502330494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4488,
+            695
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.70962930255934,
+            -37.19180129637005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2465,
+            927
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.41583496743448,
+            -37.21391329422969
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/58f0d8e5d281cbb6",
+      "version": "https://annotations.allmaps.org/maps/58f0d8e5d281cbb6@86176a0fc965b777",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ad2a0d1aa00982ba",
+        "version": "https://annotations.allmaps.org/images/ad2a0d1aa00982ba@16faa45e25ce5a6f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6935f7dd0da64050",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/dee7c0b47f3224ec"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.078152,
+      "area": 3498536016.65
+    }
+  }
+}

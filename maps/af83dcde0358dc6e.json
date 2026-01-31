@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/af83dcde0358dc6e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T04:58:18.101Z",
+  "modified": "2026-01-31T04:58:18.101Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9585681:FL21666852.jpg",
+      "type": "ImageService2",
+      "height": 6423,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585681/canvas/FL21666852",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585681/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Botanic gardens Queen Victoria Gardens, Alexandra Park /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6423\"><polygon points=\"220,218 203,1656 1215,2171 2956,6114 6703,6114 6650,253\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6467,
+            3616
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98485224515468,
+            -37.82831823786574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1290,
+            1160
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96827361512857,
+            -37.81924090727363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6491,
+            5372
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98388917698372,
+            -37.833238227579926
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/af83dcde0358dc6e",
+      "version": "https://annotations.allmaps.org/maps/af83dcde0358dc6e@b295539f59d3fd80",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/dde112e12b36f6df",
+        "version": "https://annotations.allmaps.org/images/dde112e12b36f6df@326cc4031dddff61",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b69ac0d027ffd4af",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c99007bfeb227ecc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.199068,
+      "area": 2966453.8
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2e1887f87f2aed7a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T05:08:37.986Z",
+  "modified": "2026-01-31T05:08:37.986Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15504000:FL21304484.jpg",
+      "type": "ImageService2",
+      "height": 6062,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15504000/canvas/FL21304484",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15504000/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Guide plan to the Melbourne Botanic Gardens and surroundings ; Stephens' map of Melbourne and suburbs Guide plan to the Melbourne Botanic Gardens and surroundings ; Stephens' map of Melbourne and suburbs"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6062\"><polygon points=\"886,449 807,5285 6133,5254 6172,487\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1704,
+            1218
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9682424310804,
+            -37.81922979068973
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5960,
+            3063
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98497258517654,
+            -37.8276765238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1424,
+            714
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96737765059538,
+            -37.817461663761904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5687,
+            5034
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98251652291367,
+            -37.83411659568451
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2e1887f87f2aed7a",
+      "version": "https://annotations.allmaps.org/maps/2e1887f87f2aed7a@47722401c31808c8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6a5ed7db04707ba4",
+        "version": "https://annotations.allmaps.org/images/6a5ed7db04707ba4@e4e40848ef841778",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/27356b54c12914d4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8f0e19f3c4206adc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.663115,
+      "area": 3592261.71
+    }
+  }
+}

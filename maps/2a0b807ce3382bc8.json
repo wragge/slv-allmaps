@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2a0b807ce3382bc8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T04:52:03.951Z",
+  "modified": "2026-01-31T04:52:03.951Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22963180:FL22963880.jpg",
+      "type": "ImageService2",
+      "height": 5296,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22963180/canvas/FL22963880",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6338"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22963180/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Yarra 2500 [base map] 11-14, Parishes of Bulleen 2264 Boroondara 2209 and Keelbundora 2856, Municipalities of Doncaster and Templestowe 243 Camberwell 223 Heidelberg 228 and Kew 215"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5296\"><polygon points=\"887,909 895,4446 6506,4409 6513,916\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2110,
+            1324
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.05309959184973,
+            -37.77336278531968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4635,
+            3768
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06326731235777,
+            -37.78152324941551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4962,
+            1771
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06476380242145,
+            -37.77505894123819
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2a0b807ce3382bc8",
+      "version": "https://annotations.allmaps.org/maps/2a0b807ce3382bc8@6cf6c260fcd6e923",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/77d04ce1313a0d26",
+        "version": "https://annotations.allmaps.org/images/77d04ce1313a0d26@f328f25bee6b41ce",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/288b6c2d0fe52608",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e986f0e9b4357ab8"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.768605,
+      "area": 2576463
+    }
+  }
+}

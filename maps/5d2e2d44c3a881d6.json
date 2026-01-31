@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5d2e2d44c3a881d6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T05:47:33.372Z",
+  "modified": "2026-01-31T05:47:33.372Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486479:FL21307244.jpg",
+      "type": "ImageService2",
+      "height": 5292,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486479/canvas/FL21307244",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486479/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Chief vegetational regions of Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5292\"><polygon points=\"481,423 520,4782 6471,4752 6469,1724 4592,1657 4585,431\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            986,
+            4036
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.37016202309604,
+            -38.38036408325819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6361,
+            3351
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.97927003238192,
+            -37.50674632927283
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            569,
+            575
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96182133254337,
+            -33.986347658740065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3805,
+            4411
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.919859451308,
+            -38.90160510905585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4456,
+            2175
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.91149458380056,
+            -36.08062995917596
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5d2e2d44c3a881d6",
+      "version": "https://annotations.allmaps.org/maps/5d2e2d44c3a881d6@8eab1c8d094b277f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5469245eaf9a857f",
+        "version": "https://annotations.allmaps.org/images/5469245eaf9a857f@245889ba3824a45c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b4630fd142e7f036",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/36363e1c0e92087a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007069,
+      "area": 470928039566.34
+    }
+  }
+}

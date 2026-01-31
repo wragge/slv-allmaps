@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/c279d7b033f65297",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-31T05:24:43.046Z",
+    "modified": "2026-01-31T05:24:43.046Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15504005:FL21304522.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15504005:FL21304522.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4594,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15504005/canvas/FL21304522",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15504005/manifest",
+              "label": {
+                "none": [
+                  "Landscape map : Gippsland Lakes area / Landscape map Gippsland Lakes area"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "6b726cb40482ac81",
+        "index": 0.8047501339386088,
+        "resource": [
+          4045,
+          3383
+        ],
+        "geo": [
+          147.28177887592153,
+          -38.137086925473355
+        ]
+      },
+      {
+        "id": "75b68dcb954f5bb3",
+        "index": 2.9794664276851104,
+        "resource": [
+          5740,
+          2675
+        ],
+        "geo": [
+          147.41307821218857,
+          -38.09484810568213
+        ]
+      },
+      {
+        "id": "dbd14f068d3da985",
+        "index": 1.934059687071399,
+        "resource": [
+          3552,
+          2466
+        ],
+        "geo": [
+          147.24384792281802,
+          -38.081069298964074
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        379,
+        1045
+      ],
+      [
+        341,
+        3903
+      ],
+      [
+        4752,
+        4552
+      ],
+      [
+        6388,
+        3179
+      ],
+      [
+        6961,
+        886
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c279d7b033f65297",
+      "version": "https://annotations.allmaps.org/maps/c279d7b033f65297@0009ba390a0ffb8e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/26d2d730460cc488",
+        "version": "https://annotations.allmaps.org/images/26d2d730460cc488@468c25002f6f3064",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4f46c2fa2166ddea",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4ad3dda7019c05e5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.147744,
+      "area": 901908446.7
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.998690088,
+          -37.993007409
+        ],
+        [
+          146.995093062,
+          -38.166901618
+        ],
+        [
+          147.336208365,
+          -38.208474463
+        ],
+        [
+          147.463095958,
+          -38.125818891
+        ],
+        [
+          147.507954268,
+          -37.986520046
+        ],
+        [
+          146.998690088,
+          -37.993007409
+        ]
+      ]
+    ]
+  }
+}

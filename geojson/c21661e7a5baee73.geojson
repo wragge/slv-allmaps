@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/c21661e7a5baee73",
+    "type": "GeoreferencedMap",
+    "created": "2026-01-31T05:05:15.589Z",
+    "modified": "2026-01-31T05:05:15.589Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7179342:FL21456973.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7179342:FL21456973.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 6378,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179342/canvas/FL21456973",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7179342/manifest",
+              "label": {
+                "none": [
+                  "Plan of the Government House reserve Botanic Garden and its Domain indicating the principal plantations /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "27cd280e9d64c0b4",
+        "index": 4.120437621589488,
+        "resource": [
+          1317,
+          2570
+        ],
+        "geo": [
+          144.97214950817437,
+          -37.832799569010554
+        ]
+      },
+      {
+        "id": "65e0dfbbfd602ab4",
+        "index": 2.5558052054535727,
+        "resource": [
+          4641,
+          6053
+        ],
+        "geo": [
+          144.98495475327525,
+          -37.82768608679238
+        ]
+      },
+      {
+        "id": "89d5183030117d2b",
+        "index": 0.9201002637807276,
+        "resource": [
+          6324,
+          250
+        ],
+        "geo": [
+          144.96826209525318,
+          -37.819195645635695
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        6378
+      ],
+      [
+        7000,
+        6378
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c21661e7a5baee73",
+      "version": "https://annotations.allmaps.org/maps/c21661e7a5baee73@99a4b3b44073f89e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/72bf9d39a7ff4ea7",
+        "version": "https://annotations.allmaps.org/images/72bf9d39a7ff4ea7@c34eb71dd308f760",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c62f4ba595213967",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8bea13ba353f2d31"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.641766,
+      "area": 3366343.43
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.963430975,
+          -37.833897529
+        ],
+        [
+          144.98296677,
+          -37.838870891
+        ],
+        [
+          144.987466706,
+          -37.822382562
+        ],
+        [
+          144.967930911,
+          -37.817408088
+        ],
+        [
+          144.963430975,
+          -37.833897529
+        ]
+      ]
+    ]
+  }
+}

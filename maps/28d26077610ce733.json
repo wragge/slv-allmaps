@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/28d26077610ce733",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-01-31T05:14:17.773Z",
+  "modified": "2026-01-31T05:14:17.773Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15490207:FL21306968.jpg",
+      "type": "ImageService2",
+      "height": 5874,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490207/canvas/FL21306968",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490207/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Royal Botanic Gardens, Melbourne"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5874\"><polygon points=\"1343,212 355,2350 375,3605 2349,5634 5197,5639 6040,1661 2864,223\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3276,
+            3412
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98043624990544,
+            -37.830259238358195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5387,
+            1843
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.984917574041,
+            -37.82780784359212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4934,
+            5157
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98389500149761,
+            -37.83324955196765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1471,
+            3920
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97661650203776,
+            -37.831063886882546
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/28d26077610ce733",
+      "version": "https://annotations.allmaps.org/maps/28d26077610ce733@bdb5513653ecb360",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/adcca46794c8b90a",
+        "version": "https://annotations.allmaps.org/images/adcca46794c8b90a@22de0ae4fc1f6084",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/df224a6429b5fdb1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/654d0e139ff5f9e1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 5.422477,
+      "area": 806710.3
+    }
+  }
+}

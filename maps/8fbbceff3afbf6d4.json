@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8fbbceff3afbf6d4",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T01:36:42.697Z",
+  "modified": "2026-02-02T01:36:42.697Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486230:FL21305288.jpg",
+      "type": "ImageService2",
+      "height": 5027,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486230/canvas/FL21305288",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486230/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "State of Victoria, Commonwealth of Australia showing water supply, agriculture, railways, and other features / State of Victoria, Commonwealth of Australia"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5027\"><polygon points=\"335,198 363,3910 2309,4605 4464,4688 6647,3701 6660,3020 5465,1713 2921,1157 1489,226\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3094,
+            2013
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.75114026836775,
+            -36.12056452350171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6601,
+            3256
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.97116622352252,
+            -37.503048137628696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            595,
+            3710
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96902365747138,
+            -38.04340913092736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            399,
+            287
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96378276152996,
+            -33.983658473146725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4233,
+            4242
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.44970337611863,
+            -38.77232551438976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1359,
+            2548
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.1945688729782,
+            -36.71434609866797
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8fbbceff3afbf6d4",
+      "version": "https://annotations.allmaps.org/maps/8fbbceff3afbf6d4@c76627a3cb139b21",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9e2f253d12cf789a",
+        "version": "https://annotations.allmaps.org/images/9e2f253d12cf789a@30bf6af38270495a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/eb8110f67a52c6e0",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3349bbe55199abf2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007562,
+      "area": 346983896758.9
+    }
+  }
+}

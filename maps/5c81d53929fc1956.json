@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5c81d53929fc1956",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T01:38:57.378Z",
+  "modified": "2026-02-02T01:38:57.378Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9586400:FL21664128.jpg",
+      "type": "ImageService2",
+      "height": 5007,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9586400/canvas/FL21664128",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9586400/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Victoria railways, schools, etc. ; Victoria : water supply and agriculture / Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5007\"><polygon points=\"237,197 154,3977 2217,4711 4169,4808 6745,3645 6814,1914 3103,1637 1345,322\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6516,
+            3381
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.9704481119586,
+            -37.50169608782251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1290,
+            578
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.15520572763427,
+            -34.19137564577604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            966,
+            3991
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.58660796546593,
+            -38.36630271157422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3185,
+            3533
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9516411523934,
+            -37.79819417863114
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5c81d53929fc1956",
+      "version": "https://annotations.allmaps.org/maps/5c81d53929fc1956@588f3b3cba10e09a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d496a1f73c95b9f2",
+        "version": "https://annotations.allmaps.org/images/d496a1f73c95b9f2@41ba1de6918ff821",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/705c3e90d4efbbdd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/14a13f9ed1760860"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007437,
+      "area": 371687045823.11
+    }
+  }
+}

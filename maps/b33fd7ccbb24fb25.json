@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b33fd7ccbb24fb25",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T00:41:37.212Z",
+  "modified": "2026-02-02T00:41:37.212Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE20547001:FL21569329.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4952,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE20547001/canvas/FL21569329",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "9781741466904"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE20547001/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Fire operations plan 2015/16 - 2017/18 : Grampians region. Fire operations plan 2015/16 - 2017/18 : Grampians region"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4952\" height=\"7000\"><polygon points=\"0,0 24,6103 4936,6095 4952,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4145,
+            5512
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.12984028479678,
+            -37.20628864456535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3429,
+            1099
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.94859868616538,
+            -36.11447730658529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4714,
+            3529
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.32203955589438,
+            -36.72441196046361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1419,
+            4913
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.30333508147305,
+            -37.03619470298316
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b33fd7ccbb24fb25",
+      "version": "https://annotations.allmaps.org/maps/b33fd7ccbb24fb25@2352ebbd1ff80c22",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c68d339dd0c4a859",
+        "version": "https://annotations.allmaps.org/images/c68d339dd0c4a859@f54a324560dbe717",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6da7219bc66ebcf7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7860a49dd5644ec4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.036573,
+      "area": 22488172020.09
+    }
+  }
+}

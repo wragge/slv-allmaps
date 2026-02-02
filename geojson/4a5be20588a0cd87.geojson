@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/4a5be20588a0cd87",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-02T01:08:59.041Z",
+    "modified": "2026-02-02T01:08:59.041Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486705:FL21305082.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486705:FL21305082.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5363,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486705/canvas/FL21305082",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486705/manifest",
+              "label": {
+                "none": [
+                  "Average annual rainfall map of Victoria all years of record / Average annual rainfall map of Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "79b6897cabbe6e1d",
+        "index": 2.00159871313336,
+        "resource": [
+          1484,
+          627
+        ],
+        "geo": [
+          142.14967185002575,
+          -34.188934810081065
+        ]
+      },
+      {
+        "id": "7e5aecd7c3c18713",
+        "index": 1.0361711783391576,
+        "resource": [
+          1215,
+          3891
+        ],
+        "geo": [
+          141.6039455607925,
+          -38.34587797914175
+        ]
+      },
+      {
+        "id": "d2867065756103cf",
+        "index": 0.06926822936593069,
+        "resource": [
+          6493,
+          3258
+        ],
+        "geo": [
+          149.97684387891348,
+          -37.50129054427544
+        ]
+      },
+      {
+        "id": "60990fdae94ad62f",
+        "index": 3.4260165170413845,
+        "resource": [
+          4570,
+          2106
+        ],
+        "geo": [
+          146.91620725126802,
+          -36.082870914891814
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        197,
+        408
+      ],
+      [
+        168,
+        4082
+      ],
+      [
+        4230,
+        4682
+      ],
+      [
+        6760,
+        3332
+      ],
+      [
+        6760,
+        430
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4a5be20588a0cd87",
+      "version": "https://annotations.allmaps.org/maps/4a5be20588a0cd87@c718e5f7752f644b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a6c6dbc47574a816",
+        "version": "https://annotations.allmaps.org/images/a6c6dbc47574a816@587f1b295e604760",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/92334cb639dc2c23",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8eafeb05737b0fb2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007119,
+      "area": 495709020744.78
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.109327038,
+          -33.920479559
+        ],
+        [
+          139.947645522,
+          -38.591080461
+        ],
+        [
+          146.33751736,
+          -39.289443417
+        ],
+        [
+          150.371811453,
+          -37.598169513
+        ],
+        [
+          150.463379178,
+          -33.884239754
+        ],
+        [
+          140.109327038,
+          -33.920479559
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9b5f77a250fd0e54",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T01:30:16.401Z",
+  "modified": "2026-02-02T01:30:16.401Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15489365:FL21307734.jpg",
+      "type": "ImageService2",
+      "height": 5019,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489365/canvas/FL21307734",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15489365/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Contour and rainfall map of Victoria and Riverina issued as a supplement with the special agricultural number of \"The Leader\", 1896. Contour and rainfall map of Victoria and Riverina"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5019\"><polygon points=\"116,241 97,4122 1914,4725 4033,4905 5080,3924 6846,3702 6899,233\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3659,
+            4620
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.91836672707626,
+            -38.90922153431107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6707,
+            1910
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.1514513491707,
+            -35.90525001099022
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4091,
+            896
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.53951766204227,
+            -34.75763070246778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            612,
+            4095
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.60370437135424,
+            -38.34588995733793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            889,
+            404
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.12348916785714,
+            -34.20111972840743
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9b5f77a250fd0e54",
+      "version": "https://annotations.allmaps.org/maps/9b5f77a250fd0e54@5a02a0ce89c9c9d5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f9e22220327a3bac",
+        "version": "https://annotations.allmaps.org/images/f9e22220327a3bac@cab5d7dc5d6da8b6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/55f01c73d6dfbd1e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d973c233fc098091"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.008071,
+      "area": 430608362099.56
+    }
+  }
+}

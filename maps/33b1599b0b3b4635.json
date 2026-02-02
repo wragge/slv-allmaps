@@ -1,0 +1,221 @@
+{
+  "id": "https://annotations.allmaps.org/maps/33b1599b0b3b4635",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T01:15:59.964Z",
+  "modified": "2026-02-02T01:15:59.964Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588726:FL21664191.jpg",
+      "type": "ImageService2",
+      "height": 4540,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588726/canvas/FL21664191",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588726/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tullaroop Creek Reservoir rainfall and gauging stations."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4540\"><polygon points=\"556,73 602,4488 4311,4465 4304,4029 6920,3979 6884,2542 5177,2554 5162,78\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1757,
+            4164
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.62811488266289,
+            -37.483132818097694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3345,
+            1053
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.9667459751529,
+            -36.981543401829555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3306,
+            3515
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.95473956561233,
+            -37.37302431424377
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            936,
+            1743
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.470164279961,
+            -37.08896071307101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3034,
+            3799
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.89439497986325,
+            -37.42447220016084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5892,
+            2838
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4985788586036,
+            -37.2823187980994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2528,
+            3017
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.7865598681886,
+            -37.29445776959923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6307,
+            3724
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.56291448254137,
+            -37.421542368144834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1154,
+            2900
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.51532488886892,
+            -37.27540941436593
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/33b1599b0b3b4635",
+      "version": "https://annotations.allmaps.org/maps/33b1599b0b3b4635@4fee703b40cd1fdb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c2d23a7f56d23623",
+        "version": "https://annotations.allmaps.org/images/c2d23a7f56d23623@7135cd4b610fb88c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4d4e9bf477b5e853",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/71549cc213a75250"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.055221,
+      "area": 7319011412.64
+    }
+  }
+}

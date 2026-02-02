@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/aaf64b1776082202",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T01:33:10.537Z",
+  "modified": "2026-02-02T01:33:10.537Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15487041:FL21308148.jpg",
+      "type": "ImageService2",
+      "height": 6592,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15487041/canvas/FL21308148",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15487041/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Rain map of Victoria year 1921 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6592\"><polygon points=\"335,1554 330,5033 2203,5572 3991,5717 6377,4611 6727,2824 6684,1507\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6349,
+            4164
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.03071446030202,
+            -37.26290312458871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            891,
+            4997
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6038255022848,
+            -38.34568494328684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1161,
+            1643
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.15666722188126,
+            -34.189431918813476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4389,
+            3161
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.91647530884933,
+            -36.08056340608754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3951,
+            5607
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.38215335746747,
+            -39.13814688616594
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/aaf64b1776082202",
+      "version": "https://annotations.allmaps.org/maps/aaf64b1776082202@98af4efa505a0ff2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/01168089931d927b",
+        "version": "https://annotations.allmaps.org/images/01168089931d927b@101a1f2f4ab7acfb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1b4676b94425709c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f076aa03e55dd80d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007292,
+      "area": 447950451122.14
+    }
+  }
+}

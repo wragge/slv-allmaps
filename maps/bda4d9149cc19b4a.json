@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bda4d9149cc19b4a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T00:57:02.616Z",
+  "modified": "2026-02-02T00:57:02.616Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE20547697:FL21569382.jpg",
+      "type": "ImageService2",
+      "height": 4952,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE20547697/canvas/FL21569382",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "9781741466904"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE20547697/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Fire operations plan 2015/16 - 2017/18 : Grampians region. Fire operations plan 2015/16 - 2017/18 : Grampians region"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4952\"><polygon points=\"31,24 42,4896 5874,4906 5907,53\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4148,
+            500
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.27353497813385,
+            -37.01234415319125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            690,
+            1396
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.94672634267357,
+            -37.27109148166669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            692,
+            4553
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.9196196835038,
+            -38.24041440167775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4571,
+            4133
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4255898514662,
+            -38.12387876951103
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2978,
+            2287
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.81892296184714,
+            -37.55591914859598
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bda4d9149cc19b4a",
+      "version": "https://annotations.allmaps.org/maps/bda4d9149cc19b4a@d14661b5eaaf0c4e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/36b0b96b1894a14b",
+        "version": "https://annotations.allmaps.org/images/36b0b96b1894a14b@27307c3f7d7df6d0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8fee4119c198f450",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d7ac2199520aeab0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.029403,
+      "area": 32925946927.41
+    }
+  }
+}

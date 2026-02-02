@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a2fe8d24dfd0850a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T07:16:56.439Z",
+  "modified": "2026-02-02T07:16:56.439Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7030683:FL21353647.jpg",
+      "type": "ImageService2",
+      "height": 4952,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030683/canvas/FL21353647",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7030683/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Agricultural and grazing allotments avalible near town of Portland"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4952\"><polygon points=\"1063,136 1146,1971 2565,2204 2633,3744 4933,3712 5686,4332 6900,4368 6632,204\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5116,
+            1619
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.62124713629697,
+            -38.367201989839884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2442,
+            1963
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.56999119777174,
+            -38.36737689581144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4198,
+            765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.6060355932209,
+            -38.35264631764898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4651,
+            2571
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.610067169187,
+            -38.3804228706006
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a2fe8d24dfd0850a",
+      "version": "https://annotations.allmaps.org/maps/a2fe8d24dfd0850a@d3571a2570c68e93",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f147c626eeda76cf",
+        "version": "https://annotations.allmaps.org/images/f147c626eeda76cf@f50d853056cf95ec",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d6133c996895ba99",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d28effaa1f5687d9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.60072,
+      "area": 51477286.56
+    }
+  }
+}

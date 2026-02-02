@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e20c73921977ec66",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T04:09:14.633Z",
+  "modified": "2026-02-02T04:09:14.633Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484795:FL21306132.jpg",
+      "type": "ImageService2",
+      "height": 5637,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484795/canvas/FL21306132",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484795/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Excursion to the Werribee irrigation areas by members of the British Association for the Advancement of Science, 15th August 1914."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5637\"><polygon points=\"444,574 447,3590 2881,3578 2898,5154 6589,5143 6592,553\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6289,
+            3434
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9630421182328,
+            -37.81416368904552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6433,
+            3783
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97740936875653,
+            -37.859717040687336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4773,
+            4953
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.68741988385585,
+            -37.97535261560917
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1868,
+            2032
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.29871166046962,
+            -37.56072561433694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4619,
+            1832
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73035110111476,
+            -37.58325324164123
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e20c73921977ec66",
+      "version": "https://annotations.allmaps.org/maps/e20c73921977ec66@c215cbfbff1f78bc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/879be135f4926823",
+        "version": "https://annotations.allmaps.org/images/879be135f4926823@4ed540e09d38af8e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/885ccfb9cd1891ca",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/784eb9620a94b7d9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.07146,
+      "area": 4768615590.43
+    }
+  }
+}

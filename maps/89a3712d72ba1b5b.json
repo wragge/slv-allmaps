@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/89a3712d72ba1b5b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T00:29:14.977Z",
+  "modified": "2026-02-02T00:29:14.977Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495865:FL21307616.jpg",
+      "type": "ImageService2",
+      "height": 5945,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495865/canvas/FL21307616",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495865/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "You Yangs state forest"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5945\"><polygon points=\"4349,535 4356,2101 587,2079 538,5438 6544,5449 6369,519\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            833,
+            2532
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3860258852876,
+            -37.936471331547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6132,
+            587
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.45132894215146,
+            -37.926674512903546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6160,
+            5269
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44323663665256,
+            -37.969266318566845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1022,
+            5309
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.38339117786649,
+            -37.96288654613459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4396,
+            2392
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.42761659115286,
+            -37.94062716415367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4413,
+            595
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4306276808366,
+            -37.92370552289758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3033,
+            5308
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.40673245869442,
+            -37.9654657612031
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/89a3712d72ba1b5b",
+      "version": "https://annotations.allmaps.org/maps/89a3712d72ba1b5b@aa245fd6200c523c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c2c88f08c05f3b91",
+        "version": "https://annotations.allmaps.org/images/c2c88f08c05f3b91@4785b443a2c34bbb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/25338d774e94c167",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/110ec9817ebca151"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.966046,
+      "area": 24703860.16
+    }
+  }
+}

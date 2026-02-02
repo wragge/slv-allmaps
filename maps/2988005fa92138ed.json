@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2988005fa92138ed",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-02T00:13:58.847Z",
+  "modified": "2026-02-02T00:13:58.847Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155003:FL23155342.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5141,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155003/canvas/FL23155342",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000855"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155003/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Map of southern central Victoria pre-1835] showing vegetation and Aboriginal sites /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5141\" height=\"7000\"><polygon points=\"127,239 100,3532 3371,4418 3684,5928 4974,5928 4989,311\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2748,
+            4055
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03173775321352,
+            -37.99291673248959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1929,
+            2088
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9731684427985,
+            -37.81821653446534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1452,
+            2713
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.91601581246948,
+            -37.86860169471819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3806,
+            4938
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1268357411032,
+            -38.08223033380481
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2988005fa92138ed",
+      "version": "https://annotations.allmaps.org/maps/2988005fa92138ed@8b2f859a1948be59",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8ccf84e4f9ee37b4",
+        "version": "https://annotations.allmaps.org/images/8ccf84e4f9ee37b4@e072be30e3942461",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5bff692c753df66f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d1dcb8e5630fd080"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.107501,
+      "area": 1810867088.94
+    }
+  }
+}

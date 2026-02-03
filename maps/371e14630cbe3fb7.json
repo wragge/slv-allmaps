@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/371e14630cbe3fb7",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T21:44:09.570Z",
+  "modified": "2026-02-03T21:44:09.570Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15499246:FL21306462.jpg",
+      "type": "ImageService2",
+      "height": 5143,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499246/canvas/FL21306462",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499246/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Otway Waterworks District showing storages, pipe lines, and catchment area."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5143\"><polygon points=\"546,444 567,4744 6620,4702 6634,451\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3815,
+            2092
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.07240332244766,
+            -38.3266837428595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6174,
+            4624
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.46019582778803,
+            -38.80560056145779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1650,
+            2868
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.59093678639334,
+            -38.38414968257648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6108,
+            1759
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.53629596842973,
+            -38.33413450859306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3254,
+            3921
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.8826607207708,
+            -38.60643127957208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2274,
+            876
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.80685469223084,
+            -38.08097784150675
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/371e14630cbe3fb7",
+      "version": "https://annotations.allmaps.org/maps/371e14630cbe3fb7@11279cdbe46e72b7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/42e69e0b288fd6a4",
+        "version": "https://annotations.allmaps.org/images/42e69e0b288fd6a4@ed8d077494c9c6d5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/291d3db389a5e99b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cfdd14b8bd6b195e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.054863,
+      "area": 8622856304.42
+    }
+  }
+}

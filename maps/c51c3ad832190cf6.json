@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c51c3ad832190cf6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T21:58:15.189Z",
+  "modified": "2026-02-03T21:58:15.189Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22752844:FL22753031.jpg",
+      "type": "ImageService2",
+      "height": 5454,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752844/canvas/FL22753031",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300738"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22752844/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Mornington Peninsula water supply scheme showing catchment areas, reservoirs, and supply mains //"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5454\"><polygon points=\"2781,245 429,3533 2103,5101 6808,5267 6748,275\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4431,
+            4936
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.35059552246378,
+            -38.56339169769839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2902,
+            1413
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.08170584202247,
+            -37.99765649493868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2740,
+            4497
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02743611859984,
+            -38.486642997864685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            751,
+            3442
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.66099656067126,
+            -38.30573506943611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5138,
+            3450
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.5121753454693,
+            -38.33290008297474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6367,
+            1931
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.76777244368628,
+            -38.111544096599935
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c51c3ad832190cf6",
+      "version": "https://annotations.allmaps.org/maps/c51c3ad832190cf6@6f94fd10a20bd780",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/65b519084eb2e4e1",
+        "version": "https://annotations.allmaps.org/images/65b519084eb2e4e1@025a1f26737c13f0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4fe96db630cbcf15",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ae8b6e77f1684f3d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.057856,
+      "area": 7760341742.21
+    }
+  }
+}

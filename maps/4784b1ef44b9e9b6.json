@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4784b1ef44b9e9b6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T22:02:59.804Z",
+  "modified": "2026-02-03T22:02:59.804Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15499070:FL21305348.jpg",
+      "type": "ImageService2",
+      "height": 4415,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499070/canvas/FL21305348",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15499070/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne water supply, plan shewing the Yan Yean and Watt's systems with the permanent reservations for catchment timber areas and lands resumed for construction of works together with reservoirs, lines of aquaducts and mains /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4415\"><polygon points=\"110,369 122,4252 1111,4287 6936,3002 6959,1810 3126,479\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3794,
+            2588
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.72517127049923,
+            -37.75517175827623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            331,
+            3765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.91392993842442,
+            -37.86540301163667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            528,
+            3451
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9630140725244,
+            -37.81386827215396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            765,
+            4150
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99526208554147,
+            -37.94504207171831
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1175,
+            1915
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.15871279610337,
+            -37.55616341063006
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4784b1ef44b9e9b6",
+      "version": "https://annotations.allmaps.org/maps/4784b1ef44b9e9b6@c65a9a187b7748f9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7ad32288b6d583a7",
+        "version": "https://annotations.allmaps.org/images/7ad32288b6d583a7@d1654c3aa39cfe96",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5ceec13b1175c613",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/138f1dc7271e022e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.04971,
+      "area": 8040626305.92
+    }
+  }
+}

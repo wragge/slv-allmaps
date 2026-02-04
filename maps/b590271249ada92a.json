@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b590271249ada92a",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T23:19:44.032Z",
+  "modified": "2026-02-03T23:19:44.032Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9585843:FL20704554.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5058,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585843/canvas/FL20704554",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585843/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and environs 1:25 000 series. Sheet 7821-11 NE, Dromana, Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5058\" height=\"7000\"><polygon points=\"331,5385 338,6040 4675,6082 4676,1604\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4427,
+            5703
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99501048929818,
+            -38.365429072046105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            817,
+            5773
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88964905870557,
+            -38.367600088337376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4268,
+            2763
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99022614437717,
+            -38.29792911809364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2677,
+            4855
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94369272576512,
+            -38.345927292744165
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b590271249ada92a",
+      "version": "https://annotations.allmaps.org/maps/b590271249ada92a@4c9c274a84678a87",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/73aebb603aae8a37",
+        "version": "https://annotations.allmaps.org/images/73aebb603aae8a37@355fe689afda9b5f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d21b01574556229c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/95ec5b0cd7176599"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.392007,
+      "area": 72537298.52
+    }
+  }
+}

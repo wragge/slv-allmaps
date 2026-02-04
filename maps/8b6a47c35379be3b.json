@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8b6a47c35379be3b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T22:29:31.849Z",
+  "modified": "2026-02-03T22:29:31.849Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15491821:FL21306478.jpg",
+      "type": "ImageService2",
+      "height": 4989,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491821/canvas/FL21306478",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491821/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Electricity supply generation, transmission, sub transmission, high voltage distribution, 1978 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4989\"><polygon points=\"428,307 566,3963 4139,4611 6292,3701 6388,2432 1780,417\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6169,
+            3253
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.96025806260508,
+            -37.48930152019639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            642,
+            549
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96430360685156,
+            -33.96513363610051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            770,
+            3632
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9542538856723,
+            -38.0457104558261
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8b6a47c35379be3b",
+      "version": "https://annotations.allmaps.org/maps/8b6a47c35379be3b@94701bdeecc0ae23",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/d63080b8c0f74c3c",
+        "version": "https://annotations.allmaps.org/images/d63080b8c0f74c3c@66da72a901a39a33",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b78e45e91b4d6edd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/594bcfb44143aed1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.006814,
+      "area": 383353221168.82
+    }
+  }
+}

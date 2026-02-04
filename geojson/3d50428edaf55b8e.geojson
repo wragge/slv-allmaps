@@ -1,0 +1,184 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3d50428edaf55b8e",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-03T23:27:34.198Z",
+    "modified": "2026-02-03T23:27:34.198Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9535126:FL21662934.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9535126:FL21662934.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4913,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535126/canvas/FL21662934",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535126/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and suburbs"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0d549fc4468c1873",
+        "index": 1.0997347414698826,
+        "resource": [
+          3981,
+          1343
+        ],
+        "geo": [
+          144.99488941780731,
+          -37.944300517411
+        ]
+      },
+      {
+        "id": "83c5a8fe39b5115c",
+        "index": 3.8432002728024486,
+        "resource": [
+          849,
+          78
+        ],
+        "geo": [
+          144.83685551346827,
+          -37.87038030191643
+        ]
+      },
+      {
+        "id": "c407469ee12baa39",
+        "index": 2.4845409704995927,
+        "resource": [
+          3822,
+          449
+        ],
+        "geo": [
+          144.99509108955988,
+          -37.90641288842024
+        ]
+      },
+      {
+        "id": "f81703c93666e8ce",
+        "index": 0.400334045531324,
+        "resource": [
+          4922,
+          2339
+        ],
+        "geo": [
+          145.0381434738522,
+          -37.99596427733544
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        92,
+        31
+      ],
+      [
+        109,
+        1577
+      ],
+      [
+        2254,
+        737
+      ],
+      [
+        4778,
+        2560
+      ],
+      [
+        6790,
+        4602
+      ],
+      [
+        6931,
+        4591
+      ],
+      [
+        6902,
+        30
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3d50428edaf55b8e",
+      "version": "https://annotations.allmaps.org/maps/3d50428edaf55b8e@fc1f28c56cd734cb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6e98013d922f43ec",
+        "version": "https://annotations.allmaps.org/images/6e98013d922f43ec@d0e8a27041a991df",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d067f63ae9f61735",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b9af00f1533603e9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.206031,
+      "area": 335336204.72
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.796097621,
+          -37.863164337
+        ],
+        [
+          144.783329992,
+          -37.930513178
+        ],
+        [
+          144.907189518,
+          -37.908085603
+        ],
+        [
+          145.02803778,
+          -38.003881637
+        ],
+        [
+          145.119157645,
+          -38.10569483
+        ],
+        [
+          145.126907907,
+          -38.106141876
+        ],
+        [
+          145.165722997,
+          -37.90788651
+        ],
+        [
+          144.796097621,
+          -37.863164337
+        ]
+      ]
+    ]
+  }
+}

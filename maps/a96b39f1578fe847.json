@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a96b39f1578fe847",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T22:36:06.464Z",
+  "modified": "2026-02-03T22:36:06.464Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15494420:FL21307820.jpg",
+      "type": "ImageService2",
+      "height": 4936,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494420/canvas/FL21307820",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494420/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "State Electricity Commission of Victoria, 1:1000 topographic map series SEC Latrobe Valley grid, 0.5 metre contour interval."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4936\"><polygon points=\"645,1624 700,3655 6773,3518 6705,1482\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5962,
+            1656
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.67852956973962,
+            -38.20658401748825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2007,
+            2290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.40468555505402,
+            -38.23843110533098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6295,
+            3343
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.69918004357282,
+            -38.29929366033356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1879,
+            2118
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.39595557227904,
+            -38.22850597158694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2070,
+            2150
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.40912712760615,
+            -38.23043095131404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1296,
+            3431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.35435138586234,
+            -38.29898910434371
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a96b39f1578fe847",
+      "version": "https://annotations.allmaps.org/maps/a96b39f1578fe847@6f11d5a9bbd73a8b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7e5f289216362769",
+        "version": "https://annotations.allmaps.org/images/7e5f289216362769@c264170ffa35dd87",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4216e48ad5043d28",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c6a336b98c9cb091"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.16553,
+      "area": 450539680.74
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/476306ac477b66ec",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T22:46:14.887Z",
+  "modified": "2026-02-03T22:46:14.887Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498204:FL21306358.jpg",
+      "type": "ImageService2",
+      "height": 5483,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498204/canvas/FL21306358",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498204/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Kiewa Scheme general plan existing and possible future roads, diagrammatic layout showing reference nos."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5483\"><polygon points=\"112,255 147,4937 3652,4943 6644,4046 6583,267\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1526,
+            294
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.1016239903829,
+            -36.712302113637115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1029,
+            3006
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.06238508950838,
+            -36.89149786790897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2574,
+            991
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.18608557653494,
+            -36.75779342443774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            444,
+            732
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.01411636652517,
+            -36.74240914564126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3930,
+            2917
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.29723897597177,
+            -36.881565086573126
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/476306ac477b66ec",
+      "version": "https://annotations.allmaps.org/maps/476306ac477b66ec@ac5984005f2f9d57",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cd25b23751397b1f",
+        "version": "https://annotations.allmaps.org/images/cd25b23751397b1f@b1a27587e7e805fc",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4184d21ee2cec55e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/44e1013d37b2f297"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.137997,
+      "area": 1524574694.49
+    }
+  }
+}

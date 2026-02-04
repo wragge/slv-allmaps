@@ -1,0 +1,180 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/61e884f9d1eef538",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-03T22:31:14.194Z",
+    "modified": "2026-02-03T22:31:14.194Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15491693:FL21305474.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15491693:FL21305474.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4799,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491693/canvas/FL21305474",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15491693/manifest",
+              "label": {
+                "none": [
+                  "Electricity supply generation, transmission, sub transmission, high voltage distribution, 30th June 1975 / Electricity supply"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "347323de6c8a8699",
+        "index": 0.3284521468970689,
+        "resource": [
+          563,
+          521
+        ],
+        "geo": [
+          140.95116995126818,
+          -33.98703805058617
+        ]
+      },
+      {
+        "id": "ce05a4067491fa81",
+        "index": 2.1114506145277288,
+        "resource": [
+          6515,
+          3327
+        ],
+        "geo": [
+          149.9705309922266,
+          -37.49422486731422
+        ]
+      },
+      {
+        "id": "e4f2f74d04726c7a",
+        "index": 1.8376620012730287,
+        "resource": [
+          722,
+          3679
+        ],
+        "geo": [
+          140.95215531106118,
+          -38.03772093004075
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        519,
+        494
+      ],
+      [
+        744,
+        4356
+      ],
+      [
+        4248,
+        4728
+      ],
+      [
+        6597,
+        3799
+      ],
+      [
+        6676,
+        3175
+      ],
+      [
+        5270,
+        1808
+      ],
+      [
+        3040,
+        1662
+      ],
+      [
+        1461,
+        415
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/61e884f9d1eef538",
+      "version": "https://annotations.allmaps.org/maps/61e884f9d1eef538@b35c12ae713fb6ec",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b4eeb49a6cdc9761",
+        "version": "https://annotations.allmaps.org/images/b4eeb49a6cdc9761@bc72deff7f749299",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f18345239ee7f707",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b5cdd4c4092a8dc6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007165,
+      "area": 337219436914.74
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.884981532,
+          -33.952301121
+        ],
+        [
+          140.933608858,
+          -38.87891598
+        ],
+        [
+          146.343010993,
+          -39.276917891
+        ],
+        [
+          150.06106235,
+          -38.084933018
+        ],
+        [
+          150.232240018,
+          -37.299680732
+        ],
+        [
+          148.156463526,
+          -35.579103184
+        ],
+        [
+          144.706773157,
+          -35.430757349
+        ],
+        [
+          142.353153716,
+          -33.830821245
+        ],
+        [
+          140.884981532,
+          -33.952301121
+        ]
+      ]
+    ]
+  }
+}

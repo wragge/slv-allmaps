@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/899d2ca187dc9dec",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T22:19:36.623Z",
+  "modified": "2026-02-03T22:19:36.623Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498334:FL21307388.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6040,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498334/canvas/FL21307388",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498334/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Hume reservoir outline full supply level and original bed of River Murray."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6040\" height=\"7000\"><polygon points=\"425,1300 488,6219 3967,6183 5575,1891 5547,774 4394,783 2704,2145\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2269,
+            2789
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.16044974663453,
+            -36.029847199593156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1901,
+            5923
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.08651302510458,
+            -36.25799727181822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            989,
+            4117
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.02962677763196,
+            -36.108138979407514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4172,
+            3154
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.32021814353385,
+            -36.082174290858454
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/899d2ca187dc9dec",
+      "version": "https://annotations.allmaps.org/maps/899d2ca187dc9dec@34b92fe11ade91d5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4c752d125b978fe3",
+        "version": "https://annotations.allmaps.org/images/4c752d125b978fe3@f4910249aef60c46",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ada7c2356b050e88",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3a7a7fc373eceb19"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.122134,
+      "area": 1405601051.43
+    }
+  }
+}

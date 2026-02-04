@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4dc2d04b3860b453",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T23:15:39.537Z",
+  "modified": "2026-02-03T23:15:39.537Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15493285:FL21058114.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5269,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493285/canvas/FL21058114",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15493285/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Sands & McDougall's map of Melbourne and suburbs showing postal districts, tramways, railways, bowling clubs, town and shire halls /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5269\" height=\"7000\"><polygon points=\"0,0 0,7000 5269,7000 5269,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1047,
+            4163
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90687510224404,
+            -37.86609099085452
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2297,
+            3825
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97739643766926,
+            -37.85974103061443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1798,
+            2796
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9613679147779,
+            -37.81029607437592
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4dc2d04b3860b453",
+      "version": "https://annotations.allmaps.org/maps/4dc2d04b3860b453@1abbe588bd2d522a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e9b19e1f1794dbe6",
+        "version": "https://annotations.allmaps.org/images/e9b19e1f1794dbe6@25c87eaa76286ee2",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/376f01687fa3a581",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4f302de7ae792327"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.203732,
+      "area": 888602060.83
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b645ca29d3af9c80",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T23:41:35.923Z",
+  "modified": "2026-02-03T23:41:35.923Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15490835:FL21304704.jpg",
+      "type": "ImageService2",
+      "height": 5575,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490835/canvas/FL21304704",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490835/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Hepburn Home Paddock Extended Gold Mining Company"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5575\"><polygon points=\"376,289 447,5480 6842,5425 6806,245\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1855,
+            3741
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.86629803693086,
+            -37.36296093052444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4363,
+            4116
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.95400826283742,
+            -37.38342201651081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6693,
+            3227
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.04103378115838,
+            -37.3676294341404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4324,
+            3747
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.95440041378077,
+            -37.37267139544618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5523,
+            1071
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.01063974953644,
+            -37.30057227533729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3410,
+            3742
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.92193784056371,
+            -37.36916859652416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3978,
+            1433
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.95319578590767,
+            -37.306465915180084
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b645ca29d3af9c80",
+      "version": "https://annotations.allmaps.org/maps/b645ca29d3af9c80@e406a1047941cb0e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a718386b6ae7a7ad",
+        "version": "https://annotations.allmaps.org/images/a718386b6ae7a7ad@c9db90084740c06b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/81a70b35d089effa",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0172e8c74799f1d7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.313757,
+      "area": 337803784.98
+    }
+  }
+}

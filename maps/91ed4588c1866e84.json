@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/91ed4588c1866e84",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T23:09:24.227Z",
+  "modified": "2026-02-03T23:09:24.227Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15492597:FL21304748.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5966,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15492597/canvas/FL21304748",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15492597/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Wise's post office directory map of Melbourne and suburbs, revised & corrected to date from the latest authentic sources."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5966\" height=\"7000\"><polygon points=\"182,173 144,6083 2003,5018 3261,6877 5893,6877 5835,198\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5480,
+            431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.08022171312416,
+            -37.75782439380507
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1931,
+            284
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96658503282907,
+            -37.74134100352909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            822,
+            5180
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9068714992519,
+            -37.86611097030072
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3693,
+            6273
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99508899393658,
+            -37.906143908975714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2889,
+            4648
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9773896540092,
+            -37.85966187170871
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/91ed4588c1866e84",
+      "version": "https://annotations.allmaps.org/maps/91ed4588c1866e84@e50df3e8a8d5450b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/38128c143fd0cbc5",
+        "version": "https://annotations.allmaps.org/images/38128c143fd0cbc5@562e30ca4ca38bfb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3a43dd493dd7fe55",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2c6fb1f1c7d22bf1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.342506,
+      "area": 294330237.77
+    }
+  }
+}

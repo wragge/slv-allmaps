@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1ddcf2636ea8cacf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-03T22:59:16.296Z",
+  "modified": "2026-02-03T22:59:16.296Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22949922:FL22950450.jpg",
+      "type": "ImageService2",
+      "height": 4860,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22949922/canvas/FL22950450",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "bw6028"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22949922/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works. Horsfall 10000 [base map]. 2.4, Part of the townships of Wesburn 5849 Warburton 5831 and Brittania Creek 5112, part of parishes of Woori Yuollock 3888 Warburotn 3738 and Yuonga 4003, part of Municipality of Upper Yarra 263"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4860\"><polygon points=\"808,750 792,4142 6222,4122 6196,738\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1768,
+            3152
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.65435159003852,
+            -37.7901614415984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1187,
+            1390
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.64465999984486,
+            -37.76617283457789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1166,
+            2021
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6441968399376,
+            -37.77464818097156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1543,
+            3484
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.65054637290712,
+            -37.79466916631288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1236,
+            3272
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.6452722365412,
+            -37.7916801190078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1978,
+            1863
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.65798878578852,
+            -37.77242627099522
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1ddcf2636ea8cacf",
+      "version": "https://annotations.allmaps.org/maps/1ddcf2636ea8cacf@d2129cd6a0495add",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bfae638e6e159bf9",
+        "version": "https://annotations.allmaps.org/images/bfae638e6e159bf9@20a1953ba66b2869",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1dcfb55c292bc3f5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a6bec07553d82c17"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.664757,
+      "area": 41470199.65
+    }
+  }
+}

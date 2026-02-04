@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/00bc3a35952ae7b0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-04T00:54:41.830Z",
+  "modified": "2026-02-04T00:54:41.830Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495174:FL21306088.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5893,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495174/canvas/FL21306088",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495174/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Glenelg Region. Map no. 1. Geology and minerals sketch map of geology and economic minerals /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5893\" height=\"7000\"><polygon points=\"788,329 823,5391 2206,5367 5734,3469 5696,1993 3980,1908 2773,1567 2671,353\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2203,
+            5197
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.64631662714964,
+            -38.38991038231592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            849,
+            4335
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9653702767696,
+            -38.052315681630034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4793,
+            2430
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.9311334436985,
+            -37.283467762092364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3001,
+            3575
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.0503697523285,
+            -37.74495328705286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1714,
+            3171
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.4036021575581,
+            -37.58525373316738
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/00bc3a35952ae7b0",
+      "version": "https://annotations.allmaps.org/maps/00bc3a35952ae7b0@a1a6a0cdc0f17f44",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/df51e0e22c7e0156",
+        "version": "https://annotations.allmaps.org/images/df51e0e22c7e0156@751519cff1563959",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f0aa19b3d9e7c659",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/4ad317b4d3748fef"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.022586,
+      "area": 33007310859.92
+    }
+  }
+}

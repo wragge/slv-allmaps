@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8bcee1de89313b26",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-04T00:58:03.415Z",
+  "modified": "2026-02-04T00:58:03.415Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495294:FL21306984.jpg",
+      "type": "ImageService2",
+      "height": 4674,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495294/canvas/FL21306984",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495294/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South coast of Australia (Colony of Victoria) Glenelg River to Cape Otway /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4674\"><polygon points=\"118,378 107,1733 3540,4354 6755,4476 6783,2638\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2668,
+            2471
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.64676959765427,
+            -38.38926730622078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3893,
+            2462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.24396027296177,
+            -38.38986902971314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2188,
+            2462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.4100041872067,
+            -38.39398534535695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1329,
+            1608
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.98773579036077,
+            -38.058620323103554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6584,
+            3675
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.55391206535234,
+            -38.85650675450216
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8bcee1de89313b26",
+      "version": "https://annotations.allmaps.org/maps/8bcee1de89313b26@f279b04efdab871a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6dc2028ca822d459",
+        "version": "https://annotations.allmaps.org/images/6dc2028ca822d459@4d0b428f0666e2d0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/032466057da53b49",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/42de6175af8dd5db"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.023424,
+      "area": 26754870265.57
+    }
+  }
+}

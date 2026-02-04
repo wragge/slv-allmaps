@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3c1738b2492a3190",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-04T01:02:04.463Z",
+  "modified": "2026-02-04T01:02:04.463Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7037902:FL21356035.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4987,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037902/canvas/FL21356035",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037902/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township of Nelson, Parish of Glenelg, Counties of Follett and Normanby, Shire of Portland"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4987\" height=\"7000\"><polygon points=\"201,1955 137,5707 4906,5729 4632,1967\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            975,
+            2210
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.99940445078357,
+            -38.03532019353374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3245,
+            4846
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.00917625055996,
+            -38.04677550878301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3776,
+            4847
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.01176520653877,
+            -38.04700937730661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3242,
+            5420
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.0088618118994,
+            -38.049144317458094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2804,
+            2707
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.00818154072732,
+            -38.038116126971886
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3c1738b2492a3190",
+      "version": "https://annotations.allmaps.org/maps/3c1738b2492a3190@bd90aff4dcd5a89f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a671fbe522af5d7e",
+        "version": "https://annotations.allmaps.org/images/a671fbe522af5d7e@bda615d686d0e86f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e60745363582767b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fcb15a932e212c09"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.270283,
+      "area": 3352695.97
+    }
+  }
+}

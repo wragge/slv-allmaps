@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/22d18c190879f7bb",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-04T00:50:14.240Z",
+  "modified": "2026-02-04T00:50:14.240Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22724339:FL22724744.jpg",
+      "type": "ImageService2",
+      "height": 5029,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22724339/canvas/FL22724744",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "vc300242"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22724339/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Urban Casterton /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5029\"><polygon points=\"176,320 152,4388 6684,4399 6665,352\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3283,
+            2182
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.39527093919418,
+            -37.58574615698554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4462,
+            1826
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.40591782821014,
+            -37.58419124448158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4045,
+            1767
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.40231310904426,
+            -37.583398992196315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6054,
+            3031
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.4183550031019,
+            -37.594124634074724
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/22d18c190879f7bb",
+      "version": "https://annotations.allmaps.org/maps/22d18c190879f7bb@dd90777fb6846d60",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/09d62e08af058fff",
+        "version": "https://annotations.allmaps.org/images/09d62e08af058fff@264f123a9e4864e4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/08e183c4277ea23f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/e4d7276f6e5d67c7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.272622,
+      "area": 16310790.17
+    }
+  }
+}

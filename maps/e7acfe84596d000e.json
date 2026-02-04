@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e7acfe84596d000e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-04T07:52:29.059Z",
+  "modified": "2026-02-04T07:52:29.059Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488321:FL21306878.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5031,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488321/canvas/FL21306878",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488321/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Photomap 1:25000 series. Sheet 7822-11NW. Sunshine"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5031\" height=\"7000\"><polygon points=\"162,180 172,6093 4842,6076 4855,200\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4534,
+            1132
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.86863513144453,
+            -37.767110168020054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2077,
+            722
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.80020650728113,
+            -37.75888889805697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3395,
+            5874
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.83808643264592,
+            -37.871212222944294
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e7acfe84596d000e",
+      "version": "https://annotations.allmaps.org/maps/e7acfe84596d000e@2134312787af9b53",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/89953824c6545d3b",
+        "version": "https://annotations.allmaps.org/images/89953824c6545d3b@38f928cf764fc0b4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a110a19f09520326",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/578e26bcb42a8fee"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.410014,
+      "area": 164147405.72
+    }
+  }
+}

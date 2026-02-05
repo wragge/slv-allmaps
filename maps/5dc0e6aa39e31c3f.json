@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5dc0e6aa39e31c3f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T06:22:03.624Z",
+  "modified": "2026-02-05T06:22:03.624Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1499187:FL21261691.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5101,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1499187/canvas/FL21261691",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1499187/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of area occupied by Australian & NZ Army Corps."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5101\" height=\"7000\"><polygon points=\"725,196 1235,6755 4769,6655 4613,187\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1230,
+            4519
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.275770734536707,
+            40.23265302392602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2816,
+            3801
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.291315692767824,
+            40.2373034564846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1365,
+            3601
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.276661039273108,
+            40.23914739168802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1722,
+            1569
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.28051420739757,
+            40.25323359896632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1876,
+            2175
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.28195017744389,
+            40.24989271576095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2871,
+            745
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.294788079771223,
+            40.2599582428133
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5dc0e6aa39e31c3f",
+      "version": "https://annotations.allmaps.org/maps/5dc0e6aa39e31c3f@415bd615200c9711",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/948430ae5e21dd61",
+        "version": "https://annotations.allmaps.org/images/948430ae5e21dd61@ba8d754aea51ea63",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/93592260e8c7c8a2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9b7bebccf004dd80"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.173154,
+      "area": 17576056.48
+    }
+  }
+}

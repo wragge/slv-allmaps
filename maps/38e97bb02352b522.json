@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/38e97bb02352b522",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T06:10:00.192Z",
+  "modified": "2026-02-05T06:10:00.192Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15494255:FL21306958.jpg",
+      "type": "ImageService2",
+      "height": 4758,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494255/canvas/FL21306958",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15494255/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Map of a military exercise in the St. Kilda area, ca. 1862]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4758\"><polygon points=\"1049,1047 406,4356 6976,2667 6895,33\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2084,
+            967
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98599451679456,
+            -37.871795146565006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1365,
+            1478
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9842341670083,
+            -37.868990805929045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2603,
+            1700
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98244511676188,
+            -37.87317872389759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1873,
+            2232
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98074648109196,
+            -37.87037147238753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4827,
+            2579
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9755383041031,
+            -37.87894081424862
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/38e97bb02352b522",
+      "version": "https://annotations.allmaps.org/maps/38e97bb02352b522@b37a16e22fbd2954",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7c73abc4ee267d21",
+        "version": "https://annotations.allmaps.org/images/7c73abc4ee267d21@81c5ba514f94d7b3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/22528a1ade7e8386",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cb693b7d8c048084"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.678908,
+      "area": 2517547.76
+    }
+  }
+}

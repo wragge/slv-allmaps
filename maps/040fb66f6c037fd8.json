@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/040fb66f6c037fd8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T06:26:03.554Z",
+  "modified": "2026-02-05T06:26:03.554Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23156079:FL23156433.jpg",
+      "type": "ImageService2",
+      "height": 6498,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156079/canvas/FL23156433",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma200008"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23156079/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Batugade, Province of East Timor. 2407-12 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6498\"><polygon points=\"2231,2823 2240,5639 5637,5609 5628,2841\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5526,
+            5173
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.99509741475157,
+            -8.97948503306327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5560,
+            4844
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.99709860591037,
+            -8.964606279216923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5064,
+            4421
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.97417577853923,
+            -8.945964514645766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3081,
+            5290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.88453874655828,
+            -8.986068708427979
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/040fb66f6c037fd8",
+      "version": "https://annotations.allmaps.org/maps/040fb66f6c037fd8@10041858e7dace52",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4c9da1552b494850",
+        "version": "https://annotations.allmaps.org/images/4c9da1552b494850@f63e2e01a07c87da",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ebf80f6125597ecb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ba84e69c778fa8a0"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.201004,
+      "area": 234749439.28
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4f4f4ed7b7c32e9f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:38:10.429Z",
+  "modified": "2026-02-05T05:38:10.429Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23155211:FL23155996.jpg",
+      "type": "ImageService2",
+      "height": 6842,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155211/canvas/FL23155996",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000912"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23155211/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Glen Iris Park Estate in sub-division."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"6842\"><polygon points=\"55,763 69,6698 6938,6753 6897,817\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5619,
+            5631
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.07110255886988,
+            -37.85826150259047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1611,
+            1048
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06832079798238,
+            -37.854808975418315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5588,
+            2628
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0715024515734,
+            -37.8562429398346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1607,
+            5612
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0677579011591,
+            -37.85788496946961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2969,
+            2596
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.06926714219486,
+            -37.85596592724355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5610,
+            4104
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.07127614071078,
+            -37.857236009778994
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4f4f4ed7b7c32e9f",
+      "version": "https://annotations.allmaps.org/maps/4f4f4ed7b7c32e9f@74d126eab10e84b9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/014e9a9597687674",
+        "version": "https://annotations.allmaps.org/images/014e9a9597687674@f34adf272a753906",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/229db7153c781c2d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/295141a972a0dbf4"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 13.311939,
+      "area": 229613.71
+    }
+  }
+}

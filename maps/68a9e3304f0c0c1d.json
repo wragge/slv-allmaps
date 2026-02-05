@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/68a9e3304f0c0c1d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:46:33.216Z",
+  "modified": "2026-02-05T05:46:33.216Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043240:FL21365825.jpg",
+      "type": "ImageService2",
+      "height": 4658,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043240/canvas/FL21365825",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043240/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia and the adjacent islands and seas between its northern coast and the Equator. Northern portion"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4658\"><polygon points=\"162,222 215,4426 6794,4393 6769,255\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4831,
+            1992
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.18230202822411,
+            -10.687030034952457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            494,
+            3830
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.99017053865776,
+            -21.832007996481906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1235,
+            871
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            118.89749136405185,
+            -3.56541038572388
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6440,
+            4348
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.9057260773862,
+            -25.294947174175505
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/68a9e3304f0c0c1d",
+      "version": "https://annotations.allmaps.org/maps/68a9e3304f0c0c1d@2b069ce68cc103ce",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bafa07c97436b6c3",
+        "version": "https://annotations.allmaps.org/images/bafa07c97436b6c3@66be5ee09c1ced37",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1a11bacab45bc21b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8c3a99b8881596fa"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001411,
+      "area": 13813807977466.76
+    }
+  }
+}

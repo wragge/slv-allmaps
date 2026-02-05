@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ee5798df33bfe7b8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:19:55.628Z",
+  "modified": "2026-02-05T05:19:55.628Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9588500:FL21662837.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5651,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588500/canvas/FL21662837",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9588500/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map and time table of all-night bus services"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5651\" height=\"7000\"><polygon points=\"122,469 103,4283 2368,4108 3761,6780 5542,6838 5542,489\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2651,
+            3515
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97731859316326,
+            -37.85977414993027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2293,
+            1617
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97248960966994,
+            -37.766663370555634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1414,
+            3675
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90192268213627,
+            -37.859500110329776
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ee5798df33bfe7b8",
+      "version": "https://annotations.allmaps.org/maps/ee5798df33bfe7b8@c463442dbc463bb3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2c1ea430210e4da6",
+        "version": "https://annotations.allmaps.org/images/2c1ea430210e4da6@0b0cee1b681f69d8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9b5155419517b3c1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c8de89f511612a17"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.187336,
+      "area": 757142872.46
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/60ae9506e6ffc8ad",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:21:43.266Z",
+  "modified": "2026-02-05T05:21:43.266Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9531035:FL20704262.jpg",
+      "type": "ImageService2",
+      "height": 4843,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531035/canvas/FL20704262",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9531035/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Transport in Victoria, state-wide rail-bus services"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4843\"><polygon points=\"0,0 -4,4784 4616,4892 6880,3459 5313,1785 1576,97\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            146,
+            3729
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.97232355293397,
+            -38.07650747766075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            269,
+            168
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.95549144445312,
+            -33.984077263586634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6470,
+            3605
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.97447739325088,
+            -37.50294096602583
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/60ae9506e6ffc8ad",
+      "version": "https://annotations.allmaps.org/maps/60ae9506e6ffc8ad@42e7a5916f5fab61",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/94f9c45beb4b8cbc",
+        "version": "https://annotations.allmaps.org/images/94f9c45beb4b8cbc@82f33479c9fdbea6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/306a3be5458ba08a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/09b057df1f7e799c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007881,
+      "area": 387949577693.62
+    }
+  }
+}

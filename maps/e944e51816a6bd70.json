@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e944e51816a6bd70",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:54:21.285Z",
+  "modified": "2026-02-05T05:54:21.285Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7035796:FL21369667.jpg",
+      "type": "ImageService2",
+      "height": 5313,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035796/canvas/FL21369667",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035796/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tasmania - River Derwent Port of Hobartown"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5313\"><polygon points=\"577,75 545,1641 2939,4249 6895,4330 6868,32\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3771,
+            1880
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.34404959502456,
+            -42.90782153584984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5488,
+            2816
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.3608544818129,
+            -42.91424325958445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2937,
+            822
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.33835858076412,
+            -42.90156335136961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5397,
+            3641
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.36003170313865,
+            -42.919546610323394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2085,
+            519
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.33231428401314,
+            -42.8999986305298
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e944e51816a6bd70",
+      "version": "https://annotations.allmaps.org/maps/e944e51816a6bd70@a5294e958ad6bc83",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6a2a86bbdfc74a67",
+        "version": "https://annotations.allmaps.org/images/6a2a86bbdfc74a67@3cb071131e841056",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1c1e91a9716ef622",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2a21fffd0b6b70f3"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.424706,
+      "area": 11625201.89
+    }
+  }
+}

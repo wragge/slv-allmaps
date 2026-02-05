@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/870e9bf89ad0af98",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:59:35.994Z",
+  "modified": "2026-02-05T05:59:35.994Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8769502:FL21645947.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 3950,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8769502/canvas/FL21645947",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8769502/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tasmania Approaches to Hobart including D'Entrecasteaux Channel and Derwent River"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"3950\" height=\"7000\"><polygon points=\"164,168 157,5645 3731,5642 3754,175\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2112,
+            4548
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.29766225800546,
+            -43.513153913185654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2077,
+            2977
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.29460046021046,
+            -43.24485351783904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2333,
+            1932
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.35259237498605,
+            -43.06190660513947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2132,
+            573
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.30569235776557,
+            -42.823892726570435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1133,
+            3504
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.06288208083913,
+            -43.33142667849986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3408,
+            644
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.61325666884062,
+            -42.846972710786936
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/870e9bf89ad0af98",
+      "version": "https://annotations.allmaps.org/maps/870e9bf89ad0af98@d72760054a4cc8a7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2f5a2320918bc2fb",
+        "version": "https://annotations.allmaps.org/images/2f5a2320918bc2fb@295ea97e0960a47b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/bd92f7d182231ba6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a055896323e01169"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.051511,
+      "area": 7387006797.76
+    }
+  }
+}

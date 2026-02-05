@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0f02aab337c7ed57",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-05T05:12:57.945Z",
+  "modified": "2026-02-05T05:12:57.945Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE20549190:FL21569842.jpg",
+      "type": "ImageService2",
+      "height": 4949,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE20549190/canvas/FL21569842",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "4987120_RoadCrashRescuePrincipalProviders_Map-1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE20549190/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "State road crash rescue arrangements : Victoria 2017 / State road crash rescue arrangements : Victoria 2017 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4949\"><polygon points=\"426,346 521,4615 6789,4602 6782,2078 3975,2057 3700,416\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            649,
+            3849
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.96694425517688,
+            -38.0637328358956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            485,
+            441
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.97243084224152,
+            -34.02511315826673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6704,
+            3448
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.95561564652974,
+            -37.487589868859985
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0f02aab337c7ed57",
+      "version": "https://annotations.allmaps.org/maps/0f02aab337c7ed57@61c1e1f4eaffdcb9",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0ff9ec475d4eb4a3",
+        "version": "https://annotations.allmaps.org/images/0ff9ec475d4eb4a3@21b05e39f43ff923",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/987b86605b871d8b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fbb8f1da515f2aa5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007579,
+      "area": 377918227801.45
+    }
+  }
+}

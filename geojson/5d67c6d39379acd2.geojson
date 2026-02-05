@@ -1,0 +1,164 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/5d67c6d39379acd2",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-05T03:54:45.169Z",
+    "modified": "2026-02-05T03:54:45.169Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587497:FL20703552.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587497:FL20703552.jpg",
+      "type": "ImageService2",
+      "width": 5279,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587497/canvas/FL20703552",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587497/manifest",
+              "label": {
+                "none": [
+                  "Map of Melbourne's tram & bus routes and time-table of first and last, Sunday and all night services"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "5b6757d2cf8cef14",
+        "index": 2.417419990967156,
+        "resource": [
+          2084,
+          2920
+        ],
+        "geo": [
+          144.9631595386902,
+          -37.81417192218568
+        ]
+      },
+      {
+        "id": "65a4b6b6d176cc1a",
+        "index": 0.5575951810760744,
+        "resource": [
+          1218,
+          4186
+        ],
+        "geo": [
+          144.90043178783537,
+          -37.86741687624265
+        ]
+      },
+      {
+        "id": "75883d9e815f6120",
+        "index": 1.2159804896435846,
+        "resource": [
+          2445,
+          3839
+        ],
+        "geo": [
+          144.97745418400478,
+          -37.85986457822368
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        110,
+        121
+      ],
+      [
+        110,
+        4457
+      ],
+      [
+        2066,
+        4399
+      ],
+      [
+        3362,
+        6741
+      ],
+      [
+        5143,
+        6838
+      ],
+      [
+        5163,
+        140
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5d67c6d39379acd2",
+      "version": "https://annotations.allmaps.org/maps/5d67c6d39379acd2@1b95ed4682479c39",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f41de55d6e6550db",
+        "version": "https://annotations.allmaps.org/images/f41de55d6e6550db@758037599ee3233c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a491cd64ff1320f1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/49bfbce2ce7dc10b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.187996,
+      "area": 774775063.3
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.866753642,
+          -37.668596798
+        ],
+        [
+          144.831226339,
+          -37.872249897
+        ],
+        [
+          144.94995305,
+          -37.883435895
+        ],
+        [
+          145.009114395,
+          -38.002383628
+        ],
+        [
+          145.115991344,
+          -38.019563763
+        ],
+        [
+          145.172080966,
+          -37.705507347
+        ],
+        [
+          144.866753642,
+          -37.668596798
+        ]
+      ]
+    ]
+  }
+}

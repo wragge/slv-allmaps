@@ -1,0 +1,184 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/1cf2634dfc3e08c3",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-05T03:50:32.368Z",
+    "modified": "2026-02-05T03:50:32.368Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9586183:FL21663234.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9586183:FL21663234.jpg",
+      "type": "ImageService2",
+      "width": 4934,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9586183/canvas/FL21663234",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9586183/manifest",
+              "label": {
+                "none": [
+                  "Map and time-table of Melbourne's tram & bus services"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "0bd0215e2cd1a8ad",
+        "index": 1.1234861488909587,
+        "resource": [
+          2734,
+          3025
+        ],
+        "geo": [
+          144.9829421877193,
+          -37.8563616735279
+        ]
+      },
+      {
+        "id": "52ea951e3b2586b5",
+        "index": 3.770593523416873,
+        "resource": [
+          4177,
+          725
+        ],
+        "geo": [
+          145.09742776924736,
+          -37.749025851515256
+        ]
+      },
+      {
+        "id": "6132a3c2542ad027",
+        "index": 2.898986464159444,
+        "resource": [
+          1045,
+          1291
+        ],
+        "geo": [
+          144.88330004505121,
+          -37.755281728638316
+        ]
+      },
+      {
+        "id": "8da6b351f76c7ae5",
+        "index": 0.9442011346381011,
+        "resource": [
+          1631,
+          3424
+        ],
+        "geo": [
+          144.90261187150747,
+          -37.872943655888335
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        111,
+        77
+      ],
+      [
+        97,
+        4138
+      ],
+      [
+        452,
+        3783
+      ],
+      [
+        1959,
+        3492
+      ],
+      [
+        3789,
+        5516
+      ],
+      [
+        4855,
+        5559
+      ],
+      [
+        4837,
+        77
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1cf2634dfc3e08c3",
+      "version": "https://annotations.allmaps.org/maps/1cf2634dfc3e08c3@ad2281bb12f90def",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c25440901abb3004",
+        "version": "https://annotations.allmaps.org/images/c25440901abb3004@4e7abb49e6d8ac06",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c83b1b4bf195e7d4",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7bec657b5169686c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.169475,
+      "area": 716838797.36
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.83055877,
+          -37.685769305
+        ],
+        [
+          144.794891665,
+          -37.897675414
+        ],
+        [
+          144.821759765,
+          -37.881667815
+        ],
+        [
+          144.925418238,
+          -37.877111008
+        ],
+        [
+          145.030964304,
+          -37.995449555
+        ],
+        [
+          145.102160785,
+          -38.005185672
+        ],
+        [
+          145.147831162,
+          -37.719143906
+        ],
+        [
+          144.83055877,
+          -37.685769305
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/88f77357e0f808f5",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T04:14:20.088Z",
+  "modified": "2026-02-06T04:14:20.088Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7039084:FL21369435.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5553,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039084/canvas/FL21369435",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7039084/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tasmania - South Coast - River Derwent Pavilion Point to Risdon Ferry."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5553\" height=\"7000\"><polygon points=\"0,0 0,7000 5553,7000 5553,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4059,
+            4555
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.35034490784534,
+            -42.853138274318304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1496,
+            4109
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.32087854885248,
+            -42.84958454991345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2606,
+            3117
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.33391497047222,
+            -42.84102075978086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1185,
+            1242
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.3177771993411,
+            -42.82533521166007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2588,
+            6256
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.33368555507644,
+            -42.86766575248437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4439,
+            5945
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.35355924270874,
+            -42.86532573136988
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/88f77357e0f808f5",
+      "version": "https://annotations.allmaps.org/maps/88f77357e0f808f5@d7918dc853c27429",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fad022961ff2ecdc",
+        "version": "https://annotations.allmaps.org/images/fad022961ff2ecdc@6ede1cf77a3164e5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cbe7623389561220",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d3ff1ebe54d36b6a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.075082,
+      "area": 33631231.45
+    }
+  }
+}

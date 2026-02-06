@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0cf4c1217e0139dc",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T03:07:19.098Z",
+  "modified": "2026-02-06T03:07:19.098Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE4359624:FL17003894.tif",
+      "type": "ImageService2",
+      "height": 3996,
+      "width": 4641,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE4359624/canvas/FL17003894",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE4359624/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Hammond's map of Australia and New Guinea, showing British and German annexations"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4641\" height=\"3996\"><polygon points=\"378,284 402,2434 1273,2426 1262,3482 4310,3521 4290,550 1965,516 1965,279\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2015,
+            762
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.32505031350426,
+            -0.6965010378664402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1618,
+            2717
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.9167104660176,
+            -33.47898616767284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            925,
+            1238
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105.43662197550039,
+            -6.814907255743762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3719,
+            1087
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.91172351310775,
+            -4.905648660046737
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3132,
+            3265
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.32028587330188,
+            -42.883685231688354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2263,
+            1595
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.11539844353524,
+            -15.34329809141309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3590,
+            2409
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.97825750129266,
+            -27.49997389636086
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0cf4c1217e0139dc",
+      "version": "https://annotations.allmaps.org/maps/0cf4c1217e0139dc@c7f77e83af0ce572",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f20b4d7a002a8207",
+        "version": "https://annotations.allmaps.org/images/f20b4d7a002a8207@ad3e884078cdf6b1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4b04db8bea1e12f3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a1577f885fc5d729"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.000526,
+      "area": 39977033756145.64
+    }
+  }
+}

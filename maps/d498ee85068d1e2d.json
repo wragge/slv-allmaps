@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d498ee85068d1e2d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T03:31:10.251Z",
+  "modified": "2026-02-06T03:31:10.251Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486976:FL21307466.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5229,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486976/canvas/FL21307466",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486976/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Mallee blocks and allotments, counties of Tatchera and Karkarooc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5229\" height=\"7000\"><polygon points=\"27,494 95,6833 4992,6794 4734,2737 830,402\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            982,
+            768
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.14639023805023,
+            -34.19435570394743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2942,
+            5149
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.84919332445872,
+            -35.50492047224066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2408,
+            2554
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.66007846782782,
+            -34.7213545181825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            591,
+            6483
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.99547674887987,
+            -35.89789896207471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4246,
+            3617
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.31023127215883,
+            -35.05410723159501
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d498ee85068d1e2d",
+      "version": "https://annotations.allmaps.org/maps/d498ee85068d1e2d@bdfe167fc29d4fb3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/acc07cffbe9594a4",
+        "version": "https://annotations.allmaps.org/images/acc07cffbe9594a4@e85b6f240ddceb0f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4828156beaa8dffc",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8a32904aed38dea6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.030392,
+      "area": 28037880460.17
+    }
+  }
+}

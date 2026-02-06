@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2d94f4c5b0e311aa",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T03:26:09.272Z",
+  "modified": "2026-02-06T03:26:09.272Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9535274:FL21664942.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5605,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535274/canvas/FL21664942",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9535274/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan shewing classification of Mallee lands, Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5605\" height=\"7000\"><polygon points=\"345,363 397,6651 5470,6611 5484,3507 4476,1977 2144,348\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4628,
+            3162
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.55910485615937,
+            -35.338586175403684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            329,
+            434
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9605530109061,
+            -33.993943493591416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2020,
+            4750
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.94783201360048,
+            -36.115953748149835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3461,
+            3496
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.84930485382597,
+            -35.50846697164393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3104,
+            1899
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.61585667933582,
+            -34.72597796335868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2359,
+            805
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.14906879454338,
+            -34.1909553441348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3465,
+            5118
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.84361689312902,
+            -36.2984397229978
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2d94f4c5b0e311aa",
+      "version": "https://annotations.allmaps.org/maps/2d94f4c5b0e311aa@adf710ee9b907fdd",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ef214c51d4f45916",
+        "version": "https://annotations.allmaps.org/images/ef214c51d4f45916@8217ffec62479801",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c8ad58ef8d571d03",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7fea67f4fd3b5d88"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.018331,
+      "area": 82669298968.37
+    }
+  }
+}

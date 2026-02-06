@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/52049bbd5bf4d53b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T04:05:59.754Z",
+  "modified": "2026-02-06T04:05:59.754Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23154870:FL23155410.jpg",
+      "type": "ImageService2",
+      "height": 4356,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23154870/canvas/FL23155410",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Image 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23154870/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the general survey from the town of Malmsbury to the Porcupine Inn, from the sources of Forest Creek to Golden Point shewing the Alexandrian Range, also Sawpit Gully Bendigo and Bullocks Creek /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4356\"><polygon points=\"83,148 101,4235 6899,4233 6908,3216 5824,166\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2749,
+            1883
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.21712048499302,
+            -37.066490531848736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2266,
+            2608
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.37955050095627,
+            -37.18803722709492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2613,
+            404
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.81406756654889,
+            -37.0490958341907
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4265,
+            1949
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.28314723138413,
+            -36.759572206444346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1928,
+            3136
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50083300432942,
+            -37.28301271047277
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/52049bbd5bf4d53b",
+      "version": "https://annotations.allmaps.org/maps/52049bbd5bf4d53b@19a40d0ec028e09d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2da43f0a16fe8e0f",
+        "version": "https://annotations.allmaps.org/images/2da43f0a16fe8e0f@dd2ea34d7450f196",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/15232e039285e022",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5ebff135ff41baac"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.042836,
+      "area": 14235652243.95
+    }
+  }
+}

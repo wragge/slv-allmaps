@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d1a52d4158eaf19b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T23:02:05.426Z",
+  "modified": "2026-02-06T23:02:05.426Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8771672:FL21660651.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4722,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8771672/canvas/FL21660651",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8771672/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of subdivision of allotments South Yarra"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4722\" height=\"7000\"><polygon points=\"873,1599 823,4230 4338,4250 4318,1548\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3529,
+            6153
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9854176054323,
+            -37.84368828105384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1499,
+            6303
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98434701402954,
+            -37.84360135586388
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3523,
+            4769
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9854894292729,
+            -37.84331383030866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3513,
+            3588
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9855613470284,
+            -37.84297484106272
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d1a52d4158eaf19b",
+      "version": "https://annotations.allmaps.org/maps/d1a52d4158eaf19b@99caa14e59bab48d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9fc88b7e7cabfaf8",
+        "version": "https://annotations.allmaps.org/images/9fc88b7e7cabfaf8@3cac27ca379205a5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/07c5890e92aa276b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/90c4a19846765677"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 26.237077,
+      "area": 13479.66
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5a4bb1df55eea12b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T23:25:55.431Z",
+  "modified": "2026-02-06T23:25:55.431Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15490810:FL21304466.jpg",
+      "type": "ImageService2",
+      "height": 4495,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490810/canvas/FL21304466",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15490810/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "The squatting map of Victoria (Port Phillip District, New South Wales) carefully corrected to this date from the Colonial Government Surveys, Crown Lands Commissioners and explorers maps, private surveys &c. /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4495\"><polygon points=\"148,103 99,4428 6860,4366 6898,115\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6704,
+            3107
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.9815165143944,
+            -37.4742598515634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            417,
+            3637
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.9538228980844,
+            -38.04314031795877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            953,
+            345
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.90821147111888,
+            -34.112758510510865
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5a4bb1df55eea12b",
+      "version": "https://annotations.allmaps.org/maps/5a4bb1df55eea12b@a830bed6bf1a0e5a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/87083d5b2c53a971",
+        "version": "https://annotations.allmaps.org/images/87083d5b2c53a971@0111fd8147fc32e1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e344c1141ca0a519",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c756009d051b9987"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.00768,
+      "area": 491043888713.64
+    }
+  }
+}

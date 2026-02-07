@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/844555ec0f71a94c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T23:29:10.278Z",
+  "modified": "2026-02-06T23:29:10.278Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15464630:FL21371927.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4676,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15464630/canvas/FL21371927",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15464630/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township allotments at Kyneton, Parish of Lauriston, County of Dalhousie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4676\" height=\"7000\"><polygon points=\"1341,70 1320,5533 4598,5518 4589,70\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3635,
+            1521
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4467172787418,
+            -37.24280676333217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2747,
+            1515
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44407944089386,
+            -37.2424569472092
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3633,
+            4285
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44548369349377,
+            -37.24931651731876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2756,
+            3819
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44306941692048,
+            -37.24788863428769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2763,
+            4285
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44286634734186,
+            -37.2490381265805
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/844555ec0f71a94c",
+      "version": "https://annotations.allmaps.org/maps/844555ec0f71a94c@61c82f35efe1b81e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b564619b0b9c8235",
+        "version": "https://annotations.allmaps.org/images/b564619b0b9c8235@1cca629ce231834d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/83c9c8125c27bc73",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/33b8ae6a478f4433"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.750132,
+      "area": 1265777.83
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/2bdd2e99e702a4af",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T23:20:25.045Z",
+  "modified": "2026-02-06T23:20:25.045Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15291105:FL21365049.jpg",
+      "type": "ImageService2",
+      "height": 5201,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291105/canvas/FL21365049",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15291105/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of choice villa allotments at Upper Hawthorne : the property of Mr. John Collings, for sale on liberal terms /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5201\"><polygon points=\"1179,1974 1104,4929 6602,4875 6634,1969\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1322,
+            2108
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03812888204135,
+            -37.82451039842636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1251,
+            4785
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03790842173368,
+            -37.825776249949904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6477,
+            4780
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0411644458503,
+            -37.82625847305572
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/2bdd2e99e702a4af",
+      "version": "https://annotations.allmaps.org/maps/2bdd2e99e702a4af@6c0958fc78e32065",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ca6675ce05a50a5f",
+        "version": "https://annotations.allmaps.org/images/ca6675ce05a50a5f@1d3794f4abfe8e8d",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/08d0b6fad733e71c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0f295a622ae2ade5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 18.401359,
+      "area": 47391.7
+    }
+  }
+}

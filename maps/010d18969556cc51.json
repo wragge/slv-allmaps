@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/010d18969556cc51",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-06T23:10:02.485Z",
+  "modified": "2026-02-06T23:10:02.485Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484265:FL21305498.jpg",
+      "type": "ImageService2",
+      "height": 4921,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484265/canvas/FL21305498",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484265/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of locality shewing the whole line of route to the district from Melbourne by way of Nunawading and Bulleen, for sale on liberal terms by Thomas Ham, land agent ... Plan of locality"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4921\"><polygon points=\"89,480 116,4004 6934,3882 6852,521\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            907,
+            2668
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9951861811473,
+            -37.786907324344234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            466,
+            3285
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97230163431243,
+            -37.807137019867234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            898,
+            3284
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99103354096286,
+            -37.80986929821397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1719,
+            3503
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02501670913745,
+            -37.82743025534129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1721,
+            3070
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0287595929844,
+            -37.80767640359674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            488,
+            2867
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97556865579162,
+            -37.79299256192364
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/010d18969556cc51",
+      "version": "https://annotations.allmaps.org/maps/010d18969556cc51@2f23c52120aaf7e4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/439c73c4b4b8de69",
+        "version": "https://annotations.allmaps.org/images/439c73c4b4b8de69@2eeaec96ae9cfdde",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/68ce30b564be9d5d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/8d634b5ea08b63e1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.240656,
+      "area": 403668742.48
+    }
+  }
+}

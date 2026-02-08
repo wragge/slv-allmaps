@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/57ad8a2811738612",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-08T00:20:00.119Z",
+  "modified": "2026-02-08T00:20:00.119Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7022458:FL21348147.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5537,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022458/canvas/FL21348147",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7022458/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Village of Osborne, Mt Martha, County of Mornington"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5537\" height=\"7000\"><polygon points=\"1546,571 1341,5824 3530,5434 4298,971\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2614,
+            3775
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02079424672223,
+            -38.26234238685744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3707,
+            1543
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02746221464076,
+            -38.25928855948677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2315,
+            1308
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02429768043532,
+            -38.2570114707933
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/57ad8a2811738612",
+      "version": "https://annotations.allmaps.org/maps/57ad8a2811738612@6f7fe6e2afb36b39",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bb8740f3287acedb",
+        "version": "https://annotations.allmaps.org/images/bb8740f3287acedb@18a0be5e98c85422",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/304423c76029abdd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b537654237122e64"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 3.733036,
+      "area": 861402.42
+    }
+  }
+}

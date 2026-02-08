@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d6b3e9661e7a335b",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-08T00:15:35.058Z",
+    "modified": "2026-02-08T00:15:35.058Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050158:FL21358109.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7050158:FL21358109.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5257,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050158/canvas/FL21358109",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7050158/manifest",
+              "label": {
+                "none": [
+                  "Subdivisions of land in the Parish of Harcourt"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "1d6fc11988229de4",
+        "index": 0.6907075702467316,
+        "resource": [
+          2319,
+          2234
+        ],
+        "geo": [
+          144.248225574508,
+          -37.0019236695861
+        ]
+      },
+      {
+        "id": "c4f3320a5333cef9",
+        "index": 1.3053471779811945,
+        "resource": [
+          2881,
+          2234
+        ],
+        "geo": [
+          144.25102928622812,
+          -37.002158128582145
+        ]
+      },
+      {
+        "id": "39acbe8a65bab40b",
+        "index": 2.797183609560419,
+        "resource": [
+          3347,
+          1267
+        ],
+        "geo": [
+          144.2526739102184,
+          -36.99882084763755
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5257
+      ],
+      [
+        7000,
+        5257
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d6b3e9661e7a335b",
+      "version": "https://annotations.allmaps.org/maps/d6b3e9661e7a335b@281884162dc10818",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bc9186e68a2b3f44",
+        "version": "https://annotations.allmaps.org/images/bc9186e68a2b3f44@69f5382ea44d4e54",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/20f11733e7d31ded",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/bab4cd3010a0ea7d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.376447,
+      "area": 6515980.57
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.235085186,
+          -36.992796765
+        ],
+        [
+          144.238782819,
+          -37.011995989
+        ],
+        [
+          144.273704495,
+          -37.014915858
+        ],
+        [
+          144.270006862,
+          -36.995717372
+        ],
+        [
+          144.235085186,
+          -36.992796765
+        ]
+      ]
+    ]
+  }
+}

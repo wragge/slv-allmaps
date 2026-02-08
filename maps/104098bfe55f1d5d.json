@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/104098bfe55f1d5d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-08T00:11:41.953Z",
+  "modified": "2026-02-08T00:11:41.953Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15479645:FL21375841.jpg",
+      "type": "ImageService2",
+      "height": 5909,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479645/canvas/FL21375841",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479645/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Merriland Estate, being portion no. 10 Parish of Keelbundora"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5909\"><polygon points=\"1479,1343 1644,1823 2588,2362 2819,3664 6556,3670 6531,1293\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6462,
+            3575
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0088994789234,
+            -37.708773380343814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2943,
+            2208
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98046894591585,
+            -37.69754928862148
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2480,
+            1773
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9771351607975,
+            -37.6940899214306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3239,
+            3144
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98198054376076,
+            -37.70386749970393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1688,
+            1661
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97063484405993,
+            -37.69277113966882
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6468,
+            1333
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.011219019252,
+            -37.695046512855384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2845,
+            3344
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9784443406091,
+            -37.70495331470112
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/104098bfe55f1d5d",
+      "version": "https://annotations.allmaps.org/maps/104098bfe55f1d5d@8b96b306098560a3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b203000c96409b75",
+        "version": "https://annotations.allmaps.org/images/b203000c96409b75@96f99579b68dd1e5",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6d2791565f29df6e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/7a46419593b5607d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.364709,
+      "area": 5323971.68
+    }
+  }
+}

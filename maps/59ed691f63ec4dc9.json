@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/59ed691f63ec4dc9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-08T01:46:43.668Z",
+  "modified": "2026-02-08T01:46:43.668Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587218:FL21664488.jpg",
+      "type": "ImageService2",
+      "height": 5239,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587218/canvas/FL21664488",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587218/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Geological survey of Victoria. No. 1. [Melbourne region]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5239\"><polygon points=\"115,308 144,4973 6910,4886 6866,264\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2618,
+            4197
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90076858126844,
+            -37.86400841066882
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4135,
+            3873
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97730011918054,
+            -37.859698599939875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2463,
+            4067
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.89395278060306,
+            -37.85841379806926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3679,
+            2788
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96331436890227,
+            -37.81394681528188
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/59ed691f63ec4dc9",
+      "version": "https://annotations.allmaps.org/maps/59ed691f63ec4dc9@3dcc5d5f6e628d45",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bd439b5a8d847c29",
+        "version": "https://annotations.allmaps.org/images/bd439b5a8d847c29@b12d3af23720dc1c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/92e56b1dd1fe0be2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ac439dd75d4d047a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.226784,
+      "area": 610246243.69
+    }
+  }
+}

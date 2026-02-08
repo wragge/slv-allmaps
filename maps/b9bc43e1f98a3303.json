@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/b9bc43e1f98a3303",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-08T02:40:47.389Z",
+  "modified": "2026-02-08T02:40:47.389Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497315:FL21306904.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4142,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497315/canvas/FL21306904",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497315/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Laverton township complete plan for private sale by Staples, Wise and Co. / Laverton township"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4142\" height=\"7000\"><polygon points=\"344,3199 57,4558 1116,5421 2678,5421 2678,5695 4028,5694 4034,2691 2800,2714 2801,2179\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1949,
+            3334
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.77231056593763,
+            -37.868214641705535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3830,
+            5242
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.784292560724,
+            -37.88047299801782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3808,
+            3319
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7857942140659,
+            -37.86933299235924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            418,
+            4145
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.76059133445625,
+            -37.87201854781087
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/b9bc43e1f98a3303",
+      "version": "https://annotations.allmaps.org/maps/b9bc43e1f98a3303@767639eb79301f2c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4d4114ae67cc1605",
+        "version": "https://annotations.allmaps.org/images/4d4114ae67cc1605@f5e4fd5ffaa5ea3e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/41e88ac5690e994c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/739e6e29b5e64c5a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.553234,
+      "area": 4315693.33
+    }
+  }
+}

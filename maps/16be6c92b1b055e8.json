@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/16be6c92b1b055e8",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-08T01:41:03.737Z",
+  "modified": "2026-02-08T01:41:03.737Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7036062:FL21352899.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5422,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036062/canvas/FL21352899",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7036062/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "The township of Axedale, & suburban allotments, Parish of Axedale, county unnamed"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5422\" height=\"7000\"><polygon points=\"298,1805 492,6354 3843,6378 4940,3574 5137,1805\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2990,
+            3371
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5012585065648,
+            -36.787965540149976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1498,
+            2422
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.49529004666357,
+            -36.783787039658485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3627,
+            3283
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50425678447266,
+            -36.78799723473795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3217,
+            2765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50270585467638,
+            -36.785954360795195
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/16be6c92b1b055e8",
+      "version": "https://annotations.allmaps.org/maps/16be6c92b1b055e8@8ba4a78eefce7db3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/8c096ed1038be383",
+        "version": "https://annotations.allmaps.org/images/8c096ed1038be383@7a45bbc4eb5a95be",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0972dd79797c250b",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/41a825d71d99048e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.496563,
+      "area": 3109022.66
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/40c6d4e307e4cda1",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-08T01:26:32.429Z",
+  "modified": "2026-02-08T01:26:32.429Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15467431:FL21374861.jpg",
+      "type": "ImageService2",
+      "height": 5188,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15467431/canvas/FL21374861",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15467431/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Parish of Truganina, County of Bourke"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5188\"><polygon points=\"62,577 76,2399 966,4207 3534,4924 4337,4652 6790,2557 2644,2457 2616,549\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            892,
+            745
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7234195515262,
+            -37.80813515879758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2655,
+            3488
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7628313450419,
+            -37.87296835239687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            486,
+            2431
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.70584884868396,
+            -37.8441491618535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5356,
+            2613
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84099640985647,
+            -37.86044045712155
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/40c6d4e307e4cda1",
+      "version": "https://annotations.allmaps.org/maps/40c6d4e307e4cda1@54fb17e512d1c127",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/64794a281980c5fe",
+        "version": "https://annotations.allmaps.org/images/64794a281980c5fe@188dd9cb3eb5e866",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ae38963dbca3e293",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/27928ee0bcd56bfa"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.405662,
+      "area": 94173156.02
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/56117093b381451e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T02:23:05.047Z",
+  "modified": "2026-02-09T02:23:05.047Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15479662:FL21375987.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6166,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479662/canvas/FL21375987",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479662/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of lands, Township of Mornington"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6166\" height=\"7000\"><polygon points=\"2393,1302 399,6470 5742,5599\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3942,
+            4320
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03817121951522,
+            -38.21909942875718
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3114,
+            2945
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03773294688466,
+            -38.218292335593816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2602,
+            3657
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0373066028755,
+            -38.21862969584467
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/56117093b381451e",
+      "version": "https://annotations.allmaps.org/maps/56117093b381451e@c5b4bd9aba78e2b0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0d8eb8ccc8e7959f",
+        "version": "https://annotations.allmaps.org/images/0d8eb8ccc8e7959f@89eac096d1a9171b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/858b54ed1b9f05dd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f4804137bbb519ed"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 16.446981,
+      "area": 47829.1
+    }
+  }
+}

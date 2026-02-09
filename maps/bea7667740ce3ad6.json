@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bea7667740ce3ad6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T02:31:20.400Z",
+  "modified": "2026-02-09T02:31:20.400Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7035026:FL21356261.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4769,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035026/canvas/FL21356261",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035026/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the township of Acheron"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4769\" height=\"7000\"><polygon points=\"29,1012 67,1778 1692,2453 1311,5771 2500,6300 2408,5012 4286,4859 4662,4108 3814,2370 1399,929\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2445,
+            1818
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.70646656675694,
+            -37.24359300919515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4232,
+            3792
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7156880167239,
+            -37.251293882631614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2425,
+            3461
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.7068395118376,
+            -37.24970805941013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4486,
+            4193
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.71689070019198,
+            -37.2532683326974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2477,
+            2822
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.70720130750385,
+            -37.2472163430175
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bea7667740ce3ad6",
+      "version": "https://annotations.allmaps.org/maps/bea7667740ce3ad6@f76d7e4928ff5e7c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/baafb4b70e1e2265",
+        "version": "https://annotations.allmaps.org/images/baafb4b70e1e2265@f266941f6cebc47e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e1778fb5d8031b73",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/194e4b0237c42436"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.395488,
+      "area": 1999655.75
+    }
+  }
+}

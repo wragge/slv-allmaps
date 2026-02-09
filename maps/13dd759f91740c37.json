@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/13dd759f91740c37",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T02:46:43.975Z",
+  "modified": "2026-02-09T02:46:43.975Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7038922:FL21354989.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5619,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038922/canvas/FL21354989",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7038922/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Township of Beechworth, May Day Hills"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5619\" height=\"7000\"><polygon points=\"387,1373 608,3649 2283,6507 5192,4511 5095,3503 3659,1165\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2389,
+            4027
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6840871130313,
+            -36.35686182010291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3150,
+            4576
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68798477076848,
+            -36.36034905907432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2677,
+            5274
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.684211872471,
+            -36.36321599639006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2926,
+            4930
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6861251137937,
+            -36.36175244769322
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2533,
+            4658
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6841991616942,
+            -36.36004941388759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2782,
+            4311
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.68605933167981,
+            -36.358623671154184
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/13dd759f91740c37",
+      "version": "https://annotations.allmaps.org/maps/13dd759f91740c37@0f2c3d1f5d3054bb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/33f4c7b0564fa3a7",
+        "version": "https://annotations.allmaps.org/images/33f4c7b0564fa3a7@6ab7d00834a122d7",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/73492d146b68e6f6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b8889ca2bcf87c22"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.817786,
+      "area": 5203387.05
+    }
+  }
+}

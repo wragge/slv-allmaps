@@ -1,0 +1,140 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/56117093b381451e",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-09T02:23:05.047Z",
+    "modified": "2026-02-09T02:23:05.047Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15479662:FL21375987.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15479662:FL21375987.jpg",
+      "type": "ImageService2",
+      "width": 6166,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479662/canvas/FL21375987",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15479662/manifest",
+              "label": {
+                "none": [
+                  "Plan of lands, Township of Mornington"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "109d500868503faf",
+        "index": 2.7885485962013536,
+        "resource": [
+          3942,
+          4320
+        ],
+        "geo": [
+          145.03817121951522,
+          -38.21909942875718
+        ]
+      },
+      {
+        "id": "802fa92a50ab1f80",
+        "index": 0.547485922541219,
+        "resource": [
+          3114,
+          2945
+        ],
+        "geo": [
+          145.03773294688466,
+          -38.218292335593816
+        ]
+      },
+      {
+        "id": "d00028ab68bb75ad",
+        "index": 1.1129084679030514,
+        "resource": [
+          2602,
+          3657
+        ],
+        "geo": [
+          145.0373066028755,
+          -38.21862969584467
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        2393,
+        1302
+      ],
+      [
+        399,
+        6470
+      ],
+      [
+        5742,
+        5599
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/56117093b381451e",
+      "version": "https://annotations.allmaps.org/maps/56117093b381451e@c5b4bd9aba78e2b0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0d8eb8ccc8e7959f",
+        "version": "https://annotations.allmaps.org/images/0d8eb8ccc8e7959f@89eac096d1a9171b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/858b54ed1b9f05dd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f4804137bbb519ed"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 16.446981,
+      "area": 47829.1
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.037395626,
+          -38.217350906
+        ],
+        [
+          145.03549707,
+          -38.219947108
+        ],
+        [
+          145.039294026,
+          -38.219938358
+        ],
+        [
+          145.037395626,
+          -38.217350906
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/595a01e6963a047a",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-09T02:13:43.069Z",
+    "modified": "2026-02-09T02:13:43.069Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15466166:FL21374795.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15466166:FL21374795.jpg",
+      "type": "ImageService2",
+      "width": 4673,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466166/canvas/FL21374795",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466166/manifest",
+              "label": {
+                "none": [
+                  "Plan of the Township of Abbotsford"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "3abf088f022a0591",
+        "index": 2.356290543779499,
+        "resource": [
+          901,
+          4657
+        ],
+        "geo": [
+          144.99815309162943,
+          -37.802398225318434
+        ]
+      },
+      {
+        "id": "77ad9892592c2325",
+        "index": 0.8574501448605536,
+        "resource": [
+          3193,
+          3278
+        ],
+        "geo": [
+          145.00112366756173,
+          -37.801327480210176
+        ]
+      },
+      {
+        "id": "da777dbdaea3db04",
+        "index": 1.4220732307287927,
+        "resource": [
+          3230,
+          4642
+        ],
+        "geo": [
+          145.00093740129438,
+          -37.802652895472264
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        42,
+        2442
+      ],
+      [
+        138,
+        6661
+      ],
+      [
+        4602,
+        6637
+      ],
+      [
+        4511,
+        2479
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/595a01e6963a047a",
+      "version": "https://annotations.allmaps.org/maps/595a01e6963a047a@f7635fa47d39137f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b8687547442f81e1",
+        "version": "https://annotations.allmaps.org/images/b8687547442f81e1@115697fa4fa80927",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cdb860a4f29cee75",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/228c3e912f4fa808"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 9.325407,
+      "area": 215117.69
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.997501339,
+          -37.800153518
+        ],
+        [
+          144.996903166,
+          -37.804251027
+        ],
+        [
+          145.002239056,
+          -37.804743742
+        ],
+        [
+          145.002832895,
+          -37.800705922
+        ],
+        [
+          144.997501339,
+          -37.800153518
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/51b14e9ce47dc366",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T02:09:26.160Z",
+  "modified": "2026-02-09T02:09:26.160Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15304640:FL21365629.jpg",
+      "type": "ImageService2",
+      "height": 5630,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15304640/canvas/FL21365629",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15304640/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the township of South Oakleigh"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5630\"><polygon points=\"1474,1668 1460,5336 6775,5352 6737,1667\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4093,
+            4890
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09176674268025,
+            -37.90172660330334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4089,
+            3492
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09355384522684,
+            -37.90199812886826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6617,
+            4191
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0921417439427,
+            -37.904583732458036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4087,
+            2121
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.09536626716937,
+            -37.902255581496036
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/51b14e9ce47dc366",
+      "version": "https://annotations.allmaps.org/maps/51b14e9ce47dc366@cd5ecc9f5835c1c6",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/e1b2582cfbe20cf0",
+        "version": "https://annotations.allmaps.org/images/e1b2582cfbe20cf0@87c9a558cf6c2968",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9a37357441012626",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5c084713f74d212b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 8.432876,
+      "area": 273435.4
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/06110b9d758b933d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T02:20:49.357Z",
+  "modified": "2026-02-09T02:20:49.357Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15465675:FL21371759.jpg",
+      "type": "ImageService2",
+      "height": 3410,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15465675/canvas/FL21371759",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15465675/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the Township of Greenwich, near Williamstown"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3410\"><polygon points=\"259,587 1900,2926 5993,2916 6643,483\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3037,
+            2355
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.8879396084145,
+            -37.84586212029576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4778,
+            2346
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.89204124100416,
+            -37.84635058846241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1409,
+            1711
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88438542411234,
+            -37.844268854448295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2512,
+            1122
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88719484663807,
+            -37.843390888920815
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/06110b9d758b933d",
+      "version": "https://annotations.allmaps.org/maps/06110b9d758b933d@941be53be74266ce",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/074a1a13cfe8e1a1",
+        "version": "https://annotations.allmaps.org/images/074a1a13cfe8e1a1@babaee97b391984e",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/af7027a77d7616e3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0bd325a693824826"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 4.726888,
+      "area": 560669.63
+    }
+  }
+}

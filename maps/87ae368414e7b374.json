@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/87ae368414e7b374",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T05:12:38.705Z",
+  "modified": "2026-02-09T05:12:38.705Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498179:FL21306178.jpg",
+      "type": "ImageService2",
+      "height": 5248,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498179/canvas/FL21306178",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498179/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Military Survey of Australia Ballan, Sunbury, Meredith & Melbourne (Victoria) /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5248\"><polygon points=\"274,430 226,4600 6747,4584 6755,382\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1827,
+            1341
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.22673541088716,
+            -37.60219109540671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6504,
+            3412
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97727267332635,
+            -37.85983197437611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4961,
+            1181
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.73041354025958,
+            -37.57757612910747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6051,
+            3416
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.90301481415923,
+            -37.862536265658846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1436,
+            4156
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.16657327866426,
+            -37.95692866783948
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/87ae368414e7b374",
+      "version": "https://annotations.allmaps.org/maps/87ae368414e7b374@6ef7bbeb83129d9f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/51c25cb14f999f83",
+        "version": "https://annotations.allmaps.org/images/51c25cb14f999f83@ee4f9f97bafabd41",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5c337d1143af6366",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/584939d942d9bb09"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.071027,
+      "area": 5394083791.33
+    }
+  }
+}

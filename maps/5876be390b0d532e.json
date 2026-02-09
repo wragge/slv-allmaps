@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5876be390b0d532e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T04:31:14.195Z",
+  "modified": "2026-02-09T04:31:14.195Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9595079:FL21652046.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4669,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9595079/canvas/FL21652046",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9595079/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of township of Yatpool, Parish of Yatpool, County of Karkarooc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4669\" height=\"7000\"><polygon points=\"238,1614 685,6759 4493,6751 4355,1614\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1445,
+            4250
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.1829919654714,
+            -34.36740388983071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1397,
+            2504
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.1829449420099,
+            -34.3649972090342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3049,
+            2459
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.1860896792179,
+            -34.36489962920557
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5876be390b0d532e",
+      "version": "https://annotations.allmaps.org/maps/5876be390b0d532e@d2e3d2bc5ad5a12d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cc932671a494915d",
+        "version": "https://annotations.allmaps.org/images/cc932671a494915d@0e30a1cfc075a60f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d6dba9114103f120",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ab1eadc7ec642b56"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 6.11192,
+      "area": 545364.07
+    }
+  }
+}

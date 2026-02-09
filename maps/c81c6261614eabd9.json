@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c81c6261614eabd9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T21:37:40.312Z",
+  "modified": "2026-02-09T21:37:40.312Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15485460:FL21306708.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5317,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485460/canvas/FL21306708",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15485460/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of Pentridge prison"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5317\" height=\"7000\"><polygon points=\"443,1941 284,5502 5218,5574 5203,2225\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            975,
+            2867
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9688625542433,
+            -37.73584654886439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            745,
+            3467
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96814847017725,
+            -37.73685243680415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4434,
+            2827
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97597898165213,
+            -37.73662455457612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1740,
+            2580
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97054367187172,
+            -37.73542045008928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            856,
+            3877
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96832426527197,
+            -37.73747806934281
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c81c6261614eabd9",
+      "version": "https://annotations.allmaps.org/maps/c81c6261614eabd9@7253ad6f4b27bbef",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/efbe00b59ad35c88",
+        "version": "https://annotations.allmaps.org/images/efbe00b59ad35c88@8659b7b5672ec83a",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b4c77a3f126ab60d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9e3e59d04e96c5e2"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 5.273519,
+      "area": 602632.04
+    }
+  }
+}

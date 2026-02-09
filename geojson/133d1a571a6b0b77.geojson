@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/133d1a571a6b0b77",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-09T22:13:11.648Z",
+    "modified": "2026-02-09T22:13:11.648Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7324404:FL21466179.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7324404:FL21466179.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4234,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7324404/canvas/FL21466179",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7324404/manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 3090, Municipality of Box Hill"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "9480764f060f39bf",
+        "index": 0.32612727282424714,
+        "resource": [
+          6187,
+          973
+        ],
+        "geo": [
+          145.13411262396517,
+          -37.81931165441095
+        ]
+      },
+      {
+        "id": "a54c16c26d9eb435",
+        "index": 2.6029266349158675,
+        "resource": [
+          2176,
+          2434
+        ],
+        "geo": [
+          145.1299290775276,
+          -37.81998761205434
+        ]
+      },
+      {
+        "id": "bc3c175550719164",
+        "index": 1.9480694357602497,
+        "resource": [
+          6182,
+          2407
+        ],
+        "geo": [
+          145.13389996143178,
+          -37.82046519494825
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        140,
+        400
+      ],
+      [
+        128,
+        3503
+      ],
+      [
+        6492,
+        3683
+      ],
+      [
+        6479,
+        340
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/133d1a571a6b0b77",
+      "version": "https://annotations.allmaps.org/maps/133d1a571a6b0b77@dd3d921fca4a54b3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c0bb7953fd5cf87c",
+        "version": "https://annotations.allmaps.org/images/c0bb7953fd5cf87c@8e2a3c317137bf08",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0cb1be91323d9a9e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/91903a9ef93afe95"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.204622,
+      "area": 163057.79
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.128207532,
+          -37.818096742
+        ],
+        [
+          145.127746188,
+          -37.820592733
+        ],
+        [
+          145.134022116,
+          -37.821530814
+        ],
+        [
+          145.134493468,
+          -37.818838571
+        ],
+        [
+          145.128207532,
+          -37.818096742
+        ]
+      ]
+    ]
+  }
+}

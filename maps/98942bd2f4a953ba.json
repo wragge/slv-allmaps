@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/98942bd2f4a953ba",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T22:03:13.559Z",
+  "modified": "2026-02-09T22:03:13.559Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9533122:FL21666238.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5423,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9533122/canvas/FL21666238",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9533122/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Eastern half of Geo. R. Broadbent's road and railway map of Victoria (including the federal capital area)"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5423\" height=\"7000\"><polygon points=\"61,798 47,6064 883,6363 4171,4733 5092,2040 5103,754\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4035,
+            4543
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.97320959647192,
+            -37.502926400208125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4872,
+            2016
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.69360884840717,
+            -35.194789195328475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3317,
+            1654
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.02958611382587,
+            -34.97178837959483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            846,
+            6244
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.3873352695344,
+            -39.13301002750903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            181,
+            3564
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.56834833607485,
+            -36.75469305220658
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/98942bd2f4a953ba",
+      "version": "https://annotations.allmaps.org/maps/98942bd2f4a953ba@f6c47a2dc42cf735",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/fd8d83edddc91096",
+        "version": "https://annotations.allmaps.org/images/fd8d83edddc91096@4e68b3fd90139f98",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d8a1d72f3b1032cd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/06a225c551b1a427"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.009987,
+      "area": 226682556441.53
+    }
+  }
+}

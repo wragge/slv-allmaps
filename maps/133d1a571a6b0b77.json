@@ -1,0 +1,125 @@
+{
+  "id": "https://annotations.allmaps.org/maps/133d1a571a6b0b77",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T22:13:11.648Z",
+  "modified": "2026-02-09T22:13:11.648Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7324404:FL21466179.jpg",
+      "type": "ImageService2",
+      "height": 4234,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7324404/canvas/FL21466179",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7324404/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 3090, Municipality of Box Hill"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4234\"><polygon points=\"140,400 128,3503 6492,3683 6479,340\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6187,
+            973
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13411262396517,
+            -37.81931165441095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2176,
+            2434
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1299290775276,
+            -37.81998761205434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6182,
+            2407
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13389996143178,
+            -37.82046519494825
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/133d1a571a6b0b77",
+      "version": "https://annotations.allmaps.org/maps/133d1a571a6b0b77@dd3d921fca4a54b3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c0bb7953fd5cf87c",
+        "version": "https://annotations.allmaps.org/images/c0bb7953fd5cf87c@8e2a3c317137bf08",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0cb1be91323d9a9e",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/91903a9ef93afe95"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.204622,
+      "area": 163057.79
+    }
+  }
+}

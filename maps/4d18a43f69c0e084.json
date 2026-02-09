@@ -1,0 +1,253 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4d18a43f69c0e084",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T21:06:57.674Z",
+  "modified": "2026-02-09T21:06:57.674Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1494604:FL21261677.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5416,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1494604/canvas/FL21261677",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1494604/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Anzac showing relative positions of British and Turkish trenches, October 1915 /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5416\" height=\"7000\"><polygon points=\"605,375 579,6062 4779,6041 4747,334\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1235,
+            3801
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.276122385391687,
+            40.23252209051341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2652,
+            1887
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.298860518905823,
+            40.25708065592738
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            734,
+            5859
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.2677448546128,
+            40.206544076654495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2324,
+            2000
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.295320460662083,
+            40.25283860609383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1091,
+            1543
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.27208286402998,
+            40.26178458712417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1437,
+            2162
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.27957333133159,
+            40.25244094448698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1311,
+            3260
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.276545586462873,
+            40.23930652724019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2136,
+            2865
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.290091274983553,
+            40.24364218879094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1979,
+            1424
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.288027261477477,
+            40.262387359702615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2350,
+            1590
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.29460678598693,
+            40.25997897216769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            739,
+            1125
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.268020724380875,
+            40.26573194257915
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4d18a43f69c0e084",
+      "version": "https://annotations.allmaps.org/maps/4d18a43f69c0e084@e7092944de91edb3",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ab276bf3df1dea63",
+        "version": "https://annotations.allmaps.org/images/ab276bf3df1dea63@2312f7e33303beba",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ef3fb8834c5d796f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/32ba44cdac6ddd90"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.708162,
+      "area": 47383037.35
+    }
+  }
+}

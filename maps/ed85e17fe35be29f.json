@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2026-02-02T01:42:49.363Z",
-  "modified": "2026-02-02T01:42:49.363Z",
+  "created": "2026-02-09T21:52:17.025Z",
+  "modified": "2026-02-09T21:52:17.025Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -52,22 +52,6 @@
       }
     },
     "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "resourceCoords": [
-            3202,
-            4221
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            145.0293958381484,
-            -38.475290329261206
-          ]
-        }
-      },
       {
         "type": "Feature",
         "properties": {
@@ -131,14 +115,30 @@
             -34.0040949698116
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3195,
+            4217
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0269446042854,
+            -38.482716166064655
+          ]
+        }
       }
     ],
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/ed85e17fe35be29f",
-      "version": "https://annotations.allmaps.org/maps/ed85e17fe35be29f@ee83a3fbc2bea3f8",
+      "version": "https://annotations.allmaps.org/maps/ed85e17fe35be29f@2c5b869fc6c202be",
       "image": {
         "id": "https://annotations.allmaps.org/images/25fba81d4075a59e",
-        "version": "https://annotations.allmaps.org/images/25fba81d4075a59e@d37a6376560e34d8",
+        "version": "https://annotations.allmaps.org/images/25fba81d4075a59e@93038ab1332bf94c",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/376c57336336c627",
@@ -150,8 +150,8 @@
           }
         ]
       },
-      "scale": 0.007721,
-      "area": 549261093675.69
+      "scale": 0.007716,
+      "area": 549986650652.75
     }
   }
 }

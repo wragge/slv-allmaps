@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f9ba14a7e82eaac9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-09T21:28:43.675Z",
+  "modified": "2026-02-09T21:28:43.675Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15495875:FL21307746.jpg",
+      "type": "ImageService2",
+      "height": 4522,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495875/canvas/FL21307746",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15495875/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Principal triangles of a trigonometrical survey between Melbourne & the Glenelg founded upon the astronomical bases /"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4522\"><polygon points=\"2193,563 319,2232 330,3159 4598,2987 6639,2106 6563,953\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6211,
+            1932
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9521528932852,
+            -37.81826250051047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            383,
+            2377
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.98934862198877,
+            -38.05941151173213
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1199,
+            2999
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.53941641572624,
+            -38.42104408876956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1005,
+            2965
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.38492779135026,
+            -38.37204782220778
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f9ba14a7e82eaac9",
+      "version": "https://annotations.allmaps.org/maps/f9ba14a7e82eaac9@4cdae2ed8886726a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3d3af7dcc8f9e52d",
+        "version": "https://annotations.allmaps.org/images/3d3af7dcc8f9e52d@c35c7952187916bf",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/9ceff95657ab8f60",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/dc89209e59e121f6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.016385,
+      "area": 45798541859.07
+    }
+  }
+}

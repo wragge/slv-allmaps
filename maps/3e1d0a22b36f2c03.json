@@ -1,0 +1,140 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3e1d0a22b36f2c03",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T22:09:37.022Z",
+  "modified": "2026-02-10T22:09:37.022Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22838215:FL22839263.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5550,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22838215/canvas/FL22839263",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "pv000049"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22838215/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Victoria] fire map, 1:100 000 map series. Castlemaine"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5550\" height=\"7000\"><polygon points=\"668,479 734,5772 4949,5687 4875,408\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2554,
+            1190
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.22218856229557,
+            -37.06504873505306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4479,
+            3073
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4531991021069,
+            -37.24912025829749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2038,
+            4067
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.15592070617055,
+            -37.34098827817362
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3e1d0a22b36f2c03",
+      "version": "https://annotations.allmaps.org/maps/3e1d0a22b36f2c03@835eabe667ffa18c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/640f1ccdf25cd570",
+        "version": "https://annotations.allmaps.org/images/640f1ccdf25cd570@9e30b4a5b940eacd",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b1695418f8477dbd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/20256b0f09a409b9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.093336,
+      "area": 2555752514.76
+    }
+  }
+}

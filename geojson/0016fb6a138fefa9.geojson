@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/0016fb6a138fefa9",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-10T22:18:41.591Z",
+    "modified": "2026-02-10T22:18:41.591Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002326:FL21479375.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7002326:FL21479375.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5015,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002326/canvas/FL21479375",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7002326/manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : standard 40 chain series topographical map. 817 B, Castlemaine B"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "59262fd4d4879b97",
+        "index": 1.614279589403834,
+        "resource": [
+          2632,
+          3208
+        ],
+        "geo": [
+          144.33191356473066,
+          -37.100653378657086
+        ]
+      },
+      {
+        "id": "ae42ff5cd3a9086f",
+        "index": 0.1557732045286231,
+        "resource": [
+          1100,
+          2718
+        ],
+        "geo": [
+          144.25575282088124,
+          -37.081283532441496
+        ]
+      },
+      {
+        "id": "0cc7ad851a1ebf4d",
+        "index": 2.795005268637759,
+        "resource": [
+          3118,
+          2737
+        ],
+        "geo": [
+          144.35520770106115,
+          -37.08142159915454
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5015
+      ],
+      [
+        7000,
+        5015
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0016fb6a138fefa9",
+      "version": "https://annotations.allmaps.org/maps/0016fb6a138fefa9@b87e5e9881f55ddc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/099896ee94539038",
+        "version": "https://annotations.allmaps.org/images/099896ee94539038@f87b2da7fdde88ae",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b8bdb81bb769d922",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/b0eaea209bb5f292"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.225263,
+      "area": 691814788.01
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.197795248,
+          -36.971431216
+        ],
+        [
+          144.204732158,
+          -37.174631097
+        ],
+        [
+          144.549628189,
+          -37.172442537
+        ],
+        [
+          144.542691279,
+          -36.969236783
+        ],
+        [
+          144.197795248,
+          -36.971431216
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d90527ec8401686b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T22:15:26.815Z",
+  "modified": "2026-02-10T22:15:26.815Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7003136:FL21480720.jpg",
+      "type": "ImageService2",
+      "height": 4988,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003136/canvas/FL21480720",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7003136/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia 1:31,680 state aerial survey Victoria : standard 40 chain series topographical map. 817 A, Castlemaine A"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4988\"><polygon points=\"912,473 942,3725 6107,3757 6109,506\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1890,
+            2373
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.04561120929094,
+            -37.070669692488615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5405,
+            2280
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.21654855650814,
+            -37.06681414771404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3981,
+            1850
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.14750204086255,
+            -37.049905333871166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2350,
+            637
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.06780806897353,
+            -37.002832698715125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5784,
+            1170
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.23517471288358,
+            -37.02334777544232
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2260,
+            3223
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.06354280698622,
+            -37.10332237749647
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5159,
+            3048
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.20510198440826,
+            -37.09650807012276
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d90527ec8401686b",
+      "version": "https://annotations.allmaps.org/maps/d90527ec8401686b@1ecc223afca35193",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f0a4661646eb9e3e",
+        "version": "https://annotations.allmaps.org/images/f0a4661646eb9e3e@c65e1abd0f1942df",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/71e341f22566ad20",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/138f1bc405f34b5b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.231172,
+      "area": 315220853.86
+    }
+  }
+}

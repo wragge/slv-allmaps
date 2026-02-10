@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/3e1d0a22b36f2c03",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-10T22:09:37.022Z",
+    "modified": "2026-02-10T22:09:37.022Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22838215:FL22839263.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE22838215:FL22839263.jpg",
+      "type": "ImageService2",
+      "width": 5550,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22838215/canvas/FL22839263",
+          "label": {
+            "none": [
+              "pv000049"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22838215/manifest",
+              "label": {
+                "none": [
+                  "[Victoria] fire map, 1:100 000 map series. Castlemaine"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "dc8f9a6d773e21b5",
+        "index": 0.48154383496920217,
+        "resource": [
+          2554,
+          1190
+        ],
+        "geo": [
+          144.22218856229557,
+          -37.06504873505306
+        ]
+      },
+      {
+        "id": "f8b032c42449d9a0",
+        "index": 1.5691667587861415,
+        "resource": [
+          4479,
+          3073
+        ],
+        "geo": [
+          144.4531991021069,
+          -37.24912025829749
+        ]
+      },
+      {
+        "id": "fe8b2e1137aeb85d",
+        "index": 2.7465327275645355,
+        "resource": [
+          2038,
+          4067
+        ],
+        "geo": [
+          144.15592070617055,
+          -37.34098827817362
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        668,
+        479
+      ],
+      [
+        734,
+        5772
+      ],
+      [
+        4949,
+        5687
+      ],
+      [
+        4875,
+        408
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3e1d0a22b36f2c03",
+      "version": "https://annotations.allmaps.org/maps/3e1d0a22b36f2c03@835eabe667ffa18c",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/640f1ccdf25cd570",
+        "version": "https://annotations.allmaps.org/images/640f1ccdf25cd570@9e30b4a5b940eacd",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b1695418f8477dbd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/20256b0f09a409b9"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.093336,
+      "area": 2555752514.76
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.994401408,
+          -36.993704588
+        ],
+        [
+          143.995604008,
+          -37.502567233
+        ],
+        [
+          144.506833782,
+          -37.500652467
+        ],
+        [
+          144.504643095,
+          -36.993115193
+        ],
+        [
+          143.994401408,
+          -36.993704588
+        ]
+      ]
+    ]
+  }
+}

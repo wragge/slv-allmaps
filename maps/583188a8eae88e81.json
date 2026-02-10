@@ -1,0 +1,156 @@
+{
+  "id": "https://annotations.allmaps.org/maps/583188a8eae88e81",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T21:58:48.462Z",
+  "modified": "2026-02-10T21:58:48.462Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7090963:FL21476335.jpg",
+      "type": "ImageService2",
+      "height": 2773,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7090963/canvas/FL21476335",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7090963/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Darebin Glen (Ford, Turner Streets, Sparks Avenue), 1886"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"2773\"><polygon points=\"688,217 67,868 573,1528 2245,2417 4177,1398 5167,2716 6946,1666 6256,263\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3919,
+            722
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02770440542213,
+            -37.76461285966617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1388,
+            995
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0306115469234,
+            -37.766553469275586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2460,
+            1635
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03028859656945,
+            -37.76521034673466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6566,
+            1189
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02523031445236,
+            -37.76215857718523
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/583188a8eae88e81",
+      "version": "https://annotations.allmaps.org/maps/583188a8eae88e81@6c8e9cf80642f46f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/54d25a502f537f51",
+        "version": "https://annotations.allmaps.org/images/54d25a502f537f51@04ab72e261bf6f39",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/462e529f62b82ffb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/cb4a0abff66a069e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 7.867732,
+      "area": 180691.16
+    }
+  }
+}

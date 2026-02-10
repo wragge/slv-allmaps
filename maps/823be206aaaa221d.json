@@ -1,0 +1,237 @@
+{
+  "id": "https://annotations.allmaps.org/maps/823be206aaaa221d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T03:49:19.311Z",
+  "modified": "2026-02-10T03:49:19.311Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7021930:FL21347947.jpg",
+      "type": "ImageService2",
+      "height": 5354,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7021930/canvas/FL21347947",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7021930/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Parish of Snake Island, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5354\"><polygon points=\"74,1281 65,2376 2544,4525 4956,4838 6908,2697 6822,1188\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6386,
+            2096
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.6029763778518,
+            -38.744958023806035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2170,
+            1945
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.49223052553128,
+            -38.725091737270645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3938,
+            1812
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5384061764032,
+            -38.72896200423343
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1438,
+            2222
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.47092356747248,
+            -38.72856998951053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5697,
+            2335
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.58461573534277,
+            -38.747386539836846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2767,
+            1456
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5097733276777,
+            -38.718900637440655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5193,
+            1811
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.57200671305748,
+            -38.7364217274132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2611,
+            4337
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.49278262682452,
+            -38.773753535071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            189,
+            2311
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.43897495684695,
+            -38.728376735514196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4290,
+            4673
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5380222277027,
+            -38.790020994940654
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/823be206aaaa221d",
+      "version": "https://annotations.allmaps.org/maps/823be206aaaa221d@27da99622aeee7e5",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/586c28016adc4463",
+        "version": "https://annotations.allmaps.org/images/586c28016adc4463@e7e561314f1e0972",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/85e7b64fe7f94300",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/0b38ea43745a94af"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.437211,
+      "area": 97752707.29
+    }
+  }
+}

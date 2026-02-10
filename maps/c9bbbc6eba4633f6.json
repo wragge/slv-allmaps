@@ -1,0 +1,189 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c9bbbc6eba4633f6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T03:55:08.855Z",
+  "modified": "2026-02-10T03:55:08.855Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE23154925:FL23155169.jpg",
+      "type": "ImageService2",
+      "height": 4074,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23154925/canvas/FL23155169",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "ma000848"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE23154925/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "\"The Nobbies\" Phillip Island."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4074\"><polygon points=\"0,0 0,4074 7000,4074 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4640,
+            1092
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.13933226636743,
+            -38.50539793636307
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3809,
+            3467
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.12957170620774,
+            -38.51843332751654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2906,
+            1013
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.12753387140646,
+            -38.50520767090296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1843,
+            2768
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.12086135659905,
+            -38.51385879552999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            240,
+            3484
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.1107119729764,
+            -38.518819537536665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5524,
+            3128
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.14539718116805,
+            -38.516275342948276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5495,
+            1338
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.14531551953314,
+            -38.50657638266499
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c9bbbc6eba4633f6",
+      "version": "https://annotations.allmaps.org/maps/c9bbbc6eba4633f6@4974ae5185e8c758",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b1b24c3218a73dc3",
+        "version": "https://annotations.allmaps.org/images/b1b24c3218a73dc3@6dcb99bdcd13809b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/b924938eb1235866",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/5cf9a55a52145344"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.729704,
+      "area": 9531817.48
+    }
+  }
+}

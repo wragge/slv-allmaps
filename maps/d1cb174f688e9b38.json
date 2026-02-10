@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/d1cb174f688e9b38",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T03:45:22.758Z",
+  "modified": "2026-02-10T03:45:22.758Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7037567:FL21365973.jpg",
+      "type": "ImageService2",
+      "height": 3717,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037567/canvas/FL21365973",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7037567/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Australia - Coral Sea and Great Barrier Reefs, showing the Inner and Outer routes to Torres Strait - Sheet 1 ."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"3717\"><polygon points=\"165,270 189,2343 866,2356 1062,3475 6867,3501 6864,291\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1270,
+            1800
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.9545720219893,
+            -20.54171736938767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1836,
+            2461
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.56426835563633,
+            -22.312767618584317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1109,
+            1592
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            148.45338088876463,
+            -19.993200470838673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            544,
+            1327
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.7897510302048,
+            -19.169642299693805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6513,
+            1761
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            164.09499465661497,
+            -20.38035045255083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2758,
+            3357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153.24960010693582,
+            -24.693776524955553
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d1cb174f688e9b38",
+      "version": "https://annotations.allmaps.org/maps/d1cb174f688e9b38@78add17058023572",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0813216e677a6707",
+        "version": "https://annotations.allmaps.org/images/0813216e677a6707@c23259e21497ed0b",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e81973151f47e1ec",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/912e12ce955f8903"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.003316,
+      "area": 1869137231539.74
+    }
+  }
+}

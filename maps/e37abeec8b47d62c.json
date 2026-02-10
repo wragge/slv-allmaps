@@ -1,0 +1,141 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e37abeec8b47d62c",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T03:51:47.365Z",
+  "modified": "2026-02-10T03:51:47.365Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7035228:FL21353413.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5836,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035228/canvas/FL21353413",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7035228/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Map of part of French Island]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5836\" height=\"7000\"><polygon points=\"99,1282 79,5599 4570,5405 5886,4031 3815,1282\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1627,
+            1558
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4099575183767,
+            -38.30509869923331
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3178,
+            5024
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.44770698337112,
+            -38.37008611646591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5378,
+            4060
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.5015730717805,
+            -38.35384843425111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3096,
+            1661
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.4490010507867,
+            -38.306370227128504
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e37abeec8b47d62c",
+      "version": "https://annotations.allmaps.org/maps/e37abeec8b47d62c@463390ea15119959",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/b98c9100e3dce5d4",
+        "version": "https://annotations.allmaps.org/images/b98c9100e3dce5d4@8ea4a49b2d98a5ec",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e3a42702e1059f0f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/20f1a417cf2a002d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.470292,
+      "area": 93066922.17
+    }
+  }
+}

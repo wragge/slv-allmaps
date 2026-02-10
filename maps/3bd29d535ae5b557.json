@@ -1,0 +1,173 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3bd29d535ae5b557",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T00:52:45.143Z",
+  "modified": "2026-02-10T00:52:45.143Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15498504:FL21304086.jpg",
+      "type": "ImageService2",
+      "height": 5175,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498504/canvas/FL21304086",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15498504/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Contour map of Mornington Peninsula"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5175\"><polygon points=\"107,181 62,5014 6951,4976 6909,156\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3235,
+            4820
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.88823331497827,
+            -38.49933616870236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6216,
+            3303
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.23437541466012,
+            -38.40937172749417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            633,
+            2866
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.65157036966218,
+            -38.30222740949879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6559,
+            494
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.31417894595688,
+            -38.180094371932675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3717,
+            2290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98332222105023,
+            -38.296902991437584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5541,
+            496
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.20659295069441,
+            -38.16734254705763
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3bd29d535ae5b557",
+      "version": "https://annotations.allmaps.org/maps/3bd29d535ae5b557@8d741f0fadd78339",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/937c9374eaff9113",
+        "version": "https://annotations.allmaps.org/images/937c9374eaff9113@93faf408ce65e7c6",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0dd907604999a684",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/82207a6d8a474058"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.106915,
+      "area": 2890428163.39
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "https://annotations.allmaps.org/maps/5bba2c91683ff58e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-10T02:39:39.326Z",
+  "modified": "2026-02-10T02:39:39.326Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7118137:FL21501909.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6001,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118137/canvas/FL21501909",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7118137/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Freehold allotments in the Grace Park Estate, Hawthorn"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6001\" height=\"7000\"><polygon points=\"310,3436 319,6687 5670,6643 5616,3414\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5421,
+            3891
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0361614965912,
+            -37.81824312744851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            415,
+            6242
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02654683074883,
+            -37.82060194073449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1836,
+            4547
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.02942653207083,
+            -37.81837615166355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            449,
+            3916
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0271931778238,
+            -37.81721345124359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3627,
+            5361
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.03243986327595,
+            -37.81996653741317
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/5bba2c91683ff58e",
+      "version": "https://annotations.allmaps.org/maps/5bba2c91683ff58e@04306f26f3b8a4c2",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/211d7cf27612cfcd",
+        "version": "https://annotations.allmaps.org/images/211d7cf27612cfcd@d75332a04c537a37",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/35ec96eb71c3b85c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1f7900d798d33761"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 6.188906,
+      "area": 450763.1
+    }
+  }
+}

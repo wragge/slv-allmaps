@@ -1,0 +1,172 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0c4b37c4455badaf",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-13T05:41:11.147Z",
+  "modified": "2026-02-13T05:41:11.147Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE1471804:FL21261621.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 6100,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1471804/canvas/FL21261621",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map  1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE1471804/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map shewing bridges over the Somme."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6100\" height=\"7000\"><polygon points=\"435,343 444,6634 5595,6627 5558,343\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4648,
+            436
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.9466045912658103,
+            49.963809933796995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4242,
+            5055
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.931260640350388,
+            49.823484227726226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4154,
+            1335
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.925261813205452,
+            49.93623931492303
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3564,
+            643
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.8958538719117257,
+            49.9556956176163
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1365,
+            5177
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.7976596125631374,
+            49.81875752509197
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0c4b37c4455badaf",
+      "version": "https://annotations.allmaps.org/maps/0c4b37c4455badaf@7fc1bd792c2750f0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6c1102c9b56658c5",
+        "version": "https://annotations.allmaps.org/images/6c1102c9b56658c5@7738d5df41d50d59",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8ad50359ca47873d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c1f86de5c5fe93a5"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.298245,
+      "area": 363114546.29
+    }
+  }
+}

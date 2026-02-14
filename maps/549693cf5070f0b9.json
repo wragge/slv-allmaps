@@ -1,0 +1,156 @@
+{
+  "id": "https://annotations.allmaps.org/maps/549693cf5070f0b9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-14T02:19:24.128Z",
+  "modified": "2026-02-14T02:19:24.128Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9585996:FL21663703.jpg",
+      "type": "ImageService2",
+      "height": 5905,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585996/canvas/FL21663703",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9585996/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "The number map for the city of Melbourne showing all the city streets & lanes also street numbers at corners of blocks /"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5905\"><polygon points=\"1462,1998 1471,4113 5648,4129 5627,1907 3884,955 2590,959 2575,2003\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5313,
+            3850
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9748269724222,
+            -37.81526653143719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1672,
+            3843
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9551503283218,
+            -37.82090258499142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5583,
+            2256
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97299700324004,
+            -37.80815334318152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1611,
+            2041
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95132826512122,
+            -37.81335128856435
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/549693cf5070f0b9",
+      "version": "https://annotations.allmaps.org/maps/549693cf5070f0b9@f506d25e9276ab3b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/cec3fec0e6b8e3df",
+        "version": "https://annotations.allmaps.org/images/cec3fec0e6b8e3df@783fe8141bd43a17",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/d444c20d36d8bb5d",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/abf5fd953fb81e58"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.992563,
+      "area": 2819976.78
+    }
+  }
+}

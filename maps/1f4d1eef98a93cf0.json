@@ -1,0 +1,140 @@
+{
+  "id": "https://annotations.allmaps.org/maps/1f4d1eef98a93cf0",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-14T07:53:12.309Z",
+  "modified": "2026-02-14T07:53:12.309Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045867:FL21355401.jpg",
+      "type": "ImageService2",
+      "height": 4986,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045867/canvas/FL21355401",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045867/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Moe, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4986\"><polygon points=\"1277,1072 968,3012 2845,4769 5987,2969 5508,661 4118,1162\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1427,
+            1517
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.0668541718881,
+            -38.2069815190073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5265,
+            814
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.26107435598618,
+            -38.17720498960862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4006,
+            3398
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.19871219032427,
+            -38.28176115837677
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1f4d1eef98a93cf0",
+      "version": "https://annotations.allmaps.org/maps/1f4d1eef98a93cf0@ad54685d7edcd55b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5a56a44cd0e0f26d",
+        "version": "https://annotations.allmaps.org/images/5a56a44cd0e0f26d@11ae2b575c760ee4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3bd9281cdd85486f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1374abd963922a1e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.224476,
+      "area": 268272885.9
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/1f4d1eef98a93cf0",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-14T07:53:12.309Z",
+    "modified": "2026-02-14T07:53:12.309Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045867:FL21355401.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7045867:FL21355401.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4986,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045867/canvas/FL21355401",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7045867/manifest",
+              "label": {
+                "none": [
+                  "Moe, County of Buln Buln"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "276e740f213bb028",
+        "index": 0.6514581730376903,
+        "resource": [
+          1427,
+          1517
+        ],
+        "geo": [
+          146.0668541718881,
+          -38.2069815190073
+        ]
+      },
+      {
+        "id": "40ab9ba8883af0ff",
+        "index": 1.928871154181385,
+        "resource": [
+          5265,
+          814
+        ],
+        "geo": [
+          146.26107435598618,
+          -38.17720498960862
+        ]
+      },
+      {
+        "id": "5a83670fc0a35512",
+        "index": 2.2533050487792283,
+        "resource": [
+          4006,
+          3398
+        ],
+        "geo": [
+          146.19871219032427,
+          -38.28176115837677
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        1277,
+        1072
+      ],
+      [
+        968,
+        3012
+      ],
+      [
+        2845,
+        4769
+      ],
+      [
+        5987,
+        2969
+      ],
+      [
+        5508,
+        661
+      ],
+      [
+        4118,
+        1162
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/1f4d1eef98a93cf0",
+      "version": "https://annotations.allmaps.org/maps/1f4d1eef98a93cf0@ad54685d7edcd55b",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/5a56a44cd0e0f26d",
+        "version": "https://annotations.allmaps.org/images/5a56a44cd0e0f26d@11ae2b575c760ee4",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3bd9281cdd85486f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/1374abd963922a1e"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.224476,
+      "area": 268272885.9
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.058992675,
+          -38.189105877
+        ],
+        [
+          146.044435419,
+          -38.267365788
+        ],
+        [
+          146.14062428,
+          -38.337360073
+        ],
+        [
+          146.298921851,
+          -38.263746268
+        ],
+        [
+          146.273309071,
+          -38.170945989
+        ],
+        [
+          146.203110007,
+          -38.191662971
+        ],
+        [
+          146.058992675,
+          -38.189105877
+        ]
+      ]
+    ]
+  }
+}

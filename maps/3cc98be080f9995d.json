@@ -1,0 +1,156 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3cc98be080f9995d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-18T09:34:40.706Z",
+  "modified": "2026-02-18T09:34:40.706Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE22838966:FL22839499.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5062,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22838966/canvas/FL22839499",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "pv000019"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE22838966/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "[Victoria] fire map, 1:100 000 map series. 7823 Woodend"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5062\" height=\"7000\"><polygon points=\"158,313 143,6061 4906,6071 4909,295\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3403,
+            1534
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.84899943428536,
+            -37.09985546273497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            454,
+            5897
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50923385421862,
+            -37.49025055637557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4608,
+            5526
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98075438762925,
+            -37.46006939685012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            574,
+            692
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.5318185034991,
+            -37.021425716016275
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3cc98be080f9995d",
+      "version": "https://annotations.allmaps.org/maps/3cc98be080f9995d@d2bf3bd931622a4a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a0cc43249216556f",
+        "version": "https://annotations.allmaps.org/images/a0cc43249216556f@a83d49dee9b336e9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a37003aa74150cde",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/9a0a7cbd57362968"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.099826,
+      "area": 2750552393.35
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/36dc5f2312b2eb0b",
+    "type": "GeoreferencedMap",
+    "created": "2026-02-19T05:21:29.407Z",
+    "modified": "2026-02-19T05:21:29.407Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388011:FL21481856.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE7388011:FL21481856.jpg",
+      "type": "ImageService2",
+      "width": 4849,
+      "height": 7000,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388011/canvas/FL21481856",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7388011/manifest",
+              "label": {
+                "none": [
+                  "Lake Cooper"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "1e22341bdb1b7275",
+        "index": 0.029986245624341712,
+        "resource": [
+          3104,
+          712
+        ],
+        "geo": [
+          144.8318482861739,
+          -36.37536148288471
+        ]
+      },
+      {
+        "id": "455638bdebc83892",
+        "index": 1.0154395239971739,
+        "resource": [
+          3761,
+          5936
+        ],
+        "geo": [
+          144.84992400203316,
+          -36.49898789670613
+        ]
+      },
+      {
+        "id": "4319982497ddc528",
+        "index": 2.9967591936864455,
+        "resource": [
+          593,
+          5077
+        ],
+        "geo": [
+          144.75932794966423,
+          -36.47818005788457
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        201,
+        644
+      ],
+      [
+        188,
+        6082
+      ],
+      [
+        4648,
+        6108
+      ],
+      [
+        4666,
+        653
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/36dc5f2312b2eb0b",
+      "version": "https://annotations.allmaps.org/maps/36dc5f2312b2eb0b@ff47490e406dbc26",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9789c1e72f7650e1",
+        "version": "https://annotations.allmaps.org/images/9789c1e72f7650e1@7755c8449d4f8c8f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/1859d8a46a1ac0f6",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/da3f8d5946a9f227"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.385277,
+      "area": 163740175.3
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.748728931,
+          -36.373283939
+        ],
+        [
+          144.747588613,
+          -36.501861662
+        ],
+        [
+          144.875299429,
+          -36.503194337
+        ],
+        [
+          144.876585326,
+          -36.374217343
+        ],
+        [
+          144.748728931,
+          -36.373283939
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ae01f20b9ed57f0d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-02-19T05:15:02.298Z",
+  "modified": "2026-02-19T05:15:02.298Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7387061:FL21481784.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4817,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387061/canvas/FL21481784",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7387061/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Nanneella"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4817\" height=\"7000\"><polygon points=\"200,628 207,5997 4610,6012 4619,644\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3100,
+            707
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.831843045945,
+            -36.2487919690738
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            600,
+            2774
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.7592635773725,
+            -36.29882284619581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2464,
+            5642
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.81382007523888,
+            -36.36800617046141
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ae01f20b9ed57f0d",
+      "version": "https://annotations.allmaps.org/maps/ae01f20b9ed57f0d@f1f902f4abc3a60e",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/94a7c9197afaa837",
+        "version": "https://annotations.allmaps.org/images/94a7c9197afaa837@93ceef8323816654",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/98648a40dde832bb",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/419124d2970106bc"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.377768,
+      "area": 165936129.25
+    }
+  }
+}

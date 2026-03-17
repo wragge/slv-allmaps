@@ -1,0 +1,252 @@
+{
+  "id": "https://annotations.allmaps.org/maps/37c3c63a41904632",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-03-17T04:51:53.760Z",
+  "modified": "2026-03-17T04:51:53.760Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7192331:FL21459549.jpg",
+      "type": "ImageService2",
+      "height": 4796,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192331/canvas/FL21459549",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7192331/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Tulloch & Brown's map of the Colony of Victoria comprising part of New South Wales, the boundaries, counties, also seaport & inland townships, the gold fields with the latest discoveries, roads, tracks, &c. &c. / Tulloch & Brown's map of the Colony of Victoria"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4796\"><polygon points=\"119,131 116,4698 6889,4718 6873,152\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3104,
+            4173
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0305890022271,
+            -38.48385597673986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2928,
+            2056
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.74788845396898,
+            -36.1209171652323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6768,
+            1739
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.20987766116997,
+            -35.71123806797101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            934,
+            355
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.91189396635895,
+            -34.092941878838026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            287,
+            3739
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.95511782236048,
+            -38.00719164483348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6495,
+            3290
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.9786377615032,
+            -37.503989739769274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1188,
+            2602
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.20328129876225,
+            -36.71839820563999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2040,
+            4505
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.51193671104568,
+            -38.85888442488492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4998,
+            3462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.83431246158318,
+            -37.70849652310064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4397,
+            2003
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.92486778426598,
+            -36.08692829967592
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/37c3c63a41904632",
+      "version": "https://annotations.allmaps.org/maps/37c3c63a41904632@ad0a302b502e1bae",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/22dbac5807da0855",
+        "version": "https://annotations.allmaps.org/images/22dbac5807da0855@a161715ad25fb111",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/4fb4bf26cb0e50c8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fb50a38bbc831a18"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.007801,
+      "area": 507493762526.91
+    }
+  }
+}

@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2026-03-17T22:11:43.524Z",
-  "modified": "2026-03-17T22:11:43.524Z",
+  "created": "2026-03-17T22:17:21.418Z",
+  "modified": "2026-03-17T22:17:21.418Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -67,6 +67,22 @@
       }
     },
     "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3774,
+            2443
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.9871127602746,
+            -36.56152652047136
+          ]
+        }
+      },
       {
         "type": "Feature",
         "properties": {
@@ -135,6 +151,22 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
+            6067,
+            1449
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.23303344775934,
+            -35.35245233154379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
             934,
             355
           ]
@@ -176,6 +208,22 @@
           "coordinates": [
             149.9786377615032,
             -37.503989739769274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6724,
+            491
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.05912940900964,
+            -34.26818285178348
           ]
         }
       },
@@ -279,25 +327,25 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
-            6067,
-            1449
+            3162,
+            2898
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            149.23303344775934,
-            -35.35245233154379
+            145.10641243436396,
+            -37.02520720128918
           ]
         }
       }
     ],
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/37c3c63a41904632",
-      "version": "https://annotations.allmaps.org/maps/37c3c63a41904632@9d5091c14300099d",
+      "version": "https://annotations.allmaps.org/maps/37c3c63a41904632@2d5c8d75b423a4e6",
       "image": {
         "id": "https://annotations.allmaps.org/images/22dbac5807da0855",
-        "version": "https://annotations.allmaps.org/images/22dbac5807da0855@f3f632ee3b4b16f4",
+        "version": "https://annotations.allmaps.org/images/22dbac5807da0855@8e938a68321c2ede",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/4fb4bf26cb0e50c8",
@@ -309,8 +357,8 @@
           }
         ]
       },
-      "scale": 0.007792,
-      "area": 508739347369.14
+      "scale": 0.007807,
+      "area": 506746466015.28
     }
   }
 }

@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2026-01-08T00:19:04.251Z",
-  "modified": "2026-01-08T00:19:04.251Z",
+  "created": "2026-04-06T05:19:43.908Z",
+  "modified": "2026-04-06T05:19:43.908Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -36,11 +36,26 @@
             }
           ]
         }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
       ]
     },
     "selector": {
       "type": "SvgSelector",
-      "value": "<svg width=\"7000\" height=\"5162\"><polygon points=\"6072,3609 6134,546 461,461 444,3540\" /></svg>"
+      "value": "<svg width=\"7000\" height=\"5162\"><polygon points=\"6072,3609 6134,546 481,496 444,3540\" /></svg>"
     }
   },
   "body": {
@@ -56,24 +71,8 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
-            5830,
-            2379
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            144.99085197896744,
-            -37.80706553333207
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "resourceCoords": [
-            4522,
-            2946
+            4519,
+            2945
           ]
         },
         "geometry": {
@@ -95,8 +94,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            144.94793202328879,
-            -37.80775718783369
+            144.94789040421603,
+            -37.807744491982795
           ]
         }
       },
@@ -127,8 +126,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            144.9842958204061,
-            -37.798942455416935
+            144.98426742926648,
+            -37.79896079503468
           ]
         }
       },
@@ -136,15 +135,15 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
-            1226,
-            1758
+            1230,
+            1765
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            144.95138294392314,
-            -37.81316391093799
+            144.95143152079447,
+            -37.81314460225686
           ]
         }
       },
@@ -168,6 +167,22 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
+            1684,
+            692
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95220338258554,
+            -37.8054694733417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
             5359,
             3420
           ]
@@ -184,6 +199,22 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
+            2381,
+            2666
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96404556685718,
+            -37.81617628859237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
             1221,
             2646
           ]
@@ -193,6 +224,22 @@
           "coordinates": [
             144.95413881945893,
             -37.819034182707846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5452,
+            1857
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98676093604604,
+            -37.802354015487296
           ]
         }
       },
@@ -248,25 +295,25 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
-            2381,
-            2666
+            3527,
+            2075
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            144.96404556685718,
-            -37.81617628859237
+            144.97218695838575,
+            -37.809378071592214
           ]
         }
       }
     ],
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/26d95fa9c46e2393",
-      "version": "https://annotations.allmaps.org/maps/26d95fa9c46e2393@1d96a098fa52d108",
+      "version": "https://annotations.allmaps.org/maps/26d95fa9c46e2393@730aaf7249f2f2c1",
       "image": {
         "id": "https://annotations.allmaps.org/images/6a3f455221ab8e4d",
-        "version": "https://annotations.allmaps.org/images/6a3f455221ab8e4d@6731d7d9506bfc7b",
+        "version": "https://annotations.allmaps.org/images/6a3f455221ab8e4d@99c310f21e464d3e",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/c0c0ba6b3eb5a7a8",
@@ -278,8 +325,8 @@
           }
         ]
       },
-      "scale": 1.353365,
-      "area": 9475729.32
+      "scale": 1.339267,
+      "area": 9604068.79
     }
   }
 }

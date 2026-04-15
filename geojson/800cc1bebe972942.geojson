@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/800cc1bebe972942",
+    "type": "GeoreferencedMap",
+    "created": "2026-04-15T12:24:49.562Z",
+    "modified": "2026-04-15T12:24:49.562Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819462:FL21664006.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819462:FL21664006.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5219,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/canvas/FL21664006",
+          "label": {
+            "none": [
+              "Map 4"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/manifest",
+              "label": {
+                "none": [
+                  "South Melbourne plans"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "a6bc3001972143d9",
+        "index": 1.138090574698243,
+        "resource": [
+          3186,
+          2660
+        ],
+        "geo": [
+          144.9480892572493,
+          -37.82523668900765
+        ]
+      },
+      {
+        "id": "c68997e3a2316447",
+        "index": 0.6930878682729729,
+        "resource": [
+          2373,
+          753
+        ],
+        "geo": [
+          144.94751486991493,
+          -37.82381686252626
+        ]
+      },
+      {
+        "id": "28c5d2c83b88a2cd",
+        "index": 2.458526517927028,
+        "resource": [
+          5797,
+          725
+        ],
+        "geo": [
+          144.95066108555636,
+          -37.824060061944294
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        79,
+        97
+      ],
+      [
+        70,
+        5043
+      ],
+      [
+        6805,
+        5063
+      ],
+      [
+        6858,
+        110
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/800cc1bebe972942",
+      "version": "https://annotations.allmaps.org/maps/800cc1bebe972942@05295fc94f2e3a19",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2791678695ba7a6e",
+        "version": "https://annotations.allmaps.org/images/2791678695ba7a6e@b6035d9fc2f7ca21",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8282fa94fb9d56dd",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/234e397c4ac4341b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 12.447938,
+      "area": 215837.57
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.945467858,
+          -37.823173642
+        ],
+        [
+          144.945013352,
+          -37.826693355
+        ],
+        [
+          144.951195177,
+          -37.827225144
+        ],
+        [
+          144.951690712,
+          -37.823703855
+        ],
+        [
+          144.945467858,
+          -37.823173642
+        ]
+      ]
+    ]
+  }
+}

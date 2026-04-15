@@ -1,0 +1,204 @@
+{
+  "id": "https://annotations.allmaps.org/maps/68e87dcab869302d",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-04-15T12:08:52.071Z",
+  "modified": "2026-04-15T12:08:52.071Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819462:FL21664003.jpg",
+      "type": "ImageService2",
+      "height": 5111,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/canvas/FL21664003",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 2"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Melbourne plans"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5111\"><polygon points=\"46,42 65,5036 6712,5055 6821,51\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4585,
+            2417
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96121851891417,
+            -37.82198053739706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            285,
+            393
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95643056987598,
+            -37.8235257774374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            877,
+            2304
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95862677348862,
+            -37.824235914005946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6229,
+            4807
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9639791405923,
+            -37.822572767380315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5788,
+            1467
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96138951669877,
+            -37.82099718596387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            733,
+            4505
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96008120667386,
+            -37.825636541313386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6492,
+            1847
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96225134762693,
+            -37.82070001690208
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/68e87dcab869302d",
+      "version": "https://annotations.allmaps.org/maps/68e87dcab869302d@296d9d8091fd0160",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c33129982633e64b",
+        "version": "https://annotations.allmaps.org/images/c33129982633e64b@443d9bc634a4033f",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5859d41349c72dd5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/234e397c4ac4341b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.001572,
+      "area": 277184.54
+    }
+  }
+}

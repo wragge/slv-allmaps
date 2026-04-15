@@ -1,0 +1,172 @@
+{
+  "id": "https://annotations.allmaps.org/maps/bb7d0cf8a1000d76",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-04-15T12:32:18.159Z",
+  "modified": "2026-04-15T12:32:18.159Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819462:FL21664010.jpg",
+      "type": "ImageService2",
+      "height": 5262,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/canvas/FL21664010",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 5"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Melbourne plans"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "type": "Organization",
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5262\"><polygon points=\"1761,79 1807,5168 6811,5188 6811,39\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6654,
+            3357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94456811532893,
+            -37.82648090544611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2012,
+            804
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94048542338192,
+            -37.823690319028174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1978,
+            3256
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93994456309844,
+            -37.82562566755819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4292,
+            3353
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9422004869162,
+            -37.82608816438984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4261,
+            4914
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.94186894733696,
+            -37.82723068615561
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/bb7d0cf8a1000d76",
+      "version": "https://annotations.allmaps.org/maps/bb7d0cf8a1000d76@205d3ca7f6080b63",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/7473bbcbc8c294bd",
+        "version": "https://annotations.allmaps.org/images/7473bbcbc8c294bd@2bfd2a180b17f6e0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2afb23b86a262e35",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/234e397c4ac4341b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.306267,
+      "area": 201307.24
+    }
+  }
+}

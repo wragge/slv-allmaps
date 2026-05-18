@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9329db31239f2684",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-05-18T12:18:48.069Z",
+  "modified": "2026-05-18T12:18:48.069Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE8819462:FL21663994.jpg",
+      "type": "ImageService2",
+      "height": 5299,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/canvas/FL21663994",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 16"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE8819462/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "South Melbourne plans"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5299\"><polygon points=\"3698,139 3731,5152 6920,5145 6906,133\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6657,
+            1926
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95905473078682,
+            -37.82965821271728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4008,
+            1917
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95657827884781,
+            -37.830385971554584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6669,
+            4887
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96007199529703,
+            -37.831889725074866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4005,
+            4918
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95759754678295,
+            -37.83260868077072
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9329db31239f2684",
+      "version": "https://annotations.allmaps.org/maps/9329db31239f2684@e3af654383b65c6d",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/37ee70e8a6c884d6",
+        "version": "https://annotations.allmaps.org/images/37ee70e8a6c884d6@453d2a84f05fc7de",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/a7120e88d0739837",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/234e397c4ac4341b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.388002,
+      "area": 123626
+    }
+  }
+}

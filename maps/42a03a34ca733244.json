@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2026-01-06T01:10:45.701Z",
-  "modified": "2026-01-06T01:10:45.701Z",
+  "created": "2026-06-01T01:22:58.569Z",
+  "modified": "2026-06-01T01:22:58.569Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -36,11 +36,25 @@
             }
           ]
         }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
       ]
     },
     "selector": {
       "type": "SvgSelector",
-      "value": "<svg width=\"5633\" height=\"7000\"><polygon points=\"677,366 618,3431 3194,3467 5255,4321 5204,378\" /></svg>"
+      "value": "<svg width=\"5633\" height=\"7000\"><polygon points=\"630,365 635,3408 3308,3415 5228,4243 5204,378\" /></svg>"
     }
   },
   "body": {
@@ -56,6 +70,22 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
+            4435,
+            1780
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96510761594294,
+            -37.836687091275884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
             3362,
             2283
           ]
@@ -65,6 +95,22 @@
           "coordinates": [
             144.95111272950277,
             -37.84015022281524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3439,
+            1411
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.95456760617577,
+            -37.83220249453312
           ]
         }
       },
@@ -88,15 +134,15 @@
         "type": "Feature",
         "properties": {
           "resourceCoords": [
-            4100,
-            1657
+            2398,
+            2776
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            144.96158945701245,
-            -37.83525741735014
+            144.9403665738783,
+            -37.842637734558146
           ]
         }
       },
@@ -115,14 +161,46 @@
             -37.840288886974456
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4100,
+            1657
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.96158114389453,
+            -37.8352036594498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2053,
+            2608
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.93695046912768,
+            -37.84066742118053
+          ]
+        }
       }
     ],
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/42a03a34ca733244",
-      "version": "https://annotations.allmaps.org/maps/42a03a34ca733244@983cb427fcc908fa",
+      "version": "https://annotations.allmaps.org/maps/42a03a34ca733244@cdd16b8808c5cf78",
       "image": {
         "id": "https://annotations.allmaps.org/images/6be9782e22a901d3",
-        "version": "https://annotations.allmaps.org/images/6be9782e22a901d3@0b87718140977d04",
+        "version": "https://annotations.allmaps.org/images/6be9782e22a901d3@19254f3bf03e6ca8",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/db8e370b42482e67",
@@ -134,8 +212,8 @@
           }
         ]
       },
-      "scale": 1.001662,
-      "area": 14944554.02
+      "scale": 1.0109,
+      "area": 14409521.94
     }
   }
 }

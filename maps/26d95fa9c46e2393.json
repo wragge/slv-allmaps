@@ -5,8 +5,8 @@
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "created": "2026-04-06T05:19:43.908Z",
-  "modified": "2026-04-06T05:19:43.908Z",
+  "created": "2026-06-16T02:28:52.364Z",
+  "modified": "2026-06-16T02:28:52.364Z",
   "motivation": "georeferencing",
   "target": {
     "type": "SpecificResource",
@@ -39,7 +39,6 @@
       ],
       "provider": [
         {
-          "type": "Organization",
           "label": {
             "none": [
               "State Library Victoria"
@@ -61,10 +60,7 @@
   "body": {
     "type": "FeatureCollection",
     "transformation": {
-      "type": "polynomial",
-      "options": {
-        "order": 1
-      }
+      "type": "thinPlateSpline"
     },
     "features": [
       {
@@ -80,6 +76,22 @@
           "coordinates": [
             144.98315237708994,
             -37.81271418447456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3527,
+            2075
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97218695838575,
+            -37.809378071592214
           ]
         }
       },
@@ -290,30 +302,14 @@
             -37.805221429866705
           ]
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "resourceCoords": [
-            3527,
-            2075
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            144.97218695838575,
-            -37.809378071592214
-          ]
-        }
       }
     ],
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/26d95fa9c46e2393",
-      "version": "https://annotations.allmaps.org/maps/26d95fa9c46e2393@730aaf7249f2f2c1",
+      "version": "https://annotations.allmaps.org/maps/26d95fa9c46e2393@bc2afa221bf3bbff",
       "image": {
         "id": "https://annotations.allmaps.org/images/6a3f455221ab8e4d",
-        "version": "https://annotations.allmaps.org/images/6a3f455221ab8e4d@99c310f21e464d3e",
+        "version": "https://annotations.allmaps.org/images/6a3f455221ab8e4d@7e6a7035d3c1dd1e",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/c0c0ba6b3eb5a7a8",
@@ -325,8 +321,8 @@
           }
         ]
       },
-      "scale": 1.339267,
-      "area": 9604068.79
+      "scale": 1.345442,
+      "area": 9516123.92
     }
   }
 }

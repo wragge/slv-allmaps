@@ -1,0 +1,171 @@
+{
+  "id": "https://annotations.allmaps.org/maps/67a83533379c2f82",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-09-24T05:17:06.282Z",
+  "modified": "2026-09-24T05:17:06.282Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15484685:FL21305306.jpg",
+      "type": "ImageService2",
+      "height": 5383,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484685/canvas/FL21305306",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15484685/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of Collingwood showing the western part (or Fitzroy ward) as it will be in a very short time according to the Collingwood improvements act ... /"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5383\"><polygon points=\"5385,284 2964,264 299,1660 303,5120 5369,5142\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3660,
+            3392
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99257014113914,
+            -37.80251599702154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1095,
+            4413
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.97720646723332,
+            -37.80574082980913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5060,
+            2794
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.001224863387,
+            -37.8006297012573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4950,
+            4512
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9993886191159,
+            -37.80850960278981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1078,
+            2430
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9787407287758,
+            -37.79673204723872
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/67a83533379c2f82",
+      "version": "https://annotations.allmaps.org/maps/67a83533379c2f82@4435eae9e0c65abc",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/bc22ed21e3735e75",
+        "version": "https://annotations.allmaps.org/images/bc22ed21e3735e75@76baa9d47e0b01d1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3c67a64907a5799c",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/6ffb2cc9c7fd93c6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.957111,
+      "area": 5958706.48
+    }
+  }
+}

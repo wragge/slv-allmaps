@@ -1,0 +1,174 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/90f441fc6c65ac80",
+    "type": "GeoreferencedMap",
+    "created": "2026-09-24T02:12:12.193Z",
+    "modified": "2026-09-24T02:12:12.193Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587260:FL21665932.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587260:FL21665932.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5293,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587260/canvas/FL21665932",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587260/manifest",
+              "label": {
+                "none": [
+                  "Map of the town & district of Geelong ... as surveyed in 1848"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "15da9681e0214ed6",
+        "index": 1.2885895714042448,
+        "resource": [
+          6056,
+          886
+        ],
+        "geo": [
+          145.0358606885951,
+          -37.99534178320439
+        ]
+      },
+      {
+        "id": "7f0697488ec0db03",
+        "index": 3.4142889532245593,
+        "resource": [
+          3552,
+          3207
+        ],
+        "geo": [
+          144.49996186275382,
+          -38.289602843596185
+        ]
+      },
+      {
+        "id": "c349bec3bc66e690",
+        "index": 2.7352255798359497,
+        "resource": [
+          3353,
+          1906
+        ],
+        "geo": [
+          144.50483484452985,
+          -38.08950368787701
+        ]
+      },
+      {
+        "id": "fd438e24936b714f",
+        "index": 0.032824352001302515,
+        "resource": [
+          6463,
+          4074
+        ],
+        "geo": [
+          145.0342243568747,
+          -38.48523685233251
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5293
+      ],
+      [
+        7000,
+        5293
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/90f441fc6c65ac80",
+      "version": "https://annotations.allmaps.org/maps/90f441fc6c65ac80@7fe92d361be9deb8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4d0942f07a2075a0",
+        "version": "https://annotations.allmaps.org/images/4d0942f07a2075a0@02fb535abc799e99",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cf212bfc1fd787c5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ad331bd414c5e05c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.059467,
+      "area": 10477271637.85
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.915719359,
+          -37.72546711
+        ],
+        [
+          143.779206117,
+          -38.524615305
+        ],
+        [
+          145.102445363,
+          -38.679922035
+        ],
+        [
+          145.238958606,
+          -37.882486239
+        ],
+        [
+          143.915719359,
+          -37.72546711
+        ]
+      ]
+    ]
+  }
+}

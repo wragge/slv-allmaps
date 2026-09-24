@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/001bf2dcf44af08b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-09-24T02:18:28.848Z",
+  "modified": "2026-09-24T02:18:28.848Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486831:FL21306156.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4873,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486831/canvas/FL21306156",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486831/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Electoral district of Geelong Electoral district of Geelong"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4873\" height=\"7000\"><polygon points=\"310,1814 329,5672 4345,5695 3828,1776\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2111,
+            3134
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.36617359350817,
+            -38.109522428311884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3036,
+            3335
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.42454591201061,
+            -38.12594281112305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3167,
+            2621
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.44301694442947,
+            -38.09106164995794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1450,
+            3931
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.3152728058414,
+            -38.14417097391301
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/001bf2dcf44af08b",
+      "version": "https://annotations.allmaps.org/maps/001bf2dcf44af08b@14c4f1d11bae72f4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/01c97d411566c9e0",
+        "version": "https://annotations.allmaps.org/images/01c97d411566c9e0@c815a6f0c00b96a9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/e53165614e5fadde",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/689763dd594faeeb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.175816,
+      "area": 473935703.31
+    }
+  }
+}

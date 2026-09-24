@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/90f441fc6c65ac80",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-09-24T02:12:12.193Z",
+  "modified": "2026-09-24T02:12:12.193Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9587260:FL21665932.jpg",
+      "type": "ImageService2",
+      "height": 5293,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587260/canvas/FL21665932",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9587260/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the town & district of Geelong ... as surveyed in 1848"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5293\"><polygon points=\"0,0 0,5293 7000,5293 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6056,
+            886
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0358606885951,
+            -37.99534178320439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3552,
+            3207
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.49996186275382,
+            -38.289602843596185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3353,
+            1906
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50483484452985,
+            -38.08950368787701
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6463,
+            4074
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0342243568747,
+            -38.48523685233251
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/90f441fc6c65ac80",
+      "version": "https://annotations.allmaps.org/maps/90f441fc6c65ac80@7fe92d361be9deb8",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/4d0942f07a2075a0",
+        "version": "https://annotations.allmaps.org/images/4d0942f07a2075a0@02fb535abc799e99",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cf212bfc1fd787c5",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ad331bd414c5e05c"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.059467,
+      "area": 10477271637.85
+    }
+  }
+}

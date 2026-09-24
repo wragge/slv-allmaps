@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/c2318c5365c7b3ab",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-09-24T02:15:10.891Z",
+  "modified": "2026-09-24T02:15:10.891Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15497265:FL21306572.jpg",
+      "type": "ImageService2",
+      "height": 4956,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497265/canvas/FL21306572",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15497265/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the town and suburbs of Geelong comprising the lands in the parishes of Gheringhap, Moorpanyal, Barrabool, Duneed, Moolap, Bellerine & Pawit together with the positions of the bar and the proposed improvements /"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4956\"><polygon points=\"0,0 0,4956 7000,4956 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3011,
+            1734
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.4236253582153,
+            -38.12600229558764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6513,
+            2603
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.69842345852368,
+            -38.216862031738984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3916,
+            1083
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.50921978315318,
+            -38.09042578312876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5705,
+            3931
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.61388868135703,
+            -38.29131848735499
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/c2318c5365c7b3ab",
+      "version": "https://annotations.allmaps.org/maps/c2318c5365c7b3ab@b48d057b5c8daa90",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/42097fb53e2fcf67",
+        "version": "https://annotations.allmaps.org/images/42097fb53e2fcf67@3112f977d7ce42e8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3e313ff91a3fde85",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/3951699e69975a0b"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.13807,
+      "area": 1819820694.79
+    }
+  }
+}

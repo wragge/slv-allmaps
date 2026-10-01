@@ -4,8 +4,8 @@
     "@context": "https://schemas.allmaps.org/map/2/context.json",
     "id": "https://annotations.allmaps.org/maps/68a8e54977c32f4d",
     "type": "GeoreferencedMap",
-    "created": "2025-10-29T01:23:51.859Z",
-    "modified": "2025-10-29T01:23:51.859Z",
+    "created": "2026-10-01T01:42:42.548Z",
+    "modified": "2026-10-01T01:42:42.548Z",
     "resource": {
       "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9533457:FL21666751.jpg",
       "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9533457:FL21666751.jpg",
@@ -30,6 +30,20 @@
                   "Melbourne and its suburbs"
                 ]
               }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
             }
           ]
         }
@@ -58,6 +72,18 @@
         "geo": [
           144.974248,
           -37.8012458
+        ]
+      },
+      {
+        "id": "90b9cc6f1a5625fd",
+        "index": 6.262207062599886,
+        "resource": [
+          2975,
+          1438
+        ],
+        "geo": [
+          144.9602225,
+          -37.7780749
         ]
       },
       {
@@ -107,32 +133,36 @@
           144.9690057,
           -37.8072166
         ]
-      },
-      {
-        "id": "90b9cc6f1a5625fd",
-        "index": 6.262207062599886,
-        "resource": [
-          2975,
-          1438
-        ],
-        "geo": [
-          144.9602225,
-          -37.7780749
-        ]
       }
     ],
     "resourceMask": [
       [
-        544,
-        1306
-      ],
-      [
-        5147,
+        522,
         1324
       ],
       [
-        5162,
-        6688
+        2869,
+        1331
+      ],
+      [
+        2849,
+        898
+      ],
+      [
+        3095,
+        902
+      ],
+      [
+        3128,
+        1331
+      ],
+      [
+        5139,
+        1412
+      ],
+      [
+        5140,
+        6687
       ],
       [
         535,
@@ -147,10 +177,10 @@
     },
     "_allmaps": {
       "id": "https://annotations.allmaps.org/maps/68a8e54977c32f4d",
-      "version": "https://annotations.allmaps.org/maps/68a8e54977c32f4d@90ac61f42568e0cc",
+      "version": "https://annotations.allmaps.org/maps/68a8e54977c32f4d@5524e5406b0d24cf",
       "image": {
         "id": "https://annotations.allmaps.org/images/d3cee46bafdbeae4",
-        "version": "https://annotations.allmaps.org/images/d3cee46bafdbeae4@3658a2416b546012",
+        "version": "https://annotations.allmaps.org/images/d3cee46bafdbeae4@ea5a585d08d0a9d2",
         "canvases": [
           {
             "id": "https://annotations.allmaps.org/canvases/ca8daffface45e79",
@@ -162,8 +192,8 @@
           }
         ]
       },
-      "scale": 1.054638,
-      "area": 22187789.08
+      "scale": 1.054642,
+      "area": 22131795.75
     }
   },
   "geometry": {
@@ -171,24 +201,40 @@
     "coordinates": [
       [
         [
-          144.934401803,
-          -37.774629728
+          144.934140547,
+          -37.774761813
         ],
         [
           144.926395736,
-          -37.819909171
+          -37.819909435
         ],
         [
-          144.975649803,
-          -37.824722041
+          144.975416738,
+          -37.824687811
         ],
         [
-          144.983448965,
-          -37.779139539
+          144.9832331,
+          -37.779877359
         ],
         [
-          144.934401803,
-          -37.774629728
+          144.961913455,
+          -37.777286661
+        ],
+        [
+          144.962198181,
+          -37.773609894
+        ],
+        [
+          144.959581441,
+          -37.77334317
+        ],
+        [
+          144.959152183,
+          -37.777041642
+        ],
+        [
+          144.934140547,
+          -37.774761813
         ]
       ]
     ]

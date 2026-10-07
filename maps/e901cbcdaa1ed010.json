@@ -1,0 +1,187 @@
+{
+  "id": "https://annotations.allmaps.org/maps/e901cbcdaa1ed010",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-07T05:20:52.643Z",
+  "modified": "2026-10-07T05:20:52.643Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7328695:FL21465679.jpg",
+      "type": "ImageService2",
+      "height": 4569,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7328695/canvas/FL21465679",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7328695/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 2113, Town of Brighton"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4569\"><polygon points=\"129,924 14,4486 6724,4442 6724,930\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1118,
+            1369
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98921157787265,
+            -37.89967582456154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6268,
+            2566
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9937917482789,
+            -37.90111427452983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6207,
+            1382
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9939580242701,
+            -37.9002243628815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6176,
+            3794
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99359658305883,
+            -37.90200130593918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4568,
+            3714
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99212113400256,
+            -37.90183498836458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1137,
+            3783
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98887768146665,
+            -37.90147734042846
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/e901cbcdaa1ed010",
+      "version": "https://annotations.allmaps.org/maps/e901cbcdaa1ed010@9b09c6c39bc753cf",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/18e0c0255e16972e",
+        "version": "https://annotations.allmaps.org/images/18e0c0255e16972e@cea4c489da32db40",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/621b2f43129fe304",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/05b384dabb440bec"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.995299,
+      "area": 163522.53
+    }
+  }
+}

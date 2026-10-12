@@ -1,0 +1,139 @@
+{
+  "id": "https://annotations.allmaps.org/maps/ca7f8941e8ec2700",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-12T02:41:18.555Z",
+  "modified": "2026-10-12T02:41:18.555Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7319006:FL20709480.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 4271,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7319006/canvas/FL20709480",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7319006/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Melbourne and Metropolitan Board of Works detail plan. no. 1402, City of St. Kilda"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4271\" height=\"7000\"><polygon points=\"173,888 154,5975 4166,6024 4156,966\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3903,
+            2178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.99145373119785,
+            -37.88092130794651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            344,
+            2131
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98812731765088,
+            -37.88221455042959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            391,
+            3054
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98851430140314,
+            -37.88285791385389
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/ca7f8941e8ec2700",
+      "version": "https://annotations.allmaps.org/maps/ca7f8941e8ec2700@9a7414f355df3834",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/af061e2cd24651a7",
+        "version": "https://annotations.allmaps.org/images/af061e2cd24651a7@af18ab9b95243aa9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0d1ea8cf25b41471",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/fbd7de81088ef1ae"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 11.283606,
+      "area": 159265.18
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a6ab8342f9901c9f",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-19T03:37:14.022Z",
+  "modified": "2026-10-19T03:37:14.022Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15470935:FL21375111.jpg",
+      "type": "ImageService2",
+      "height": 4682,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15470935/canvas/FL21375111",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15470935/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of portion of section No. 68, St. Kilda, Parish of Prahran"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"4682\"><polygon points=\"535,118 496,4577 6954,4577 6889,124\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1150,
+            1281
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98362617030233,
+            -37.8585470580656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2486,
+            4391
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.9842804341718,
+            -37.860462609267714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6832,
+            4384
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98777087824465,
+            -37.8609309767624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6760,
+            1180
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            144.98809697340926,
+            -37.858947390868586
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a6ab8342f9901c9f",
+      "version": "https://annotations.allmaps.org/maps/a6ab8342f9901c9f@82433f73eee48950",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9a650e6577893945",
+        "version": "https://annotations.allmaps.org/images/9a650e6577893945@fd49779e4b1931ec",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/5e617d56450b007f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2b674d9111b01aba"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 14.483419,
+      "area": 136078.45
+    }
+  }
+}

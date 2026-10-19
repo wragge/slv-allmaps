@@ -1,0 +1,139 @@
+{
+  "id": "https://annotations.allmaps.org/maps/fb5c4255c3beacd2",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-19T04:00:08.091Z",
+  "modified": "2026-10-19T04:00:08.091Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15466005:FL21374054.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5563,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466005/canvas/FL21374054",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15466005/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Positive sale of 6 Valuable allotments of land situate on the Dandenong Road"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5563\" height=\"7000\"><polygon points=\"360,1845 370,6014 4392,5975 5173,5975 5076,1855\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4339,
+            1985
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00991164022173,
+            -37.86373097746132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4386,
+            5851
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.00342966961824,
+            -37.862958102927415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1072,
+            1973
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.0105346213785,
+            -37.86024126755882
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/fb5c4255c3beacd2",
+      "version": "https://annotations.allmaps.org/maps/fb5c4255c3beacd2@e79a0b5a0e899cee",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6500a042df840895",
+        "version": "https://annotations.allmaps.org/images/6500a042df840895@3f42eb0557416647",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/3b6940466eb89003",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/2c86f1d8483a2098"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 7.4815,
+      "area": 352158.13
+    }
+  }
+}

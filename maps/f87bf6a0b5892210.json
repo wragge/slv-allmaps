@@ -1,0 +1,139 @@
+{
+  "id": "https://annotations.allmaps.org/maps/f87bf6a0b5892210",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-21T01:02:43.472Z",
+  "modified": "2026-10-21T01:02:43.472Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9328681:FL21647394.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5836,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9328681/canvas/FL21647394",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9328681/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township, and suburban allotments at Raglan near the Yam-Holes diggings, County of Ripon"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5836\" height=\"7000\"><polygon points=\"0,0 0,7000 5836,7000 5836,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            559,
+            1438
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.33305051462605,
+            -37.35418456568791
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2538,
+            2808
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.3434701137744,
+            -37.36210579366277
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            731,
+            3867
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.33227668407352,
+            -37.365636380603185
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/f87bf6a0b5892210",
+      "version": "https://annotations.allmaps.org/maps/f87bf6a0b5892210@8570170e8779f305",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/2f4cb857dc6cd895",
+        "version": "https://annotations.allmaps.org/images/2f4cb857dc6cd895@4e640ee46b364c71",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6d6b08d29ecd4f53",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ece78c7caccf121a"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.925265,
+      "area": 11021285.07
+    }
+  }
+}

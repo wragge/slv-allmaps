@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0a2296553c66d9ac",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-21T00:57:41.778Z",
+  "modified": "2026-10-21T00:57:41.778Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15496248:FL21460921.jpg",
+      "type": "ImageService2",
+      "height": 5245,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496248/canvas/FL21460921",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15496248/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "General map of Australia shewing the routes of the explorers"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5245\"><polygon points=\"300,294 300,4949 6725,4891 6638,236\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1689,
+            3822
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            117.8795647955871,
+            -35.023651794321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4634,
+            615
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.5419371598386,
+            -10.715840805678539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1230,
+            2024
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.07034243772405,
+            -21.84897239820991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5296,
+            4541
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            147.91857354062847,
+            -39.64720442333797
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0a2296553c66d9ac",
+      "version": "https://annotations.allmaps.org/maps/0a2296553c66d9ac@5deb166e94eb44ff",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a197714ed0c22d5f",
+        "version": "https://annotations.allmaps.org/images/a197714ed0c22d5f@b8c93111d981ca43",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/da333599f7df2f02",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/520e9bb22d348c52"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.001197,
+      "area": 20735708106637.94
+    }
+  }
+}

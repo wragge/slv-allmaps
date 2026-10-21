@@ -1,0 +1,139 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6f88c4d1378374a3",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-21T00:53:44.696Z",
+  "modified": "2026-10-21T00:53:44.696Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15486167:FL21304680.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5420,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486167/canvas/FL21304680",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15486167/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plan of the township of Hamilton, situate on the Grange Burn in the counties of Dundas and Normanby /"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5420\" height=\"7000\"><polygon points=\"440,1672 520,5813 4458,5822 4413,1993 1448,1964 1448,1677\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2839,
+            4787
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.02164752290525,
+            -37.74934926218364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2206,
+            4062
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.0175123175688,
+            -37.744362870383426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3196,
+            3230
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.02590007471304,
+            -37.73997077429141
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6f88c4d1378374a3",
+      "version": "https://annotations.allmaps.org/maps/6f88c4d1378374a3@524c88d8e799ebe7",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/906e5f8640697822",
+        "version": "https://annotations.allmaps.org/images/906e5f8640697822@23fb1431b8a02b29",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/0f1bb1991b6fcf65",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/c7a5728b167d31c7"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.456187,
+      "area": 7299627.77
+    }
+  }
+}

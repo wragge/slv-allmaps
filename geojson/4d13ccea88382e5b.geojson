@@ -1,0 +1,174 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/4d13ccea88382e5b",
+    "type": "GeoreferencedMap",
+    "created": "2026-10-27T03:36:14.319Z",
+    "modified": "2026-10-27T03:36:14.319Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488080:FL21304905.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488080:FL21304905.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 5498,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488080/canvas/FL21304905",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488080/manifest",
+              "label": {
+                "none": [
+                  "Electoral district of Ballaarat Electoral district of Ballaarat"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "71fc257b58730850",
+        "index": 2.683643736738112,
+        "resource": [
+          3938,
+          2589
+        ],
+        "geo": [
+          143.89459238534812,
+          -37.41930627045016
+        ]
+      },
+      {
+        "id": "83e8b3917f09d3d7",
+        "index": 3.000190493521001,
+        "resource": [
+          3831,
+          4435
+        ],
+        "geo": [
+          143.86142742934095,
+          -37.562334665553045
+        ]
+      },
+      {
+        "id": "904f3c6b547aa6c6",
+        "index": 1.6273960360672115,
+        "resource": [
+          2181,
+          3050
+        ],
+        "geo": [
+          143.71929251408557,
+          -37.43847597888048
+        ]
+      },
+      {
+        "id": "e0a7a5fb4c665d92",
+        "index": 0.5028577001118736,
+        "resource": [
+          1745,
+          3652
+        ],
+        "geo": [
+          143.66682548001904,
+          -37.48025780635247
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5498
+      ],
+      [
+        7000,
+        5498
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4d13ccea88382e5b",
+      "version": "https://annotations.allmaps.org/maps/4d13ccea88382e5b@ac01d546ee250272",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/51d951de1cc052e7",
+        "version": "https://annotations.allmaps.org/images/51d951de1cc052e7@c7799ea1476cb7f0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ad2ee9621503afa1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/405b6d8e444d2ccb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.114802,
+      "area": 2920143121.37
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.544369703,
+          -37.178202808
+        ],
+        [
+          143.474283164,
+          -37.607066639
+        ],
+        [
+          144.156406462,
+          -37.676219442
+        ],
+        [
+          144.226493001,
+          -37.247752703
+        ],
+        [
+          143.544369703,
+          -37.178202808
+        ]
+      ]
+    ]
+  }
+}

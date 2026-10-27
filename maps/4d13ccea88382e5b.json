@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/4d13ccea88382e5b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-27T03:36:14.319Z",
+  "modified": "2026-10-27T03:36:14.319Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE15488080:FL21304905.jpg",
+      "type": "ImageService2",
+      "height": 5498,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488080/canvas/FL21304905",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE15488080/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Electoral district of Ballaarat Electoral district of Ballaarat"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5498\"><polygon points=\"0,0 0,5498 7000,5498 7000,0\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3938,
+            2589
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.89459238534812,
+            -37.41930627045016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3831,
+            4435
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.86142742934095,
+            -37.562334665553045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2181,
+            3050
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.71929251408557,
+            -37.43847597888048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1745,
+            3652
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.66682548001904,
+            -37.48025780635247
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/4d13ccea88382e5b",
+      "version": "https://annotations.allmaps.org/maps/4d13ccea88382e5b@ac01d546ee250272",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/51d951de1cc052e7",
+        "version": "https://annotations.allmaps.org/images/51d951de1cc052e7@c7799ea1476cb7f0",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/ad2ee9621503afa1",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/405b6d8e444d2ccb"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.114802,
+      "area": 2920143121.37
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "type": "Feature",
+  "properties": {
+    "@context": "https://schemas.allmaps.org/map/2/context.json",
+    "id": "https://annotations.allmaps.org/maps/d40045a1fd218620",
+    "type": "GeoreferencedMap",
+    "created": "2026-10-27T03:40:59.458Z",
+    "modified": "2026-10-27T03:40:59.458Z",
+    "resource": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE9655726:FL21652616.jpg",
+      "uri": "https://rosetta.slv.vic.gov.au/iiif/2/IE9655726:FL21652616.jpg",
+      "type": "ImageService2",
+      "width": 7000,
+      "height": 4528,
+      "partOf": [
+        {
+          "type": "Canvas",
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655726/canvas/FL21652616",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "type": "Manifest",
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE9655726/manifest",
+              "label": {
+                "none": [
+                  "Township & extension of Ballaarat, County of Grenville"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "gcps": [
+      {
+        "id": "59ba56fb299cb004",
+        "index": 2.5249230394212274,
+        "resource": [
+          4274,
+          1791
+        ],
+        "geo": [
+          143.85439792564654,
+          -37.56383255556699
+        ]
+      },
+      {
+        "id": "6f3e849d76e17590",
+        "index": 1.863814352989007,
+        "resource": [
+          3019,
+          1216
+        ],
+        "geo": [
+          143.8489276100139,
+          -37.56090035752278
+        ]
+      },
+      {
+        "id": "76d9c17eebbac9b4",
+        "index": 0.3885440564823336,
+        "resource": [
+          3963,
+          3261
+        ],
+        "geo": [
+          143.85191757745758,
+          -37.56922385112382
+        ]
+      }
+    ],
+    "resourceMask": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        4528
+      ],
+      [
+        7000,
+        4528
+      ],
+      [
+        7000,
+        0
+      ]
+    ],
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/d40045a1fd218620",
+      "version": "https://annotations.allmaps.org/maps/d40045a1fd218620@f0ed091e088dd81f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/a62089c029e9c291",
+        "version": "https://annotations.allmaps.org/images/a62089c029e9c291@7b48e38efa81124c",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/c3efd4b7fa9f20d3",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/445b8e8e50600908"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.369264,
+      "area": 5646474.87
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          143.835651709,
+          -37.554480753
+        ],
+        [
+          143.832493305,
+          -37.571661041
+        ],
+        [
+          143.865242116,
+          -37.57584642
+        ],
+        [
+          143.86840052,
+          -37.558667097
+        ],
+        [
+          143.835651709,
+          -37.554480753
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "https://annotations.allmaps.org/maps/dcad747bd9575d7b",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-10-27T00:41:00.659Z",
+  "modified": "2026-10-27T00:41:00.659Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043590:FL21355519.jpg",
+      "type": "ImageService2",
+      "height": 5829,
+      "width": 7000,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043590/canvas/FL21355519",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043590/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Township & extension of Ballaarat, County of Grenville"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"7000\" height=\"5829\"><polygon points=\"5873,900 849,861 860,4891 4674,4931 6283,2658\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4005,
+            3618
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.852166449506,
+            -37.56779817536682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3030,
+            2462
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.84851966022944,
+            -37.56314872205913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5006,
+            2469
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8573552509386,
+            -37.56418571685043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3039,
+            1248
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.84931489119168,
+            -37.55871791815781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5007,
+            1247
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            143.8581729300684,
+            -37.55976233211183
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/dcad747bd9575d7b",
+      "version": "https://annotations.allmaps.org/maps/dcad747bd9575d7b@62594f4f343526eb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/478517ded1a0d271",
+        "version": "https://annotations.allmaps.org/images/478517ded1a0d271@acf55348de8be187",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/25b8b840ba1f3800",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a5822addb9af3d35"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 2.481321,
+      "area": 3201991.08
+    }
+  }
+}

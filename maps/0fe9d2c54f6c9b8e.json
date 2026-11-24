@@ -1,0 +1,235 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0fe9d2c54f6c9b8e",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-11-23T22:19:11.349Z",
+  "modified": "2026-11-23T22:19:11.349Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://rosetta.slv.vic.gov.au/iiif/2/IE7043048:FL21369699.jpg",
+      "type": "ImageService2",
+      "height": 7000,
+      "width": 5147,
+      "partOf": [
+        {
+          "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043048/canvas/FL21369699",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map 1"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://rosetta.slv.vic.gov.au/delivery/iiif/presentation/2.1/IE7043048/manifest",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Pacific Ocean Norfolk and Phillip Islands."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "State Library Victoria"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://www.slv.vic.gov.au/search-discover"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"5147\" height=\"7000\"><polygon points=\"256,366 213,6459 2770,6478 2751,4409 4954,4403 4950,384\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1781,
+            5509
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.9468743751309,
+            -29.11649836077691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2279,
+            3608
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.9614591324049,
+            -29.062367787958102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2338,
+            5575
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.9645054975967,
+            -29.118496012827155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            982,
+            3230
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.92019817871204,
+            -29.051563053559953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1863,
+            5995
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.95096624276488,
+            -29.131584941159424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1094,
+            1200
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.92550037344319,
+            -28.995141603765497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            712,
+            1642
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.91835278509717,
+            -29.0095880739565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            838,
+            2498
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.91857217407136,
+            -29.03402448256374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3352,
+            2304
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            167.9965817678862,
+            -29.028378133353574
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0fe9d2c54f6c9b8e",
+      "version": "https://annotations.allmaps.org/maps/0fe9d2c54f6c9b8e@9c7204dbea27b34f",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/ee84ee3297449cb2",
+        "version": "https://annotations.allmaps.org/images/ee84ee3297449cb2@7597923ab03d2756",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/07384bf4325362c2",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/93dbf6ae8a374fad"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.328258,
+      "area": 224831493.37
+    }
+  }
+}
